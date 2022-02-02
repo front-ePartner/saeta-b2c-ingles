@@ -1,0 +1,66 @@
+.triggerContainer {
+    width: 100%;
+}
+.paper--ContentPopUpagenda {
+    width: 980px;
+    height: auto;
+    padding: 21px 25px;
+    z-index: 9;
+    background: #ffffff;
+}
+.triggerContainer--TriggerPopUpagenda {
+    background: transparent;
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    height: 58px;
+    border: 1px solid #e1e1e1;
+    margin: 0 3px 0 0;
+    cursor: pointer;
+}
+.triggerContainer--TriggerPopUpagenda:hover {
+    border-color: black;
+}
+.paper--contenidoModalNews {
+    width: 50%;
+    padding: 30px;
+    position: relative;
+    background: white;
+}
+.headerContainer--x-de-cerrado {
+    position: absolute;
+    right: 6%;
+    top: 6%;
+}
+.closeButton--x-de-cerrado {
+    color: white;
+}
+.closeButtonContainer--x-de-cerrado {
+    background: #e2e2e22e;
+}
+.paper--zoomDeProducto .headerContainer {
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .paper--contenidoModalNews {
+        width: 90%;
+        padding: 13px;
+    }
+    .paper--ContentPopUpagenda {
+        padding: 0;
+    }
+}

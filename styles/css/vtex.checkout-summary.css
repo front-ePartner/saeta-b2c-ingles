@@ -1,0 +1,6 @@
+.summaryItemLabel {
+    font-weight: bolder;
+    font-size: 25px;
+}
+.summaryItemLabel::after {content: "Iva incluido";font-size: 15px;}
+.summaryItemLabel {display: grid;}

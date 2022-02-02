@@ -1,0 +1,1642 @@
+{
+"store.product": {
+  "children": [
+    "image#imgTopProducto",
+    "image#imgTopProductoM",
+    "flex-layout.row#product-breadcrumb",
+    "flex-layout.row#product-main",
+   /* "rich-text#productSecci",*/
+     "tab-layout#product",
+  /*"slider-layout#ESPECIFICACIOES",*/
+    "flex-layout.row#TAB-MOBILE",
+    /*"flex-layout.row#reviews-and-ratings",*/
+    "rich-text#product1",
+    "shelf.relatedProducts#1",
+    "rich-text#product2",
+    "shelf.relatedProducts#2"
+  ]
+},
+"breadcrumb": {
+  "props": {
+    "blockClass": "breadCrumbMobileP",
+    "showOnMobile": true
+  }
+},
+"flex-layout.row#product-breadcrumb": {
+  "props": {
+    "marginTop": 4
+  },
+  "children": ["breadcrumb"]
+},
+"image#imgTopProducto": {
+  "props": {
+    "src": "https://saetasport.vteximg.com.br/arquivos/headershort.jpg",
+    "maxWidth": "100%",
+    "blockClass":"Product-Image-Header"
+  }
+},
+"image#imgTopProductoM": {
+  "props": {
+    "src": "https://saetasport.vteximg.com.br/arquivos/Rectangle-43.png",
+    "maxWidth": "100%",
+    "blockClass":"Product-Image-HeaderM"
+  }
+},
+"flex-layout.row#product-main": {
+  "props": {
+    "colGap": 7,
+    "rowGap": 7,
+    "marginTop": 4,
+    "marginBottom": 7,
+    "paddingTop": 7,
+    "paddingBottom": 7,
+    "blockClass":"product"
+  },
+  "children": ["flex-layout.col#product-image", "flex-layout.col#right-col"]
+},
+"flex-layout.col#product-image": {
+  "props": {
+    "width": "70%",
+    "rowGap": 0,
+    "blockClass":"imagenesD"    
+  },
+  "children": ["product-images"]
+},
+"product-images": {
+  "props": {
+    "displayThumbnailsArrows": false,
+    "thumbnailAspectRatio": "auto",
+    "zoomMode": "open-modal",
+    "displayMode": "list",
+    "ModalZoom": "modal-layout#product-zoom",
+
+    "aspectRatio": {
+      "desktop": "auto",
+      "phone": "16:9"
+    }
+
+  }
+},
+"flex-layout.col#product-imageM": {
+  "props": {
+    "width": "70%",
+    "rowGap": 0,
+    "blockClass":"imagenesM"
+  },
+  "children": ["product-images#M"]
+},
+"product-images#M": {
+  "props": {
+    "displayThumbnailsArrows": false,
+    "thumbnailsOrientation": "horizontal",
+    "displayMode": "carusel"
+  }
+},
+"flex-layout.col#right-col": {
+  "props": {
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "blockClass":"Info-Producto-Sticky"
+  },
+  "children": [
+    "flex-layout.col#product-imageM",
+    "vtex.store-components:product-name",
+    /*"flex-layout.row#identifier",*/
+    "product-price#product-details",
+    "product-description",
+    "shelf.relatedProducts#SelectorColor",
+    "sku-selector#ProductPage",
+    "product-quantity",
+    /*"product-separator",
+    "modal-trigger#example",*/
+    "add-to-cart-button#BotonComprarCheck",
+    "rich-text#personalizacionBoton",
+    "flex-layout.row#LINEAtRESbOTONES"
+  ]
+},
+"sku-selector#ProductPage": {
+  "props": {
+    "hideImpossibleCombinations": false,
+    "blockClass":"EspecificacionesDeSKU"
+  }
+},
+"flex-layout.row#identifier":{
+  "children":[ "product-identifier.product","product-rating-summary"],
+  "props": {
+    "blockClass":"identifierProduct"
+  }
+},
+"flex-layout.row#LINEAtRESbOTONES":{
+  "children":[ "rich-text#BotonUniformes"],
+  "props": {
+    "blockClass":"LineaTresBotones"
+  }
+},
+"image#BannerProduct": {
+  "props": {
+    "src": "https://impormedical.vteximg.com.br/arquivos/bannerproductopromob2c.png",
+    "blockClass":"BannerProduct"
+  }
+},
+"product-quantity":{
+  "props": {
+    "warningQuantityThreshold": 6,
+    "showUnit": true
+  }
+},
+"product-price#product-details": {
+  "props": {
+    "showInstallments": true,
+    "showSavings": true
+  }
+},
+"flex-layout.col#buy-buttonP": {
+  "props": {
+    "marginTop": 4,
+    "marginBottom": 7,
+    "blockClass":"productbuyProduc"
+  },
+  "children": ["add-to-cart-button#producto","add-to-cart-button#checkoutProducto"]
+},
+"add-to-cart-button#producto":{
+  "props":{
+    "isOneClickBuy": false,
+    "blockClass":"onpageProducto"
+  }
+},
+"add-to-cart-button#checkoutProducto":{
+  "props":{
+    "isOneClickBuy": "true",
+    "blockClass":"productcheckoutProducto"
+  }
+},
+"share#default": {
+  "props": {
+    "social": {
+      "Facebook": true,
+      "WhatsApp": true,
+      "Twitter": false,
+      "Pinterest": true
+    }
+  }
+},
+  //Titulo1
+  "rich-text#product1": {
+    "props": {
+      "text": "# Suggested Products #",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "textPosition": "CENTER",
+      "blockClass": "textosPrinc"
+    }
+  },
+  "shelf.relatedProducts#1": {
+    "props": {
+        "recommendation": "view",
+        "productList": {
+            "titleText": "Nuestras Marcas",
+            "itemsPerPage": 4,
+            "minItemsPerPage": 2
+        },
+        "blockClass": "vitrinasProductsSaeta"
+    },
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "shelf.relatedProducts#2": {
+    "props": {
+        "recommendation": "suggestions",
+        "productList": {
+            "titleText": "Nuestras Marcas",
+            "itemsPerPage": 4,
+            "minItemsPerPage": 2
+        },
+        "blockClass": "vitrinasProductsSaeta"
+    },
+    "blocks": ["product-summary.shelf"]
+  },
+  "shelf#Product": {
+    "props": {
+        "productList": {
+            "titleText": "Nuestras Marcas",
+            "itemsPerPage": 4,
+            "maxItems": 10,
+            "minItemsPerPage": 2,
+            "scroll": "BY_PAGE",
+            "arrows": "true",
+            "blockClass": "textosSec",
+            "showPaginationDots": "never"
+        },
+        "autoplay":{
+          "speed": 500,
+          "delay": 3000
+        },
+        "blockClass":"vitrinaProduct"
+    },
+    "blocks": ["product-summary.shelf"]
+  },
+  "rich-text#product2": {
+    "props": {
+      "text": "# COMPLEMENTARY PRODUCT #",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "textPosition": "CENTER",
+      "blockClass": "textosPrinc"
+    }
+  },
+  "rich-text#productPopadd": {
+    "props": {
+      "text": "# PRODUCTO RELACIONADOS #",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "textPosition": "CENTER",
+      "blockClass": "textosPrincPOPPRO"
+    }
+  },
+  //taps descriopcion
+"tab-layout#product": {
+  "children": [
+    "tab-list#product",
+    "tab-content#product"
+  ],
+    "props": {
+      "blockClass": "product",
+      "defaultActiveTabId": "product1"
+    }
+  },
+  "tab-layout#productM": {
+    "children": [
+      "tab-list.item#product1",
+      "tab-content.item#product1",
+      "tab-list.item#product2",
+      "tab-content.item#product2"
+
+    ],
+      "props": {
+        "blockClass": "productM",
+        "defaultActiveTabId": "product1"
+      }
+    },
+  "tab-list#product":{
+    "children":[
+      "tab-list.item#product1",
+      "tab-list.item#product2"
+    ],
+          "props": {
+        "blockClass": "productTabs",
+        "defaultActiveTabId": "product1"
+      }
+    
+  },
+  "tab-list.item#product1":{
+    "props":{
+      "tabId": "product1",
+      "label": "Product Details"
+    }
+  },
+  "tab-list.item#product2":{
+    "props":{
+      "tabId": "product2",
+      "label": "Technologies"
+    }
+  },
+  "tab-list.item#product4":{
+    "props":{
+      "tabId": "product4",
+      "label": "DOCUMENTACIÓN"
+    }
+  },
+  "tab-list.item#product5":{
+    "props":{
+      "tabId": "product5",
+      "label": "RECOMENDADO PARA"
+    }
+  },
+  //contenido de los tabbers
+  "tab-content#product":{
+    "children":[
+      "tab-content.item#product1",
+      "tab-content.item#product2"
+    ],
+    "props": {
+      "blocblockClass": "productContent"
+    }
+  },
+  //contenido del tabber 1
+  "tab-content.item#product1": {
+    "children": [
+      "flex-layout.row#product1"
+    ],
+     "props": {
+      "tabId": "product1"
+    }
+  },
+  "flex-layout.row#product1":{
+    "children": [
+      "product-specification-group#EspecificacionesIMG-1",
+     /* "image#imgEspecifi1",*/
+     "flex-layout.col#product1-info-GEN",
+      /*"product-specification",*/
+      /*"image#imgEspecifi2",*/
+      "product-specification-group#EspecificacionesIMG-2"
+    ],
+    "props":{
+      "tabId": "product1",
+      "blockClass": "InformacionDos"
+    }
+  },
+
+
+
+  "flex-layout.col#product1-info-GEN":{
+    "children": [
+      "flex-layout.row#product1-info-ESPECI",
+      "product-description#espe"
+    ],
+    "props":{
+      "tabId": "product1-info-GEN",
+      "blockClass": "product1-info-GEN"
+    }
+  },
+  "flex-layout.row#product1-info-ESPECI":{
+    "children": [
+      "product-specification-group#EspecificacionesINFO1",
+      "product-specification-group#EspecificacionesINFO2"
+    ],
+    "props":{
+      "tabId": "product1-info-ESPECI",
+      "blockClass": "product1-info-ESPECI"
+    }
+  },
+//-------------------------------------------------------------CONTENIDO ESPECIFICACIONES IMG1
+  "product-specification-group#EspecificacionesIMG-1": {
+    "children": ["product-specification#EspecificacionesIMG-1"],
+    "props":{
+      "blockClass": "EspecificacionesIMG-1"
+    }
+  },
+  "product-specification#EspecificacionesIMG-1": {
+    "children": [
+      "product-specification-text#specificationIMG",
+      "product-specification-values#EspecificacionesIMG-1"
+    ]
+  },
+  "product-specification-values#EspecificacionesIMG-1": {
+    "children": ["product-specification-text#EspecificacionesIMG-1"]
+  },
+  "product-specification-text#EspecificacionesIMG-1": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "EspecificacionesIMG-1"
+    }
+  },
+  
+
+
+//-------------------------------------------------------------CONTENIDO ESPECIFICACIONES IMG2
+"product-specification-group#EspecificacionesIMG-2": {
+  "children": ["product-specification#EspecificacionesIMG-2"],
+  "props":{
+    "blockClass": "EspecificacionesIMG-1"
+  }
+},
+"product-specification#EspecificacionesIMG-2": {
+  "children": [
+    "product-specification-text#specificationIMG",
+    "product-specification-values#EspecificacionesIMG-2"
+  ]
+},
+"product-specification-values#EspecificacionesIMG-2": {
+  "children": ["product-specification-text#EspecificacionesIMG-2"]
+},
+"product-specification-text#EspecificacionesIMG-2": {
+  "props": {
+    "message": "{specificationValue}",
+    "blockClass": "EspecificacionesIMG-2"
+  }
+},
+//-------------------------------------------------------------CONTENIDO ESPECIFICACIONES ESPECIFICACIONES 1
+"product-specification-group#EspecificacionesINFO1": {
+  "children": ["product-specification#EspecificacionesINFO1"],
+  "props":{
+    "blockClass": "EspecificacionesINFO1"
+  }
+},
+"product-specification#EspecificacionesINFO1": {
+  "children": [
+    "product-specification-text#specificationINFO1",
+    "product-specification-values#EspecificacionesINFO1"
+  ]
+},
+"product-specification-values#EspecificacionesINFO1": {
+  "children": ["product-specification-text#EspecificacionesINFO1"]
+},
+"product-specification-text#EspecificacionesINFO1": {
+  "props": {
+    "message": "{specificationValue}",
+    "blockClass": "EspecificacionesINFO1"
+  }
+},
+//-------------------------------------------------------------CONTENIDO ESPECIFICACIONES ESPECIFICACIONES 1
+"product-specification-group#EspecificacionesINFO2": {
+  "children": ["product-specification#EspecificacionesINFO2"],
+  "props":{
+    "blockClass": "EspecificacionesINFO2"
+  }
+},
+"product-specification#EspecificacionesINFO2": {
+  "children": [
+    "product-specification-text#specificationINFO2",
+    "product-specification-values#EspecificacionesINFO2"
+  ]
+},
+"product-specification-values#EspecificacionesINFO2": {
+  "children": ["product-specification-text#EspecificacionesINFO2"]
+},
+"product-specification-text#EspecificacionesINFO2": {
+  "props": {
+    "message": "{specificationValue}",
+    "blockClass": "EspecificacionesINFO2"
+  }
+},
+"product-specification-text#specificationINFO1": {
+  "props": {
+    "message": "{specificationName}",
+    "blockClass": "especificacionesINFO-TITULO1"
+  }
+},
+"product-specification-text#specificationINFO2": {
+  "props": {
+    "message": "{specificationName}",
+    "blockClass": "especificacionesINFO-TITULO2"
+  }
+},
+
+
+
+
+
+
+
+
+  "flex-layout.col#productEsepecificacion":{
+    "children": [
+      "product-specification-group#tap1"
+    ],
+    "props":{
+      "blockClass": "InformacionDOCUMENTOS"
+    }
+  },
+  "flex-layout.col#productEsepecificacion-Part2":{
+    "children": [
+      "product-specification-group#tap-2"
+    ],
+    "props":{
+      "blockClass": "InformacionDOCUMENTOSPart2"
+    }
+  },
+  "flex-layout.col#productEsepecificacionIMG1":{
+    "children": [
+      "product-specification-group#tap1-img"
+    ],
+    "props":{
+      "blockClass": "InformacionDOCUMENTOSIMG1"
+    }
+  },
+  "flex-layout.col#productEsepecificacionIMG2":{
+    "children": [
+      "product-specification-group#tap1-img2"
+    ],
+    "props":{
+      "blockClass": "InformacionDOCUMENTOSIMG2"
+    }
+  },
+  "product-specification-group#tap1-img": {
+    "children": ["product-specification#IMG"],
+    "props":{
+      "blockClass": "producttap1-IMG"
+    }
+  },
+  "product-specification-group#tap1-img2": {
+    "children": ["product-specification#IMG2"],
+    "props":{
+      "blockClass": "producttap1-IMG"
+    }
+  },
+  "product-specification-group#tap1": {
+    "children": ["product-specification#PE1"],
+    "props":{
+      "blockClass": "producttap1"
+    }
+  },
+  "product-specification-group#tap-2": {
+    "children": ["product-specification#PE2"],
+    "props":{
+      "blockClass": "producttap1"
+    }
+  },
+  "product-specification#PE1": {
+    "children": [
+      "product-specification-text#specificationPE1",
+      "product-specification-values#PE1"
+    ]
+  },
+  "product-specification#PE2": {
+    "children": [
+      "product-specification-text#specificationPE2",
+      "product-specification-values#PE2"
+    ]
+  },
+  "product-specification#IMG": {
+    "children": [
+      "product-specification-text#specificationIMG",
+      "product-specification-values#IMG"
+    ]
+  },
+  "product-specification#IMG2": {
+    "children": [
+      "product-specification-text#specificationIMG",
+      "product-specification-values#IMG2"
+    ]
+  },
+  "product-specification-values#PE1": {
+    "children": ["product-specification-text#valuePE1"]
+  },
+  "product-specification-values#PE2": {
+    "children": ["product-specification-text#valuePE2"]
+  },
+  "product-specification-values#IMG": {
+    "children": ["product-specification-text#valueIMG"]
+  },
+  "product-specification-values#IMG2": {
+    "children": ["product-specification-text#valueIMG2"]
+  },
+  "product-specification-text#group": {
+    "props": {
+      "message": "{groupName}",
+      "blockClass": "especificacionesUno"
+    }
+  },
+  "product-specification-text#specificationPE1": {
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": "especificacionesPE1"
+    }
+  },
+  "product-specification-text#specificationPE2": {
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": "especificacionesPE2"
+    }
+  },
+  "product-specification-text#specificationIMG": {
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": "especificacionesIMG"
+    }
+  },
+  "product-specification-text#valuePE1": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "PE-1"
+    }
+  },
+  "product-specification-text#valuePE2": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "PE-2"
+    }
+  },
+  "product-specification-text#valueIMG": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "PE-IMG"
+    }
+  },
+  "product-specification-text#valueIMG2": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "PE-IMG2"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //Contenido del segundo tabber
+  "tab-content.item#product2": {
+    "children": [
+      "flex-layout.row#product2"
+    ],
+     "props": {
+      "tabId": "product2"
+    }
+  },
+  "flex-layout.row#product2":{
+    "children": [
+      "flex-layout.col#productEsepecificacionIMG1",
+      "flex-layout.col#productEsepecificacion",
+      "flex-layout.col#productEsepecificacion-Part2",
+      "flex-layout.col#productEsepecificacionIMG2"
+    ],
+    "props":{
+      "tabId": "product2",
+      "blockClass": "InformacionDos"
+    }
+  },
+  "flex-layout.col#productEsepecificacion2":{
+    "children": [
+      "product-specification-group#tap2"
+    ],
+    "props":{
+      "blockClass": "InformacionBENEFICIOS"
+    }
+  },
+  "product-specification-group#tap2": {
+    "children": ["product-specification-text#group2", "product-specification#2"],
+    "props":{
+      "blockClass": "producttap1"
+    }
+  },
+  "product-specification#2": {
+    "children": [
+      "product-specification-text#specification2",
+      "product-specification-values#2"
+    ]
+  },
+  "product-specification-values#2": {
+    "children": ["product-specification-text#value2"]
+  },
+  "product-specification-text#group2": {
+    "props": {
+      "message": "{groupName}",
+      "blockClass": "especificacionesBENE"
+    }
+  },
+  "product-specification-text#specification2": {
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": "especificacionesBENE"
+    }
+  },
+  "product-specification-text#value2": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": "especificacionesBENE"
+    }
+  },
+   //CONTENIDO TAB 3
+"tab-content.item#product4": {
+  "children": [
+    "flex-layout.row#product4"
+  ],
+   "props": {
+    "tabId": "product4"
+  }
+},
+"flex-layout.row#product4":{
+  "children": [
+    "flex-layout.col#product4"
+  ],
+  "props":{
+    "blockClass": "InformacionDOCUMENTOS"
+  }
+},
+"flex-layout.col#product4":{
+  "children": [
+    "product-specification-group#tap4"
+  ],
+  "props":{
+    "blockClass": "InformacionDOCUMENTOS"
+  }
+},
+
+"product-specification-group#tap4": {
+  "children": ["product-specification-text#group1", "product-specification#1"],
+  "props":{
+    "blockClass": "in"
+  }
+},
+"product-specification#1": {
+  "children": [
+    "product-specification-text#specification4",
+    "product-specification-values#4"
+  ]
+},
+"product-specification-values#4": {
+  "children": ["product-specification-text#value4"]
+},
+"product-specification-text#group1": {
+  "props": {
+    "message": "{groupName}",
+    "blockClass": "especificacionesCuatro"
+  }
+},
+"product-specification-text#specification4": {
+  "props": {
+    "message": "{specificationName}",
+    "blockClass": "especificacionesCuatro"
+  }
+},
+"product-specification-text#value4": {
+  "props": {
+    "message": "{specificationValue}",
+    "blockClass": "especificacionesCuatro"
+  }
+},
+ //Contenido del ultimo tabber
+ "tab-content.item#product5": {
+  "children": [
+    "flex-layout.row#product5"
+  ],
+   "props": {
+    "tabId": "product5"
+  }
+},
+"flex-layout.row#product5":{
+  "children": [
+    "flex-layout.col#productEsepecificacion5"
+  ],
+  "props":{
+    "tabId": "product5",
+    "blockClass": "InformacionDos"
+  }
+},
+"flex-layout.col#productEsepecificacion5":{
+  "children": [
+    "product-specification-group#tap5"
+  ],
+  "props":{
+    "blockClass": "InformacionRECOMENDADOS"
+  }
+},
+"product-specification-group#tap5": {
+  "children": ["product-specification-text#group5", "product-specification#5"],
+  "props":{
+    "blockClass": "producttap5"
+  }
+},
+"product-specification#5": {
+  "children": [
+    "product-specification-text#specification5",
+    "product-specification-values#5"
+  ]
+},
+"product-specification-values#5": {
+  "children": ["product-specification-text#value5"]
+},
+"product-specification-text#group5": {
+  "props": {
+    "message": "{groupName}",
+    "blockClass": "especificacionesRECO"
+  }
+},
+"product-specification-text#specification5": {
+  "props": {
+    "message": "{specificationName}",
+    "blockClass": "especificacionesRECO"
+  }
+},
+"product-specification-text#value5": {
+  "props": {
+    "message": "{specificationValue}",
+    "blockClass": "especificacionesRECO"
+  }
+},
+    //RATING EN PRODUCTO
+    "flex-layout.row#reviews-and-ratings": {
+      "children": ["flex-layout.col#reviews-and-ratings"],
+      "props": {
+        "blockClass": "reviews-and-ratings"
+      }
+    },
+  
+    "flex-layout.col#reviews-and-ratings": {
+      "children": [
+        "disclosure-layout#reviews-and-ratings"
+      ],
+      "props": {
+        "blockClass": "reviews-and-ratings",
+        "width": "74%"
+      }
+    },
+  
+    "disclosure-layout#reviews-and-ratings": {
+      "children": [
+        "disclosure-trigger#reviews-and-ratings",
+        "disclosure-content#reviews-and-ratings"
+      ],
+      "props": {
+        "initialVisibility": "visible"
+      }
+    },
+  
+    "disclosure-trigger#reviews-and-ratings": {
+      "children": ["flex-layout.row#disclosure-trigger-reviews"],
+      "props": {
+        "as": "div"
+      }
+    },
+  
+    "flex-layout.row#disclosure-trigger-reviews": {
+      "children": [
+        "flex-layout.col#spacer",
+        "disclosure-state-indicator"
+      ],
+      "props": {
+        "blockClass": ["items-end", "disclosure-trigger-reviews"],
+        "colGap": 8,
+        "colSizing": "auto",
+        "preserveLayoutOnMobile": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true
+      }
+    },
+  
+    "disclosure-content#reviews-and-ratings": {
+      "children": ["flex-layout.row#reviews"],
+      "props": {
+        "blockClass": "reviews-and-ratings"
+      }
+    },
+  
+    "flex-layout.row#reviews": {
+      "children": ["flex-layout.col#reviews"]
+    },
+  
+    "flex-layout.col#reviews": {
+      "children": ["flex-layout.row#reviews-content"]
+    },
+  
+    "flex-layout.row#reviews-content": {
+      "children": [
+        "flex-layout.col#ratings-only",
+        "flex-layout.col#reviews-only",
+        "flex-layout.col#spacer"
+      ],
+      "props": {
+        "colGap": 0,
+        "colSizing": "auto",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "blockClass": "rowRatings"
+      }
+    },
+  
+    // This is a nasty workaround because `product-reviews.vtex` doesn't have composability
+    // and it doesn't respect `blockClass` either.
+  
+    "flex-layout.col#ratings-only": {
+      "children": ["product-reviews"],
+      "props": {
+        "blockClass": ["ratings-only"]
+      }
+    },
+    "rich-text#ratings": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "REVIEWS"
+      }
+    },
+    "flex-layout.col#reviews-only": {
+      "children": ["product-reviews"],
+      "props": {
+        "blockClass": ["reviews-only"]
+      }
+    },
+
+/*---------------------------------------------------------------------------------SLIDER PRODUCTO----*/
+
+
+
+
+    "slider-layout#ESPECIFICACIOES": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        /*"autoplay":{
+          "timeout": 5000,
+          "stopOnHover": true
+        },*/
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "SecciEspecDescriG",
+        "showPaginationDots": "true"
+      },
+      "children": [
+        "flex-layout.row#CONTENT-ESPECIFICACIONES1",
+        "flex-layout.row#CONTENT-ESPECIFICACIONES2"
+      ] 
+      },
+
+
+
+
+      "flex-layout.row#ESPECIFICACIONES1":{
+        "children": [
+          "image#imgEspecifi1",
+          "product-description#espe",
+          "image#imgEspecifi2"
+          
+        ],
+        "props":{
+          "blockClass": "SecciEspec"
+        }
+      },
+      "flex-layout.row#ESPECIFICACIONES2":{
+        "children": [
+          "flex-layout.col#productEsepecificacionIMG1",
+          "flex-layout.col#productEsepecificacion",
+          "flex-layout.col#productEsepecificacion-Part2",
+          "flex-layout.col#productEsepecificacionIMG2"
+        ],
+        "props":{
+          "blockClass": "SecciEspec"
+        }
+      },
+      "rich-text#productSecci": {
+        "props": {
+          "text": "# SECCION DESCRIPCIÓN Y ESPECIFICACIONES #",
+          "textAlignment": "CENTER",
+          "font": "t-heading-3",
+          "textPosition": "CENTER",
+          "blockClass": "textosPrincDescSec"
+        }
+      },
+      "rich-text#productSecciTituloDes": {
+        "props": {
+          "text": "# SECCION DESCRIPCIÓN Y ESPECIFICACIONES #",
+          "textAlignment": "CENTER",
+          "font": "t-heading-3",
+          "textPosition": "CENTER",
+          "blockClass": "textosPrincDescSec"
+        }
+      },
+
+
+      "flex-layout.col#IMAGENESPECIFICACIONES": {
+        "props": {
+          "width": "50%",
+          "rowGap": 0,
+          "blockClass":"imagenesESPECIFIC"
+        },
+        "children": ["product-images#ESPECICACIONES"]
+      },
+      "product-images#ESPECICACIONES": {
+        "props": {
+          "displayThumbnailsArrows": false,
+          "thumbnailsOrientation": "horizontal",
+          "displayMode": "list",
+          "blockClass":"imagenesESPECIFICIMG"
+        }
+      },
+      "flex-layout.col#IMAGENESPECIFICACIONES1": {
+        "props": {
+          "width": "50%",
+          "rowGap": 0,
+          "blockClass":"imagenesESPECIFIC"
+        },
+        "children": ["product-images#ESPECICACIONES1"]
+      },
+      "product-images#ESPECICACIONES1": {
+        "props": {
+          "displayThumbnailsArrows": false,
+          "thumbnailsOrientation": "horizontal",
+          "displayMode": "list",
+          "blockClass":"imagenesESPECIFICIMG1"
+        }
+      },
+      "product-description#espe": {
+        "props": {
+          "blockClass": "textosPrincDescSecTituloDescripcion"
+        }
+      },
+
+      "image#imgEspecifi1": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/imgespec1.jpg",
+          "blockClass": "IMG-especificaciones"
+        }
+      },
+      "image#imgEspecifi2": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/imgespec2.jpg",
+          "blockClass": "IMG-especificaciones"
+        }
+      },
+
+
+      "flex-layout.row#CONTENT-ESPECIFICACIONES1":{
+        "children": [
+          "flex-layout.row#TituloFalsoTab1",
+          "flex-layout.row#ESPECIFICACIONES1"          
+        ],
+        "props":{
+          "blockClass": "ContentSecciEspec"
+        }
+      },
+      "flex-layout.row#CONTENT-ESPECIFICACIONES2":{
+        "children": [
+          "flex-layout.row#TituloFalsoTab2",
+          "flex-layout.row#ESPECIFICACIONES2"          
+        ],
+        "props":{
+          "blockClass": "ContentSecciEspec"
+        }
+      },
+
+
+
+
+      //********************************************TITULOS
+
+      "flex-layout.row#TituloFalsoTab1":{
+        "children": [
+          "rich-text#1Activo",
+          "rich-text#1InActivo"
+        ],
+        "props":{
+          "blockClass": "SecciEspec-Titulo"
+        }
+      },
+      "flex-layout.row#TituloFalsoTab2":{
+        "children": [
+          "rich-text#2InActivo",
+          "rich-text#2Activo"
+          
+        ],
+        "props":{
+          "blockClass": "SecciEspec-Titulo"
+        }
+      },
+
+
+
+
+    "rich-text#1Activo": {
+      "props": {
+        "text": "ESPECIFICACIONES",
+        "blockClass": "FalsoTab-Activo"
+      }
+    },
+    "rich-text#1InActivo": {
+      "props": {
+        "text": "TECNOLOGÍAS",
+        "blockClass": "FalsoTab-InActivo"
+      }
+    },
+    "rich-text#2Activo": {
+      "props": {
+        "text": "TECNOLOGÍAS",
+        "blockClass": "FalsoTab-Activo"
+      }
+    },
+    "rich-text#2InActivo": {
+      "props": {
+        "text": "ESPECIFICACIONES",
+        "blockClass": "FalsoTab-InActivo"
+      }
+    },
+
+
+
+/*--------------------------------------------------------------------------MODAL BOTONES DE COMPRA-----*/
+
+    "modal-trigger#example": {
+      "children": [
+        "rich-text#example",
+        "modal-layout#example"
+      ]
+    },
+    "rich-text#example": {
+      "props": {
+        "text": "Add to bag",
+        "blockClass": "botonDeAgregarCarrito"
+      }
+    },
+    "rich-text#agendaBoton": {
+      "props": {
+        "text": "AGENDAR UNA CITA",        
+        "blockClass": "botonDeAgendar"
+      }
+    },
+    "rich-text#personalizacionBoton": {
+      "props": {
+        "text": "Customize",
+        "blockClass": "botonDePersonalizar"
+      }
+    },
+    "rich-text#BotonUniformes": {
+      "props": {
+        "text": "Order your uniforms",
+        "blockClass": "botonDeuNIFORMES"
+      }
+    },
+    "add-to-cart-button#BotonComprarCheck":{
+      "props":{
+        "isOneClickBuy": false,
+        "blockClass":"productcheckoutProductoDos"
+      }
+    },
+    "modal-layout#example": {
+      "children": [
+        "modal-header",
+        "rich-text#modal-content",
+        "flex-layout.col#buy-buttonP",
+        "availability-subscriber",
+        "rich-text#productPopadd",
+        "shelf.relatedProducts#2"
+      ],
+      "props": {
+        "blockClass": "PopupProducto54"
+      }
+
+    },
+    "modal-header": {
+     "props": {
+      "showCloseButton":"true"
+     }
+    },
+    "rich-text#modal-content": {
+      "props": {
+        "text": "¿Qué quiers hacer con tu compra?",
+        "blockClass": "cerradoPopProducto"
+      }
+    },
+
+    /*zooom*/
+
+    
+      "product-images.high-quality-image": {
+        "props": {
+          "zoomMode": "disabled"
+        }
+      },
+      "modal-layout#product-zoom": {
+        "props": {
+          "blockClass": "zoomDeProducto"
+        },
+        "children": [
+          // you can put any other block inside the modal,
+          // this is just a normal modal
+          "modal-header",
+          "product-images.high-quality-image"
+        ]
+      },
+
+    
+
+
+
+//----------------------------------------------------------------------AGENDAMIENTO
+
+
+// NIVEL 1
+
+"modal-trigger#BOTONagendar": {
+  "children": [
+    "modal-layout#nivel1"
+  ],
+  "props": {
+    "blockClass": "TriggerPopUpagenda"
+  }
+},
+"modal-layout#nivel1": {
+  "children": [
+    "modal-header",
+    "iframe#FOMULARIO-AGENDA"
+  ],
+  "props": {
+    "blockClass": "ContentPopUpagenda"
+  }
+},
+"iframe.dynamic-src#test-agenda":{
+  "props": {
+    "dynamicSrc": "https://www.test.com/exampleStaticPathName/{dynamicParam1}/{dynamicParam2}/exampleStaticPageName",
+    "width": "1920",
+    "height": "1000",
+    "title": "exampleStaticPageName iframe wrapper for {account}",
+    "allow": "geolocation"
+  }
+},
+
+
+
+      //--------------------------------------------------------------------
+      "flex-layout.row#TAB-MOBILE": {
+        "children": [
+          "disclosure-layout#caracteristicas",
+          "disclosure-layout#beneficios"
+        ],
+        "props": {
+          "blockClass": "TAB-MOBILE"
+        }
+      },
+
+
+       //Tabbers-mobile
+       "disclosure-layout#caracteristicas": {
+        "children": ["disclosure-trigger#caracteristicas", "disclosure-content#caracteristicas"],
+        "props": {
+          "animated": true,
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-trigger#caracteristicas": {
+        "children": ["rich-text#caracteristicas"],
+        "props": {
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-content#caracteristicas": {
+        "children": [
+
+          "product-specification-group#EspecificacionesIMG-1",
+          /* "image#imgEspecifi1",*/
+          "flex-layout.col#product1-info-GEN",
+           /*"product-specification",*/
+           /*"image#imgEspecifi2",*/
+           "product-specification-group#EspecificacionesIMG-2"
+
+
+
+        ],
+        "props": {
+          "tabId": "product1MMM",
+          "blockClass": "product1MMM"
+        }
+      },
+      "rich-text#caracteristicas": {
+        "props": {
+          "text": "Product Details",
+          "blockClass": "productMOBILE1"
+        }
+      },
+      //Tabbers-mobile2
+      "disclosure-layout#beneficios": {
+        "children": ["disclosure-trigger#beneficios", "disclosure-content#beneficios"],
+        "props": {
+          "animated": true,
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-trigger#beneficios": {
+        "children": ["rich-text#beneficios"],
+        "props": {
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-content#beneficios": {
+        "children": [
+          "flex-layout.col#productEsepecificacionIMG1",
+          "flex-layout.col#productEsepecificacion",
+          "flex-layout.col#productEsepecificacion-Part2",
+          "flex-layout.col#productEsepecificacionIMG2"
+        ],
+        "props":{
+          "blockClass": "InformacionBENEFICIOS"
+        }
+      },
+      "rich-text#beneficios": {
+        "props": {
+          "text": "Technologies",
+          "blockClass": "productMOBILE1"
+        }
+      },      
+      //Tabbers-mobile3
+      "disclosure-layout#recomendados": {
+        "children": ["disclosure-trigger#recomendados", "disclosure-content#recomendados"],
+        "props": {
+          "animated": true,
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-trigger#recomendados": {
+        "children": ["rich-text#recomendados"],
+        "props": {
+          "blockClass":"caracteristicas"
+        }
+      },
+      "disclosure-content#recomendados": {
+        "children": [
+          "product-specification-group#tap5"
+        ],
+        "props": {
+          "tabId": "InformacionRECOMENDADOS",
+          "blockClass": "InformacionRECOMENDADOS"
+        }
+      },
+      "rich-text#recomendados": {
+        "props": {
+          "text": "Recomendados para",
+          "blockClass": "productMOBILE1"
+        }
+      },
+      "image#imgTabProducto": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/tab-producto-mobile.png",
+          "maxWidth": "100%",
+          "blockClass":"Product-Image-TAB"
+        }
+      },
+      "iframe#FOMULARIO-AGENDA": {
+        "props": {
+          "src": "https://digitalepartner.com/Agendamiento-Saeta/index.html",
+          "blockClass" : "iFrame-Agenda",
+          "width": "100%",
+          "height": "660",
+          "allow": "geolocation"
+      
+        }
+      },
+      
+
+
+
+
+
+
+
+
+
+
+//*************************************************FORMULARIO AGENDAMIENTO
+
+/*
+"form#agenda": {
+  "props": {
+    "entity": "CT",
+    "schema": "v5",
+    "blockClass": "Agenda-formulario"
+  },
+  "children": [
+    "slider-layout#agendaslider"
+  ],
+  "blocks": ["form-success"]
+},
+"form-success": {
+  "children": [
+    "rich-text#successSubmit"
+  ]
+},
+"rich-text#successSubmit": {
+  "props": {
+    "text": "Tu cita ha quedado programada",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": "envio-agenda"
+  }
+},
+
+"form-field-group#departamento": {
+  "props": {
+    "pointer": "#/properties/departamento",
+    "blockClass": "depto-input"
+  }
+},
+"form-field-group#ciudad": {
+  "props": {
+    "pointer": "#/properties/ciudad",
+    "blockClass": "ciudad-input"
+  }
+},
+  "form-field-group#tienda": {
+  "props": {
+    "pointer": "#/properties/tienda",
+    "blockClass": "tienda-input"
+  }
+},
+"form-input.text#fecha": {
+  "props": {
+    "pointer": "#/properties/fecha",
+    "blockClass": "fecha-input"
+  }
+},  
+"form-input.text#nombre": {
+  "props": {
+    "pointer": "#/properties/nombre",
+    "blockClass": "nombre-input"
+  }
+},
+"form-input.text#apellido": {
+  "props": {
+    "pointer": "#/properties/apellido",
+    "blockClass": "depto-input"
+  }
+},
+"form-input.text#correo": {
+  "props": {
+    "pointer": "#/properties/correo",
+    "blockClass": "correo-input"
+  }
+},
+"form-input.text#telefono": {
+  "props": {
+    "pointer": "#/properties/telefono",
+    "blockClass": "telefono-input"
+  }
+},
+"form-field-group#tipodedocumento": {
+  "props": {
+    "pointer": "#/properties/tipodedocumento",
+    "blockClass": "tipoded-input"
+  }
+},
+"form-input.text#ndocumento": {
+  "props": {
+    "pointer": "#/properties/ndocumento",
+    "blockClass": "ndoc-input"
+  }
+ },
+ "form-field-group#horario": {
+  "props": {
+    "pointer": "#/properties/horario",
+    "blockClass": "horario-input"
+  }
+ },
+
+
+
+
+
+
+"form-input.checkbox#agreement": {
+  "props": {
+    "pointer": "#/properties/agreement",
+    "label": "Estas de acuerdo con compartir "
+  }
+},
+"form-field-group#address": {
+  "props": {
+    "pointer": "#/properties/address"
+  }
+},
+"form-submit": {
+  "props": {
+    "label": "Enviar",
+    "blockClass": "enviar-input"
+  }
+},
+
+
+"slider-layout#agendaslider": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": false,
+    "showNavigationArrows": "desktopOnly",
+    "showPaginationDots": "never",
+    "blockClass": "carousel-agendamiento"
+  },
+  "children": ["flex-layout.col#agendaetapa1", "flex-layout.col#agendaetapa2", "flex-layout.col#agendaetapa3"]
+},
+
+
+"flex-layout.col#agendaetapa1": {
+  "children": [
+    "rich-text#Tituloetapa1",
+    "rich-text#Textoetapa1",
+    "rich-text#Subtituloetapa1",
+    "form-field-group#departamento",
+    "form-field-group#ciudad",
+    "form-field-group#tienda",
+    "form#NEWS-LETTER"
+  ],
+  "props":{
+    "blockClass": "Agendaetapa1"
+  }
+},
+"flex-layout.col#agendaetapa2": {
+  "children": [
+    "rich-text#Subtituloetapa2",
+    "form-input.text#fecha",
+    "form-field-group#horario"
+  ],
+  "props":{
+    "blockClass": "Agendaetapa2"
+  }
+},
+"flex-layout.col#agendaetapa3": {
+  "children": [
+    "rich-text#Subtituloetapa3",
+    "flex-layout.row#agendaetapa3-1",
+    "flex-layout.row#agendaetapa3-2",
+    "flex-layout.row#agendaetapa3-3",
+    "form-submit"
+  ],
+  "props":{
+    "blockClass": "Agendaetapa3"
+  }
+},
+
+"rich-text#Tituloetapa1": {
+  "props": {
+    "text": "¿Prefieres atención Personalizada?",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": "envio-agenda"
+  }
+},
+"rich-text#Textoetapa1": {
+  "props": {
+    "text": "Descripción de Servicio: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": "Titulo-envio-agenda"
+  }
+},
+"rich-text#Subtituloetapa1": {
+  "props": {
+    "text": "¿DÓNDE TE ENCUENTRAS?",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": "texto-envio-agenda"
+  }
+},
+"rich-text#Subtituloetapa2": {
+  "props": {
+    "text": "¿Cuándo quieres tu cita?",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": "sub-envio-agenda"
+  }
+},
+"rich-text#Subtituloetapa3": {
+  "props": {
+    "text": "DÉJANOS TUS DATOS",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": "sub-envio-agenda"
+  }
+},
+"flex-layout.row#agendaetapa3-1": {
+  "children": [
+    "form-input.text#nombre",
+    "form-input.text#apellido"
+  ],
+  "props":{
+    "blockClass": "Agendaetapa3"
+  }
+},
+"flex-layout.row#agendaetapa3-2": {
+  "children": [
+    "form-input.text#correo",
+    "form-input.text#telefono"
+
+  ],
+  "props":{
+    "blockClass": "Agendaetapa3"
+  }
+},
+"flex-layout.row#agendaetapa3-3": {
+  "children": [
+
+    "form-field-group#tipodedocumento",
+    "form-input.text#ndocumento"
+  ],
+  "props":{
+    "blockClass": "Agendaetapa3"
+  }
+}
+*/
+
+"vtex.store-components:product-name": {
+  "props": {
+    "showSku": true,
+    "showBrandName": false
+  }
+},
+
+
+"shelf.relatedProducts#SelectorColor": {
+  "props": {
+      "recommendation": "suggestions",
+      "arrows": "false",
+      "productList": {
+          "titleText": "Nuestras Marcas",
+          "itemsPerPage": 4,
+          "minItemsPerPage": 4
+      },
+      "blockClass": "VitrinaSelectoColor"
+  },
+  "blocks": ["product-summary.shelf#vitrinaselectorColor"]
+}
+
+
+}

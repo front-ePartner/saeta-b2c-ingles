@@ -1,0 +1,312 @@
+.contentContainer{
+    background: #e3e3e3;
+}
+.listItemActive :global(.vtex-button__label){
+    color: #0616c4 !important;
+    font-weight: bold;
+}
+.listItemActive :global(.vtex-button__label){
+    font-size: 1.2rem;
+}
+.container--home{
+    margin: 40px 0 0 0;
+}
+.listItemActive {
+    background: #ffc100 !important;
+    max-height: 41px!important;
+    margin: 0 0 0 5px!important;
+}
+.listItem  {
+    margin: 6px 0 0 5px;
+    background: #191531;
+    color: #ffc100;
+    width: 45%;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    max-height: 35px;
+} 
+.listContainer--productTabs {
+    justify-content: space-around;
+    width: 59%;
+    margin: auto;
+}
+.listItem:focus {
+    border:none;
+}
+.listItem :global(.vtex-button__label){
+    color: #ffc100;
+    letter-spacing: 1.5px;
+    width: auto !important;
+}
+.container--product{
+    margin: 0 100px 0 100px;
+}
+.container--product .contentItem {
+    text-align: justify;
+    line-height: 20px;
+}
+.container--product .listItemActive{
+    background: transparent !important;
+    padding: 0 10px;
+}
+.container--product .listItem{
+    background: transparent ;
+    padding: 0 10px;
+}
+.container--product .contentContainer{
+    background: #f8f7f7;
+}
+.container--product .listItem :global(.vtex-button__label){
+    color: black;
+    padding: 10px 15px !important;
+    width: 42vh;
+}
+.container--product .listItemActive :global(.vtex-button__label){
+    color: #0616c4 !important;
+    font-size: 22px;
+}
+.specificationName {
+    display: none;
+}
+.specificationName {
+    display: none;
+}
+
+.specificationValue--first {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.groupName {
+    display: none;
+}
+.slide--firstVisible{
+    opacity: 0.5;
+}
+.listContainer--tabbersHome{
+    margin-bottom: 100px;
+}
+.contentItem {
+    margin-bottom: 20px;
+}
+.contentItem--tabbersVitrina {
+    margin-bottom: 0;
+    height: 481px;
+}
+.container--product .contentContainer  {
+    border-radius: 5px;
+}
+.container--productM{
+    display: none;
+}
+.container--chats {
+    position: fixed;
+    bottom: 11px;
+    right: 0px;
+    display: none;
+    z-index: 2147483647;
+}
+.container--chats .listItemActive {
+    color: white;
+    width: 77%;
+    max-height: 50px !important;
+    border-radius: 13px;
+}
+.container--chats .contentContainer {
+    margin: 0 auto;
+    width: 71%;
+    padding: 0 15px;
+    background: transparent;
+}
+.contentItem--contenidoDeChat {
+    margin: 0;
+    width: 100%;
+}
+.container--chats :global(.vtex-button__label) {
+    color:white;
+    text-align: left;
+}
+.container--chats :global(.vtex-button__label)::before {
+    content: "";
+    width: 50px;
+    height: 46px;
+    background: url(https://siempresalud.vteximg.com.br/arquivos/iconosiempresalud.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 5px 5px 0 0px;
+}
+.container--chats .listItem :global(.vtex-button__label){
+    width: 100%;
+}
+.container--chats :global(.vtex-button__label) {
+    font-size: 14px;
+    margin: -8px 0 0;
+}
+.contentItem--contenidoDeChat {
+    display: none;
+}
+  .container--chats:hover .contentItem--contenidoDeChat {
+    display: block;
+}
+.listContainer--tabbersHomeTABS {
+    background: #e3e3e3;
+    width: 100%;
+    position: relative;
+    height: 448px;
+    align-items: center;
+    z-index: 3;
+}
+.listContainer--tabbersHome {
+    z-index: 2;
+    position: relative;
+}
+.contentItem--tabbersVitrina {
+    z-index: 2;
+    position: relative;
+}
+.Container--tabbersHomeTABS:active  {
+    z-index: 1 !important;
+}
+.listContainer--tabbersHomeTABS:visited {
+    z-index: 1 !important;
+}
+.listItem--tabbersHomeTABS {
+    background: #7f7f7f;
+    max-height: 280px;
+    align-items: center;
+    height: 280px;
+    margin: 0 auto;
+}
+.listItemActive--tabbersHomeTABS {
+    background: #7f7f7f !important;
+    max-height: 280px !important;
+    align-items: center;
+    height: 280px;
+    margin: 0 auto !important;
+}
+.listItem :global(.vtex-button__label){
+    padding: 0;
+    letter-spacing:0;
+    width: auto;
+}
+
+.listItem--tabbersHomeTABS :global(.vtex-button) {
+    height: 100%;
+    width: 100%;
+}
+.listItem--tabbersHomeTABS .listItemActive :global(.vtex-button) {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .listItem :global(.vtex-button__label){
+        padding: 0;
+        letter-spacing:0;
+        font-weight: 400;
+        width: auto;
+    }
+    .listItemActive :global(.vtex-button__label){
+        font-size: 15px;
+        color: white !important;
+        font-weight: 400;
+    }
+    .contentItem--tabbersVitrina {
+        height: 379px;
+    }
+    .listItem {
+        margin: 0px 0 0 5px;
+        width: 30%;
+    }
+    .listItemActive {
+        max-height: 41px !important;
+        margin: 0;
+    }
+    .listItem {
+        max-height: 41px ;
+    }
+    .container--product{
+        margin: 0 10px;
+    }
+    .container--product{
+        display: none;
+    }
+    .container--productM{
+        display: block !important;
+        margin: 0 25px 40px 25px;
+    }
+    .container--productM .contentContainer {
+        background-color: white;
+    }
+    .container--productM .listItemActive{
+        background: white !important;
+        width: 50% !important;
+        margin-left: 0 !important;
+        border-top-left-radius: 5px !important;
+        border-top-right-radius: 5px !important;
+        text-align: center !important;
+    } 
+    .container--productM .listItemActive :global(.vtex-button__label){
+        color: #0f0095 !important;
+        font-weight: 700;
+    }
+    .container--productM .listItem :global(.vtex-button__label){
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        display: block;
+        width: 38vh;
+        text-align: left;
+    }
+    .container--productM .listItem{
+        width: 100%;
+        margin-left: 0 !important;
+        background-color: #0f0095;
+        text-align: left;
+        margin: 10px 0;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        padding: 10px;
+        position: relative;
+        max-height: 50px !important;
+    } 
+    .container--productM .listItem::before{
+        content: "";
+        background: url(https://recamierco.vteximg.com.br/arquivos/boton-flecha-abajo.png)no-repeat;
+        background-size: 100%;
+        font-size: 10px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+        top: 7px;
+        filter: invert();
+        right: 10px;
+        transition: all 40ms;
+        position: absolute;
+        margin-right: 5px;
+    }
+}
+
+
+
+
+
+/* * New styles About us Page */
+/* !Tabs layout  */
+.listContainer--Tabs {
+    margin-bottom: 20px;
+  }
+  .listContainer--Tabs {
+    margin: 0;
+    padding: 20px 0;
+    background-color: #f6f6f6;
+  }
+  /* * //New styles About us Page */

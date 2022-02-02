@@ -1,0 +1,53 @@
+{
+  "flex-layout.row#container-info__purpose": {
+    "props": {
+      "blockClass": ["Purpose"]
+    },
+    "children": ["flex-layout.col#purpose"]
+  },
+  "flex-layout.col#purpose": {
+    "props": {
+      "blockClass": ["Purpose__container"]
+    },
+    "children": ["slider-layout#purpose"]
+  },
+  // * Slider Purposes
+  "slider-layout#purpose": {
+    "props": {
+      "blockClass": ["Purpose__slider"],
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showPaginationDots": "always",
+      "showNavigationArrows": "never",
+      "infinite": true
+    },
+    "children": ["info-card#mision", "info-card#vision"]
+  },
+  // * Mision card
+  "info-card#mision": {
+    "props": {
+      "blockClass": ["Purpose__slider-item", "Purpose__slider-item--mision"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://saetasport.vteximg.com.br/arquivos/Image-Mision.png",
+      "headline": "Misión",
+      "subhead": "Crear productos diferenciados con pasión y detalle que generen libertad y felicidad a todos los deportistas.",
+      "textAlignment": "center"
+    }
+  },
+  // * Vision card
+  "info-card#vision": {
+    "props": {
+      "blockClass": ["Purpose__slider-item", "Purpose__slider-item--vision"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://saetasport.vteximg.com.br/arquivos/Image-Vision.png",
+      "headline": "Visión",
+      "subhead": "Ser una marca querida y reconocida globalmente por su calidad, buen servicio, compromiso e innovación.",
+      "textAlignment": "center"
+    }
+  }
+}

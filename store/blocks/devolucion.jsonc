@@ -1,0 +1,60 @@
+{
+    "store.custom#devolucion": {
+      "blocks": [
+        "info-card#bannerFaqsM",
+        "info-card#bannerFaqs",
+        "flex-layout.row#devolucion",
+        "flex-layout.row#dev"
+      ]
+    },
+  
+    "flex-layout.row#dev": {
+      "children": [
+        "flex-layout.col#text-faqs1",
+        "flex-layout.col#text-devolucion"
+      ],
+      "props":{
+        "blockClass": "FaqsColumn"
+      }
+    },
+
+    "flex-layout.col#text-devolucion": {
+      "children": [
+        "rich-text#devolucion"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },
+    "flex-layout.row#devolucion":{
+        "children": [
+          "rich-text#TITULO-devolucion"
+        ],
+        "props":{
+          "blockClass": "BannerDosMosaicox4-ESTATICA"
+        }
+      },
+
+    "rich-text#TITULO-devolucion": {
+      "props": {
+        "text":
+        " [POLÍTICAS DE devolucion](#)\n Saeta",
+        "blockClass": "textoquienM"
+      }
+    },
+    "rich-text#devolucion": {
+      "props": {
+        "text": 
+          "**Politica de devoluciones:**\n **POLÍTICAS DE CAMBIO Y GARANTÍA**\n **POLÍTICAS DE CAMBIOS** \n 1-Debes identificar el producto y la fecha de compra. \n 2-El producto debe estar nuevo, sin abrir y/o usar. Si el producto ha sido abierto, debe estar sin uso, con todos sus empaques originales, marquillas, piezas, accesorios, manuales completos y etiquetas adheridas.\n 3-La ropa interior (bóxeres, bicicleteros Mauro) no tienen cambio.\n 4-Si existe algún error un tu pedido, puedes solicitar el cambio de acuerdo con estos tiempos:\n -Plazo máximo para cambio (30 días). \n -Prendas en promoción no tienen cambio, excepto que sea por uso del derecho de retracto.\n -Para prendas de vestir, maletas y/o zapatos: 90 días calendario después de la compra. \n -Por políticas de cambio no se hace devolución de dinero en efectivo, se genera un código o bono virtual para ser redimido dentro del sitio, excepto que sea por uso del derecho de retracto.\n 5-Lo cambios de las prendas se hacen por el valor efectivamente cancelado.\n Formas de solicitar un cambio de una prenda de línea (producto en promoción solo puede hacerse cambio por derecho al retracto):\n 1- Enviar la solicitud de cambio dentro de los 30 primeros días hábiles después de haber recibido el pedido al correo paginaweb@saetasport.com referenciando la orden, cliente y día de compra.\n 2- Ir a la tienda física más cercana.\n Después de solicitar el cambio, tenemos estas opciones:\n 1.Cambio por talla o color de producto.\n 2.Bono cargado por el valor de la compra para ser redimido online.\n 3.Devolución del dinero.\n **DERECHO DE RETRACTO**\n De conformidad con lo dispuesto en el art. 47 del Estatuto del Consumidor (Ley 1480 de 2011) el cliente podrá devolver los bienes comprados dentro de los cinco (5) días hábiles siguientes a la fecha de entrega de los bienes. Para ejercer el derecho de retracto, el cliente deberá devolver el producto a SAETA por los mismos medios y en las mismas condiciones en que lo recibió. Al momento de coordinar la devolución del producto con el cliente, le serán informados los costos que de su transporte se derivan, precisando para ese momento a cargo de quién estarán tales costos de transporte.\n De acuerdo con lo establecido en el citado Estatuto del Consumidor, se exceptúan del Derecho de Retracto, y según el objeto social que desempeña SAETA, los siguientes casos:\n En los contratos de suministro de bienes confeccionados conforme a las especificaciones del consumidor o claramente personalizados.\n En los contratos de adquisición de bienes de uso personal (ropa interior, medias, pantalonetas de baño u otros).\n SAETA devolverá al cliente todas las sumas pagadas sin que proceda hacer descuentos o retenciones por concepto alguno, en un plazo máximo de treinta (30) días calendario desde el momento en que ejerció el derecho.\n Para gestionar la devolución de su producto se debe comunicar mediante una de las siguientes opciones:\n Línea de servicio al cliente de SAETA al +57 3507401129 (horario de lunes a viernes de 8am-5pm).\n Correo paginaweb@saetasport.com\n Página web www.saetasport.com en el formulario de ‘Contáctenos’.\n La devolución de dinero será efectuada en los términos que se describen dentro del presente documento.\n \n ",
+        "blockClass": "textostilo"
+      }
+    }
+
+    
+
+
+
+  }

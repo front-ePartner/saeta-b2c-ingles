@@ -1,0 +1,500 @@
+{
+  "store.custom#faqs": {
+    "blocks": [
+      "info-card#bannerFaqsM",
+      "info-card#bannerFaqs",
+      "flex-layout.row#ESTATICAS-AYUDA",
+      "flex-layout.row#faqs"
+    ]
+  },
+
+  "flex-layout.row#faqs": {
+    "children": [
+      "flex-layout.col#text-faqs1",
+      "flex-layout.col#text-faqs"
+    ],
+    "props":{
+      "blockClass": "FaqsColumn"
+    }
+  },
+  "flex-layout.col#text-faqs1": {
+    "children": [
+      "disclosure-layout#DESK", 
+      "disclosure-layout#DESK5",
+     /* "disclosure-layout#DESK3",*/
+      "disclosure-layout#DESK4"
+     /* "disclosure-layout#DESK2"*/
+      
+      
+    ],
+    "props": {
+      "blockclass": "textColumn1",
+      "preventVerticalStretch": true,
+      "width": "20%",
+      "rowGap": 0
+    }
+  },
+  "info-card#bannerFaqs":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://saetasport.vteximg.com.br/arquivos/bannergenerico.jpg",
+      "callToActionUrl": "#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"bannerC"
+    }
+  },
+  "info-card#bannerFaqsM":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://saetasport.vteximg.com.br/arquivos/bannergenericomobile.jpg",
+      "callToActionUrl": "#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"bannerM"
+    }
+  },
+  "flex-layout.col#text-faqs": {
+    "children": [
+      "rich-text#faqs"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true,
+      "width": "80%",
+      "rowGap": 0
+    }
+  },
+  "rich-text#titles-faqs1":{
+    "props": {
+      "text":"[POLÍTICA DE COOKIES](/faqs)",
+      "blockClass": "tituloEstaticos"
+    }
+  },
+
+  "rich-text#titles-faqs2":{
+    "props": {
+      "text":"[POLÍTICA DE DEVOLUCIÓN](/politica-devoluciones)",
+      "blockClass": "tituloEstaticos"
+    }
+  },
+  "rich-text#titles-faqs6":{
+    "props": {
+      "text":"[POÍLITCA DE DATOS](/Politica-datos)",
+      "blockClass": "tituloEstaticos"
+    }
+  },
+  "rich-text#titles-faqs7":{
+    "props": {
+      "text":"[QUIENES SOMOS](/quienes-somos)",
+      "blockClass": "tituloEstaticos"
+    }
+  },
+  "rich-text#title-faqs": {
+    "props": {
+      "text":
+      "POLÍTICAS DE COMPRA FAQ SIKA",
+      "blockClass": "textoquien"
+    }
+  },
+  "rich-text#title-faqsM": {
+    "props": {
+      "text":
+      " [PREGUNTAS FRECUENTES](#)\nFAQ Saeta",
+      "blockClass": "textoquienM"
+    }
+  },
+
+  "rich-text#faqs": {
+    "props": {
+      "text": 
+        "**COMPRAS**\n**¿QUÉ MEDIOS DE PAGO TIENEN?** \n Nuestra plataforma de pagos seleccionada es Mercado Pago, aquí puedes utilizar diferentes métodos de pago: Tarjetas crédito (American Express, VISA Diners, MasterCard), PSE, y pagos en Efectivo como: Baloto, Efecty, 4-72 y SER. \n**¿ME PUEDO RETRACTAR DE MI COMPRA?** \n De acuerdo con el derecho de retracto consagrado por la ley 1480 art. 47, puedes hacerlo en un plazo máximo de 5 días hábiles contados a partir de la entrega del producto. Además, deberás devolverlo en las mismas condiciones en que lo recibiste. Los costos de transporte y demás que conlleve a la devolución serán cubiertos por el consumidor. \n**¿POR QUÉ ME HA SALIDO UN MENSAJE DE ERROR AL REALIZAR MI PEDIDO?** \nAsegúrate de haber completado todos los pasos del proceso de tramitación del pedido antes de hacer clic en el botón 'comprar ahora'. El botón 'comprar ahora' es el último paso del proceso y, si lo pulsas antes de haber completado todos los pasos anteriores, puede generar un mensaje de error. \n Sin embargo, si has completado todos los pasos del proceso de tramitación del pedido y aun así has recibido un mensaje de error, contáctanos para que podamos ayudarte. \n**¿POR QUÉ HA SIDO RECHAZADO MI PEDIDO?** \n Por favor, comprueba que hayas introducido todos tus datos correctamente en la página de tramitación del pedido. Si el pago no se ha realizado correctamente, pero todos los datos son correctos, es posible que la entidad emisora de tu tarjeta haya denegado el pago. \n Ponte en contacto con ellos o prueba con una tarjeta distinta u otro método de pago. \n**¿POR QUÉ NO PASA NADA CUANDO HAGO CLIC EN 'COMPRAR AHORA'?** \n Podría tratarse de un error de conexión. Por favor, cierra la página web, borra el historial de tu navegador y asegúrate de tener habilitadas las cookies y las ventanas emergentes. \n **¿POR QUÉ NO PUEDO ENCONTRAR MI TALLA?** \n Si la talla que buscas tiene un ícono de sobre al lado, es porque el artículo está agotado en esa talla. Cuando no queda ninguna talla de una prenda, el pondrá 'Lo sentimos, actualmente este producto está agotado'. Reponemos regularmente las existencias de la temporada actual y todos los días actualizamos nuestro sitio web según la disponibilidad en nuestro stock. \n **¿DÓNDE INTRODUZCO MI CUPÓN DE DESCUENTO?** \n Al momento de ir al carrito de compras, debes ingresar el código en la opción Cupón de descuento específicamente en el campo Código y dale clic al botón Ingresar. \n**¿POR QUÉ NO FUNCIONA MI CÓDIGO PROMOCIONAL?** \n Por favor, copia y pega el código para que coincida exactamente. Si has introducido el código correctamente pero no funciona, por favor contáctanos. \n**¿POR QUÉ NO HE RECIBIDO NINGÚN CORREO DE CONFIRMACIÓN?** \nTodos los mensajes de notificación se envían a la dirección de correo electrónico que se indicó a la hora de hacer el pedido. Si la dirección que introdujiste no es correcta, no recibirás los mensajes. No olvides mirar también en las carpetas de correo no deseado de esa dirección de correo electrónico.Si aun así no has recibido ningún mensaje, contáctanos. \n**¿HACEN ENVÍOS A OTRO PAÍS?** \n Si, a todo el mundo! \n**¿PUEDO BORRAR UN ARTÍCULO DE MI CARRITO?** \n Para borrar un artículo del carrito, no tienes más que hacer clic en el icono de la bolsa de la esquina superior derecha de la página y hacer clic en el botón 'X' al lado del artículo. \n **¿PUEDO HACER UN PEDIDO POR TELÉFONO?** \n También puedes comprar en nuestra línea de Whats app: 350 7401129\n **ENTREGA**\n**¿CUÁNTO TARDARÁ EN LLEGAR MI PEDIDO?** \n Intentamos entregar los pedidos lo antes posible por eso enviamos en máximo 2 días hábiles desde que se aprueba el pago. El plazo de entrega dependerá del destino del envío. En Bogotá el tiempo de entrega estimado es de 2 a 5 días hábiles, a otras ciudades principales es de 3 a 7 días hábiles y municipios más pequeños de 4 a 10 días hábiles. En la página de tramitación del pedido se indica un plazo de entrega aproximado y en tu correo llegará la guía de envío para que puedas hacer el rastreo del pedido una vez sea enviado. \n **¿TENGO QUE PAGAR GASTOS DE ENVÍO?** \n El valor del envío y transporte de los productos te lo informaremos al momento de generar la orden de compra y puede variar según la ciudad en la que desees recibirlo. \n **¿POR QUÉ NO HE RECIBIDO UN CORREO DE AVISO DEL DESPACHO DE MI PEDIDO?** \n Comprueba la carpeta de correo no deseado de tu correo electrónico. También puedes ver tus notificaciones de despacho iniciando sesión en tu cuenta SAETA. \n **¿QUÉ HAGO SI HAY ALGÚN PROBLEMA CON MI ARTÍCULO?** \n Si crees que tu artículo es defectuoso, contáctanos por correo a paginaweb@saetasport.com o a nuestro Whats app: 350 7401129 y te diremos lo que tienes que hacer. \n **¿POR QUÉ NO HE RECIBIDO MI PEDIDO?** \n Mira la fecha de entrega en el correo sobre el despacho del paquete, para ver si contiene más detalles. La fecha de entrega que se indica al efectuar el pedido es aproximada. Podrás hacerle seguimiento al estado de entrega de tu pedido a través del sitio www.coordinadora.com\nSi no ha cambiado el estado de seguimiento de tu pedido durante 5 días, contáctanos. \nEs posible que hayan dejado el paquete en casa de un vecino, pero eso debería aparecer indicado en los datos de seguimiento. Si sigues sin localizar el paquete 24 horas después de que el estado de seguimiento haya cambiado a 'entregado', contáctanos. \n**¿QUÉ HAGO SI ME HAN ENVIADO UN ARTÍCULO INCORRECTO?** \n Si has recibido un Producto incorrecto en su pedido, ponte en contacto con nuestro equipo de atención al cliente escribiendo a paginaweb@saetasport.com  o a nuestro Whats app: 350 7401129. Nosotros te informaremos de cómo proceder con la devolución. Por favor, facilita tanta información como puedas sobre el artículo incorrecto. \n **¿QUÉ HAGO SI HE RECIBIDO UN ARTÍCULO DEFECTUOSO?** \n Si consideras que el Producto que has recibido es defectuoso, ponte en contacto con nuestro equipo de atención al cliente por correo: paginaweb@saetasport.com  o a nuestro Whats app: 350 7401129. Nuestro equipo te informará de cómo proceder. Por favor, facilita tantos detalles como puedas sobre el defecto. \n**QUÉ PASA SI MI PRODUCTO NO ESTÁ DISPONIBLE?** \n La venta estará sujeta al inventario del producto. Si al momento de realizar la orden no se cuenta con tu producto, te contactaremos para hacerte entrega de un bono cargado por el valor de la compra o la devolución del dinero. \n**CAMBIO Y DEVOLUCIONES**\n**¿PUEDO DEVOLVER MI ARTÍCULO A UNA TIENDA?** \nSi puedes hacerlo siempre y cuando cumplas todos los requisitos de nuestra Política de cambios y garantías. Recuerda que productos personalizados no tienen cambio. \n **¿CUÁNTO SE DEMORAN LOS CAMBIOS O DEVOLUCIONES?** \nTenemos hasta 15 días hábiles para responder el correo indicando el proceso que debes seguir. \n**¿ADÓNDE ENVÍO LOS PRODUCTOS QUE QUIERO DEVOLVER?** \n Si deseas cambiar un producto por talla o cambiarlo por otro productos debes enviarnos un correo a paginaweb@saetasport.com. Debes escribir el número de tu orden, la razón del cambio y el producto y talla por el cual deseas cambiarlo. Te responderemos al correo los pasos a seguir. Debes tener en cuenta que en estos casos el comprador asume los gastos de envío de regreso a nuestras bodegas y nosotros asumimos el gasto de envío de regreso a tu casa. Recuerda que productos personalizados no tienen cambio. \n**MI CUENTA**\n**¿CÓMO ME REGISTRO?** \n Ingresa y da clic en el extremo superior derecho donde verás un ícono que dice SESIÓN, allí debes dar clic y llegarás a un formulario que debes diligenciar con tus datos personales y ¡listo! Tendrás tu propia cuenta para que puedas tener acceso a tus datos, ver tu historial de pedidos y hacer seguimiento de tus órdenes. \n **¿TENGO QUE ESTAR REGISTRADO PARA COMPRAR?** \n No, puedes comprar sin registrarte, de manera fácil y rápida. Solo debes ingresar tu e-mail, nombre, apellidos, teléfono y cédula, al momento de añadir tus productos al carrito de compras. \n**¿CÓMO COMPRAR?** \nComprar es muy sencillo, sólo debe seguir los siguientes pasos: \n Para buscar el producto que desea comprar puede navegar a través de las categorías en nuestro menú o utilizar la barra de búsqueda. \n ° Una vez haya elegido el producto que desea, seleccione el color, talla, cantidades y agréguelo a la bolsa de compras dando clic en el botón COMPRAR. \n ° Una vez haya agregado el producto puede seguir navegando y agregando a la bolsa los demás productos que desee. \n  ° Cuando haya agregado todos los productos que desee comprar, ingrese al icono de la bolsa de compras que está en la parte superior derecha, para ver el resumen de su compra. En el resumen que encontrará, debe verificar que los productos que allí figuran correspondan a los que desea comprar, en la talla, color y cantidades seleccionados. \n  ° Si desea utilizar un 'Cupón Descuento', debe ingresar el código en el espacio 'SUMAR CUPÓN'. \n ° Proceda a dar clic en 'He leído y acepto los términos y condiciones y política de tratamiento de datos', dando clic en 'FINALIZAR COMPRA'. \n ° Ingrese su correo electrónico para continuar con el proceso de compra. \n ° Diligencie sus datos personales o de empresa y datos de envío. \n ° De clic en el botón 'IR A PAGO'. \n ° Puede pagar con tarjetas de crédito Visa, MasterCard, American Express, Diners Club, tarjetas débito a través de PSE (Cuenta de ahorros o corriente), Cupón Descuento, Cupón Redención, en efectivo a través de Baloto y Effecty. \n ° Para finalizar completamente su proceso de compra de clic en COMPRAR AHORA",
+      "blockClass": "textostilo"
+    }
+  },
+  //Mobile para faqs
+  "flex-layout.row#faqsMobile": {
+    "children": [
+      "flex-layout.col#text-faqsMobile"
+    ],
+    "props":{
+      "blockClass": "FaqsColumnM"
+    }
+  },
+  "flex-layout.col#text-faqsMobile": {
+    "children": [
+      "disclosure-layout#simple",
+      "disclosure-layout#simple2",
+      "disclosure-layout#simple3"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true,
+      "width": "80%",
+      "rowGap": 0
+    }
+  },  
+  
+  //-----------------------------------------------------------LATERAL PREGUNTAS FRECUENTES
+  "flex-layout.row#faqsLATERAL": {
+    "children": [
+      "flex-layout.col#text-faqsDESK"
+    ],
+    "props":{
+      "blockClass": "FaqsColumnM"
+    }
+  },
+  "flex-layout.col#text-faqsDESK": {
+    "children": [
+      "disclosure-layout#DESK",
+      "disclosure-layout#DESK2",
+      "disclosure-layout#DESK5",
+      "disclosure-layout#DESK4"
+
+    ],
+    "props": {
+      "blockclass": "Menu-lateral-desk",
+      "preventVerticalStretch": true,
+      "width": "80%",
+      "rowGap": 0
+    }
+  },
+
+
+  //----------------------------desplegables-1-dessk
+  
+  "disclosure-layout#DESK": {
+    "children": ["disclosure-trigger#DESK", "disclosure-content#DESK"],
+    "props": {
+      "blockClass": "lateral-derecha-desk"
+    }
+  },
+  "disclosure-trigger#DESK": {
+    "children": ["rich-text#ITEM1"]
+  },
+  "disclosure-content#DESK": {
+    "children": [
+      "rich-text#ITEM1-1",
+      "rich-text#ITEM1-3",
+      "rich-text#ITEM1-2",
+      "rich-text#ITEM1-envio"
+    ],
+    "props": {
+      "blockClass": "lateral-derecha-desk-content"
+    }
+  },
+  "rich-text#ITEM1": {
+    "props": {
+      "text": "FAQ",
+      "blockClass": "lateral-derecha-desk-titulo"
+    }
+  },
+  "rich-text#ITEM1-1": {
+    "props": {
+      "text": "[Preguntas Frecuente](/faqs)",
+      "blockClass": "lateral-derecha-desk-item-subtitulo"
+    }
+  },
+  "rich-text#ITEM1-2": {
+    "props": {
+      "text": "[Politicas Privacidad](/privacidad)",
+      "blockClass": "lateral-derecha-desk-item-subtitulo"
+    }
+  },
+  "rich-text#ITEM1-3": {
+    "props": {
+      "text": "[Terminos y Condiciones](/terminos-condiciones)",
+      "blockClass": "lateral-derecha-desk-item-subtitulo"
+    }
+  },  
+  "rich-text#ITEM1-envio": {
+    "props": {
+      "text": "[Políticas de envío](/envio)",
+      "blockClass": "lateral-derecha-desk-item-subtitulo"
+    }
+  },
+
+  //----------------------------desplegables-2-dessk
+  
+  "disclosure-layout#DESK2": {
+    "children": ["disclosure-trigger#DESK2", "disclosure-content#DESK2"],
+    "props": {
+      "blockClass": "lateral-derecha-desk"
+    }
+  },
+  "disclosure-trigger#DESK2": {
+    "children": ["rich-text#ITEM2"]
+  },
+  "disclosure-content#DESK2": {
+    "children": [
+      "rich-text#ITEM1-7",
+      "rich-text#ITEM1-8",
+      "rich-text#ITEM1-9",
+      "rich-text#ITEM1-10"
+    ],
+    "props": {
+      "blockClass": "lateral-derecha-desk-content"
+    }
+  },
+  "rich-text#ITEM2": {
+    "props": {
+      "text": "Compra",
+      "blockClass": "lateral-derecha-desk-titulo"
+    }
+  },
+
+
+
+  "rich-text#ITEM1-7": {
+    "props": {
+      "text": "[Hombre](/hombre)",
+      "blockClass": "lateral-derecha-desk-item-subtitulo"
+    }
+  },
+
+  "rich-text#ITEM1-8": {
+    "props": {
+      "text": "[Mujer](/mujer)",
+      "blockClass": "lateral-derecha-desk-item-subtitulo"
+    }
+  },
+  
+  "rich-text#ITEM1-9": {
+    "props": {
+      "text": "[Niño](/account)",
+      "blockClass": "lateral-derecha-desk-item-subtitulo"
+    }
+  },
+
+  "rich-text#ITEM1-10": {
+    "props": {
+      "text": "[Accesorios](/accesorios)",
+      "blockClass": "lateral-derecha-desk-item-subtitulo"
+    }
+  },
+
+  //----------------------------desplegables-3-dessk
+  
+  "disclosure-layout#DESK3": {
+    "children": ["disclosure-trigger#DESK3", "disclosure-content#DESK3"],
+    "props": {
+      "blockClass": "lateral-derecha-desk"
+    }
+  },
+  "disclosure-trigger#DESK3": {
+    "children": ["rich-text#ITEM3"]
+  },
+  "disclosure-content#DESK3": {
+    "children": [
+      "rich-text#ITEM1-1",
+      "rich-text#ITEM1-2",
+      "rich-text#ITEM1-3"
+    ],
+    "props": {
+      "blockClass": "lateral-derecha-desk-content"
+    }
+  },
+  "rich-text#ITEM3": {
+    "props": {
+      "text": "Presentación",
+      "blockClass": "lateral-derecha-desk-titulo"
+    }
+  },
+
+      //----------------------------desplegables-4-dessk
+  
+      "disclosure-layout#DESK4": {
+        "children": ["disclosure-trigger#DESK4", "disclosure-content#DESK4"],
+        "props": {
+          "blockClass": "lateral-derecha-desk"
+        }
+      },
+      "disclosure-trigger#DESK4": {
+        "children": ["rich-text#ITEM4"]
+      },
+      "disclosure-content#DESK4": {
+        "children": [
+          "rich-text#ITEM1-6"
+        ],
+        "props": {
+          "blockClass": "lateral-derecha-desk-content"
+        }
+      },
+      "rich-text#ITEM4": {
+        "props": {
+          "text": "Mi cuenta",
+          "blockClass": "lateral-derecha-desk-titulo"
+        }
+      },
+
+
+
+      
+  "rich-text#ITEM1-6": {
+    "props": {
+      "text": "[Cuenta](/account)",
+      "blockClass": "lateral-derecha-desk-item-subtitulo"
+    }
+  },
+
+    //----------------------------desplegables-5-dessk
+  
+  "disclosure-layout#DESK5": {
+    "children": ["disclosure-trigger#DESK5", "disclosure-content#DESK5"],
+    "props": {
+      "blockClass": "lateral-derecha-desk"
+    }
+  },
+  "disclosure-trigger#DESK5": {
+    "children": ["rich-text#ITEM5"]
+  },
+  "disclosure-content#DESK5": {
+    "children": [
+      "rich-text#ITEM1-4",
+      "rich-text#ITEM1-5"
+    ],
+    "props": {
+      "blockClass": "lateral-derecha-desk-content"
+    }
+  },
+  "rich-text#ITEM5": {
+    "props": {
+      "text": "Devolución",
+      "blockClass": "lateral-derecha-desk-titulo"
+    }
+  },
+
+
+  "rich-text#ITEM1-4": {
+    "props": {
+      "text": "[Politicas de devolución](/devolucion)",
+      "blockClass": "lateral-derecha-desk-item-subtitulo"
+    }
+  },
+  "rich-text#ITEM1-5": {
+    "props": {
+      "text": "[Garantia](/garantia)",
+      "blockClass": "lateral-derecha-desk-item-subtitulo"
+    }
+  },
+
+
+
+
+// ----------------------------------------------------------------------------------- DESPLEGABLE MOBILE
+  //desplegables
+  
+    "disclosure-layout#simple": {
+      "children": ["disclosure-trigger#simple", "disclosure-content#simple"]
+    },
+    "disclosure-trigger#simple": {
+      "children": ["rich-text#question"]
+    },
+    "disclosure-content#simple": {
+      "children": ["rich-text#answer"]
+    },
+    "rich-text#question": {
+      "props": {
+        "text": "FAQ"
+      }
+    },
+    "rich-text#answer": {
+      "props": {
+        "text": "Call us at the number (212) 1234-1234"
+      }
+    },
+  
+  //SEGUNDO DESPLEGABLE
+  "disclosure-layout#simple2": {
+    "children": ["disclosure-trigger#simple2", "disclosure-content#simple2"],
+    "props": {
+      "animated": true
+    }
+  },
+  "disclosure-trigger#simple2": {
+    "children": ["rich-text#question2"]
+  },
+  "disclosure-content#simple2": {
+    "children": [
+    ]
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "Politica de devoluciones",
+      "blockClass": "TituloMobile"
+    }
+  },
+  // TERCER DESPLEGABLE
+  "disclosure-layout#simple3": {
+    "children": ["disclosure-trigger#simple3", "disclosure-content#simple3"],
+    "props": {
+      "animated": true
+    }
+  },
+  "disclosure-trigger#simple3": {
+    "children": ["rich-text#question3"]
+  },
+  "disclosure-content#simple3": {
+    "children": []
+  },
+  "rich-text#question3": {
+    "props": {
+      "text": "Politica de datos",
+      "blockClass": "TituloMobile"
+    }
+  },
+
+
+
+  //---------------------------------------------------------------------------IINFO POST HEADER
+  "flex-layout.row#ESTATICAS-AYUDA":{
+    "children": [
+      "rich-text#title-faqsM"
+    ],
+    "props":{
+      "blockClass": "BannerDosMosaicox4-ESTATICA"
+    }
+  },
+  "info-card#columsx4-1-ESTATICA":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://sikaco.vteximg.com.br/arquivos/Rectangle%2024.png",
+      "headline": "¿Necesitas personal?",
+      "callToActionText": "Buscar contratista",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",          
+      "callToActionMode": "link",
+      "blockClass": "bannerInformativo-ESTATICA"
+    }
+  },
+  "info-card#columsx4-2-ESTATICA":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://sikaco.vteximg.com.br/arquivos/Rectangle%2025.png",
+      "headline": "Preguntas frecuentes",
+      "callToActionText": "Buscar contratista",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",          
+      "callToActionMode": "link",
+      "blockClass":"bannerInformativo2-ESTATICA"
+    }
+  },
+  "info-card#columsx4-3-ESTATICA":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://sikaco.vteximg.com.br/arquivos/Rectangle%2026.png",
+      "headline": "¿Buscar donde comprar?",
+      "callToActionText": "Buscar contratista",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",          
+      "callToActionMode": "link",
+      "blockClass":"bannerInformativo3-ESTATICA"
+    }
+  }
+}

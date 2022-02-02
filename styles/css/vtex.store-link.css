@@ -1,0 +1,125 @@
+.link--boton-vitrina {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+}
+.label--boton-vitrina {
+    background: #fbce2f !important;
+    padding: 10px 15px;
+    color: #0616C4;
+    border-radius: 11px;
+    text-transform: uppercase;
+}
+.link--icono-whatsapp {
+  background: url(https://saetasport.vteximg.com.br/arquivos/chat-boton-fixed.png);
+  padding: 45px;
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  z-index: 3;
+  font-size: 0;
+  bottom: 1%;
+  right: 2%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+  .label--ver-terminos-link {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    z-index: 3;
+  }
+  .link--ver-terminos-link {
+    text-decoration: none;
+  }
+ .label--ver-terminos-link2 {
+    color: #7b7b7b;
+    text-align: center;
+    font-size: 12px;
+}
+.link--ver-terminos-link2 {
+    text-align: center;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+.link--ver-terminos-link {
+  z-index: 2;
+}
+.label--boton-DISTRI {
+  background: #fbce30 !important;
+  color: #0616c8;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 18px 100px;
+  border-radius: 5px;
+  margin: 35px auto 0;
+  text-decoration: none;
+}
+.link--boton-DISTRI {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+.label--boton-vitrina {
+    background: #fbce2f!important;
+    padding: 8px 11px;
+    color: #0616C4;
+    border-radius: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.link--icono-whatsapp {
+  width: 25px;
+  height: 25px;
+  background-size: 63%;
+  padding: 44px 0px 40px 80px;
+}
+.label--ver-terminos-link {
+  text-decoration: underline;
+}
+.label--ver-terminos-link2 {
+  position: relative;
+  top: -17px;
+  right: -26%;
+  z-index: 2;
+  text-decoration: underline;
+}
+.label--boton-DISTRI {
+  background: #fbce30 !important;
+  color: #0616c8;
+  font-weight: 900;
+  font-size: 15px;
+  padding: 18px 50px;
+  border-radius: 5px;
+  margin: 35px auto 0;
+  text-decoration: none;
+}
+}
+
+@media (max-width: 370px) {
+  .label--ver-terminos-link2 {
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    text-decoration: underline;
+  }
+  }

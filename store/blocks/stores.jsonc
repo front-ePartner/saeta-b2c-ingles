@@ -1,0 +1,522 @@
+{
+    "store.custom#stores": {
+      "blocks": [
+        "info-card#bannerFaqsM",
+        "info-card#bannerFaqs",
+        "flex-layout.row#General-Tienda"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "pagina-tiendas"
+      }
+    },
+
+
+    
+    "flex-layout.row#General-Tienda":{
+      "children": [
+        "flex-layout.col#General-Tienda"
+      ],
+      "props":{
+        "blockClass": "CONTENIDO-GENERAL-TIENDAS"
+      }
+    },
+    "flex-layout.col#General-Tienda":{
+      "children": [
+        "rich-text#TITULO-tiendas",
+        "flex-layout.row#tienda1",
+        "flex-layout.row#tienda2",
+        "flex-layout.row#tienda3",
+        "rich-text#TITULO-distribuidores",
+        "flex-layout.row#distribuidores",
+        "link#PRE-verDistribuidores"
+      ],
+      "props":{
+        "blockClass": "CONTENIDO-GENERAL-TIENDAS"
+      }
+    },
+    "rich-text#TITULO-tiendas": {
+        "props": {
+          "text":
+          " [NUESTRAS DIFERENTES](#)\n TIENDAS",
+          "blockClass": "textoquienM"
+        }
+      },
+      "rich-text#TITULO-distribuidores": {
+        "props": {
+          "text":
+          " [DISTRIBUIDORES](#)\n AUTORIZADOS",
+          "blockClass": "textoquienM"
+        }
+      },
+    //-----------------------------------------------tienda1
+    "flex-layout.row#tienda1":{
+        "children": [
+            "image#imgTienda1",
+            "flex-layout.col#tienda"
+        ],
+        "props":{
+          "blockClass": "info-tienda-principal"
+        }
+      },
+      "flex-layout.row#tienda2":{
+        "children": [
+            "image#imgTienda2",
+            "flex-layout.col#tienda2"
+        ],
+        "props":{
+          "blockClass": "info-tienda-principal"
+        }
+      },
+      "flex-layout.row#tienda3":{
+        "children": [
+            "image#imgTienda3",
+            "flex-layout.col#tienda3"
+        ],
+        "props":{
+          "blockClass": "info-tienda-principal"
+        }
+      },
+      "image#imgTienda1": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/amarillo.png",
+          "blockClass": "foto-fachada"
+        }
+      },
+      "image#imgTienda2": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/azul.png",
+          "blockClass": "foto-fachada"
+        }
+      },
+      "image#imgTienda3": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/rojo.png",
+          "blockClass": "foto-fachada"
+        }
+      },
+      "image#imgLocalizacion": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/ICONO-LOCALIZADOR.png",
+          "blockClass": "foto-localizacion"
+        }
+      },
+      "image#imgiconotienda": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/ICONO-TIENDA.png",
+          "blockClass": "foto-tienda"
+        }
+      },
+      "image#imgiconotienda1": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/",
+          "blockClass": "foto-tienda"
+        }
+      },
+      "image#imgiconotienda2": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/_SAETA fondo azul-15.png",
+          "blockClass": "foto-tienda"
+        }
+      },
+      "image#imgiconotienda3": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/_SAETA fondo rojo -09.png",
+          "blockClass": "foto-tienda"
+        }
+      },
+      //--------------------------------------------------TIENDA1
+      "flex-layout.col#tienda":{
+        "children": [
+          "flex-layout.row#parte1-info-tienda",
+          "rich-text#content-tienda-1"
+        ],
+        "props":{
+          "blockClass": "info-tienda-principal-partea"
+        }
+      },
+      "flex-layout.col#tienda-info":{
+        "children": [
+          "rich-text#nombre-tienda-1",
+          "rich-text#direccion-tienda-1",
+          "rich-text#nciudad-tienda-1"
+        ],
+        "props":{
+          "blockClass": "parte1-info-tienda-info"
+        }
+      },
+      "flex-layout.row#parte1-info-tienda":{
+        "children": [
+          "image#imgLocalizacion",
+          "flex-layout.col#tienda-info"
+        ],
+        "props":{
+          "blockClass": "info-tienda-principal-parteaG"
+        }
+      },
+      "rich-text#nombre-tienda-1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "7 de Agosto",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "nombreTienda"
+        }
+      },
+      "rich-text#direccion-tienda-1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text":  "Carrera 24 #63C-50 [LINK GOOGLE](https://www.google.com/maps/place/SAETA+Sport+7+De+Agosto/@4.6540664,-74.0738555,17z/data=!4m5!3m4!1s0x8e3f9a4c24b70c4b:0x2b2bfcbcaac6f04e!8m2!3d4.6540812!4d-74.0717512?hl=es)",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "direccionTienda"
+        }
+      },
+      "rich-text#nciudad-tienda-1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Bogota DC",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "ciudadTienda"
+        }
+      },
+      "rich-text#content-tienda-1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "contentTienda"
+        }
+      },
+
+
+//--------------------------------------------------------------TIENDA2
+      "flex-layout.col#tienda2":{
+        "children": [
+          "flex-layout.row#parte1-info-tienda2",
+          "rich-text#content-tienda-2"
+        ],
+        "props":{
+          "blockClass": "info-tienda-principal-partea"
+        }
+      },
+      "flex-layout.col#tienda-info2":{
+        "children": [
+          "rich-text#nombre-tienda-2",
+          "rich-text#direccion-tienda-2",
+          "rich-text#nciudad-tienda-1"
+        ],
+        "props":{
+          "blockClass": "parte1-info-tienda-info"
+        }
+      },
+      "flex-layout.row#parte1-info-tienda2":{
+        "children": [
+          "image#imgLocalizacion",
+          "flex-layout.col#tienda-info2"
+        ],
+        "props":{
+          "blockClass": "info-tienda-principal-parteaG"
+        }
+      },
+      "rich-text#nombre-tienda-2": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Pradera",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "nombreTienda"
+        }
+      },
+      "rich-text#direccion-tienda-2": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text":  "Cl. 5a #Cra. 64 [LINK GOOGLE](https://www.google.com/maps/place/Saeta/@4.625875,-74.1190884,17z/data=!4m5!3m4!1s0x8e3f995465dcef37:0x3a7ef8a6def41a0c!8m2!3d4.6273317!4d-74.1185769?hl=es)",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "direccionTienda"
+        }
+      },
+      "rich-text#nciudad-tienda-2": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Bogota DC",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "ciudadTienda"
+        }
+      },
+      "rich-text#content-tienda-2": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+          "textColor": "c-on-emphasis",
+          "font": "t-heading-5",
+          "blockClass": "contentTienda"
+        }
+      },
+
+
+      
+//--------------------------------------------------------------TIENDA3
+"flex-layout.col#tienda3":{
+  "children": [
+    "flex-layout.row#parte1-info-tienda3",
+    "rich-text#content-tienda-3"
+  ],
+  "props":{
+    "blockClass": "info-tienda-principal-partea"
+  }
+},
+"flex-layout.col#tienda-info3":{
+  "children": [
+    "rich-text#nombre-tienda-3",
+    "rich-text#direccion-tienda-3",
+    "rich-text#nciudad-tienda-3"
+  ],
+  "props":{
+    "blockClass": "parte1-info-tienda-info"
+  }
+},
+"flex-layout.row#parte1-info-tienda3":{
+  "children": [
+    "image#imgLocalizacion",
+    "flex-layout.col#tienda-info3"
+  ],
+  "props":{
+    "blockClass": "info-tienda-principal-parteaG"
+  }
+},
+"rich-text#nombre-tienda-3": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "Centro",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "nombreTienda"
+  }
+},
+"rich-text#direccion-tienda-3": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text":  "CARRERA 47 # 51-46 [LINK GOOGLE](https://www.google.com/maps/place/SAETA/@4.6027207,-74.0887683,14z/data=!4m5!3m4!1s0x8e3f99a3e2061aed:0x301bf9c10d5e548f!8m2!3d4.6027207!4d-74.0712588?hl=es)",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "direccionTienda"
+  }
+},
+"rich-text#nciudad-tienda-3": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "Bogota DC",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "ciudadTienda"
+  }
+},
+"rich-text#content-tienda-3": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "contentTienda"
+  }
+},
+
+
+
+
+
+
+//-------------------------------------------------------------------------
+
+"flex-layout.row#distribuidores":{
+  "children": [
+    "flex-layout.row#info-tienda-distribuidores1-EX",
+    "flex-layout.row#info-tienda-distribuidores2-EX",
+    "flex-layout.row#info-tienda-distribuidores3-EX"
+  ],
+  "props":{
+    "blockClass": "info-Distri-principal"
+  }
+},
+
+
+//------------------------------------------------------------DISTRIBUIDOR 1
+"flex-layout.row#info-tienda-distribuidores1-EX":{
+  "children": [
+    "image#imgiconotienda",
+    "flex-layout.col#Distr-info-1-ex"
+  ],
+  "props":{
+    "blockClass": "info-Distri-Principal"
+  }
+},
+"flex-layout.col#Distr-info-1-ex":{
+  "children": [
+    "rich-text#nombre-distribuindores-1-ex",
+    "rich-text#direccion-Distri-1-ex",
+    "rich-text#nciudad-Ditri-1-ex"
+  ],
+  "props":{
+    "blockClass": "parte1-info-Distri"
+  }
+},
+"rich-text#nombre-distribuindores-1-ex": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "DEPORTIVOS SPORT",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "nombreDistri"
+  }
+},
+"rich-text#direccion-Distri-1-ex": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text":  "CR 6  5 50 BARRIO CENTRO \n [3168259065](#)",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "direccionDistri"
+  }
+},
+"rich-text#nciudad-Ditri-1-ex": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "CIMITARRA",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "ciudadDistri"
+  }
+},
+
+
+//------------------------------------------------------------DISTRIBUIDOR 2
+"flex-layout.row#info-tienda-distribuidores2-EX":{
+  "children": [
+    "image#imgiconotienda",
+    "flex-layout.col#Distr-info-2-ex"
+  ],
+  "props":{
+    "blockClass": "info-Distri-Principal"
+  }
+},
+"flex-layout.col#Distr-info-2-ex":{
+  "children": [
+    "rich-text#nombre-distribuindores-2-ex",
+    "rich-text#direccion-Distri-2-ex",
+    "rich-text#nciudad-Ditri-2-ex"
+  ],
+  "props":{
+    "blockClass": "parte1-info-Distri"
+  }
+},
+"rich-text#nombre-distribuindores-2-ex": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "ABC SPORTS HOUSE LTDA",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "nombreDistri"
+  }
+},
+"rich-text#direccion-Distri-2-ex": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text":  "AV CR 86  6  37  LC 283 \n [5745660](#)",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "direccionDistri"
+  }
+},
+"rich-text#nciudad-Ditri-2-ex": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "BOGOTA D.C.",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "ciudadDistri"
+  }
+},
+
+//------------------------------------------------------------DISTRIBUIDOR 3
+"flex-layout.row#info-tienda-distribuidores3-EX":{
+  "children": [
+    "image#imgiconotienda",
+    "flex-layout.col#Distr-info-3-ex"
+  ],
+  "props":{
+    "blockClass": "info-Distri-Principal"
+  }
+},
+"flex-layout.col#Distr-info-3-ex":{
+  "children": [
+    "rich-text#nombre-distribuindores-3-ex",
+    "rich-text#direccion-Distri-3-ex",
+    "rich-text#nciudad-Ditri-3-ex"
+  ],
+  "props":{
+    "blockClass": "parte1-info-Distri"
+  }
+},
+"rich-text#nombre-distribuindores-3-ex": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "LA CASA DEL PORTERO",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "nombreDistri"
+  }
+},
+"rich-text#direccion-Distri-3-ex": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text":  "CR 74  48  37  L  228 \n [2609041](#)",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "direccionDistri"
+  }
+},
+"rich-text#nciudad-Ditri-3-ex": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "MEDELLIN",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "ciudadDistri"
+  }
+},
+
+//---------------------------------------------ver mas
+"link#PRE-verDistribuidores": {
+  "props": {
+    "href": "/distribuidores",
+    "label": "CARGAR MAS TIENDAS",
+    "blockClass": "boton-DISTRI"
+  }
+}
+}

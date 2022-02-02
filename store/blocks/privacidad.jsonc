@@ -1,0 +1,60 @@
+{
+    "store.custom#privacidad": {
+      "blocks": [
+        "info-card#bannerFaqsM",
+        "info-card#bannerFaqs",
+        "flex-layout.row#PRIVACIDAD",
+        "flex-layout.row#priv"
+      ]
+    },
+  
+    "flex-layout.row#priv": {
+      "children": [
+        "flex-layout.col#text-faqs1",
+        "flex-layout.col#text-privacidad"
+      ],
+      "props":{
+        "blockClass": "FaqsColumn"
+      }
+    },
+
+    "flex-layout.col#text-privacidad": {
+      "children": [
+        "rich-text#privacidad"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },
+    "flex-layout.row#PRIVACIDAD":{
+        "children": [
+          "rich-text#TITULO-PRIVACIDAD"
+        ],
+        "props":{
+          "blockClass": "BannerDosMosaicox4-ESTATICA"
+        }
+      },
+
+    "rich-text#TITULO-PRIVACIDAD": {
+      "props": {
+        "text":
+        " [POLÍTICAS DE PRIVACIDAD](#)\n Saeta",
+        "blockClass": "textoquienM"
+      }
+    },
+    "rich-text#privacidad": {
+      "props": {
+        "text": 
+          "**Política Privacidad:**\n POLÍTICAS DE PRIVACIDAD SAETA\n **NOMBRE O RAZÓN SOCIAL Y DATOS DE CONTACTO DEL RESPONSABLE DEL TRATAMIENTO.**\n **Saeta International Sports Wear SAS**. identificada con NIT: 860.520.782–2, quien obra como responsable y/o encargado del tratamiento de datos personales, atenderá todas las PQRs, CONSULTAS y RECLAMOS que formule el titular del dato en ejercicio de los derechos contemplados en la Ley vigente aplicable en la República de Colombia y en nuestra política de tratamiento de datos personales, la cual podrá consultar aquí. Para tales efectos, el titular del dato personal o quien ejerza su representación podrá enviar su petición, queja y/o reclamo al correo electrónico webmaster@saetasport..com\n Recolección de información personal:\n En saetasport.com en adelante ‘sitio’, solicitamos información de nuestros clientes\n para mejorar la experiencia y la comunicación de productos, servicios y actividades\n comerciales. Con tal fin, recolectamos datos como su nombre, correo electrónico y\n dirección, que son proporcionados por usted cuando se registra en nuestro sitio o\n cuando realiza un pedido. Por seguridad, la información sobre sus medios de pagos\n no es tratada o almacenada directamente por nosotros, para mantener la privacidad\n de la misma, la información es tratada únicamente entre usted y nuestro proveedor\n del sistema de pagos electrónicos Mercado Pago.\n Al utilizar el sitio saetasport.com, usted está aceptando las políticas que aquí se\n enuncian.\n Utilización de información personal:\n En saetasport.com podemos utilizar la información recolectada en el sitio para\n procesar y completar sus solicitudes y sus pedidos. También usamos las direcciones\n de correo electrónico en varios lugares dentro del sitio, para poder enviar\n comunicaciones por correo electrónico relacionados con su solicitud o su pedido.\n Además, el sitio mantiene un registro de sus compras y cualquier otra información\n que nos permita mejorar y personalizar su experiencia de compra. También\n monitoreamos el sitio para verificar los patrones de tráfico con el fin de mejorar su\n diseño y los productos y servicios que ofrecemos.\n A través de la información que nos proporciona, podremos cumplir con la finalidad\n de construir una mejor comunicación sobre nuestros productos, eventos, actividades\n comerciales o personalización de su experiencia de compra en nuestro sitio. Además,\n nos permite cumplir con los fines que se encuentran dispuestos dentro de nuestra\n política de tratamiento de datos.\n \n Seguridad:\n La información personal que es recibida por saetasport.com, se encuentra protegida\n de cualquier acceso, tratamiento y/o divulgación que no hayan sido autorizados.\n Esta protección es brindada a través de servidores y protocolos internos de seguridad\n aplicables a su transferencia, transmisión y en general a todas las actividades\n relativas al tratamiento establecido en la Política de Uso de Datos Personales y\n Administración de Bases de Datos de SAETA.\n Adicionalmente, comprar en saetasport.com es 100% seguro. Nuestra plataforma\n tecnológica de comercio electrónico y nuestro aliado de pagos Mercado Pago cuentan\n con la certificación PCI DSS, para el manejo seguro de la información de los\n medios de pago habilitados en nuestra plataforma.\n Le recomendamos consultar las políticas y condiciones de Mercado Pago en la web\n https://www.mercadopago.com.co/ayuda/por-que-es-seguro_193 y utilizar los modos seguros de sus navegadores y programas\n de seguridad de internet.\n Cookies:\n Las cookies son pequeños archivos de datos que los portales web\n como www.saetasport.com, guardan en su buscador y opcionalmente en el disco\n duro. Las cookies nos permiten ‘recordar’ la información sobre sus preferencias y\n sesión, y a usted le permite desplazarse dentro de las áreas de nuestro portal web\n sin volver a introducir sus datos. Esto hace posible crear una experiencia de\n compras más personalizada y cómoda.\n saetasport.com usa un tercero para colocar cookies en su computador, para recopilar\n información que no sea personal e identificable. A pesar de que las cookies\n contienen un número único de usuario, no recopilan ni guardan ninguna información\n personal identificable. Aunque usted puede configurar su navegador de Internet para\n que no acepte cookies, estas son necesarias para poder ver, crear una cuenta, o\n hacer compras por medio del portal de saetasport.com.\n Tecnología Clicstream:\n El buscador de Internet recoge automáticamente información de la página web que\n el usuario consultó antes de visitar saetasport.com, el navegador que utilizó y\n cualquier término de búsqueda que haya ingresado en nuestro portal, entre otras\n cosas. Nuestro portal también podrá usar otras tecnologías para rastrear las páginas\n que visitan nuestros clientes para garantizarles una mejor y más segura experiencia\n de compra y para ayudarnos a entender cómo los visitantes usan nuestro portal.\n Usted Puede Elegir:\n Dejar de recibir comunicaciones comerciales por e-mail, correo directo, teléfono y\n móvil. Actualizar y corregir su información personal.\n Impedimento de uso:\n Comercializadora SAETA puede, a su exclusivo criterio, cancelar su cuenta o impedir\n que utilice el portal de saetasport.com en cualquier momento conforme a lo\n establecido en los términos y condiciones que puede consultar en\n www.saetasport.com.\n Responsabilidad Del Usuario:\n Al ingresar a este portal, usted acepta no utilizar ningún dispositivo, software, rutina\n ni datos para obstruir o intentar obstruir el funcionamiento correcto del portal\n saetasport.com o toda actividad realizada en este portal. Además, acepta no utilizar\n ni intentar utilizar ningún motor, software, herramienta, agente, datos u otro dispositivo\n o mecanismo (incluidos, entre otros, exploradores, arañas, robots, personajes digitales\n o agentes inteligentes) para navegar o buscar en el portal de SAETA que no sea\n el motor de búsqueda o los agentes de búsqueda brindados por SAETA o los\n exploradores disponibles.\n Modificaciones a la política de privacidad:\n La presente política es susceptible de ser actualizada, por tal motivo recomendamos\n a todos los usuarios a consultar periódicamente en saetasport.com a fin de enterarse\n cómo se está protegiendo su información. En todo caso usted siempre podrá\n consultar y aceptar esta política antes de formalizar sus pedidos a través de nuestro\n sitio. https://www.saetasport.com/politica-de-datos",
+        "blockClass": "textostilo"
+      }
+    }
+
+    
+
+
+
+  }

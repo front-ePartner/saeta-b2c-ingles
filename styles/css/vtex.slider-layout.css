@@ -1,0 +1,450 @@
+.imageElement{
+    max-width: inherit;
+}
+.sliderLayoutContainer--carousel1{
+  margin: 0 0 50px 0;
+}
+.vtex-button__label{
+  display: none !important;
+}
+.sliderLayoutContainer--carousel{
+  background: #f1f1f1;
+  padding-bottom: 30px;
+}
+/*.sliderLayoutContainer--Cmarca{
+  margin: -135px 100px 40px 100px;
+  background: white;
+  width: 85%;
+  border-radius: 10px;
+  overflow: hidden;
+}*/
+.sliderLayoutContainer--Cmarca {
+  margin: -130px 0px 40px 0px;
+  background: transparent;
+  width: 100%;
+  background: white;
+  overflow: hidden;
+}
+.sliderTrackContainer--Cmarca{
+  padding: 22px 104px 22px 0;
+}
+
+.slide--Cmarca--visible {
+  transform: translateX(-79px);
+  width: 3.56667%!important;
+}
+.sliderArrowsContainer--Cmarca{
+  top: 120px; 
+  background-color: black;
+}
+.caretIcon--Cmarca{
+  color: #1a0888;
+  width: 60px;
+  height: 60px;
+}
+.sliderLeftArrow--Cmarca{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.slide--bannersecun{
+  margin: 35px 0 20px 0;
+}
+.sliderLeftArrow--mediosP .caretIcon--mediosP{
+  margin: 0 0 0 -12px;
+  width: 15px;
+}
+.sliderRightArrow--mediosP .caretIcon--mediosP{
+  margin: 0 -25px 0 0px;
+  width: 15px;
+}
+.slide--mediosP {
+  max-width: 500px;
+}
+.sliderRightArrow--Cmarca::before{
+  content: "";
+  opacity: 0.7;
+  width: 146%;
+  background: white;
+  height: 321px;
+  z-index: -99999999;
+  background-size: 100%;
+  position: absolute;
+}
+.sliderLeftArrow--Cmarca::before{
+  content: "";
+  opacity: 0.7;
+  width: 146%;
+  background: white;
+  height: 321px;
+  z-index: -99999999;
+  background-size: 100%;
+  position: absolute;
+}
+.sliderLeftArrow--Cmarca{
+  z-index: 1;
+}
+.sliderRightArrow--Cmarca{
+  z-index: 1;
+}
+/*
+.slide--hidden{
+  background: black;
+  z-index: 99999;
+  opacity: 0.5;
+}*/
+.caretIcon--Cmarca::before{
+  content: "";
+  width: auto;
+  height: 100%;
+  position: absolute;
+}
+.sliderLayoutContainer--carouselMobile{
+  display: none;
+}
+.sliderLayoutContainer--SecciEspecDescriG {
+  padding: 0 100px;
+}
+.sliderArrows--carousel-agendamiento {
+  visibility: hidden;
+}
+
+.sliderRightArrow--carousel-agendamiento::after {
+  content: "Siguiente";
+  visibility: initial;
+  background: #3f3f3f;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: -800%;
+  z-index: 999;
+  border-radius: 7px;
+}
+.sliderLeftArrow--carousel-agendamiento::after {
+  content: "Anterior";
+  visibility: initial;
+  background: #3f3f3f;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: -800%;
+  z-index: 999;
+  border-radius: 7px;
+}
+.sliderLeftArrow--carousel-agendamiento {
+  visibility: hidden;
+}
+.paginationDotsContainer--carouselBannerpri {
+  top: 21%;
+  left: 11%;
+  right: unset;
+}
+.paginationDot--carouselBannerpri--isActive {
+  background-color: #FBCE2F;
+  width: 60px !important;
+  border-radius: 14px;
+}
+.sliderLayoutContainer--cate {
+  padding: 70px 100px 80px;
+  margin: 0 0 55px;
+  background: white;
+}
+.paginationDot--cate--isActive {
+  background: #000131;
+}
+.paginationDotsContainer--Slider-Mosaico {
+  position: absolute;
+  top: 75%;
+  left: -86%;
+}
+.paginationDot--Slider-Mosaico.paginationDot--isActive {
+  background-color: #fbce2f;
+  width: 77px !important;
+  border-radius: 10px;
+}
+.slideChildrenContainer--Slider-Mosaico {
+  padding: 6% 0px 10%;
+}
+.caretIcon--Slider-Mosaico {visibility: hidden;}
+.sliderRightArrow--Slider-Mosaico {
+    background: url(https://saetasport.vteximg.com.br/arquivos/flecha-der-negra-mini.png) !important;
+    background-size: 100% !important;
+    width: 50px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.sliderLeftArrow--Slider-Mosaico {
+    background: url(https://saetasport.vteximg.com.br/arquivos/flecha-izq-blanca-grande.png) !important;
+    background-size: 100% !important;
+    width: 50px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    z-index: 9;
+}
+.sliderArrows--Slider-Mosaico {
+    width: 50px !important;
+}
+.sliderLayoutContainer--regalo-mobile {
+  display: none;
+}
+.sliderLayoutContainer--rValor-mobile {
+  display: none;
+}
+.sliderLeftArrow--SecciEspecDescriG::after {
+  content: "";
+  background: url(https://saetasport.vteximg.com.br/arquivos/flecha-izq-negra-grande.png)no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 50px;
+  height: 62px;
+  margin-top: 0px;
+  top: 0;
+  transition: all 40ms;
+  margin-right: 5px;
+  position: absolute;
+  left: 10px;
+}
+.caretIcon--SecciEspecDescriG {
+  opacity: 0;
+}
+.sliderRightArrow--SecciEspecDescriG::after {
+      content: "";
+  background: url(https://saetasport.vteximg.com.br/arquivos/flecha-der-azul-grande.png)no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 50px;
+  height: 62px;
+  margin-top: 0px;
+  top: 0;
+  transition: all 40ms;
+  margin-right: 5px;
+  position: absolute;
+  left: -40px;
+}
+.sliderLeftArrow--SecciEspecDescriG {
+  top: 1%;
+  left: 7%;
+}
+
+.sliderRightArrow--SecciEspecDescriG {
+  top: 1%;
+  right: 7%;
+}
+.paginationDotsContainer--cate {
+  padding: 0 0 34px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .sliderLayoutContainer--carouselMobile{
+    display: block !important;
+  }
+  .sliderLayoutContainer--carousel {
+    display: none;
+  }
+  .sliderLayoutContainer--Cmarca {
+    margin: -88px auto 40px auto;
+    width: 91%;
+    padding: 0 0px;
+    border-radius: 5px;
+  }
+  .sliderTrackContainer--Cmarca {
+    padding: 22px 0;
+  }
+  .slide--Cmarca--visible {
+    transform: translateX(0px) !important;
+    width: 3.1%!important;
+  }
+  .slide--Cmarca {
+    opacity: 1;
+    padding: 0px 10px;
+    background-color: transparent;
+  }
+  .slideChildrenContainer--Cmarca{
+    opacity: 0.9;
+  }
+  .sliderLayoutContainer--SecciEspecDescriG {
+     padding: 0 10px !important; 
+}
+.sliderLayoutContainer--carouselBannerpri {
+  top: -65px;
+  margin-bottom: -65px;
+}
+.sliderLayoutContainer--cate {
+  padding: 0 0 0 0;
+}
+.sliderLayoutContainer--cate {
+  padding: 10px 10px 40px;
+  margin: 0 auto;
+}
+.slideChildrenContainer--Slider-Mosaico {
+  padding: 0;
+}
+.slide--Slider-Mosaico--visible {
+  padding: 72px 0;
+}
+.paginationDotsContainer--Slider-Mosaico {
+  left: -44%;
+}
+.sliderLayoutContainer--regalo-mobile {
+  display: block;
+}
+.sliderLayoutContainer--rValor-mobile {
+  display: block;
+}
+.sliderLayoutContainer--SecciEspecDescriG {
+  display: none;
+}
+.slide--regalo-mobile--visible {
+  width: 19% !important;
+  left: -11px;
+}
+.slide--regalo-mobile--hidden {
+  left: -19px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+/* * New styles About us Page */
+/* !Purpose slider */
+.paginationDot--Purpose__slider--isActive {
+  background-color: #252525;
+}
+.slide--Purpose__slider--hidden {
+  background: transparent;
+}
+/* !News slider */
+.slide--News__slider--hidden {
+  background: transparent;
+}
+.slideChildrenContainer--News__slider {
+  padding: 10px;
+}
+.slideChildrenContainer--Slider__images-container {
+  margin: 40px 0;
+}
+
+/* !Slider bottom */
+.slide--Slider__images-container--hidden {
+  background: transparent;
+}
+/* !Tabs layout  */
+.slideChildrenContainer--History__slider :global(.vtex-tab-layout-0-x-listItem) {
+  margin: 0 !important;
+  width: auto;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.slideChildrenContainer--History__slider :global(.vtex-tab-layout-0-x-listItemActive) {
+  margin: 0 !important;
+  border-color: #ffc100;
+}
+.slideChildrenContainer--History__slider :global(.vtex-tab-layout-0-x-listItem) :global(.vtex-button__label) {
+  padding: 9px;
+  color: #000131 !important;
+  font-weight: 600;
+  font-family: 'Anybody';
+  font-size: 15px !important;
+}
+.sliderLeftArrow--History__slider {
+  left: -12px;
+}
+.sliderRightArrow--History__slider {
+  right: -12px;
+}
+.slide--History__slider--hidden {
+  background-color: transparent;
+}
+.sliderTrack--History__slider {
+  left: 8%;
+  width: 365% !important;
+}
+.caretIcon--History__slider {
+  padding: 10px;
+  width: 12px;
+  height: 12px;
+}
+.sliderLeftArrow--History__slider {
+  left: -7px;
+  background-color: white !important;
+  border-radius: 50%;
+}
+.sliderRightArrow--History__slider {
+  right: -7px;
+  background-color: white !important;
+  border-radius: 50%;
+}
+
+@media (min-width: 600px) {
+  /* !New Section */
+  .slideChildrenContainer--News__slider {
+    padding: 10px 40px;
+  }
+  /* !Slider images sections */
+  .sliderTrack--Slider__images-container {
+    width: 700% !important;
+  }
+}
+
+@media (min-width: 1030px) {
+  /* !News Section */
+  .slideChildrenContainer--News__slider {
+    padding: 10px;
+  }
+  /* !Slider images sections */
+  .sliderTrack--Slider__images-container {
+    width: 300% !important;
+  }
+  .slideChildrenContainer--Slider__images-container {
+    margin: 10px 5px;
+  }
+  /* !Tabs Layout Section */
+  .sliderTrack--History__slider {
+    left: 0%;
+    width: 300% !important;
+  }
+}
+
+@media (min-width: 1700px) {
+  /* !News Section */
+  .sliderTrackContainer--News__slider {
+    padding: 0 20px;
+  }
+  /* !Images Section */
+  .sliderTrackContainer--Slider__images-container {
+    padding: 0 50px;
+  }
+}
+
+/* * //New styles About us Page */

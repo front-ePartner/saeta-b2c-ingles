@@ -1,0 +1,22 @@
+.formSubmitButton {
+    z-index: 1;
+}
+.formSubmitButton :global(.vtex-button__label) {
+    background: #3f3f3f;
+    right: 0;
+    position: relative;
+    display: block;
+    /* left: 35%; */
+    justify-content: center;
+    margin: 0 auto;
+    padding: 24px;
+}
+.formSubmitContainer {
+    z-index: 1;
+    margin: 21px auto;
+}
+.formSubmitButton :global(.vtex-button) {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}

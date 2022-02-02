@@ -1,0 +1,1539 @@
+{
+  "store.home": {
+    "blocks": [
+      /*WIREFRAME*/
+      "slider-layout#text-test",
+      "info-card#bannerUniformes",
+      "slider-layout#bannermarcas",
+      "link#PRE-VITRINA",
+      "rich-text#title1",
+      "shelf#demo1",
+      "shelf#demo1M",
+      "flex-layout.col#footer6",
+      "slider-layout#slider-mosaico",      
+     /* "rich-text#title2",
+      "shelf#demo2",*/
+      "rich-text#regalo",
+      "flex-layout.row#SecciRegalo",
+      "slider-layout#SLIDERMOBILE",
+      "flex-layout.row#bannerConVitrina",
+      "flex-layout.row#bannerConVitrinaM",
+      "shelf#demo3",
+      "shelf#demo3M",
+      "flex-layout.row#Secci",
+      "flex-layout.row#valor",
+      "slider-layout#SLIDERValor",
+
+
+      "flex-layout.row#SecciPOP"
+      
+      /*Extras*/
+      /*
+      "rich-text#title3",
+      "tab-layout#home",
+      "flex-layout.row#nuevoGen",
+      "tab-layout#chat",
+      "flex-layout.row#home2",
+      "flex-layout.row#home2Mobile"
+      */
+    ]
+  },
+  //Slider Principal
+    "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay":{
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carouselBannerpri",
+      "showPaginationDots":"always"
+    },
+    "children": ["info-card#banner1", "info-card#banner2", "info-card#banner3", "info-card#banner4"]
+    },
+    "info-card#banner1":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://saetasport.vteximg.com.br/arquivos/banner-principal1.png",
+        "callToActionText": "See all the store",
+        "isFullModeStyle": true,
+        "callToActionUrl": "#",
+        "textPosition": "left",
+        "textAlignment": "left",
+        "headline": "Saeta Power",
+        "callToActionMode": "link",
+        "blockClass":"Mio"
+      }
+    },
+    "info-card#banner2":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://saetasport.vteximg.com.br/arquivos/banner-principal2.jpg",
+        "callToActionText": "See all the store",
+        "isFullModeStyle": true,
+        "callToActionUrl": "#",
+        "textPosition": "left",
+        "textAlignment": "left",
+        "headline": "Saeta Women Power",
+        
+        "callToActionMode": "link",
+        "blockClass":"Mio"
+      }
+    },
+    "info-card#banner3":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://saetasport.vteximg.com.br/arquivos/banner-principal1.png",
+        "callToActionText": "See all the store",
+        "isFullModeStyle": true,
+        "callToActionUrl": "#",
+        "textPosition": "left",
+        "textAlignment": "left",        
+        "headline": "Saeta Power",
+        "callToActionMode": "link",
+        "blockClass":"Mio"
+      }
+    },
+    "info-card#banner4":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://saetasport.vteximg.com.br/arquivos/banner-principal2.jpg",
+        "callToActionText": "See all the store",
+        "isFullModeStyle": true,
+        "callToActionUrl": "#",
+        "textPosition": "left",
+        "textAlignment": "left",
+        "headline": "Saeta Women Power",
+        
+        "callToActionMode": "link",
+        "blockClass":"Mio"
+      }
+    },
+
+    "info-card#bannerUniformes":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://saetasport.vteximg.com.br/arquivos/Banner-camisetas.png",
+        "callToActionText": "Customize your Team",
+        "isFullModeStyle": false,
+        "callToActionUrl": "/camiseta?map=ft",
+        "textPosition": "left",
+        "textAlignment": "left",
+        "headline": "New Soccer Uniforms \n ////",
+        "subhead": "Boost your team's performance and motivation",
+        "callToActionMode": "link",
+        "blockClass":"bannerfull"
+      }
+    },
+
+
+
+    //Slider Marcas
+    "slider-layout#bannermarcas": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 4,
+          "phone": 2
+        },
+        "autoplay":{
+          "timeout": 3500,
+          "stopOnHover": true
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "blockClass": "cate",
+        "showPaginationDots": "always"
+      },
+      "children": [
+        "info-card#marca1", "info-card#marca2","info-card#marca3", 
+        "info-card#marca4","info-card#marca5", "info-card#marca6",
+        "info-card#marca7", "info-card#marca8"
+      ] 
+      },
+      "info-card#marca1":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-cat1.png",
+          "callToActionUrl": "/camiseta?map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Shirts",
+          "callToActionMode": "link",
+          "blockClass":"CATEGORIASBANNERS"
+        }
+      },
+      "info-card#marca2":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-cat2.png",
+          "callToActionUrl": "/pantaloneta?map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Shorts",
+          "callToActionMode": "link",
+          "blockClass":"CATEGORIASBANNERS"
+        }
+      },
+      "info-card#marca3":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-cat3.png",
+          "callToActionUrl": "/tula?map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Drawstring",
+          "callToActionMode": "link",
+          "blockClass":"CATEGORIASBANNERS"
+        }
+      },
+      "info-card#marca4":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-cat4.png",
+          "callToActionUrl": "/chaqueta?map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Jackets",
+          "callToActionMode": "link",
+          "blockClass":"CATEGORIASBANNERS"
+        }
+      },
+      "info-card#marca5":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-cat1.png",
+          "callToActionUrl": "/camiseta?map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Shirts",
+          "callToActionMode": "link",
+          "blockClass":"CATEGORIASBANNERS"
+        }
+      },
+      "info-card#marca6":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-cat2.png",
+          "callToActionUrl": "/pantaloneta?map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Shorts",
+          "callToActionMode": "link",
+          "blockClass":"CATEGORIASBANNERS"
+        }
+      },
+      "info-card#marca7":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-cat3.png",
+          "callToActionUrl": "/tula?map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Drawstring",
+          "callToActionMode": "link",
+          "blockClass":"CATEGORIASBANNERS"
+        }
+      },
+      "info-card#marca8":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-cat4.png",
+          "callToActionUrl": "/chaqueta?map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Jackets",
+          "callToActionMode": "link",
+          "blockClass":"CATEGORIASBANNERS"
+        }
+      },
+      
+      
+
+
+
+
+    //Titulo1
+    "rich-text#title1": {
+      "props": {
+        "text": "# The Latest #",
+        "textAlignment": "CENTER",
+        "font": "t-heading-3",
+        "textPosition": "CENTER",
+        "blockClass": "textosPrinc"
+      }
+    },
+    "rich-text#title2": {
+      "props": {
+        "text": "# PRODUCTOS MÁS BUSCADOS #",
+        "textAlignment": "CENTER",
+        "font": "t-heading-3",
+        "textPosition": "CENTER",
+        "blockClass": "textosPrinc"
+      }
+    },
+    "rich-text#title3": {
+      "props": {
+        "text": "# TERAPIA RESPIRATORIA #",
+        "textAlignment": "CENTER",
+        "font": "t-heading-3",
+        "textPosition": "CENTER",
+        "blockClass": "textosPrinc"
+      }
+    },
+      //vitrinas productos
+      "shelf#demo1": {
+        "props": {
+           "collection": 142,
+           "blockClass":"VitrinaDesk",
+            "productList": {
+                "titleText": "Nuestras Marcas",
+                "itemsPerPage": 4,
+                "maxItems": 10,
+                "minItemsPerPage": 2,
+                "scroll": "BY_PAGE",
+                "arrows": "true",
+                "blockClass": "textosSec",
+                "showPaginationDots": "never"
+            },
+            "autoplay":{
+              "timeout": 3000,
+              "stopOnHover": true
+            },
+            "slideTransition": { 
+              "speed": 100, 
+              "delay": 0 
+            }
+        },
+        "blocks": ["product-summary.shelf"]
+      },
+      "shelf#demo1M": {
+        "props": {
+           "collection": 142,
+           "blockClass":"VitrinaMobile",
+            "productList": {
+                "titleText": "Nuestras Marcas",
+                "itemsPerPage": 4,
+                "maxItems": 10,
+                "minItemsPerPage": 2,
+                "scroll": "BY_PAGE",
+                "arrows": "true",
+                "blockClass": "textosSec",
+                "showPaginationDots": "never"
+            },
+            "autoplay":{
+              "timeout": 3000,
+              "stopOnHover": true
+            },
+            "slideTransition": { "speed": 100, "delay": 0 }
+        },
+        "blocks": ["product-summary.shelf#mobile"]
+      },
+      "shelf#demo2": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "collection": 138,
+          "productList": {
+           "maxItems": 10,
+           "itemsPerPage": 4,
+           "minItemsPerPage": 2,
+           "scroll": "BY_PAGE",
+           "arrows": "true",
+           "blockClass": "vitrinaProducto",
+           "showPaginationDots": "never"
+          }
+        }
+      },
+      "shelf#demo3": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "slideTransition": { "speed": 100, "delay": 0 },
+         "collection": 143,
+         "blockClass":"VitrinaDesk",
+          "productList": {
+           "maxItems": 10,
+           "itemsPerPage": 4,
+           "minItemsPerPage": 2,
+           "scroll": "BY_PAGE",
+           "arrows": "true",
+           "blockClass": "vitrinaProducto",
+           "showPaginationDots": "never"
+          }
+        }
+      },
+      "shelf#demo3M": {
+        "blocks": ["product-summary.shelf#mobile"],
+        "props": {
+          "slideTransition": { "speed": 100, "delay": 0 },
+          "blockClass":"VitrinaMobile",
+          "collection": 143,
+          "productList": {
+           "maxItems": 10,
+           "itemsPerPage": 4,
+           "minItemsPerPage": 2,
+           "scroll": "BY_PAGE",
+           "arrows": "true",
+           "blockClass": "vitrinaProducto",
+           "showPaginationDots": "never"
+          }
+        }
+      },
+      "shelf#demo4": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+       /*   "collection": 139,*/
+          "productList": {
+           "maxItems": 10,
+           "itemsPerPage": 4,
+           "minItemsPerPage": 2,
+           "scroll": "BY_PAGE",
+           "arrows": "true",
+           "blockClass": "vitrinaProducto",
+           "showPaginationDots": "never"
+          }
+        }
+      },
+      "shelf#demo5": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+         /* "collection": 140, */
+          "productList": {
+           "maxItems": 10,
+           "itemsPerPage": 4,
+           "minItemsPerPage": 2,
+           "scroll": "BY_PAGE",
+           "arrows": "true",
+           "blockClass": "vitrinaProducto",
+           "showPaginationDots": "never"
+          }
+        }
+      },
+      "shelf#demo6": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+         /* "collection": 141, */
+          "productList": {
+           "maxItems": 10,
+           "itemsPerPage": 4,
+           "minItemsPerPage": 2,
+           "scroll": "BY_PAGE",
+           "arrows": "true",
+           "blockClass": "vitrinaProducto",
+           "showPaginationDots": "never"
+          }
+        }
+      },
+      //Banner Dos
+ 
+
+      //Tap producto
+        "tab-layout#home": {
+        "children": [
+          "tab-list#homeBANNERS",
+          "tab-list#home",
+          "tab-content#home"
+        ],
+          "props": {
+            "blockClass": "home",
+            "defaultActiveTabId": "none"
+          }
+        },
+        "tab-list#home":{
+          "children":[
+            "tab-list.item#home2",
+            "tab-list.item#home3",
+            "tab-list.item#home4"
+          ],
+          "props":{
+            "blockClass": "tabbersHome"
+          }
+        },
+        "tab-list.item#home2":{
+          "props":{
+            "tabId": "home2",
+            "label": "SILLAS DE RUEDAS"
+          }
+        },
+        "tab-list.item#home3":{
+          "props":{
+            "tabId": "home3",
+            "label": "TERAPIA EN EL HOGAR"
+          }
+        },
+        "tab-list.item#home4":{
+          "props":{
+            "tabId": "home4",
+            "label": "MOVILIDAD"
+          }
+        },
+        "tab-content#home":{
+          "children":[
+            "tab-content.item#home2",
+            "tab-content.item#home3",
+            "tab-content.item#home4"
+          ]
+        },
+        "tab-content.item#home2": {
+          "children": [
+            "info-card#tap2",
+            "shelf#demo4"
+          ],
+          "props": {
+            "tabId": "home2",
+            "blockClass": "tabbersVitrinaT"
+          }
+        },
+        "tab-content.item#home3": {
+          "children": [
+            "info-card#tap3",
+            "shelf#demo5"
+          ],
+          "props": {
+            "tabId": "home3",
+            "blockClass": "tabbersVitrinaT"
+          }
+        },
+        "tab-content.item#home4": {
+          "children": [
+            "info-card#tap4",
+            "shelf#demo6"
+          ],
+          "props": {
+            "tabId": "home4", 
+            "blockClass": "tabbersVitrinaT"
+          }
+        },
+        "info-card#tap2":{
+          "props":{
+            "id":"tap",
+            "imageUrl":"https://impormedical.vteximg.com.br/arquivos/SillasRuedas.png",
+            "headline":"SILLAS DE RUEDAS",
+            "isFullModeStyle": true,
+            "callToActionUrl": "/botellas",
+            "textPosition": "center",
+            "textAlignment": "center",
+            "blockClass":"segundo"
+          }
+        },
+        "info-card#tap3":{
+          "props":{
+            "id":"tap",
+            "imageUrl":"https://impormedical.vteximg.com.br/arquivos/Bannerterapia.png",
+            "headline":"TERAPIA EN EL HOGAR",
+            "isFullModeStyle": true,
+            "callToActionUrl": "/hogar",
+            "textPosition": "center",
+            "textAlignment": "center",
+            "blockClass":"segundo"
+          }
+        },
+        "info-card#tap4":{
+          "props":{
+            "id":"tap",
+            "imageUrl":"https://impormedical.vteximg.com.br/arquivos/BannerMovilidad.png",
+            "headline":"MOVILIDAD",
+            "isFullModeStyle": true,
+            "callToActionUrl": "/infantil",
+            "textPosition": "center",
+            "textAlignment": "center",
+            "blockClass":"segundo"
+          }
+        },
+      //Banner Dos
+      "flex-layout.row#home2":{
+        "children": [
+          "flex-layout.col#mosaico1",
+          "flex-layout.col#mosaico2"
+        ],
+        "props":{
+          "blockClass": "mosaico"
+        }
+      },
+      "flex-layout.col#mosaico1":{
+        "children": [
+          "flex-layout.row#superior",
+          "flex-layout.row#inferior"
+        ],
+        "props":{
+          "blockClass": "imagedob"
+        }
+      },
+      "flex-layout.row#superior":{
+        "children": [
+          "flex-layout.col#derecha",
+          "flex-layout.col#izquierda"
+        ],
+        "props":{
+          "blockClass": "imageC"
+        }
+      },
+      "flex-layout.row#inferior":{
+        "children": [
+          "flex-layout.col#derecha2",
+          "flex-layout.col#izquierda1"
+        ],
+        "props":{
+          "blockClass": "imageCi"
+        }
+      },
+      "flex-layout.col#derecha":{
+        "children":[
+          "image#mosaicoCom1"
+        ]
+      },
+      "flex-layout.col#izquierda":{
+        "children":[
+          "image#mosaicoCom2"
+        ]
+      },
+      "flex-layout.col#derecha2":{
+        "children":[
+          "image#mosaicoCom3"
+        ]
+      },
+      "flex-layout.col#izquierda1":{
+        "children":[
+          "image#mosaicoCom4"
+        ]
+      },
+      "image#mosaicoCom1":{
+        "props":{
+          "src":"https://impormedical.vteximg.com.br/arquivos/BannerMovilidad.png",
+          "link":{
+            "url":"#"
+          },
+          "title": "PARA EL CUIDADO DEL CORAZÓN",
+          "blockClass": ["imagecomplG","imagenMosaico1"]
+        }
+      },
+      "image#mosaicoCom2":{
+        "props":{
+          "src":"https://impormedical.vteximg.com.br/arquivos/bannersec2.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass": ["imagecomplP","imagenMosaico2"]
+        }
+      },
+      "image#mosaicoCom3":{
+        "props":{
+          "src":"https://impormedical.vteximg.com.br/arquivos/bannersec3.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass": ["imagecomplP", "imagenMosaico3"]
+        }
+      },
+      "image#mosaicoCom4":{
+        "props":{
+          "src":"https://impormedical.vteximg.com.br/arquivos/Bannerterapia.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass": ["imagecomplG","imagenMosaico4"]
+        }
+      },
+      "flex-layout.col#mosaico2":{
+        "children": [
+          "image#mosaicoCom"
+        ],
+        "props":{
+          "blockClass": "imagesim"
+        }
+      },
+      "image#mosaicoCom":{
+        "props":{
+          "src":"https://impormedical.vteximg.com.br/arquivos/bannersec5.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass": ["imagecompl","bannerLateralDerecho"]
+        }
+      },
+
+  //Elementos en mobile 
+       //Slider Principal
+    "slider-layout#text-testMobile": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carouselMobile",
+        "showPaginationDots":"false"
+      },
+      "children": ["info-card#banner1Mobile", "info-card#banner2Mobile", "info-card#banner3Mobile", "info-card#banner4Mobile"]
+      },
+      "info-card#banner1Mobile":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannermobile.png",
+          "callToActionText": "Ver más productos",
+          "callToActionUrl": "#",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "link",
+          "blockClass":"Mio"
+        }
+      },
+      "info-card#banner2Mobile":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannermobile.png",
+          "callToActionText": "Ver más productos",
+          "callToActionUrl": "#",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "link",
+          "blockClass":"Mio"
+        }
+      },
+      "info-card#banner3Mobile":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannermobile.png",
+          "callToActionText": "Ver más productos",
+          "callToActionUrl": "#",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "link",
+          "blockClass":"Mio"
+        }
+      },
+      "info-card#banner4Mobile":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannermobile.png",
+          "callToActionText": "Ver más productos",
+          "callToActionUrl": "#",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "link",
+          "blockClass":"Mio"
+        }
+      },
+      /*CHAT*/
+"tab-layout#chat": {
+  "children": [
+    "tab-content#chat",
+    "tab-list#chat"
+    
+  ],
+  "props": {
+    "blockClass": "chats",
+    "defaultActiveTabId": "chat1"
+  }
+},
+ "tab-list#chat": {
+     "children": [
+       "tab-list.item#chat1"
+     ]
+   },
+"tab-list.item#chat1": {
+  "props": {
+    "tabId": "chat1",
+    "label": "TE AYUDAMOS CON TU COMPRA",
+    "defaultActiveTab": true
+  }
+},
+ "tab-content#chat": {
+     "children": [
+       "tab-content.item#chat1"
+     ]
+   },
+   "tab-content.item#chat1": {
+     "children": [
+      "rich-text#llamanos",
+      "rich-text#whatsapp",
+      "rich-text#chatea"
+     ],
+     "props": {
+       "tabId": "chat1",
+       "blockClass": "contenidoDeChat"
+     }
+   },
+   "rich-text#llamanos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Llámanos](#)",
+      "blockClass": "tabChat1"
+    }
+  },
+  "rich-text#whatsapp": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Comunicate por Whatsapp](#)",
+      "blockClass": "tabChat2"
+    }
+  },
+  "rich-text#chatea": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Chatea con nosotros](#)",
+      "blockClass": "tabChat3"
+    }
+  },
+      //banner mosaico Mobile
+      "flex-layout.row#home2Mobile":{
+        "children": [
+          "flex-layout.col#mosaico1Mobile",
+          "flex-layout.col#mosaico2"
+        ],
+        "props":{
+          "blockClass": "mosaicoMobile"
+        }
+      },
+      "flex-layout.col#mosaico1Mobile":{
+        "children": [
+          "image#mosaicoComMobile1",
+          "image#mosaicoComMobile2"
+        ],
+        "props":{
+          "blockClass": ["imagedob"]
+        }
+      },
+      "image#mosaicoComMobile1":{
+        "props":{
+          "src":"https://impormedical.vtexassets.com/arquivos/bannersec2.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass": ["imagecompl", "imagencomp1primera"]
+        }
+      },
+      "image#mosaicoComMobile2":{
+        "props":{
+          "src":"https://impormedical.vtexassets.com/arquivos/bannersec3.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass": ["imagecompl", "imagencomp1segunda"]
+        }
+      },
+      "info-card#bannerFullwidthDesk":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://picsum.photos/1278/491",
+          "callToActionText": "Ver más productos",
+          "callToActionUrl": "#",
+          "textPosition": "left",
+          "isFullModeStyle": true,
+          "textAlignment": "left",
+          "callToActionMode": "link",
+          "blockClass":"MioFull"
+        }
+      },
+      "info-card#bannerFullwidthMobile":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://picsum.photos/1278/491",
+          "callToActionText": "Boton",
+          "callToActionUrl": "#",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "link",
+          "blockClass":"MioFull"
+        }
+      },
+
+
+
+
+
+
+
+
+
+      //--------------------------------------------------Tap producto DEPARTAMENTOS DESPLEGABLES
+
+
+
+
+
+
+        "tab-list#homeBANNERS":{
+          "children":[
+            "tab-list.item#home2BANNER",
+            "tab-list.item#home3BANNER",
+            "tab-list.item#home4BANNER"
+          ],
+          "props":{
+            "blockClass": "tabbersHomeTABS"
+          }
+        },
+
+        "tab-list.item#home2BANNER":{
+          "props":{
+            "tabId": "home2",
+            "label": "DEPTO 1",
+            "blockClass": "tabbersHomeTABS"
+          }
+        },
+        "tab-list.item#home3BANNER":{
+          "props":{
+            "tabId": "home3",
+            "label": "DEPTO 2",
+            "blockClass": "tabbersHomeTABS"
+          }
+        },
+        "tab-list.item#home4BANNER":{
+          "props":{
+            "tabId": "home4",
+            "label": "DEPTO 3",
+            "blockClass": "tabbersHomeTABS"
+          }
+        },
+
+
+
+/*-------------------------------------------------------MOSAICO NUEVO*/
+"slider-layout#slider-mosaico": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "always",
+    "showPaginationDots": "always",
+    "blockClass": "Slider-Mosaico",
+    "fullWidth": true
+  },
+  "children": ["flex-layout.row#nuevoGen", "flex-layout.row#nuevoGen", "flex-layout.row#nuevoGen"]
+},
+
+"flex-layout.row#nuevoGen":{
+  "children": [
+    "info-card#bannerMosaico1",
+    "flex-layout.col#nuevoGen-der"
+  ],
+  "props":{
+    "blockClass": "nuevoMosaico50-50"
+  }
+},
+
+
+"flex-layout.col#nuevoGen-der":{
+  "children": [
+    "flex-layout.row#nuevoGen-der-1",
+    "flex-layout.row#nuevoGen-der-2"
+  ],
+  "props":{
+    "blockClass": "nuevoMosaico50-50-dere"
+  }
+},
+
+"flex-layout.row#nuevoGen-der-1":{
+  "children": [
+    "info-card#bannerMosaico2",
+    "info-card#bannerMosaico3"
+  ],
+  "props":{
+    "blockClass": "nuevoMosaico50-50-dere-1"
+  }
+},
+"flex-layout.row#nuevoGen-der-2":{
+  "children": [
+    "info-card#bannerMosaico4",
+    "info-card#bannerMosaico5"
+  ],
+  "props":{
+    "blockClass": "nuevoMosaico50-50-dere-2"
+  }
+},
+
+        "info-card#bannerMosaico1":{
+          "props":{
+            "id":"texting",
+            "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-mosaico-1.png",
+            "callToActionText": "See more Shoes",
+            "isFullModeStyle": true,
+            "callToActionUrl": "/accesorios/zapatos?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria",
+            "textPosition": "left",
+            "textAlignment": "left",
+            "headline": "Show Your Skills",
+            "callToActionMode": "link",
+            "width": "55%",
+            "blockClass":"bannerMosaico1"
+          }
+        },
+        "info-card#bannerMosaico2":{
+          "props":{
+            "id":"texting",
+            "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-mosaico-2.png",
+            "isFullModeStyle": true,
+            "blockClass":"newmosaico1"
+          }
+        },
+        "info-card#bannerMosaico3":{
+          "props":{
+            "id":"texting",
+            "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-mosaico-3.png",
+            "isFullModeStyle": true,
+            "blockClass":"newmosaico2"
+          }
+        },
+        "info-card#bannerMosaico4":{
+          "props":{
+            "id":"texting",
+            "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-mosaico-4.png",
+            "isFullModeStyle": true,
+            "blockClass":"newmosaico3"
+          }
+        },
+        "info-card#bannerMosaico5":{
+          "props":{
+            "id":"texting",
+            "imageUrl":"https://saetasport.vteximg.com.br/arquivos/slider-mosaico-5.png",
+            "isFullModeStyle": true,
+            "blockClass":"newmosaico4"
+          }
+        },
+
+
+
+ /*-----------------------------------------------------------------------------------------NEWS LETTERS*/
+ "flex-layout.row#Secci":{
+  "children": [
+     "flex-layout.col#formNews"   
+  ],
+  "props":{
+    "blockClass": "seccionNewletter"
+  }
+},
+
+"info-card#NewletterBaner":{
+  "props":{
+    "id":"texting",
+    "imageUrl":"https://saetasport.vteximg.com.br/arquivos/logosimbolo-colorfull-1.png",
+/*  "headline": "SUSCRIBETE A NUESTRO NEWS LETTER",*/
+    "isFullModeStyle": true,
+    "callToActionUrl": "#",
+    "textPosition": "left",
+    "textAlignment": "left",          
+    "callToActionMode": "link",
+    "blockClass":"bannernewws",
+    "width": "20%" 
+  
+  }
+},
+
+"flex-layout.col#formNews":{
+  "children": [
+    "rich-text#titleNewsLetter",
+    "form#NEWS-LETTER"
+  ],
+  "props":{
+    "blockClass": "nuevoMosaico50-50-dere",
+    "width": "75%" 
+  }
+},
+
+
+"rich-text#titleNewsLetter": {
+  "props": {
+    "text": "JOIN US AND RECEIVE \n [20% OFF](/#) ON YOUR FIRST PURCHASE",
+    "textAlignment": "left",
+    "font": "t-heading-3",
+    "textPosition": "left",
+    "blockClass": "textosnews"
+  }
+},
+
+
+
+
+
+
+//********************************************************************************BANNERS REGALO
+
+"flex-layout.row#SecciRegalo" :{
+  "children": [
+    
+    "flex-layout.row#SecciRegalo1"
+  ],
+  "props":{
+    "blockClass": "seccionRegalos"
+  }
+},
+"rich-text#regalo": {
+  "props": {
+    "text": "Season Must-Haves:",
+    "textAlignment": "left",
+    "font": "t-heading-3",
+    "textPosition": "left",
+    "blockClass": "textoregalos"
+  }
+},
+
+"flex-layout.row#SecciRegalo1":{
+  "children": [
+    "info-card#bannerRegaloElla",
+    "info-card#bannerRegaloEl",
+    "info-card#bannerRegaloEquipo"
+  ],
+  "props":{
+    "blockClass": "seccionRegalos"
+  }
+},
+
+"info-card#bannerRegaloElla":{
+  "props":{
+    "id":"texting",
+    "imageUrl":"https://saetasport.vteximg.com.br/arquivos/sec-regalo-ella.png",
+    "callToActionText": "For Her",
+    "isFullModeStyle": true,
+    "callToActionUrl": "/mujer",
+    "textPosition": "left",
+    "textAlignment": "left",
+    "callToActionMode": "link",
+    "blockClass":"bannersRegalo"
+  }
+},
+"info-card#bannerRegaloEl":{
+  "props":{
+    "id":"texting",
+    "imageUrl":"https://saetasport.vteximg.com.br/arquivos/sec-regalo-el.png",
+    "callToActionText": "For Him",
+    "isFullModeStyle": true,
+    "callToActionUrl": "/hombre",
+    "textPosition": "left",
+    "textAlignment": "left",
+    "callToActionMode": "link",
+    "blockClass":"bannersRegalo"
+  }
+},
+"info-card#bannerRegaloEquipo":{
+  "props":{
+    "id":"texting",
+    "imageUrl":"https://saetasport.vteximg.com.br/arquivos/sec-regalo-equipo.png",
+    "callToActionText": "Your Team",
+    "isFullModeStyle": true,
+    "callToActionUrl": "/uniformes",
+    "textPosition": "left",
+    "textAlignment": "left",
+    "callToActionMode": "link",
+    "blockClass":"bannersRegalo"
+  }
+},
+
+
+
+//********************************************************************************************************************************
+
+"flex-layout.row#bannerConVitrina":{
+  "children": [
+    "image#bannerConVitrinaRayoArriba",
+    "info-card#bannerConVitrinaPrincipal",
+    "image#bannerConVitrinaRayoAbajo"
+  ],
+  "props":{
+    "blockClass": "bannersconVitrina"
+  }
+},
+"flex-layout.row#bannerConVitrinaM":{
+  "children": [
+    "info-card#bannerConVitrinaPrincipalM",
+    "image#bannerConVitrinaRayoAbajo"
+  ],
+  "props":{
+    "blockClass": "bannersconVitrinaM"
+  }
+},
+
+
+"info-card#bannerConVitrinaPrincipal":{
+  "props":{
+    "id":"texting",
+    "imageUrl":"https://saetasport.vteximg.com.br/arquivos/departamento-iconos.png",
+    "headline": "WOMEN",
+    "subhead": "WOMEN",
+    "callToActionText": "Shop",
+    "isFullModeStyle": true,
+    "callToActionUrl": "/mujer",
+    "textPosition": "center",
+    "textAlignment": "center",
+    "callToActionMode": "link",
+    "blockClass":"bannersMujer"
+  }
+},
+"info-card#bannerConVitrinaPrincipalM":{
+  "props":{
+    "id":"texting",
+    "imageUrl":"https://saetasport.vteximg.com.br/arquivos/departamento-iconos-M.png",
+    "headline": "WOMEN",
+    "subhead": "WOMEN",
+    "callToActionText": "Shop",
+    "isFullModeStyle": true,
+    "callToActionUrl": "/mujer",
+    "textPosition": "center",
+    "textAlignment": "center",
+    "callToActionMode": "link",
+    "blockClass":"bannersMujer"
+  }
+},
+"image#bannerConVitrinaRayoArriba":{
+  "props":{
+    "src":"https://saetasport.vteximg.com.br/arquivos/departamento-iconos-2.png",
+    "link":{
+      "url":"#"
+    },
+    "blockClass": "bannersconVitrinaArriba"
+  }
+},
+"image#bannerConVitrinaRayoAbajo":{
+  "props":{
+    "src":"https://saetasport.vteximg.com.br/arquivos/departamento-iconos-2.png",
+    "link":{
+      "url":"#"
+    },
+    "blockClass": "bannersconVitrinaAbajo"
+  }
+},
+
+
+
+
+
+
+//*********************************************************************************************** ICONOS VALORES AGREGADOS
+
+
+
+
+"flex-layout.row#valor":{
+  "children": [
+    "info-card#valor1",
+    "info-card#valor2",
+    "info-card#valor3",
+    "info-card#valor4"
+  ],
+  "props":{
+    "blockClass": "iconos-valor"
+  }
+},
+
+
+"info-card#valor1":{
+  "props":{
+    "id":"texting",
+    "imageUrl":"https://saetasport.vteximg.com.br/arquivos/icono1.png",
+    "callToActionUrl": "/semi-impermeable?initialMap=c&initialQuery=hombre&map=caracteristicas",
+    "textPosition": "CENTER",
+    "textAlignment": "CENTER",
+    "headline": "ANTIBACTERIAL",
+    "subhead": "Controls the proliferation of bacteria by reducing bad odors in the garment.",
+    "callToActionText": "See more",
+    "callToActionMode": "link",
+    "blockClass":"IMG-valor"
+  }
+},
+"info-card#valor2":{
+  "props":{
+    "id":"texting",
+    "imageUrl":"https://saetasport.vteximg.com.br/arquivos/icono2.png",
+    "callToActionUrl": "/proteccion-v?initialMap=c&map=caracteristicas",
+    "textPosition": "CENTER",
+    "textAlignment": "CENTER",
+    "headline": "SOLAR GUARD",
+    "subhead": "The special manufacture of this textile acts as a genuine protective shield against UV 30+ rays. The sun's rays bounce off the garment, preventing the risk of skin cancer.",
+    "callToActionText": "See more",
+    "callToActionMode": "link",
+    "blockClass":"IMG-valor"
+  }
+},
+"info-card#valor3":{
+  "props":{
+    "id":"texting",
+    "imageUrl":"https://saetasport.vteximg.com.br/arquivos/icono3.png",
+    "callToActionUrl": "/repelencia?initialMap=c&map=caracteristicas",
+    "textPosition": "CENTER",
+    "textAlignment": "CENTER",
+    "headline": "WATER REPELLENCY",
+    "subhead": "It is ideal for practicing sports in environments with rain, dirt and dust. Keeps the athlete dry during the drizzle. Repellency to liquids and dirt. Stain resistance. AATCC 22 STANDARDS",
+    "callToActionText": "See more",
+    "callToActionMode": "link",
+    "blockClass":"IMG-valor"
+  }
+},
+"info-card#valor4":{
+  "props":{
+    "id":"texting",
+    "imageUrl":"https://saetasport.vteximg.com.br/arquivos/icono4.png",
+    "callToActionUrl": "/secado-rapido?initialMap=c&map=caracteristicas",
+    "textPosition": "CENTER",
+    "textAlignment": "CENTER",
+    "headline": "QUICK DRYING",
+    "subhead": "This technology allows the fabric to absorb sweat from the body, distribute it evenly to dry it quickly, keeping the athlete comfortable and dry during sports activity.",
+    "callToActionText": "See more",
+    "callToActionMode": "link",
+    "blockClass":"IMG-valor"
+  }
+},
+
+//***********************************************************************REGALO MOBILE
+"slider-layout#SLIDERMOBILE": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "autoplay":{
+      "timeout": 5000,
+      "stopOnHover": true
+    },
+    "infinite": true,
+    "showNavigationArrows": "never",
+    "blockClass": "regalo-mobile",
+    "showPaginationDots": "never"
+  },
+  "children": [
+    "info-card#bannerRegaloElla",
+    "info-card#bannerRegaloEl",
+    "info-card#bannerRegaloEquipo"
+  ] 
+  },
+
+
+
+  //****************************************************************VALOR MOBILE
+
+  "slider-layout#SLIDERValor": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "autoplay":{
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "rValor-mobile",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "info-card#valor1",
+      "info-card#valor2",
+      "info-card#valor3",
+      "info-card#valor4"
+    ] 
+    },
+  
+  /*********************************************************************BOTON PRE VITRINA*/
+    "link#PRE-VITRINA": {
+      "props": {
+        "href": "/nuevo?initialMap=c&initialQuery=hombre&map=coleccion",
+        "label": "Shop",
+        "blockClass": "boton-vitrina"
+      }
+    }, 
+
+
+
+
+
+
+
+
+
+
+//*************************************************FORMULARIO NEWS LETTER
+
+
+"form#NEWS-LETTER": {
+  "props": {
+    "entity": "CT",
+    "schema": "v6",
+    "blockClass": "NEWS-LETTER"
+  },
+  "children": [
+    "form-input.text#nombre",
+    "form-input.text#correo",
+    "form-input.text#telefono",
+    "form-field-group#genero",
+    "form-submit",
+    "flex-layout.col#terminosagremment"
+  ],
+  "blocks": ["form-success"]
+},
+"form#NEWS-LETTERPOP": {
+  "props": {
+    "entity": "CT",
+    "schema": "v6",
+    "blockClass": "NEWS-LETTER-POP"
+  },
+  "children": [
+    "form-input.text#nombre",
+    "form-input.text#correo",
+    "form-input.text#telefono",
+    "form-submit",
+    "form-input.checkbox#agreement",
+    "link#terminosfomr2"
+  ],
+  "blocks": ["form-success"]
+},
+"flex-layout.col#terminosagremment":{
+  "children": [
+    "form-input.checkbox#agreement",
+    "link#terminosfomr"
+  ],
+  "props":{
+    "blockClass": "iconos-valor"
+  }
+},
+
+"form-success": {
+  "children": [
+    "rich-text#successSubmit"
+  ]
+},
+"rich-text#successSubmit": {
+  "props": {
+    "text": "Tu cita ha quedado programada",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": "envio-news"
+  }
+},
+
+/*campos input para el fommulario*/
+
+"form-input.text#nombre": {
+  "props": {
+    "pointer": "#/properties/nombre",
+    "placeholder": "Name",
+    "blockClass": "news-nombre-input"
+  }
+},
+"form-input.text#correo": {
+  "props": {
+    "pointer": "#/properties/correo",
+    "placeholder": "eMail",
+    "blockClass": "news-correo-input"
+  }
+},
+"form-input.text#telefono": {
+  "props": {
+    "pointer": "#/properties/telefono",
+    "placeholder": "Phone",
+    "blockClass": "news-telefono-input"
+  }
+},
+  "form-field-group#genero": {
+    "props": {
+      "pointer": "#/properties/genero",
+      "placeholder": "Gender",
+      "blockClass": "news-genero-input"
+    }
+ },
+ "form-input.text#ndocumento": {
+  "props": {
+    "pointer": "#/properties/ndocumento",
+    "placeholder": "ndocumento",
+    "blockClass": "news-ndocumento-input"
+  }
+},
+ "form-submit": {
+  "props": {
+    "label": "Subscribe",
+    "blockClass": "enviar-input"
+  }
+},
+"form-input.checkbox#agreement": {
+  "props": {
+    "pointer": "#/properties/agreement",
+    "label": "By subscribing you are accepting the data treatment policies"
+  }
+},
+"link#terminosfomr": {
+  "props": {
+    "href": "/privacidad",
+    "label": "(See Terms)",
+    "blockClass": "ver-terminos-link",
+    "target" : "_blank"
+  }
+}, 
+"link#terminosfomr2": {
+  "props": {
+    "href": "/privacidad",
+    "label": "(See Terms)",
+    "blockClass": "ver-terminos-link2",
+    "target" : "_blank"
+  }
+}, 
+  /*NEWSLETTER SECCION*/
+
+  "flex-layout.row#SecciPOP": {
+    "children": [ "modal-trigger#activadornews"],
+    "props": {
+      "blockClass": "seccionNewletterPOP"
+    }
+  },
+  /*----------------------------------------------------------------------------POPUP REGISTRO*/
+
+  "modal-trigger#activadornews": {
+    "children": ["rich-text#BOTONMODALNEW", "modal-layout#newletter"],
+    "props": {
+      "blockClass": "triggerModalNews"
+    }
+  },
+  "rich-text#BOTONMODALNEW": {
+    "props": {
+      "text": "ME QUIERO SUSCRIBIR",
+      "blockClass": "triggerModalNewsTExto"
+    }
+  },
+  "modal-layout#newletter": {
+    "children": ["modal-header#blanco", "info-card#NewletterBanerModal","rich-text#titleNewsLetterPOP","rich-text#titleNewsLetterPOPTitulo", "form#NEWS-LETTERPOP"],
+    "props": {
+      "blockClass": "contenidoModalNews"
+    }
+  },
+  "modal-header#blanco": {
+    "props": {
+      "blockClass": "x-de-cerrado"
+    }
+  },
+  "info-card#NewletterBanerModal": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://saetasport.myvtex.com/arquivos/imagensuscripcionpopup.png",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "callToActionMode": "link",
+      "blockClass": "bannernewwsMdola"
+    }
+  },
+  "rich-text#titleNewsLetterPOPTitulo": {
+    "props": {
+      "text": "Join us and receive all the benefits",
+      "blockClass": "textosnewsPOP-titulo"
+    }
+  },
+  "rich-text#titleNewsLetterPOP": {
+    "props": {
+      "text": "JOIN US AND RECEIVE \n [20% OFF](/#) ON YOUR FIRST PURCHASE",
+      "blockClass": "textosnewsPOP"
+    }
+  }
+
+}

@@ -1,0 +1,205 @@
+.buttonDataContainer{
+  background: #FBCE2F;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  padding: 21px 0 17px 0;
+  width: 45px;
+  position: absolute;
+  color: #140d2e;
+  border-radius: 5px;
+  text-transform: uppercase;
+  right: 10px;
+}
+.buttonDataContainer--onpage{
+  height: 62px;
+  margin: 0;
+}
+
+.buttonDataContainer--productcheckout{
+  background-color: white;
+  margin-top: 10px;
+  border: 2px solid #8678c8 ;
+  color: #8678c8 ;
+  border-radius: 5px;
+  height: 62px;
+}
+.buttonText--onpage{
+  font-size: 15px !important;
+  font-weight: 400 !important;
+}
+.buttonText:hover{
+  filter: invert(1);
+}
+.buttonText--productcheckoutProductoDos:hover {
+  filter: inherit;
+}
+.buttonDataContainer--productcheckout:hover{
+  background: white;
+}
+.buttonDataContainer:hover {
+  background: #000131;
+}
+.buttonDataContainer:hover .buttonText--productcheckoutProductoDos {
+  color: #FBCE2F;
+}
+.vtex-button__label{
+  padding: 0 !important;
+}
+.buttonText{
+  font-size: 0px;
+  text-transform: initial;
+  min-width: 100%;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vtex-button__label{
+  display: none !important;
+}
+.buttonText{
+  color: #0f0095;
+  font-weight: 600 !important;
+  width: 100%;
+  margin: -2px 0 0 0;
+  text-transform: uppercase;
+}
+.buttonText--productcheckout::before{
+  font-size: 16px;
+  content: "COMPRAR AHORA";
+  color: #191531;
+
+}
+.buttonText--productcheckout{
+  font-size: 0;
+  font-weight: 400;
+}
+.buttonText--onpageProducto {
+  font-size: 13px;
+}
+.buttonDataContainer--productcheckoutProducto {
+  width: 100%;
+  background: yellow;
+  height: 150px;
+  top: 0;
+  right: 0;
+  padding: 100px 35px;
+  position: relative;
+}
+.buttonText--onpageProducto {
+  font-size: 13px;
+}
+.buttonDataContainer--onpageProducto {
+  width: 100%;
+  height: 100px;
+  top: 0;
+  background: red;
+  position: relative;
+  right: 0;
+  padding: 100px 35px;
+  font-size: 13px;
+}
+.buttonDataContainer--productcheckoutProducto {
+  width: 100%;
+  background: yellow;
+  height: 101px;
+  top: 0;
+  right: 0;
+  position: relative;
+}
+.buttonText--onpageProducto {
+  font-size: 13px;
+}
+.buttonDataContainer--onpageProducto {
+  width: 100%;
+  height: 100px;
+  top: 0;
+  background: red;
+  position: relative;
+  right: 0;
+}
+.buttonText--productcheckoutProducto {
+  font-size: 13px;
+}
+.buttonText {
+  background-image: url(https://saetasport.vteximg.com.br/arquivos/icono-carrito.png) !important;
+  background-size: 40% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.buttonText--productcheckoutProductoDos {
+  width: 100%;
+  font-size: 15px;
+  /* padding:  0; */
+  margin: 0 auto 0 0;
+  justify-content: space-between;
+  text-align: left;
+  left: 14px;
+  background-image: none !important;
+  position: relative;
+  color: #0616C4;
+}
+.buttonDataContainer--productcheckoutProductoDos {
+  text-align: end;
+  width: 100%;
+  height: 63px;
+  padding: 0;
+  right: 0;
+}
+.buttonText--productcheckoutProductoDos::after {content: "";background: url(https://saetasport.vteximg.com.br/arquivos/iconocarroproducto.png);width: 50px;height: 50px;margin: 0 27px 0 0;background-size: 100%;background-repeat: no-repeat;background-position: center;}
+
+.buttonDataContainer:hover .buttonText--productcheckoutProductoDos {
+  color: #FBCE2F;
+}
+
+.container--botonDePersonalizar:hover {
+  background: #000131;
+}
+
+.container--botonDePersonalizar:hover .wrapper--botonDePersonalizar {
+  color: #FBCE2F;
+}
+
+.container--botonDePersonalizar:hover .paragraph--botonDePersonalizar {
+  color: #FBCE2F;
+}
+.buttonDataContainer:hover::before {content: "Agregar al carrito";font-size: 11px;position: absolute;top: 110%;right: -19px;background: #000131;z-index: 100;color: white;padding: 3px;width: 100px;border-radius: 9px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+.buttonDataContainer--onpageProducto {
+  width: 62%;
+  height: 10px !important;
+  padding: 30px;
+}
+.buttonDataContainer--productcheckoutProducto{
+  width: 62%;
+  padding: 30px;
+  height: 10px;
+}
+.buttonDataContainer {
+  width: 38px;
+  height: 38px;
+  right: 6px;
+  bottom: 0;
+}
+.buttonDataContainer--productcheckoutProductoDos {
+  width: 100%;
+  height: 63px;
+}
+.buttonDataContainer.buttonDataContainer--productcheckoutProductoDos {
+  right: 0;
+}
+}

@@ -1,0 +1,60 @@
+{
+    "store.custom#garantia": {
+      "blocks": [
+        "info-card#bannerFaqsM",
+        "info-card#bannerFaqs",
+        "flex-layout.row#garantia",
+        "flex-layout.row#gar"
+      ]
+    },
+  
+    "flex-layout.row#gar": {
+      "children": [
+        "flex-layout.col#text-faqs1",
+        "flex-layout.col#text-garantia"
+      ],
+      "props":{
+        "blockClass": "FaqsColumn"
+      }
+    },
+
+    "flex-layout.col#text-garantia": {
+      "children": [
+        "rich-text#garantia"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },
+    "flex-layout.row#garantia":{
+        "children": [
+          "rich-text#TITULO-garantia"
+        ],
+        "props":{
+          "blockClass": "BannerDosMosaicox4-ESTATICA"
+        }
+      },
+
+    "rich-text#TITULO-garantia": {
+      "props": {
+        "text":
+        " [POLÍTICAS DE garantia](#)\n Saeta",
+        "blockClass": "textoquienM"
+      }
+    },
+    "rich-text#garantia": {
+      "props": {
+        "text": 
+          "\n **POLÍTICAS DE GARANTÍA**\n \n Para Saetasport.com, la calidad es fundamental. Por lo cual cada producto es comprobado exhaustivamente en condiciones reales para ofrecer una mayor seguridad, por lo cual confirmamos que las prendas y productos son completamente capaces de soportar los usos para los que han sido diseñados. Es poca la probabilidad que los productos salgan dañados o defectuosos. El departamento de control de calidad de Saetasport.com inspeccionará los productos devueltos; si el daño es consecuencia de un defecto de fabricación o bien si el producto no cumple con las especificaciones de fábrica se realizará el cambio del producto. Si son cambios por calidad Saetasport.com se encargará del envío y se cambiará por el mismo objeto. Si el problema se debe a motivos contrarios a la calidad del material o al proceso de montaje, te devolveremos el producto original. No rembolsamos productos en caso de:\n → Que se hayan dañado por un mal uso o negligencia (exposición a productos químicos, sustancias cáusticas, fuente de llama abierta, mucho calor, objetos afilados, etc.)\n → Que se hayan dañado por un uso indebido o por actividades distintas al fin previsto (por ejemplo, el uso de zapatillas de running para deportes de pista o el uso de calzado de senderismo como botas de trabajo, etc.)\n La vida útil de cualquier producto de Saetasport.com depende del uso particular que se haga del mismo, de las condiciones de uso y de los patrones de desgaste característicos del usuario. No se sustituirán los productos de Saetasport.com dañados por el uso y el desgaste normales o que hayan excedido la vida razonable del producto: Saetasport.com. El tiempo máximo para garantía es de 90 días calendario.\n Si por alguna razón, el usuario llegase a comprar un árticulo por la página web y que SAETA no tenga disponibilidad, SAETA se compromete a devolver el 100% del dinero o a cambiar el árticulo por uno del mismo valor o superior si el cliente paga el excedente.\n Se procederá al cambio del producto o a la devolución de lo pagado por este, a elección del consumidor, siempre que, en vigencia de la garantía, el producto presente reincidencia en la misma falla o no se cuente con el repuesto requerido para el correcto funcionamiento del producto. \nPara hacer efectiva la garantía: enviar la solicitud a paginaweb@saetasport.com, o ir a la tienda física más cercana. En cualquiera de estos casos se te informará sobre el proceso.\n -Saeta International Sports Wear SAS tiene hasta 15 Hábiles para responder el correo indicando el proceso que debes seguir. \n **REVERSIÓN DEL PAGO** \n Las compras realizadas en saetasport.com mediante pagos con tarjeta de crédito, débito o cualquier tipo de medio de pago electrónico y si cumple con las causales estipuladas en el Art 51 de la Ley 1480 de 2011, puede solicitar la reversión de pago dentro de los 5 días hábiles siguientes a la fecha en que tuviste noticia de la operación fraudulenta o no solicitada o que debiste haber recibido el producto o lo recibiste defectuoso o sin que correspondiera a lo solicitado. \nCausas de reversión de pago:\n • Fraude en la transacción.\n • Que hagas una compra y no te llegó el producto en los siguientes 30 días después del pago.\n • Cuando el producto de compraste no cumpla con las características comunicadas.\n • Defectos de fábrica en los productos\n Para solicitar la reversión se debe enviar la solicitud a paginaweb@saetasport.com, o ir a la tienda física más cercana. \n -Saeta Sport tiene hasta 15 días Hábiles para responder el correo indicando el proceso a seguir. .\n Requisitos para acceder a la reversión:\n • La compra se debió pagar por medio tarjeta de crédito, débito o cualquier tipo de medio de pago electrónico, por tal motivo no aplica para pagos con Efecty, Baloto, Pago referenciado.\n • El producto debe estar en buen estado y limpio y el proveedor de transporte recogerá el producto únicamente en el mismo lugar en que lo entregó.\n • El responsable de devolver el dinero en caso de que haya lugar a tal hecho, corre por cuenta y orden de la entidad bancaria.\n • La Queja deberá ser presentada por titular del producto financiero, sin perjuicio de que consumidor deba cumplir con lo establecido en el artículo .4. y 2.2.2.51 del Decreto 587.\n **DERECHOS DE LOS CONSUMIDORES**\n Gozarás de todos los derechos que reconoce la legislación colombiana sobre Protección al Consumidor y Protección de Datos personales, por tal razón, podrás radicar tus peticiones, quejas, reclamos y sugerencias (PQR) a través del los correo establecidos por la página. Igualmente, podrás presentarlas de manera presencial en nuestros establecimientos de comercio.\n \n \n \n ",
+        "blockClass": "textostilo"
+      }
+    }
+
+    
+
+
+
+  }

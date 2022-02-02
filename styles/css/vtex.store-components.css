@@ -1,0 +1,3200 @@
+.autoCompleteOuterContainer{
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 41px;
+  margin: 1px;
+  font-size: 12px;
+  text-indent: 15px;
+  text-align: inherit;
+}
+:global(.vtex-store__template){
+  background-color: #f6f6f6;
+}
+.c-muted-2 {
+  display: none !important;
+}
+.installmentsPrice{
+  display: none;
+}
+.vtex-button__label{
+  padding: 0 !important;
+}
+.infoCardImage--Mio{
+  position:absolute;
+  top: 0%;
+  right: 0;
+  background-size: 100%;
+  z-index: 1;
+  width: 100%;
+} 
+.infoCardContainer--Mio{
+  width: 100%;
+ /* min-height: 575px;*/
+}
+.infoCardHeadline--Mio {
+  font-size: 85px;
+  color: white;
+  text-transform: uppercase !important;
+  margin: 0;
+}
+.vtex-store-components-3-x-infoCardTextContainer--Mio {
+  width: 55%;
+  margin: 0;
+  text-transform: uppercase;
+}
+.infoCardCallActionText--Mio.link {
+  width: 100%;
+}
+.infoCardCallActionContainer--Mio {
+  text-align: center;
+  margin: 0;
+}
+@media only screen and (min-width: 1500px) {
+  .infoCardContainer--Mio{
+    width: 100%;
+   /* min-height: 615px !important;*/
+  }
+}
+.infoCardTextContainer--Mio{
+  z-index: 2;
+  padding: 15% 0% 13% 100px;
+}
+.infoCardSubhead--Mio{
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin: 16px 0 0 0;
+  text-shadow: 2px 2px 2px #d0d0d0;
+}
+.infoCardHeadline--Mio{
+  font-size: 14px;
+}
+.infoCardCallActionText--Mio{
+  background: #FE1D2E;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.infoCardCallActionContainer--Mio{
+  text-decoration: none;
+}
+.infoCardContainer--marcas,
+.infoCardContainer--marcas-icon1,.infoCardContainer--marcas-icon2,.infoCardContainer--marcas-icon3,.infoCardContainer--marcas-icon4,
+.infoCardContainer--marcas-icon5, .infoCardContainer--marcas-icon6, .infoCardContainer--marcas-icon7,
+.infoCardContainer--marcas-icon8, .infoCardContainer--marcas-icon9, .infoCardContainer--marcas-icon10,
+.infoCardContainer--marcas-icon11, .infoCardContainer--marcas-icon12, .infoCardContainer--marcas-icon13,
+.infoCardContainer--marcas-icon14{
+  display: block;
+  position: relative;
+}
+.infoCardTextContainer--marcas, .infoCardImageContainer--marcas, 
+.infoCardTextContainer--marcas-icon1,.infoCardTextContainer--marcas-icon2,.infoCardTextContainer--marcas-icon3,.infoCardTextContainer--marcas-icon4,
+.infoCardTextContainer--marcas-icon5, .infoCardTextContainer--marcas-icon6, .infoCardTextContainer--marcas-icon7,
+.infoCardTextContainer--marcas-icon8, .infoCardTextContainer--marcas-icon9, .infoCardTextContainer--marcas-icon10,
+.infoCardTextContainer--marcas-icon11, .infoCardTextContainer--marcas-icon12, .infoCardTextContainer--marcas-icon13,
+.infoCardTextContainer--marcas-icon14,
+.infoCardImageContainer--marcas-icon1,.infoCardImageContainer--marcas-icon2,.infoCardImageContainer--marcas-icon3,.infoCardImageContainer--marcas-icon4,
+.infoCardImageContainer--marcas-icon5, .infoCardImageContainer--marcas-icon6, .infoCardImageContainer--marcas-icon7,
+.infoCardImageContainer--marcas-icon8, .infoCardImageContainer--marcas-icon9, .infoCardImageContainer--marcas-icon10,
+.infoCardImageContainer--marcas-icon11, .infoCardImageContainer--marcas-icon12, .infoCardImageContainer--marcas-icon13,
+.infoCardImageContainer--marcas-icon14{
+  width: 100%;
+} 
+.infoCardImageContainer--marcas-icon1,.infoCardImageContainer--marcas-icon2,.infoCardImageContainer--marcas-icon3,.infoCardImageContainer--marcas-icon4,
+.infoCardImageContainer--marcas-icon5, .infoCardImageContainer--marcas-icon6, .infoCardImageContainer--marcas-icon7,
+.infoCardImageContainer--marcas-icon8, .infoCardImageContainer--marcas-icon9, .infoCardImageContainer--marcas-icon10,
+.infoCardImageContainer--marcas-icon11, .infoCardImageContainer--marcas-icon12, .infoCardImageContainer--marcas-icon13,
+.infoCardImageContainer--marcas-icon14{
+  padding-bottom: 50px;
+}
+.infoCardContainer--marcas,  
+.infoCardContainer--marcas-icon1,.infoCardContainer--marcas-icon2,.infoCardContainer--marcas-icon3,.infoCardContainer--marcas-icon4,
+.infoCardContainer--marcas-icon5, .infoCardContainer--marcas-icon6, .infoCardContainer--marcas-icon7,
+.infoCardContainer--marcas-icon8, .infoCardContainer--marcas-icon9, .infoCardContainer--marcas-icon10,
+.infoCardContainer--marcas-icon11, .infoCardContainer--marcas-icon12, .infoCardContainer--marcas-icon13,
+.infoCardContainer--marcas-icon14{
+  position: relative;
+}
+
+.infoCardCallActionContainer--marcas,  
+.infoCardCallActionContainer--marcas-icon1,.infoCardCallActionContainer--marcas-icon2,.infoCardCallActionContainer--marcas-icon3,.infoCardCallActionContainer--marcas-icon4,
+.infoCardCallActionContainer--marcas-icon5, .infoCardCallActionContainer--marcas-icon6, .infoCardCallActionContainer--marcas-icon7,
+.infoCardCallActionContainer--marcas-icon8, .infoCardCallActionContainer--marcas-icon9, .infoCardCallActionContainer--marcas-icon10,
+.infoCardCallActionContainer--marcas-icon11, .infoCardCallActionContainer--marcas-icon12, .infoCardCallActionContainer--marcas-icon13,
+.infoCardCallActionContainer--marcas-icon14{
+  position: relative;
+}
+.infoCardTextContainer--marcas,  
+.infoCardTextContainer--marcas-icon1,.infoCardTextContainer--marcas-icon2,.infoCardTextContainer--marcas-icon3,.infoCardTextContainer--marcas-icon4,
+.infoCardTextContainer--marcas-icon5, .infoCardTextContainer--marcas-icon6, .infoCardTextContainer--marcas-icon7,
+.infoCardTextContainer--marcas-icon8, .infoCardTextContainer--marcas-icon9, .infoCardTextContainer--marcas-icon10,
+.infoCardTextContainer--marcas-icon11, .infoCardTextContainer--marcas-icon12, .infoCardTextContainer--marcas-icon13,
+.infoCardTextContainer--marcas-icon14{
+  position: absolute;
+  bottom: 25px;
+}
+.infoCardCallActionText--marcas-icon1,.infoCardCallActionText--marcas-icon2,.infoCardCallActionText--marcas-icon3,.infoCardCallActionText--marcas-icon4,
+.infoCardCallActionText--marcas-icon5, .infoCardCallActionText--marcas-icon6, .infoCardCallActionText--marcas-icon7,
+.infoCardCallActionText--marcas-icon8, .infoCardCallActionText--marcas-icon9, .infoCardCallActionText--marcas-icon10,
+.infoCardCallActionText--marcas-icon11, .infoCardCallActionText--marcas-icon12, .infoCardCallActionText--marcas-icon13,
+.infoCardCallActionText--marcas-icon14{
+  color: black;
+  background: transparent;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  font-weight: 400;
+  text-decoration: none;
+}
+.infoCardImage--marcas{
+  max-width: 175px;
+  padding: 0 0 32px 0;
+}
+.vtex-button__label{
+  display: none !important;
+}
+.listPriceLabel, .sellingPriceLabel{
+  display: none;
+}
+.infoCardHeadline--segundo{
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  margin-top: 70px;
+  letter-spacing: 1px;
+}
+.infoCardCallActionText--segundo{
+  background: #00ff99;
+  color: black;
+  padding: 15px 15px;
+  font-weight: 500;
+}
+.infoCardCallActionText--segundo:hover{
+  background: black;
+  color: white;
+  padding: 15px 15px;
+  font-weight: 300;
+}
+.infoCardContainer--segundo{
+  background: #e3e3e3;
+  position: absolute;
+    width: 100%;
+    margin-top: -100px;
+}
+.infoCardImageContainer--marcas{
+  text-align: center;
+}
+.infoCardCallActionText--marcas:hover{
+  text-decoration: underline;
+}
+.flexColChild--textosIcno .imageElement{
+  display: none;
+} 
+.imageElement{
+  margin: 0 20px 0 13px;
+  width: 55%;
+}
+.imageElementLink{
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.imageElement{
+  transition: all 400ms;
+}
+.infoCardHeadline--textfool, .infoCardHeadline--textfool2, .infoCardHeadline--textfool3{
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 20px;
+  color: #00ff9d;
+  background: transparent;
+}
+.infoCardContainer--textfool, .infoCardContainer--textfool2{
+  background: transparent;
+  color: #00ff9d;
+  justify-content: center;
+}
+.infoCardCallActionContainer--textfool2{
+  display: none;
+}
+.infoCardCallActionContainer--textfool3{
+  display: none;
+}
+.infoCardTextContainer--textfool2{
+  width: 60%;
+}
+.infoCardHeadline--textfool2, .infoCardHeadline--textfool3{
+  margin: 0;
+  display: none;
+}
+.infoCardTextContainer--textfool2, .infoCardTextContainer--textfool3{
+  display: none;
+}
+.infoCardContainer--textfool3, .infoCardHeadline--textfool3{
+  color: white;
+  background: transparent;
+
+}
+.infoCardImage--textfool3{
+    width: 25%;
+    position: absolute;
+    left: -104px;
+    top: -14px;
+}
+.infoCardTextContainer--textfool3{
+  width: 70%;
+}
+.infoCardImageContainer--textfool3{
+  width: 30%;
+}
+.infoCardTextContainer--bannerC{
+  display: none;
+}
+.infoCardImageContainer--bannerC{
+  width: 100%; 
+}
+.infoCardContainer--bannerC{
+  margin: 0px;
+  padding: 0;
+}
+.container{
+  padding: 0;
+  margin: 0 auto;
+}
+.searchBarContainer{
+  width: 90%;
+  border-radius: 50px;
+  margin: 0 4% 0 auto;
+}
+.productBrand {
+    color: #000131;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.productDescriptionTitle {
+  display: none;
+}
+.currencyFraction, .currencyDecimal{
+  display: none;
+}
+.currencyContainer{
+  color: #3e3e3e;
+  font-family: 'Anybody';
+  font-size: 30px;
+  font-weight: 100;
+}
+.content{
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  font-weight: 400;
+  color: black;
+}
+.imageElementLink--bannerLateralDerecho::before{
+  content: "AYUDARTE A MOVILIZAR";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9;
+  width: 70%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico1::before{
+  content: "PARA EL CUIDADO DEL CORAZÓN";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  z-index: 9;
+  right: 20px;
+  width: 43%;
+  text-align: right;
+
+}
+.imageElementLink--imagenMosaico2::before{
+  content: "COMPLETA TU ESTILO";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  z-index: 9;
+  bottom: 10px;
+  right: 20px;
+  width: 71%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico3::before{
+  content: "CUIDA TU SISTEMA RESPIRATORIO";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  z-index: 9;
+  right: 20px;
+  width: 65%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico4::before{
+  content: "AQUÍ ENCONTRARÁS LOS MEJORES INSTRUMENTOS";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  z-index: 9;
+  width: 100%;
+  text-align: right;
+}
+.thumbImg{
+  width: 94%;
+  margin-top: 4px;
+}
+.carouselGaleryCursor {
+  margin-right: 1%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.shareLabel{
+  color: black;
+  font-weight: 700;
+  margin: 10px 0 16px 0;
+}
+.discountInsideContainer {
+  color: black;
+  font-weight: 500;
+}
+.shippingContainer :global(.vtex-button__label){
+  background: #00ff99;
+  color: black;
+  border-radius: 6px;
+  padding: 20px 20px;
+  display: flex;
+}
+.infoCardCallActionText--Mio{
+  padding: 16px 70px;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+.infoCardHeadline--textfool2{
+  color: white;
+}
+
+.infoCardHeadline--inicio{
+  font-weight: 700;
+  color: #00ff99;
+  padding: 0;
+  font-size: 45px;
+  margin: 0;
+}
+.infoCardSubhead--inicio{
+  font-size: 19px;
+    font-weight: 100;
+    color: black;
+    line-height: 26px;
+}
+.infoCardImageContainer--inicio:last-child{
+  width: 30%;
+  text-align: center;
+}
+.infoCardTextContainer--inicio:first-child{
+  width: 70%;
+  padding: 0 10%;
+}
+.infoCardContainer--inicio{
+  margin: 0 100px 0 100px;
+}
+.infoCardImage--inicio{
+  margin: 69px 0 -123px 0;
+  width: 100%;
+  padding: 0 13%;
+  position: relative;
+  z-index: 9;
+}
+.container{
+  max-width: 100%;
+}
+.infoCardImage--bannerC{
+  width: 100%;
+}
+.skuSelectorItemTextValue {
+  padding: 0px;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 100%;
+}
+.skuSelectorContainer--EspecificacionesDeSKU .skuSelectorItem--selected .skuSelectorItemTextValue {
+  color: #000131;
+  border-color: transparent;
+}
+.skuSelectorItemTextValue {
+
+  font-size: 12px;
+  margin: 0 0 0 0;
+  text-align: center;
+  color: #000131;
+  
+}
+
+/*
+.skuSelectorItem--selected .skuSelectorItemTextValue::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  border: 1px solid;
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  border-radius: 50%;
+  background: black;
+}
+.skuSelectorItem .skuSelectorItemTextValue::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  border: 1px solid;
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  border-radius: 50%;
+}*/
+.skuSelectorOptionsList::before {
+  content: "SIZES:";
+  width: 15%;
+  background: #ffffffab;
+  position: absolute;
+  top: -74%;
+  font-size: 10px;
+  padding: 5px 1px;
+  border-radius: 5px;
+}
+.skuSelectorItem--unidad {
+  width: 70%;
+  margin: 0;
+}
+
+.skuSelectorItem {
+  width: 13%;
+  padding: 0;
+  margin: 0;
+}
+
+.skuSelectorOptionsList {
+  margin: 0;
+}
+/*
+.skuSelectorName {
+  display: none;
+}*/
+
+.sellingPriceValue {
+  margin: 0px 0 0 10px;
+  padding: 0;
+}
+.skuSelectorSubcontainer--caja {
+  margin: 0;
+}
+.infoCardContainer--BannerDos{
+  padding: 20px;
+  margin: 10px 15px 10px 15px;
+  border-radius: 10px;
+  height: 490px;
+  width: 600px !important;
+  position: relative;
+}
+.infoCardCallActionContainer--BannerDos{
+  background-color: #ffc100;
+  width: 95%;
+  bottom: 10px;
+  position: absolute;
+  border-radius: 5px;
+  left: 0;
+  height: 70px;
+  margin: 0 3%;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+}
+.infoCardCallActionText--BannerDos{
+  color: #191531;
+  text-decoration: none;
+  padding-top: 4px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+.infoCardHeadline--BannerDos{
+  color: white;
+  position: absolute;
+  width: 84%;
+  bottom: 120px;
+  left: 21px;
+  font-weight: 500;
+  font-size: 50px;
+}
+.logoImage{
+  width: 210px;
+}
+.infoCardImage--textfool2{
+  width: 66%;
+}
+/*Ctegoria 3*/
+.infoCardImageContainer--marcas-icon3::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/3_icontapabocasDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 100px;
+  height: 77px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 30%;
+  opacity: 0;
+  cursor: pointer;
+}
+.infoCardImage--marcas-icon3, .infoCardImage--marcas-icon4, .infoCardImage--marcas-icon1, .infoCardImage--marcas-icon2, .infoCardImage--marcas-icon4, .infoCardImage--marcas-icon5, .infoCardImage--marcas-icon5, .infoCardImage--marcas-icon7, .infoCardImage--marcas-icon8, .infoCardImage--marcas-icon9, .infoCardImage--marcas-icon10, .infoCardImage--marcas-icon11, .infoCardImage--marcas-icon12, .infoCardImage--marcas-icon13, .infoCardImage--marcas-icon14{
+  transition: all 400ms;
+  cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon3:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon3:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 4*/
+.infoCardImageContainer--marcas-icon4::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/4_iconsillaruedasDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 35%;
+  opacity: 0;
+  cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon4:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon4:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 1*/
+.infoCardImageContainer--marcas-icon1::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/1_iconrespiratoriaDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 42%;
+  opacity: 0;
+  cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon1:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon1:hover{
+  filter:brightness(0.7);
+}
+/*Ctegoria 2*/
+.infoCardImageContainer--marcas-icon2::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/2_iconobañoDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  left: 32%;
+  top: 28%;
+  transition: all 40ms;
+  opacity: 0;
+  cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon2:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon2:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 5*/
+.infoCardImageContainer--marcas-icon5::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/5_iconayudasDesk.png)no-repeat;
+  background-size: 32%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left:41%;
+  opacity: 0;
+  cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon5:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon5:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 6*/
+.infoCardImageContainer--marcas-icon6::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/6_iconhabitacionDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 31%;
+  opacity: 0;
+  cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon6:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon6:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 7*/
+.infoCardImageContainer--marcas-icon7::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/7_iconmonitoreoDESK.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 101px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 26%;
+  opacity: 0;
+  cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon7:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon7:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 8*/
+.infoCardImageContainer--marcas-icon8::before{
+  content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/8_iconlesionDesk.png)no-repeat;
+    background-size: 57%;
+    font-size: 10px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    position: absolute;
+    top: 14%;
+    transition: all 40ms;
+    left: 39%;
+    opacity: 0;
+    cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon8:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon8:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 9*/
+.infoCardImageContainer--marcas-icon9::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/9_iconcaretaDesk.png)no-repeat;
+  background-size: 78%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 40%;
+  opacity: 0;
+  cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon9:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon9:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 10*/
+.infoCardImageContainer--marcas-icon10::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/10_icongelDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 35%;
+  opacity: 0;
+  cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon10:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon10:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 11*/
+.infoCardImageContainer--marcas-icon11::before{
+  content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/11_iconalcoholesk.png)no-repeat;
+    background-size: 71%;
+    font-size: 10px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    position: absolute;
+    top: 20%;
+    transition: all 40ms;
+    left: 43%;
+    opacity: 0;
+    cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon11:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon11:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 12*/
+.infoCardImageContainer--marcas-icon12::before{
+    content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/12_iconotrosDesk.png)no-repeat;
+    background-size: 84%;
+    font-size: 10px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+    position: absolute;
+    top: 20%;
+    transition: all 40ms;
+    left: 39%;
+    opacity: 0;
+    cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon12:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon12:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 13*/
+.infoCardImageContainer--marcas-icon13::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/13_iconsentidosDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 26%;
+  opacity: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon13:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon13:hover{
+  filter: brightness(0.7);
+}
+/*Ctegoria 13*/
+.infoCardImageContainer--marcas-icon14::before{
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/14_icontijerasDesk.png)no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin-top: 0px;
+  position: absolute;
+  top: 20%;
+  transition: all 40ms;
+  left: 35%;
+  opacity: 0;
+  cursor: pointer;
+}
+.infoCardImageContainer--marcas-icon14:hover::before{
+  opacity: 1;
+  z-index: 99;
+}
+.infoCardImage--marcas-icon14:hover{
+  filter: brightness(0.7);
+}
+/*Hover*/
+.infoCardImageContainer--marcas-icon1:hover .infoCardImage--marcas-icon1{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon2:hover .infoCardImage--marcas-icon2{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon3:hover .infoCardImage--marcas-icon3{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon4:hover .infoCardImage--marcas-icon4{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon5:hover .infoCardImage--marcas-icon5{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon6:hover .infoCardImage--marcas-icon6{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon7:hover .infoCardImage--marcas-icon7{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon8:hover .infoCardImage--marcas-icon8{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon9:hover .infoCardImage--marcas-icon9{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon10:hover .infoCardImage--marcas-icon10{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon11:hover .infoCardImage--marcas-icon11{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon12:hover .infoCardImage--marcas-icon12{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon13:hover .infoCardImage--marcas-icon13{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon14:hover .infoCardImage--marcas-icon14{
+  filter: brightness(0.7);
+}
+.searchIcon{
+  transition: all 400ms;
+  width: 20px;
+  height: 20px;
+}
+.searchIcon{
+  transition: all 400ms;
+}
+.searchIcon:hover{
+  color: white;
+}
+.searchBarContainer .vtex-input-prefix__group {
+  height: 38px;
+  border-color: transparent;
+}
+.autoCompleteOuterContainer:global(.vtex-input-prefix__group){
+  border-color: white;
+}
+.logoContainer--logoImg{
+  padding-left: 0;
+}
+.infoCardTextContainer--segundo{
+  height: 311px;
+}
+.price_sellingPrice{
+  position: relative !important;
+  margin: 0;
+}
+/*
+.price_sellingPrice::after{
+  content: "IVA Incluido";
+  font-weight: 700;
+  font-size: 12px;
+  color: black;
+  margin-left: 5px;
+}*/
+.swiperCaretNext{
+  display: none;
+}
+.swiperCaretPrev{
+  display: none; 
+}
+.infoCardImageContainer--bannerC{
+  background-color: transparent;
+}
+.currencyContainer {
+  color: black;
+}
+.sellingPrice {
+  padding: 2px 0;
+  height: auto;
+}
+.imageElement--BannerProduct{
+  margin-top: 10px;
+  width: 94%;
+}
+.productImagesThumbActive .thumbImg{
+  border: 1px solid;
+}
+.infoCardContainer--descripcionEspec{
+  background: transparent;
+}
+.infoCardSubhead--descripcionEspec {
+  margin-top: 2px;
+  line-height: 20px;
+  margin-left: -11px;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+}
+.infoCardCallActionContainer--descripcionEspec{
+  height: auto !important;
+  margin: -18px 0 0 69%;
+}
+.infoCardTextContainer--QuienesSomos{
+  width: 100%;
+}
+.infoCardCallActionContainer--QuienesSomos{
+  border-radius: 5px;
+    background: #ffc100;
+    width: 50%;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px auto;
+}
+.infoCardContainer--QuienesSomos{
+  background:#140d2e ;
+}
+.imageElement--QuienesSomosImg2{
+  padding: 55px 0;
+  margin: -27px 60px;
+  width: 80%;
+  max-height: 100%;
+}
+.infoCardHeadline--QuienesSomos{
+  text-align: center;
+  color: white;
+}
+.infoCardSubhead--QuienesSomos{
+  text-align: justify;
+    color: white;
+    font-weight: 100;
+    line-height: 26px;
+    font-size: 15px;
+}
+.imageElement--QuienesSomosImg{
+  margin: 0;
+  width: 100%;
+}
+.infoCardCallActionText--BannerDos:hover{
+  text-decoration-color: #140d2e;
+  text-decoration:underline;
+}
+.infoCardCallActionText--QuienesSomos{
+  color: black;
+  padding-left: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.infoCardCallActionText--descripcionEspec{
+  margin: 0;
+  color: black;
+}
+.infoCardTextContainer--descripcionEspec{
+  display: flex;
+}
+.infoCardContainer--bannerM{
+  display: none;
+}
+.newsletter .label{
+  display: none;
+}
+.newsletter--newsletter{
+  width: 278%;
+}
+.container--newsletter{
+  margin-top: -15px;
+}
+.buttonContainer--newsletter :global(.vtex-button){
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #ffc100 !important;
+  color: #191531;
+}
+.infoCardTextContainer--QuienesSomos2{
+  width: 100%;
+}
+.imageElement--BannerPagos{
+  margin: 0 -10px 0 0;
+}
+.infoCardContainer--inicio{
+  display: none;
+}
+.infoCardHeadline--QuienesSomos2{
+  color: #140d2e;
+}
+.infoCardHeadline{
+  font-family: 'Anybody';
+}
+.carouselGaleryThumbs {
+  display: none;
+}
+.carouselGaleryCursor {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+.productImagesGallerySlide {
+  margin: 10px;
+}
+.productImage {
+  width: 48%;
+  margin: 0 6px;
+}
+.productImagesContainer--list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.frameAround {
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.productImage--imagenesESPECIFICIMG:first-child {
+  display: block;
+  width: 100%;
+}
+.productImage--imagenesESPECIFICIMG {
+  display: none;
+}
+.productDescriptionTitle--textosPrincDescSecTituloDescripcion {
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.content--textosPrincDescSecTituloDescripcion.h-auto {
+  font-size: 20px;
+}
+.infoCardContainer--bannerCategory {
+  justify-content: center;
+  margin: 0 auto;
+  background: #f6f6f6;
+}
+.infoCardTextContainer--bannerCategory {
+  display: none;
+}
+.infoCardImage--bannerCategory {
+  width: 125%;
+  max-width: 125%;
+}
+/*
+.infoCardContainer--MioFull {
+    height: 615px;
+}*/
+
+.infoCardContainer--bannernewws {
+  background-size: 55% !important;
+}
+.skuSelectorOptionsList {
+  display: flex;
+  position: absolute;
+  flex-wrap: inherit;
+  justify-content: space-evenly;
+  width: 90%;
+  z-index: 999;
+  top: 66%;
+  margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+.skuSelectorItem {
+  background: #ffffffab;
+}
+.skuSelectorItem--selected {
+  background: #000131;
+  margin: 0px;
+  padding: 0;
+  border: none;
+}
+.skuSelectorItem--selected .skuSelectorItemTextValue {
+  color: white;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.skuSelectorNameContainer {
+  height: 0;
+  margin: 0;
+}
+.skuSelectorSubcontainer--talla {
+  margin: 0;
+}
+.skuSelectorSubcontainer--color {
+  display: none;
+}
+
+.infoCardContainer--CATEGORIASBANNERS {
+  flex-wrap: wrap;
+}
+.infoCardImageContainer--CATEGORIASBANNERS {
+  width: 100%;
+  order: 1;
+  display: flex;
+  justify-content: center;
+}
+.infoCardTextContainer--CATEGORIASBANNERS {
+  width: 100%;
+  order: 2;
+}
+.searchBarInnerContainer {
+  border-radius: 50px;
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border-radius: 52px;
+}
+.searchIcon {
+  color: #fbce2f;
+}
+.infoCardHeadline--Mio {
+  font-size: 80px;
+  color: white;
+  text-transform: uppercase !important;
+  margin: 0;
+}
+.infoCardTextContainer--Mio {
+  width: 60%;
+  margin: 0;
+  text-transform: uppercase;
+}
+.infoCardCallActionText--Mio {
+  width: 100%;
+}
+.infoCardCallActionContainer--Mio {
+  text-align: center;
+  margin: 0;
+}
+.searchBarContainer {
+  background: transparent;
+}
+.infoCardContainer--bannerfull {
+  background: #000131;
+  margin: 3px 0;
+}
+.infoCardHeadline--bannerfull {color: #FBCE2F;font-size: 60px;margin: 0;}
+.infoCardTextContainer--bannerfull {
+  padding: 0 100px;
+}
+.infoCardSubhead--bannerfull {
+  font-size: 19px;
+  color: white;
+}
+.infoCardCallActionContainer--bannerfull {
+  background: white;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.infoCardCallActionText--bannerfull {
+  color: black;
+  padding: 0 40px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.infoCardImage--bannerfull {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.infoCardCallActionText--CATEGORIASBANNERS {
+  text-decoration: none;
+}
+.infoCardTextContainer--CATEGORIASBANNERS {
+  padding: 0;
+  text-decoration: none;
+}
+.infoCardCallActionContainer--CATEGORIASBANNERS {
+  margin: 15px auto;
+  width: 58%;
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.infoCardCallActionContainer--CATEGORIASBANNERS:hover {
+  border-color: black;
+}
+.infoCardContainer--bannerMosaico1 {
+  height: 600px;
+}
+.infoCardContainer--newmosaico1 {
+  position: absolute;
+  width: 470px;
+  height: 146px;
+  top: 45%;
+  left: -176px;
+  border-radius: 7px;
+}
+.infoCardContainer--newmosaico4 {
+  position: absolute;
+  width: 80%;
+  left: 4%;
+  height: 344px;
+  top: 6%;
+}
+.infoCardContainer--newmosaico3 {
+  position: absolute;
+  width: 37%;
+  height: 369px;
+  left: -50%;
+  top: 23%;
+  background-size: 79% !important;
+}
+.infoCardTextContainer--bannerMosaico1 {
+  position: relative;
+  top: -22%;
+  width: 50%;
+}
+.infoCardHeadline--bannerMosaico1 {
+  color: #fbce2f;
+  width: 101%;
+  font-size: 50px;
+  position: relative;
+  top: -218%;
+  margin: 0;
+}
+.infoCardCallActionContainer--bannerMosaico1 {
+  position: relative;
+  top: -201%;
+  margin: 0;
+  text-decoration: none;
+}
+.infoCardCallActionText--bannerMosaico1 {
+  background: white;
+  padding: 19px 42px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 50px;
+}
+.infoCardContainer--bannersRegalo {
+  height: 375px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.infoCardCallActionText--bannersRegalo {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 102px;
+  border-radius: 22px;
+  font-size: 21px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.infoCardTextContainer--bannersRegalo {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.infoCardCallActionContainer--bannersRegalo {
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.infoCardCallActionText--bannersRegalo:hover {
+  background: white;
+}
+.infoCardContainer--bannersMujer {
+  position: absolute;
+  margin: 0 10px;
+  /* width: 85%; */
+  height: 440px;
+}
+.imageElementLink--bannersconVitrinaArriba {
+  z-index: 2;
+}
+.imageElement--bannersconVitrinaArriba {
+  position: absolute;
+  top: -54px;
+  width: 315px;
+}
+.imageElement--bannersconVitrinaAbajo {
+  position: absolute;
+  width: 19%;
+  bottom: -100px;
+  z-index: 2;
+}
+.infoCardCallActionContainer--bannersMujer {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  border-radius: 24px;
+  margin: 0 auto;
+  z-index: 3;
+}
+.infoCardCallActionText--bannersMujer {
+  color: white;
+  text-decoration: none;
+  padding: 10px 66px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+.infoCardTextContainer--bannersMujer {
+  justify-content: center;
+  margin: 127px 47px 0 auto;
+}
+.infoCardContainer--IMG-valor {
+  flex-wrap: wrap;
+  background: transparent;
+}
+.infoCardTextContainer--IMG-valor {
+  width: 100%;
+  order: 2;
+}
+.infoCardImageContainer--IMG-valor {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  align-items: center;
+  /* height: 194px; */
+  margin: 0 auto;
+}
+.infoCardCallActionText--bannersMujer::after {content: "";width: 27px;height: 18px;background: url(https://saetasport.vteximg.com.br/arquivos/flecha-der-blanco-mini.png);display: block;background-size: 99%;background-position: center;margin: auto 7px;background-repeat: no-repeat;}
+.infoCardImage--IMG-valor {
+  padding: 26px 26px 0;
+}
+
+.infoCardHeadline--IMG-valor {
+  text-transform: capitalize;
+  font-size: 25px;
+  text-align: center;
+}
+.infoCardSubhead--IMG-valor {
+  font-size: 14px;
+  text-align: center;
+}
+.infoCardCallActionText--IMG-valor {
+  text-align: center;
+  color: #0616C4;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.infoCardCallActionContainer--IMG-valor {
+  text-decoration: none;
+  margin: 0;
+}
+.infoCardContainer--LOGO-PREFOOTER {
+  background: transparent;
+}
+.infoCardTextContainer--LOGO-PREFOOTER {
+  display: none;
+}
+.infoCardImageContainer--LOGO-PREFOOTER {
+  width: 100%;
+  padding: 17px;
+}
+.infoCardTextContainer--mapa-pre-footer {
+  background: transparent;
+  order: 2;
+}
+.infoCardContainer--tienda-pre-footer {
+  background: transparent;
+  display: flex;
+}
+.infoCardContainer--mapa-pre-footer {
+  background: transparent;
+  display: flex;
+  width: 79%;
+}
+.infoCardContainer--tienda-pre-footer-redes {
+  background: transparent;
+  justify-content: center;
+}
+
+.infoCardCallActionText--tienda-pre-footer {
+  color: white;
+  text-decoration: none;
+}
+.infoCardCallActionText--mapa-pre-footer {
+  text-decoration: none;
+  color: white;
+}
+.infoCardImage--LOGO-PREFOOTER {
+  width: 80%;
+}
+.infoCardTextContainer--mapa-pre-footer {
+  width: 80%;
+}
+.infoCardTextContainer--tienda-pre-footer {
+  order: 2;
+  width: 80%;
+}
+.infoCardImage--mapa-pre-footer {
+  width: 20px;
+}
+.infoCardImageContainer--mapa-pre-footer {
+  width: 26% !important;
+}
+.infoCardImageContainer--tienda-pre-footer {
+  width: 20%;
+}
+.imageElement--vtex {
+  width: 66%!important;
+  justify-content: center;
+  display: flex;
+  margin: 0px auto -5px;
+}
+.imageElement--epartner {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.infoCardContainer--newmosaico1 {
+  position: absolute;
+  width: 470px !important;
+  height: 146px;
+  top: 45%;
+  left: -176px;
+  border-radius: 7px;
+}
+.infoCardContainer--newmosaico2 {
+  position: absolute;
+  width: 46%!important;
+  height: 270px;
+  top: -47px;
+  background-size: 80%!important;
+  right: 97px;
+}
+.infoCardContainer--newmosaico4 {
+  position: absolute;
+  width: 80% !important;
+  left: 4%;
+  height: 344px;
+  top: 6%;
+}
+.infoCardContainer--newmosaico3 {
+  position: absolute;
+  width: 37% !important;
+  height: 369px;
+  left: -50%;
+  top: 23%;
+  background-size: 79% !important;
+}
+.infoCardHeadline--bannersMujer {
+  /* margin: 0; */
+  color: #FBCE2F;
+  position: absolute;
+  top: 27%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 4px auto;
+  z-index: 2;
+  font-size: 67px;
+  bottom: 0;
+}
+.infoCardSubhead--bannersMujer {
+  position: absolute;
+  top: 15%;
+  font-size: 118px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 4px;
+  z-index: 1;
+  opacity: 0.5;
+}
+.imageElement--Product-Image-Header {
+  margin: 0;
+}
+.skuSelectorContainer--EspecificacionesDeSKU .skuSelectorOptionsList {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  justify-content: flex-start;
+}
+.skuSelectorContainer--EspecificacionesDeSKU .skuSelectorNameContainer {
+  height: 100px;
+}
+.skuSelectorContainer--EspecificacionesDeSKU .skuSelectorOptionsList::before {
+  display: none;
+}
+.skuSelectorContainer--EspecificacionesDeSKU .skuSelectorItem--selected {
+  background: transparent;
+}
+.skuSelectorContainer--EspecificacionesDeSKU .skuSelectorItem {
+  margin: 0 10px 0 0;
+  border: none;
+}
+.frameAround--EspecificacionesDeSKU {
+  border-color: #FBCE2F;
+  z-index: 2;
+}
+.skuSelectorSubcontainer--talla .skuSelectorName {
+  font-size: 0;
+}
+.skuSelectorSubcontainer--talla .skuSelectorName::after {content: "CHOOSE YOUR SIZE";font-size: 17px;font-weight: bold;}
+
+.productImage--imagenesESPECIFICIMG1 {
+  display: none;
+}
+.productImage--imagenesESPECIFICIMG1:last-child {
+  display: block;
+  width: 100%;
+}
+/*.infoCardHeadline--bannerfull::before {content: "¡NUEVOS UNIFORMES!";display: block;color: #FE1D2E;font-size: 21px;}*/
+.infoCardImageContainer--bannerfull {
+  width: 70%;
+}
+.infoCardImageContainer--bannerfull {
+  width: 70%;
+}
+.infoCardSubhead--IMG-valor {
+  height: 67px;
+}
+
+.infoCardCallActionContainer--tienda-pre-footer {
+  text-decoration: none;
+}
+.resultsList {
+  max-height: 50vh;
+  border-radius: 10px;
+  padding: 10px 5px;
+  overflow: auto;
+  box-shadow: 13px 17px 24px 5px rgba(0,0,0,0.31);
+}
+.searchBarIcon--clear {
+  color: rgb(255, 255, 255);
+}
+.infoCardCallActionText--Mio:hover {
+  background: white;
+  color: #FE1D2E;
+}
+.skuSelectorTextContainer.db.mb3 {
+  color: black;
+}
+.skuSelectorName {
+  color: black;
+}
+.productImageTag--main {
+  max-height: none !important;
+}
+.skuSelectorContainer--EspecificacionesDeSKU .skuSelectorSubcontainer--color {
+  display: block;
+  padding-top: 25px;
+}
+.skuSelectorSubcontainer--talla {
+  order: 2;
+  width: 100%;
+}
+.skuSelectorSubcontainer--color {
+  order: 1;
+  width: 100%;
+}
+.skuSelectorContainer--EspecificacionesDeSKU {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skuSelectorSubcontainer--color .skuSelectorItem {
+  width: auto;
+  height: auto;
+}
+
+.skuSelectorSubcontainer--color .skuSelectorName {
+  font-size: 0;
+}
+.skuSelectorSubcontainer--color .skuSelectorName::before {content: "Colores Disponibles";font-size: 17px;font-weight: 700;text-transform: uppercase;}
+.skuSelectorContainer--EspecificacionesDeSKU .skuSelectorSubcontainer--talla {
+  padding-top: 35px !important;
+}
+.skuSelectorInternalBox--EspecificacionesDeSKU {
+  border: none;
+}
+
+.productImageTag--imagenesESPECIFICIMG--main {
+  max-height: 500px !important;
+}
+.productImageTag--imagenesESPECIFICIMG1--main {
+  max-height: 500px !important;
+}
+.imageElement--Product-Image-HeaderM {
+  margin: -20% 0 0;
+}
+
+
+.imageElement--Product-Image-HeaderM {
+  display: none;
+}
+.imageElement--Product-Image-Header {
+  display: block;
+  width: 100%;
+}
+.infoCardCallActionText--bannerMosaico1:hover {
+  background: #fbce2f;
+}
+.infoCardCallActionContainer--bannerfull:hover {
+  background: #fbce2f;
+}
+.infoCardContainer--bannernewwsMdola {
+  height: 238px;
+  border-radius: 10px;
+  min-height: 200px;
+}
+.infoCardContainer--inicio-login {
+  height: 312px;
+}
+.imageElement--ImagenMenu {
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0;
+}
+.imageElementLink--ImagenMenu {
+  width: 240px !important;
+  max-width: 240px;
+  min-width: 240px;
+}
+.styledLinkContainer--MENU-NIVEL-DEPTO.mh6 {
+  margin: 0;
+}
+.imageElementLink--ImagenMenu {
+  margin: 0 0 0 auto;
+}
+.filters--layout {
+  width: 95%;
+}
+.highQualityContainer {
+  overflow: visible;
+}
+.highQualityProductImageImgElement {
+  max-height: 700px;
+}
+.imageElement--medios-pago {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+}
+.infoCardImage--tienda-pre-footer-redes {
+  width: 80%;
+}
+.skuSelectorContainer .skuSelectorSubcontainer--talla {
+  padding-top: 0;
+}
+.infoCardCallActionContainer--bannersMujer:hover {
+  background: #ffffff38;
+}
+.productDescriptionTitle--textosPrincDescSecTituloDescripcion {
+    /* display: none; */
+    font-size: 15px;
+    margin: 16px 0 0;
+    width: 100%;
+}
+.skuSelectorItemTextValue--EspecificacionesDeSKU {
+  height: 36px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.productBrand:first-child {
+  display: none;
+}
+.infoCardImage--bannerM {
+  top: -64px;
+  position: relative;
+}
+.skuSelectorContainer--EspecificacionesDeSKU .skuSelectorSubcontainer--color {
+  display: none;
+}
+.imageElement--foto-tienda {
+  padding: 11px;
+  height: fit-content;
+  align-items: center;
+  display: flex;
+}
+.imageElement--foto-localizacion {
+  width: 78%;
+  height: 86%;
+  display: flex;
+  align-items: center;
+}
+.imageElement--foto-fachada {
+  width: 92%;
+  border-radius: 10px;
+}
+.infoCardContainer--icono-whatsapp {
+  position: fixed;
+  bottom: 2%;
+  width: 60px;
+  height: 60px;
+  right: 2%;
+  z-index: 9;
+}
+.infoCardTextContainer--icono-whatsapp {
+  width: 100%;
+  margin: 0;
+}
+.infoCardContainer--IR-B2C {
+  margin: 0 auto;
+  justify-content: center;
+}
+.infoCardCallActionContainer--IR-B2C {
+  justify-content: center;
+  display: flex;
+  margin: 34px auto 0;
+  background: transparent;
+  text-decoration: none;
+  border: none;
+}
+.infoCardCallActionContainer--IR-B2C :global(.vtex-button__label) {
+  background: #fbce2f;
+  border-radius: 4px;
+  color: #000131;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 24px;
+  display: flex;
+  border: none;
+}
+.infoCardTextContainer--IR-B2C {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .imageElement--Product-Image-HeaderM {
+    display: block;
+    width: 100%;
+  }
+  .imageElement--Product-Image-Header {
+    display: none;
+  }
+  
+  
+  .imageElement--BannerPagosD{
+    display: none;
+  }
+  .infoCardContainer--bannerM{
+    display: block !important;
+    background-color: transparent;
+  }
+  .infoCardTextContainer--bannerM{
+    display: none;
+  }
+  .logoImage {
+    max-width: 70%;
+    margin-left: 14px;
+    padding: 4px 0;
+  }
+  .logoContainer--logoImg {
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .infoCardContainer--bannerC{
+    display: none;
+  }
+  .infoCardContainer--Mio {
+    min-height: 343px !important;
+  }
+  :global(.vtex-store__template){
+    overflow: hidden;
+  }
+  .infoCardHeadline--segundo {
+    font-size: 33px;
+    font-family: 'Anybody';
+  }
+  /*Ctegoria 3*/
+  .infoCardImageContainer--marcas-icon3::before{
+    opacity: 1;
+    left: 24%;
+    top: 13%; 
+    z-index: 999999;
+  }
+  /*Ctegoria 4*/
+  .infoCardImageContainer--marcas-icon4::before{
+    opacity: 1;
+    z-index: 999999;
+    width: 70px;
+  }
+  /*Ctegoria 1*/
+  .infoCardImageContainer--marcas-icon1::before{
+    opacity: 1;
+    left: 32%;
+    width: 53px;
+    z-index: 999999;
+  }
+  /*Ctegoria 2*/
+  .infoCardImageContainer--marcas-icon2::before{
+    opacity: 1;
+    top: 26%;
+    z-index: 999999;
+    left: 21%;
+  }
+  /*Ctegoria 5*/
+  .infoCardImageContainer--marcas-icon5::before{
+    opacity: 1;
+    width: 70px;
+    top: 16%;
+    z-index: 999999;
+  }
+  /*Ctegoria 6*/
+  .infoCardImageContainer--marcas-icon6::before{
+    opacity: 1;
+    width: 70px;
+    top: 19%;
+    left: 31%;
+    z-index: 999999;
+  }
+  /*Ctegoria 7*/
+  .infoCardImageContainer--marcas-icon7::before{
+    opacity: 1;
+    width: 70px;
+    left: 32%;
+    z-index: 999999;
+  }
+  /*Ctegoria 8*/
+  .infoCardImageContainer--marcas-icon8::before{
+    opacity: 1;
+    width: 70px;
+    left: 35%;
+    z-index: 999999;
+  }
+  /*Ctegoria 9*/
+  .infoCardImageContainer--marcas-icon9::before{
+    opacity: 1;
+    width: 70px;
+    top: 15%;    
+    z-index: 999999;
+  }
+  /*Ctegoria 10*/
+  .infoCardImageContainer--marcas-icon10::before{
+    opacity: 1;
+    width: 70px;
+    top: 16%;
+    left: 29%;    
+    z-index: 999999;
+  }
+  /*Ctegoria 11*/
+  .infoCardImageContainer--marcas-icon11::before{
+    opacity: 1;
+    width: 70px;
+    top: 17%;
+    left: 42%;
+    z-index: 999999;
+  }
+  /*Ctegoria 12*/
+  .infoCardImageContainer--marcas-icon12::before{
+    opacity: 1;
+    width: 70px;
+    left: 35%;
+    top: 18%;
+    z-index: 999999;
+  }
+  /*Ctegoria 13*/
+  .infoCardImageContainer--marcas-icon13::before{
+    opacity: 1;
+    width: 60px;
+    left: 33%;
+    top: 16%;
+    z-index: 999999;
+  }
+  /*Ctegoria 13*/
+  .infoCardImageContainer--marcas-icon14::before{
+    opacity: 1;
+    width: 70px;
+    left: 29%;
+    top: 16%;
+    z-index: 999999;
+  }
+  .infoCardCallActionContainer--Mio {
+    z-index: 9999;
+    margin-top: 108px;
+    margin-left: -14px;
+  }
+  .infoCardHeadline--BannerDos {
+    font-size: 25px;
+    font-weight: bold;
+    bottom: 83px;
+    left: 15px;
+    width: 83%;
+  }
+  .infoCardCallActionContainer--BannerDos {
+    width: 89%;
+    height: 63px;
+    margin: 0 6%;
+  }
+  .infoCardCallActionText--BannerDos {
+    font-size: 18px;
+  }
+  .infoCardContainer--BannerDos {
+    height: 387px;
+  }
+  .infoCardContainer--BannerDos{
+    margin: 0;
+    margin-left: 5px;
+  }
+  .autoCompleteOuterContainer {
+    border-radius: 30px;
+    width: 100%;
+    background: #dadada5e;
+    margin: 0 5px;
+  }
+  .infoCardImage--textfool3 {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 18px;
+  }
+  .infoCardImageContainer--textfool3 {
+    width: 48%;
+  
+  }
+  .infoCardImageContainer--textfool2{
+    display: flex;
+    justify-content: center;
+  }
+  .productImagesGallerySlide{
+    margin: 0 auto;
+    width : 100% !important
+  }
+  .carouselGaleryThumbs{
+    display: block !important;
+  }
+  .imageElement--BannerProduct {
+    margin: 20px 0;
+    width: 100%;
+  }
+  .infoCardCallActionContainer--descripcionEspec {
+    margin: -18px 0 0 60% !important;
+  }
+  .productDescriptionContainer{
+    margin-top: 10px;
+  }
+  .productImagesThumbActive {
+    height: auto !important;
+  }
+  .form--newsletter{
+    margin: 0px -12px;
+    padding: 0;
+    width: 38%;
+  }
+  .infoCardSubhead--QuienesSomos{
+    margin: 10px 15px;
+  }
+  .imageElement--QuienesSomosImg2 {
+    padding: 55px 0;
+    margin: -27px 20px;
+    width: 90%;
+    max-height: 100%;
+  }
+  .productImagesThumb {
+    height: auto !important;
+    margin-bottom: 0;
+    margin-left: 6px;
+  }
+  .productImagesThumb:first-child {
+    margin-left: 0px;
+  }
+  .productBrand {
+    color: #000131;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Anybody';
+    line-height: 24px;
+  }
+.productNameContainer {
+    padding: 15px 0 0;
+}
+  .infoCardContainer--textfool2{
+    margin: 0 0 0 -13px;
+  }
+  .infoCardContainer--BannerDosUno {
+    margin-right: 5px;
+    margin-left: 0;
+  }
+  .infoCardCallActionText--Mio{
+    font-weight: 400;
+  }
+  .infoCardContainer--segundo :global(.vtex-shelf-1-x-shelfContentContainer){
+    margin-bottom: 10px;
+  }
+  .infoCardImage--marcas-icon1{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon2{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon3{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon4{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon5{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon6{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon7{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon8{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon9{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon10{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon11{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon12{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon13{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  .infoCardImage--marcas-icon14{
+    filter: brightness(0.5);
+    z-index: -999999;
+  }
+  /*Estilos de los textos en los banners del home*/
+  .imageElementLink--imagencomp1primera::before {
+    content: "COMPLETA TU ESTILO";
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 74%;
+    align-items: center;
+  }
+  .imageElementLink--imagencomp1primera::before {
+    content: "COMPLETA TU ESTILO";
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 74%;
+    align-items: center;
+  }
+  .imageElementLink--imagencomp1segunda::before {
+    content: "CUIDA TU SISTEMA RESPIRATORIO";
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 165%;
+    align-items: center;
+  }
+  .imageElementLink--bannerLateralDerecho::before {
+    content: "AYUDARTE A MOVILIZAR";
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    width: 87%;
+    justify-content: center;
+    display: flex;
+    height: 94%;
+    align-items: flex-end;
+  }
+  .inputGroup--newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .newsletter--newsletter {
+    width: 100%;
+  }
+  .form--newsletter {
+    width: auto !important;
+  }
+  .searchBarContainer{
+    width: 97%;
+  }
+  .buttonContainer--newsletter{
+    width: 100%;
+  }
+  .carouselGaleryCursor {
+    display: block;
+  }
+  .productImage {
+    width: 100%;
+    margin: 0 6px;
+  }
+  /*combiente el thumb en una linea*/
+  .thumbImg{
+    height: 1px;
+}
+.carouselGaleryThumbs {
+  margin: 0;
+}
+.productImagesThumb {
+  margin: 0;
+}
+.thumbImg {
+  margin-top: 0px;
+}
+.productImagesGallerySwiperContainer {
+  background: white;
+}
+.skuSelectorItem {
+  width: 16%;
+}
+.imageElement--medios-pago {
+  width: 92%;
+}
+.infoCardImageContainer--LOGO-PREFOOTER {
+  padding: 0;
+}
+.infoCardCallActionContainer--mapa-pre-footer {
+  margin: 0 !important;
+  font-size: 10px;
+}
+.infoCardCallActionText--mapa-pre-footer {
+  font-size: 12px;
+}
+.infoCardCallActionText--tienda-pre-footer {
+  font-size: 12px;
+}
+.infoCardImage--tienda-pre-footer-redes {
+  width: 79%;
+}
+.infoCardTextContainer--Mio {
+  padding: 184px 25px 25px;
+  width: 79%;
+}
+.infoCardHeadline--Mio {
+  font-size: 39px;
+}
+.infoCardCallActionContainer--Mio {
+  margin: 0;
+}
+.infoCardCallActionText--Mio {
+  padding: 14px;
+}
+.infoCardSubhead--Mio {
+  font-size: 14px;
+}
+.infoCardTextContainer--bannerfull {
+  padding: 24px 10px;
+}
+.infoCardContainer--bannerfull {
+  display: flex;
+}
+.infoCardTextContainer--bannerfull {
+  width: 92%;
+}
+.infoCardHeadline--bannerfull {
+  font-size: 30px;
+}
+.infoCardCallActionText--bannerfull {
+  padding: 1px 5px;
+  font-size: 12px;
+  text-align: center;
+}
+.infoCardCallActionContainer--bannerfull {
+  margin: 9px 0;
+}
+.infoCardSubhead--bannerfull {
+  margin: 0 auto;
+  font-size: 14px;
+}
+.infoCardImage--bannerfull {
+  width: auto;
+  height: 375px;
+  display: block;
+  margin: 0 auto;
+}
+.infoCardImageContainer--bannerfull {
+  width: 48%;
+  margin: 0 auto;
+}
+.infoCardContainer--CATEGORIASBANNERS {
+  display: flex;
+  margin: 5px;
+}
+.infoCardCallActionContainer--CATEGORIASBANNERS {
+  width: 86%;
+}
+.infoCardCallActionText--CATEGORIASBANNERS {
+  font-size: 13px;
+}
+.skuSelectorOptionsList {
+  top: 57%;
+  width: 90%;
+}
+.skuSelectorItemTextValue {
+  padding: 1px;
+  font-size: 11px;
+}
+.skuSelectorItem {
+  height: 30px;
+}
+.infoCardTextContainer--bannerMosaico1 {
+  top: -60px;
+  margin: 39px;
+}
+.skuSelectorOptionsList::before {
+  content: "SIZES:";
+  width: 19%;
+  background: #ffffffab;
+  position: absolute;
+  top: -81%;
+  font-size: 8px;
+  padding: 5px 1px;
+  border-radius: 5px;
+}
+.infoCardHeadline--bannerMosaico1 {
+  font-size: 23px;
+}
+.infoCardCallActionText--bannerMosaico1 {
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 11px;
+}
+.infoCardContainer--bannerMosaico1 {
+  height: 316px;
+}
+.infoCardContainer--newmosaico1 {
+  top: 7%;
+  width: 40% !important;
+  height: 66px;
+  left: 13%;
+  background-size: 100% !important;
+}
+.infoCardContainer--newmosaico4 {
+  top: 53%;
+  right: 7px;
+  width: 38% !important;
+  background-size: 100% !important;
+  left: unset;
+}
+.infoCardContainer--newmosaico2 {
+  top: -20%;
+  background-size: 55% !important;
+  right: 0;
+}
+.infoCardContainer--newmosaico3 {
+  top: 37%;
+  left: unset;
+  right: 7%;
+  z-index: 3;
+}
+.infoCardImageContainer--IMG-valor {
+  order: 1;
+  width: 46%;
+  height: 170px;
+  position: relative;
+  padding: 64px 0 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.infoCardContainer--IMG-valor{
+  display: flex;
+}
+.infoCardHeadline--IMG-valor {
+  font-size: 16px;
+}
+.infoCardContainer--bannersRegalo {
+  width: 100%;
+  height: 356px;
+}
+
+.imageElement--bannersconVitrinaArriba {
+  width: 48%;
+  left: 0;
+}
+.imageElement--bannersconVitrinaAbajo {
+  width: 40%;
+  bottom: 56px;
+  right: 0px;
+}
+.infoCardContainer--bannersMujer {
+  background-size: 132% !important;
+}
+.infoCardHeadline--bannersMujer {
+  color: #FBCE2F;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 4px auto;
+  z-index: 2;
+  bottom: 0;
+  left: 35px;
+  font-size: 55px;
+}
+.infoCardSubhead--bannersMujer {
+  position: absolute;
+  top: 22%;
+  font-size: 76px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 4px;
+  z-index: 1;
+  opacity: 0.5;
+  left: 8px;
+}
+
+.infoCardCallActionText--bannersMujer {
+  padding: 2px 30px;
+  /* top: 27px; */
+}
+.imageElement--bannersconVitrinaArriba {
+  width: 48%;
+  left: 0;
+}
+.imageElement--bannersconVitrinaAbajo {
+  width: 40%;
+  bottom: 56px;
+  right: 0px;
+}
+.infoCardContainer--bannersMujer {
+  background-size: 132% !important;
+}
+.infoCardHeadline--bannersMujer {
+  /* margin: 0; */
+  color: #FBCE2F;
+  position: absolute;
+  top: 34%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 4px auto;
+  z-index: 2;
+  bottom: 0;
+}
+.infoCardSubhead--bannersMujer {
+  position: absolute;
+  top: 26%;
+  font-size: 76px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 4px;
+  z-index: 1;
+  opacity: 0.5;
+}
+.infoCardCallActionContainer--bannersMujer {
+  position: relative;
+  margin: 31px auto;
+  top: 0;
+}
+.infoCardCallActionText--bannersMujer {
+  padding: 2px 30px;
+  font-size: 13px;
+    margin: 9px 0;
+    display: flex;
+    justify-content: center;
+}
+.skuSelectorItemTextValue--EspecificacionesDeSKU {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skuSelectorContainer--EspecificacionesDeSKU .skuSelectorOptionsList {
+  margin: 0 auto 0 0;
+}
+.imageElement--Product-Image-TAB {
+  margin: 0;
+}
+.infoCardContainer--bannernewwsMdola {
+  height: 160px;
+}
+.infoCardContainer--inicio-login {
+  height: 167px;
+  margin: -64px 0 0 0;
+}
+.infoCardContainer--inicio-login {
+  height: 167px;
+  margin: -64px 0 0 0;
+}
+.infoCardSubhead--IMG-valor {
+  font-size: 12px;
+}
+.content {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: justify;
+  font-weight: 400;
+  color: black;
+}
+.infoCardSubhead--About_banner--top {
+  font-size: 13px !important;
+  line-height: normal !important;
+  text-align: inherit  !important;
+}
+.infoCardHeadline--About_banner--top {
+  font-size: 31px !important;
+  line-height: normal !important;
+}
+.infoCardHeadline--Purpose__slider-item {
+  font-size: 28px !important;
+}
+.infoCardSubhead--Purpose__slider-item--mision {
+  font-size: 13px !important;
+}
+.infoCardTextContainer--Purpose__slider-item {
+  padding: 0 17px !important;
+}
+.heading--News__title {
+  font-size: 20px !important;
+}
+.headingLevel1--Blog__title {
+  font-size: 20px !important;
+}
+.infoCardHeadline--Blog__item--post1 {
+  font-size: 20px !important;
+}
+.infoCardSubhead--Blog__item--post1 {
+  font-size: 13px !important;
+  line-height: normal !important;
+}
+.infoCardSubhead--Purpose__slider-item--vision {
+  font-size: 13px !important;
+}
+.infoCardHeadline--Blog__item--post2 {
+  font-size: 20px !important;
+}
+.infoCardSubhead--Blog__item--post2 {
+  font-size: 12px !important;
+  line-height: normal !important;
+}
+.infoCardHeadline--Blog__item {
+  font-size: 20px !important;
+}
+.infoCardSubhead--Blog__item {
+  font-size: 12px !important;
+  line-height: normal !important;
+}
+.infoCardHeadline--Tab__card--1967 {
+  font-size: 20px !important;
+}
+.infoCardSubhead--Tab__card--1967 {
+  font-size: 13px !important;
+  line-height: normal !important;
+}
+.infoCardCallActionText--IMG-valor {
+  margin: 30px 0 0;
+}
+.searchBarIcon--clear {
+  color: rgb(0, 0, 0);
+}
+.infoCardContainer--tienda-pre-footer-redes {
+  position: relative;
+}
+.infoCardTextContainer--tienda-pre-footer-redes {
+  position: absolute;
+}
+.imageElement--app-logo {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  max-width: 100px;
+}
+.imageElement--vtex {
+  margin: -4px auto -2px;
+  width: 55% !important;
+}
+}
+
+
+@media (max-width: 380px){
+.skuSelectorOptionsList {
+    top: 50%;
+}
+.infoCardSubhead--IMG-valor {
+  font-size: 11px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * New styles About us Page */
+
+/* !Banner top */
+.infoCardContainer--About_banner--top {
+  background-position-x: center;
+  background-position-y: -230px;
+}
+.infoCardHeadline--About_banner--top {
+  margin-top: 40%;
+  width: 100%;
+  color: white;
+  font-size: 70px;
+  font-family: 'Anybody';
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+  text-transform: uppercase !important;
+}
+.infoCardSubhead--About_banner--top {
+  margin-bottom: 370px;
+  color: white;
+  font-family: 'Anybody';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: justify;
+}
+.infoCardCallActionContainer--About_banner--top {
+  display: none;
+}
+/* !Purpose slider */
+.infoCardHeadline--Purpose__slider-item {
+  color: #fbce2f;
+  font-family: Anybody;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.infoCardSubhead--Purpose__slider-item {
+  padding-bottom: 20px;
+  color: #000131;
+  font-family: Anybody;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 23px;
+  text-align: justify;
+}
+.infoCardCallActionContainer--Purpose__slider-item {
+  display: none;
+}
+.infoCardImageContainer--Purpose__slider-item {
+  margin-bottom: 17px;
+  padding: 10px;
+}
+.infoCardImage--Purpose__slider-item {
+  border-radius: 10px;
+  width: 100%;
+}
+/* !News slider */
+.infoCardSubhead--News__slider-item {
+  color: white;
+  font-size: 14px;
+  font-family: 'Anybody';
+}
+.infoCardHeadline--News__slider-item {
+  display: flex;
+  flex-direction: column;
+  color: #fbce2f;
+  font-size: 25px;
+  font-family: 'Anybody';
+}
+.infoCardHeadline--News__slider-item::before {
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+}
+.infoCardHeadline--News__slider-item--news1::before {
+  content: 'Futbol';
+}
+.infoCardHeadline--News__slider-item--news2::before {
+  content: 'Deportes';
+}
+.infoCardHeadline--News__slider-item--news3::before {
+  content: 'Marca';
+}
+.infoCardContainer--News__slider-item {
+  height: 100%;
+  border-radius: 10px;
+}
+.infoCardCallActionContainer--News__slider-item :global(.vtex-button__label) {
+  padding: 15px 25px !important;
+  color: #000131;
+  background-color: #fbce2f;
+  border-radius: 100px;
+  font-size: 15px;
+  font-family: 'Anybody';
+  text-transform: uppercase;
+}
+/* !Blog cards */
+.infoCardTextContainer--Blog__item {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.infoCardContainer--Blog__item {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 10px;
+}
+.infoCardImage--Blog__item {
+  border-radius: 10px;
+}
+.infoCardHeadline--Blog__item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  color: #000131;
+  font-family: 'Anybody';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: left;
+}
+.infoCardHeadline--Blog__item::before {
+  color: #fbce2f;
+  font-family: 'Anybody';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.infoCardHeadline--Blog__item--post1::before {
+  content: 'etiqueta';
+}
+.infoCardHeadline--Blog__item--post2::before {
+  content: 'etiqueta';
+}
+.infoCardHeadline--Blog__item--post3::before {
+  content: 'etiqueta';
+}
+.infoCardSubhead--Blog__item {
+  margin: 0;
+  text-align: justify;
+}
+.infoCardCallActionContainer--Blog__item {
+  margin-bottom: 0;
+  width: 100%;
+  text-align: end;
+}
+.infoCardSubhead--Blog__item {
+  color: black;
+  font-family: 'Anybody';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+.infoCardCallActionContainer--Blog__item :global(.vtex-button__label) {
+  padding-right: 0;
+  color: #0616c4;
+  font-family: 'Anybody';
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+/* !Slider bottom */
+.imageElement--Slider__item {
+  margin: 0;
+  border-radius: 5px;
+}
+/* !Tab layout */
+.infoCardCallActionContainer--Tab__card {
+  display: none;
+}
+.infoCardContainer--Tab__card {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #f6f6f6;
+  padding-bottom: 15px;
+}
+.infoCardImage--Tab__card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.infoCardHeadline--Tab__card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  width: 100%;
+  color: #000131;
+  font-family: 'Anybody';
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+}
+.infoCardHeadline--Tab__card::before {
+  color: #0616c4;
+  font-family: 'Anybody';
+  font-size: 15px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+  line-height: 19px;
+}
+.infoCardHeadline--Tab__card--1967::before {
+  content: 'Noviembre 15, 1967';
+}
+.infoCardHeadline--Tab__card--1982::before {
+  content: 'Noviembre 15, 1982';
+}
+.infoCardHeadline--Tab__card--1983::before {
+  content: 'Noviembre 15, 1983';
+}
+.infoCardHeadline--Tab__card--1984::before {
+  content: 'Noviembre 15, 1984';
+}
+.infoCardHeadline--Tab__card--1987::before {
+  content: 'Noviembre 15, 1987';
+}
+.infoCardHeadline--Tab__card--1989::before {
+  content: 'Noviembre 15, 1989';
+}
+.infoCardHeadline--Tab__card--1991::before {
+  content: 'Noviembre 15, 1991';
+}
+.infoCardHeadline--Tab__card--1992::before {
+  content: 'Noviembre 15, 1992';
+}
+.infoCardHeadline--Tab__card--1993::before {
+  content: 'Noviembre 15, 1993';
+}
+.infoCardSubhead--Tab__card {
+  margin-top: 0;
+  color: black;
+  font-family: 'Anybody';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+}
+@media (min-width: 600px) {
+  /* !Top Banner */
+  .infoCardHeadline--About_banner--top {
+    margin: 125% auto 0;
+    width: 90%;
+  }
+  .infoCardSubhead--About_banner--top {
+    margin: 0 auto 370px;
+    width: 90%;
+  }
+  /* !Purpose section */
+  .infoCardTextContainer--Purpose__slider-item {
+    padding: 0 40px;
+  }
+  .infoCardImageContainer--Purpose__slider-item {
+    padding: 10px 40px;
+  }
+  /* !Blog Section */
+  .infoCardContainer--Blog__item {
+    padding: 10px 40px;
+  }
+  .infoCardImageContainer--Blog__item {
+    width: 100%;
+  }
+  .infoCardImage--Blog__item {
+    width: 100%;
+  }
+  .infoCardSubhead--About_banner--top {
+    font-size: 13px;
+    line-height: normal;
+    text-align: inherit;
+  }
+  .infoCardHeadline--About_banner--top {
+    font-size: 31px;
+    line-height: normal;
+  }
+  .infoCardHeadline--Purpose__slider-item {
+    font-size: 28px;
+  }
+  .infoCardSubhead--Purpose__slider-item--mision {
+    font-size: 13px;
+  }
+  .infoCardTextContainer--Purpose__slider-item {
+    padding: 0 17px;
+  }
+  .heading--News__title {
+    font-size: 20px;
+  }
+  .headingLevel1--Blog__title {
+    font-size: 20px;
+  }
+  .infoCardHeadline--Blog__item--post1 {
+    font-size: 20px;
+  }
+  .infoCardSubhead--Blog__item--post1 {
+    font-size: 13px;
+    line-height: normal;
+  }
+  .infoCardSubhead--Purpose__slider-item--vision {
+    font-size: 13px;
+  }
+  .infoCardHeadline--Blog__item--post2 {
+    font-size: 20px;
+  }
+  .infoCardSubhead--Blog__item--post2 {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .infoCardHeadline--Blog__item {
+    font-size: 20px;
+  }
+  .infoCardSubhead--Blog__item {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .infoCardHeadline--Tab__card--1967 {
+    font-size: 20px;
+  }
+  .infoCardSubhead--Tab__card--1967 {
+    font-size: 13px;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 640px) {
+  /* !Banner top */
+  .infoCardTextContainer--About_banner--top {
+    margin: 0;
+    width: 100%;
+  }
+  .infoCardHeadline--About_banner--top {
+    margin: 55% auto 0;
+  }
+  /* !Purpose section */
+  .infoCardContainer--Purpose__slider-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .infoCardTextContainer--Purpose__slider-item {
+    width: 100%;
+  }
+  .infoCardImageContainer--Purpose__slider-item {
+    width: 100%;
+  }
+  /* !News Section */
+  .infoCardTextContainer--News__slider-item {
+    width: 100%;
+  }
+  /* !Blog Section */
+  .infoCardTextContainer--Blog__item {
+    width: 100%;
+  }
+  .infoCardImageContainer--Blog__item {
+    width: 100%;
+  }
+  /* !Tab Layout Section  */
+  .infoCardTextContainer--Tab__card {
+    width: 100%;
+  }
+  .infoCardImageContainer--Tab__card {
+    width: 100%;
+  }
+  .infoCardSubhead--About_banner--top {
+    font-size: 13px;
+    line-height: normal;
+    text-align: inherit;
+  }
+  .infoCardHeadline--About_banner--top {
+    font-size: 31px;
+    line-height: normal;
+  }
+  .infoCardHeadline--Purpose__slider-item {
+    font-size: 28px;
+  }
+  .infoCardSubhead--Purpose__slider-item--mision {
+    font-size: 13px;
+  }
+  .infoCardTextContainer--Purpose__slider-item {
+    padding: 0 17px;
+  }
+  .heading--News__title {
+    font-size: 20px;
+  }
+  .headingLevel1--Blog__title {
+    font-size: 20px;
+  }
+  .infoCardHeadline--Blog__item--post1 {
+    font-size: 20px;
+  }
+  .infoCardSubhead--Blog__item--post1 {
+    font-size: 13px;
+    line-height: normal;
+  }
+  .infoCardSubhead--Purpose__slider-item--vision {
+    font-size: 13px;
+  }
+  .infoCardHeadline--Blog__item--post2 {
+    font-size: 20px;
+  }
+  .infoCardSubhead--Blog__item--post2 {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .infoCardHeadline--Blog__item {
+    font-size: 20px;
+  }
+  .infoCardSubhead--Blog__item {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .infoCardHeadline--Tab__card--1967 {
+    font-size: 20px;
+  }
+  .infoCardSubhead--Tab__card--1967 {
+    font-size: 13px;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 1030px) {
+  /* !Banner top */
+  .infoCardContainer--About_banner--top {
+    background-position-y: -45px;
+  }
+  .infoCardHeadline--About_banner--top {
+    margin: 20% auto 0 160px;
+    width: 44%;
+
+  }
+  .infoCardSubhead--About_banner--top {
+    width: 80%;
+    padding-right: 35%;
+    font-size: 15px;
+  }
+  /* !Purpose Section */
+  .infoCardHeadline--Purpose__slider-item {
+    width: 100%;
+    text-align: left;
+    font-size: 50px;
+  }
+  .infoCardSubhead--Purpose__slider-item {
+    font-size: 15px;
+  }
+  .infoCardTextContainer--Purpose__slider-item--mision {
+    padding-right: 10px;
+  }
+  .infoCardImageContainer--Purpose__slider-item--mision {
+    padding-right: 10px;
+  }
+  .infoCardTextContainer--Purpose__slider-item--vision {
+    padding-left: 10px;
+  }
+  .infoCardImageContainer--Purpose__slider-item--vision {
+    padding-left: 10px;
+  }
+  /* !News Section */
+  .infoCardTextContainer--News__slider-item {
+    margin: 0 11px;
+  }
+  .infoCardCallActionContainer--News__slider-item :global(.vtex-button__label) {
+    font-weight: 700;
+  }
+  /* !Blog Section */
+  .infoCardHeadline--Blog__item::before {
+    font-size: 15px;
+  }
+  .infoCardHeadline--Blog__item {
+    font-size: 25px;
+  }
+  .infoCardSubhead--Blog__item {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .infoCardCallActionContainer--Blog__item :global(.vtex-button__label) {
+    font-size: 15px;
+  }
+  .infoCardContainer--Blog__item {
+    padding: 20px;
+  }
+  .infoCardContainer--Blog__item--post1 {
+    padding-right: 10px;
+  }
+  .infoCardContainer--Blog__item--post2 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .infoCardContainer--Blog__item--post3 {
+    padding-left: 10px;
+  }
+
+  /* !Tab Layout Section */
+  .infoCardContainer--Tab__card {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 50px;
+  }
+  .infoCardTextContainer--Tab__card {
+    padding: 0 30px;
+  }
+  .infoCardHeadline--Tab__card {
+    font-size: 55px;
+  }
+  .infoCardSubhead--Tab__card {
+    padding-top: 10px;
+  }
+  .infoCardSubhead--IMG-valor {
+    height: 88px;
+}
+}
+
+@media (min-width: 1700px) {
+  /* !Purpose Section */
+  .infoCardTextContainer--Purpose__slider-item--mision {
+    padding: 0 10px 0 100px;
+  }
+  .infoCardImageContainer--Purpose__slider-item--mision {
+    padding: 0 10px 0 100px;
+  }
+  .infoCardTextContainer--Purpose__slider-item--vision {
+    padding: 0 100px 0 10px;
+  }
+  .infoCardImageContainer--Purpose__slider-item--vision {
+    padding: 0 100px 0 10px;
+  }
+  /* !Tab Layout section */
+  .infoCardContainer--Tab__card {
+    padding: 20px 120px;
+  }
+}
+/* * //New styles About us Page */

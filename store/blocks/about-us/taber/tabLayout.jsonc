@@ -1,0 +1,313 @@
+{
+  "flex-layout.row#history-content": {
+    "props": {
+      "blockClass": ["History"]
+    },
+    "children": ["tab-layout#history"]
+  },
+  /* "flex-layout.col#history": {
+    "props": {
+      "blockClass": ["History__container"]
+    },
+    "children": ["tab-layout#history"]
+  }, */
+  "tab-layout#history": {
+    "props": {
+      "blockClass": ["History__layout"]
+    },
+    "children": ["tab-list#history-tabs", "tab-content#history-data"]
+  },
+  // * Tabs Section
+  "tab-list#history-tabs": {
+    "props": {
+      "blockClass": ["Tabs"]
+    },
+    "children": ["slider-layout#history-slider"]
+  },
+  // * Slider with tabs
+  "slider-layout#history-slider": {
+    "props": {
+      "blockClass": ["History__slider"],
+      "itemsPerPage": {
+        "desktop": 9,
+        "tablet": 6,
+        "phone": 4
+      },
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always",
+      "infinite": true
+    },
+    "children": [
+      "tab-list.item#1967",
+      "tab-list.item#1982",
+      "tab-list.item#1983",
+      "tab-list.item#1984",
+      "tab-list.item#1987",
+      "tab-list.item#1989",
+      "tab-list.item#1991",
+      "tab-list.item#1992",
+      "tab-list.item#1993"
+    ]
+  },
+  // *  Tab into slider - 1967
+  "tab-list.item#1967": {
+    "props": {
+      "blocClass": ["Tabs__item", "Tabs__item--1967"],
+      "tabId": "1967",
+      "label": "1967",
+      "defaultActiveTab": true
+    }
+  },
+  // *  Tab into slider - 1982
+  "tab-list.item#1982": {
+    "props": {
+      "blocClass": ["Tab__item", "Tab__item--1982"],
+      "tabId": "1982",
+      "label": "1982"
+    }
+  },
+  // *  Tab into slider - 1983
+  "tab-list.item#1983": {
+    "props": {
+      "blocClass": ["Tab__item", "Tab__item--1983"],
+      "tabId": "1983",
+      "label": "1983"
+    }
+  },
+  // *  Tab into slider - 1984
+  "tab-list.item#1984": {
+    "props": {
+      "blocClass": ["Tab__item", "Tab__item--1984"],
+      "tabId": "1984",
+      "label": "1984"
+    }
+  },
+  // *  Tab into slider - 1987
+  "tab-list.item#1987": {
+    "props": {
+      "blocClass": ["Tab__item", "Tab__item--1987"],
+      "tabId": "1987",
+      "label": "1987"
+    }
+  },
+  // *  Tab into slider - 1989
+  "tab-list.item#1989": {
+    "props": {
+      "blocClass": ["Tab__item", "Tab__item--1989"],
+      "tabId": "1989",
+      "label": "1989"
+    }
+  },
+  // *  Tab into slider - 1991
+  "tab-list.item#1991": {
+    "props": {
+      "blocClass": ["Tab__item", "Tab__item--1991"],
+      "tabId": "1991",
+      "label": "1991"
+    }
+  },
+  // *  Tab into slider - 1992
+  "tab-list.item#1992": {
+    "props": {
+      "blocClass": ["Tab__item", "Tab__item--1992"],
+      "tabId": "1992",
+      "label": "1992"
+    }
+  },
+  // *  Tab into slider - 1993
+  "tab-list.item#1993": {
+    "props": {
+      "blocClass": ["Tab__item", "Tab__item--1993"],
+      "tabId": "1993",
+      "label": "1993"
+    }
+  },
+  // * Tabs content
+  "tab-content#history-data": {
+    "props": {
+      "blockClass": ["Tabs__data"]
+    },
+    "children": [
+      "tab-content.item#1967",
+      "tab-content.item#1982",
+      "tab-content.item#1983",
+      "tab-content.item#1984",
+      "tab-content.item#1987",
+      "tab-content.item#1989",
+      "tab-content.item#1991",
+      "tab-content.item#1992",
+      "tab-content.item#1993"
+    ]
+  },
+  // * Tab content 1967
+  "tab-content.item#1967": {
+    "props": {
+      "blockClass": ["Tab__content", "Tab__content--1967"],
+      "tabId": "1967"
+    },
+    "children": ["info-card#card-1967"]
+  },
+  "info-card#card-1967": {
+    "props": {
+      "blockClass": ["Tab__card", "Tab__card--1967"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "LA IDEA 1967",
+      "subhead": "Saeta nacio gracias al ánimo emprededor de un colombiano que soño con hacer una empresa orgullo de un país.",
+      "textAlignment": "center"
+    }
+  },
+  // * Tab content 1982
+  "tab-content.item#1982": {
+    "props": {
+      "blockClass": ["Tab__content", "Tab__content--1982"],
+      "tabId": "1982"
+    },
+    "children": ["info-card#card-1982"]
+  },
+  "info-card#card-1982": {
+    "props": {
+      "blockClass": ["Tab__card", "Tab__card--1982"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "LA IDEA 1982",
+      "subhead": "Saeta nacio gracias al ánimo emprededor de un colombiano que soño con hacer una empresa orgullo de un país.",
+      "textAlignment": "center"
+    }
+  },
+  // * Tab content 1983
+  "tab-content.item#1983": {
+    "props": {
+      "blockClass": ["Tab__content", "Tab__content--1983"],
+      "tabId": "1983"
+    },
+    "children": ["info-card#card-1983"]
+  },
+  "info-card#card-1983": {
+    "props": {
+      "blockClass": ["Tab__card", "Tab__card--1983"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "LA IDEA 1983",
+      "subhead": "Saeta nacio gracias al ánimo emprededor de un colombiano que soño con hacer una empresa orgullo de un país.",
+      "textAlignment": "center"
+    }
+  },
+  // * Tab content 1984
+  "tab-content.item#1984": {
+    "props": {
+      "blockClass": ["Tab__content", "Tab__content--1984"],
+      "tabId": "1984"
+    },
+    "children": ["info-card#card-1984"]
+  },
+  "info-card#card-1984": {
+    "props": {
+      "blockClass": ["Tab__card", "Tab__card--1984"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "LA IDEA 1984",
+      "subhead": "Saeta nacio gracias al ánimo emprededor de un colombiano que soño con hacer una empresa orgullo de un país.",
+      "textAlignment": "center"
+    }
+  },
+  // * Tab content 1987
+  "tab-content.item#1987": {
+    "props": {
+      "blockClass": ["Tab__content", "Tab__content--1987"],
+      "tabId": "1987"
+    },
+    "children": ["info-card#card-1987"]
+  },
+  "info-card#card-1987": {
+    "props": {
+      "blockClass": ["Tab__card", "Tab__card--1987"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "LA IDEA 1987",
+      "subhead": "Saeta nacio gracias al ánimo emprededor de un colombiano que soño con hacer una empresa orgullo de un país.",
+      "textAlignment": "center"
+    }
+  },
+  // * Tab content 1989
+  "tab-content.item#1989": {
+    "props": {
+      "blockClass": ["Tab__content", "Tab__content--1989"],
+      "tabId": "1989"
+    },
+    "children": ["info-card#card-1989"]
+  },
+  "info-card#card-1989": {
+    "props": {
+      "blockClass": ["Tab__card", "Tab__card--1989"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "LA IDEA 1989",
+      "subhead": "Saeta nacio gracias al ánimo emprededor de un colombiano que soño con hacer una empresa orgullo de un país.",
+      "textAlignment": "center"
+    }
+  },
+  // * Tab content 1991
+  "tab-content.item#1991": {
+    "props": {
+      "blockClass": ["Tab__content", "Tab__content--1991"],
+      "tabId": "1991"
+    },
+    "children": ["info-card#card-1991"]
+  },
+  "info-card#card-1991": {
+    "props": {
+      "blockClass": ["Tab__card", "Tab__card--1991"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "LA IDEA 1991",
+      "subhead": "Saeta nacio gracias al ánimo emprededor de un colombiano que soño con hacer una empresa orgullo de un país.",
+      "textAlignment": "center"
+    }
+  },
+  // * Tab content 1992
+  "tab-content.item#1992": {
+    "props": {
+      "blockClass": ["Tab__content", "Tab__content--1992"],
+      "tabId": "1992"
+    },
+    "children": ["info-card#card-1992"]
+  },
+  "info-card#card-1992": {
+    "props": {
+      "blockClass": ["Tab__card", "Tab__card--1992"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "LA IDEA 1992",
+      "subhead": "Saeta nacio gracias al ánimo emprededor de un colombiano que soño con hacer una empresa orgullo de un país.",
+      "textAlignment": "center"
+    }
+  },
+  // * Tab content 1993
+  "tab-content.item#1993": {
+    "props": {
+      "blockClass": ["Tab__content", "Tab__content--1993"],
+      "tabId": "1993"
+    },
+    "children": ["info-card#card-1993"]
+  },
+  "info-card#card-1993": {
+    "props": {
+      "blockClass": ["Tab__card", "Tab__card--1993"],
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "LA IDEA 1993",
+      "subhead": "Saeta nacio gracias al ánimo emprededor de un colombiano que soño con hacer una empresa orgullo de un país.",
+      "textAlignment": "center"
+    }
+  }
+}

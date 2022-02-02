@@ -1,0 +1,332 @@
+  
+{
+  "store.search": {
+    "blocks": ["search-result-layout"],
+    "props": {
+        "context": {
+            "skusFilter": "ALL",
+            "simulationBehavior": "default"
+        },
+        "maxItemsPerPage": 12
+     }
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+    "search-result-layout": {
+      "blocks": [
+        "search-result-layout.desktop",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ],
+      "props": {
+        "querySchema": {
+          "skusFilter": "ALL",
+          "simulationBehavior": "default"
+        },
+        "maxItemsPerPage": 12
+     }
+    },
+    //Construcción Desktop category
+    "search-result-layout.desktop": {
+      "children": [
+        "image#imgTopDepto",
+        "breadcrumb.search",
+        "search-title.v2",
+       /* "flex-layout.row#topCategory",*/
+        "flex-layout.row#catego"
+      ],
+      "props": {
+        "maxItemsPerPage": 12
+      }
+    },
+    "search-result-layout.mobile": {
+      "children": [
+        "image#imgTopDeptoM",
+        "breadcrumb.search",
+        "search-title.v2",
+        /*"info-card#bannerC",
+        "info-card#bannerMobile",*/
+        /*"shelf#Category",       */
+        
+        "flex-layout.row#categoM"
+      ],
+      "props": {
+        "maxItemsPerPage": 12
+      }
+    },
+    //Banner principal
+    "info-card#bannerC":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/Sillas de ruedas.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerC"
+      }
+    },
+    "info-card#bannerMobile":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/SillasruedasMovilidad.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerM"
+      }
+    },
+    //Columnas productos
+    "flex-layout.row#catego":{
+      "children":[
+        "flex-layout.col#filtros",
+        "flex-layout.col#contenido"
+      ],
+      "props":{
+        "blockClass": "contenedorC"
+      }
+    },
+    "flex-layout.row#categoM":{
+      "children":[
+        "flex-layout.row#filtros",
+        "flex-layout.row#filtroSeleccionado",
+        "flex-layout.col#contenido"
+      ],
+      "props":{
+        "blockClass": "contenedorC"
+      }
+    },
+    //Filtros
+    "flex-layout.col#filtros":{
+      "children":[
+        "filter-navigator.v3",
+        "order-by.v2"
+      ],
+      "props":{
+        "width": "100%",
+        "blockClass": "filters"
+      }
+    },
+    "flex-layout.row#filtros":{
+      "children":[
+        "filter-navigator.v3#M",
+        "order-by.v2"
+      ],
+      "props":{
+        "width": "100%",
+        "blockClass": "filters"
+      }
+    },
+    "filter-navigator.v3":{
+      "props":{
+        "initiallyCollapsed": true,
+         "truncateFilters": false,
+         "showClearByFilter": false,
+         "navigationTypeOnMobile": "page",
+         "appliedFiltersOverview": "show",
+         "totalProductsOnMobile": "show",
+         "updateOnFilterSelectionOnMobile": true,
+         "priceRangeLayout": "inputAndSlider",
+         "openFiltersMode": "one"
+      }
+    },
+    "filter-navigator.v3#M":{
+      "props":{
+        "initiallyCollapsed":"false",
+        "openFiltersMode": "one",
+        "navigationTypeOnMobile": "collapsible",
+        "appliedFiltersOverview": "show",
+        "closeOnOutsideClick": true,
+        "updateOnFilterSelectionOnMobile": "preventRouteChange",
+        "showClearByFilter": false
+      }
+    },
+    //Contenido de productos y ordenar por
+    "flex-layout.col#contenido":{
+      "children":[
+       /* "flex-layout.row#contenido2",*/
+        "flex-layout.row#contenido3",
+        "search-fetch-more"
+      ],
+      "props":{
+        "width": "100%",
+        "blockClass": "productC",
+        "fullWidth": true
+      }
+    },
+    // Ordenar por 
+    "flex-layout.row#contenido2":{
+      "children":[
+        "flex-layout.col#ordenar",
+        "flex-layout.col#cantidad"
+      ],
+      "props":{
+        "blockClass": "barra-Ordenar"
+      }
+    },
+    "flex-layout.col#ordenar":{
+      "children":[
+        "order-by.v2"
+      ],
+      "props":{
+        "width": "15%",
+        "blockClass": "orderby"
+      }
+    },
+    "flex-layout.col#cantidad":{
+      "children":[
+        "search-products-count-per-page"
+      ],
+      "props":{
+        "width": "65%",
+        "blockClass": "itemsC"
+      }
+    },
+    //Producto
+    "flex-layout.row#contenido3":{
+      "children":[
+        "search-content"/*,
+        "search-fetch-more"*/
+        
+      ]
+    },
+    "search-content": {
+      "blocks": [
+        "gallery", 
+        "not-found"
+      ]
+       },
+      "gallery":{
+      "blocks": ["product-summary.shelf"]
+      
+       },
+    
+   "store.not-found#product": {
+        "blocks": ["image#imgTopDepto","image#imgTopDeptoM", "flex-layout.row#searchbread", "flex-layout.row#notfound", "rich-text#not-found","shelf#not-found"]
+      },
+
+    "search-not-found-layout": {
+        "children": ["image#imgTopDepto","image#imgTopDeptoM", "flex-layout.row#searchbread", "flex-layout.row#notfound", "rich-text#not-found","shelf#not-found"]
+    },
+    "rich-text#not-found": {
+      "props": {
+        "text": "# TAMBIÉN TE PUEDE INTERESAR #",
+        "textAlignment": "CENTER",
+        "font": "t-heading-3",
+        "textPosition": "CENTER",
+        "blockClass": "vitrinaProducto"
+      }
+    },
+    "shelf#not-found": {
+      "props": {
+          "productList": {
+              "titleText": "Nuestras Marcas",
+              "itemsPerPage": 4,
+              "maxItems": 12,
+              "minItemsPerPage": 2,
+              "scroll": "BY_PAGE",
+              "arrows": "true",
+              "blockClass": "textosSec",
+              "showPaginationDots": "never"
+          },
+          "autoplay":{
+            "timeout": 3000,
+            "stopOnHover": false
+          }
+      },
+      "blocks": ["product-summary.shelf"]
+    },
+    "flex-layout.row#searchbread": {
+      "children": ["breadcrumb.search"],
+      "props": {
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+    }
+  },
+    "flex-layout.row#notfound": {
+      "children": [ "not-found" ],
+      "props": {
+        "fullWidth": true
+      }
+    },
+
+
+
+
+
+
+
+
+    /*PARTE SUPERIOR*/
+
+    "flex-layout.row#topCategory": {
+      "children": [ "info-card#bannerCN", "shelf#Category"],
+      "props": {
+        "fullWidth": true,
+        "blockClass": "ParteTop"
+      }
+    },
+
+
+
+
+
+    "info-card#bannerCN":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"http://lorempixel.com/319/682/",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerCategory",
+        "width": "25%"
+      }
+    },   
+    "shelf#Category": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+       /* "collection": 142,*/
+        "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": "true",
+        "showPaginationDots": "never",
+        "id": "sliderCategoryas",
+        "width": "25%"
+        }
+      }
+    },
+    "image#imgTopDepto": {
+      "props": {
+        "src": "https://saetasport.vteximg.com.br/arquivos/banner-Category.png",
+        "maxWidth": "100%",
+        "blockClass":"Product-Image-Header"
+      }
+    },
+    "image#imgTopDeptoM": {
+      "props": {
+        "src": "https://saetasport.vteximg.com.br/arquivos/banner-CategoryM.png",
+        "maxWidth": "100%",
+        "blockClass":"Product-Image-HeaderM"
+      }
+    },
+    "flex-layout.row#filtroSeleccionado": {
+      "children": ["breadcrumb.search#bread-filtros" ],
+      "props": {
+        "blockClass": "filtroseleccionado"
+      }
+    },
+    "breadcrumb.search#bread-filtros": {
+      "props": {
+        "showOnMobile": true,
+        "homeIconSize": "0",
+        "caretIconSize": "0",
+        "blockClass": "filtroseleccionado"
+      
+      }
+    }
+}

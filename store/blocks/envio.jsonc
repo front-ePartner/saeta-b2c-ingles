@@ -1,0 +1,60 @@
+{
+    "store.custom#envio": {
+      "blocks": [
+        "info-card#bannerFaqsM",
+        "info-card#bannerFaqs",
+        "flex-layout.row#envio",
+        "flex-layout.row#env"
+      ]
+    },
+  
+    "flex-layout.row#env": {
+      "children": [
+        "flex-layout.col#text-faqs1",
+        "flex-layout.col#text-envio"
+      ],
+      "props":{
+        "blockClass": "FaqsColumn"
+      }
+    },
+
+    "flex-layout.col#text-envio": {
+      "children": [
+        "rich-text#envio"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },
+    "flex-layout.row#envio":{
+        "children": [
+          "rich-text#TITULO-envio"
+        ],
+        "props":{
+          "blockClass": "BannerDosMosaicox4-ESTATICA"
+        }
+      },
+
+    "rich-text#TITULO-envio": {
+      "props": {
+        "text":
+        " [POLÍTICAS DE envio](#)\n Saeta",
+        "blockClass": "textoquienM"
+      }
+    },
+    "rich-text#envio": {
+      "props": {
+        "text": 
+          "\n **POLÍTICAS DE ENVÍO**\n El valor del envío y transporte de los productos será informado al momento de generar la orden de compra, aclarando que dicho cargo puede variar conforme a la ciudad a donde deba efectuarse el despacho y será informado de manera definitiva en el correo electrónico de aceptación de la orden de compra y la confirmación del pago exitoso. \n A partir de la aceptación de la orden de compra al consumidor, Saeta Sport por medio de la empresa transportadora Coordinadora Mercantil S.A.S, se encontrará obligado a efectuar la entrega del producto adquirido a través de este sitio web, en los términos estipulados para la misma, de 5 a 15 días hábiles después de la aceptación de la orden de compra. Saeta igualmente, podrá negarse a aceptar pedidos o realizar la entrega de los productos, en áreas que se encuentren por fuera del área de cobertura. \n La venta estará sujeta al inventario del producto- Si al momento de realizar la orden no se cuenta con el producto, Saeta Sport procederá a contactar al consumidor y pondrá a su disposición un bono cargado por el valor de la compra o la devolución del dinero. Además los clientes podrán validar el estado de entrega del pedido a través del sitio www.coordinadora.com\n  **ENTREGA DE PEDIDOS:**\n  Los periodos de entrega son referencias suministradas por los transportadores con los que contamos actualmente, por tal motivo las fechas de entrega (después de aprobado el pago) podrán variar de 2 a 4 días hábiles en la ciudad de Bogotá y Área Metropolitana, de 3 a 7 días hábiles en ciudades principales y  de 4 a 10 días hábiles para el resto del país; estas mismas fechas podrían verse afectadas debido a las novedades de transporte que se presentan en el territorio nacional. Las condiciones ajenas a nosotros como: Estado del clima y las carreteras, derrumbes, paros, cierre de vías, RESTRICCIONES DE MOVILIDAD a causa de la cuarentena nacional que afecten la entrega de tus pedidos no darán lugar a compensación de ninguna índole.\n • De presentarse alguno de los eventos descritos anteriormente SAETA se contactará para brindar una solución óptima, es necesario que se diligencie de manera correcta y exacta todos los datos de contacto: teléfono, correo electrónico y dirección de envío. De haber errores en alguno de los datos de contacto suministrados, no será posible la entrega dentro del tiempo mencionado anteriormente.\n • Se entiende que cualquier persona que se encuentre en el domicilio donde debe realizarse la entrega, está autorizada por el Usuario para recibir su pedido, y, por tanto, SAETA queda exonerado de cualquier responsabilidad por la entrega que se realice, siempre que la misma se haga en el domicilio registrado en El Sitio Web.\n • Entregamos en la mayoría de municipios de Colombia siempre y cuando se encuentre dentro de la zona o perímetro ofrecido por la transportadora Coordinadora. Los tiempos de entrega varían de acuerdo a tu ubicación, al estado del clima y las carreteras.\n • Para garantizarte la entrega en el tiempo y lugar establecidos, es necesario escribir la calle/carrera/avenida, con sus números, de manera completa.\n • Ten presente que los sábados, domingos o días festivos no cuentan como días hábiles.\n  \n  ",
+        "blockClass": "textostilo"
+      }
+    }
+
+    
+
+
+
+  }

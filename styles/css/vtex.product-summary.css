@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+.currencyContainer{
+  color: black;
+  font-size: 25px;
+  text-align: left;
+}
+.price_sellingPrice {
+  font-family: 'Anybody';
+}
+.currencyDecimal, .currencyFraction{
+  display: none;
+}
+.productBrand{
+  color: #505050!important;
+  font-size: 15px;
+  line-height: 20px;
+}
+.productNameContainer{
+  min-height: 40px;
+  text-align: left;
+  max-height: 40px;
+}
+.container {
+  padding: 10px 4px;  
+}
+.c-on-action-primary{
+  background: #00ff99;
+}
+.buttonDataContainer{
+  background: #00ff99;
+  display: none;
+}
+.containerNormal:global(.vtex-button){
+  display: none;
+}
+.priceContainer--first, .priceContainer--second{
+  min-height: 90px;
+
+}
+.priceContainer--first::before{
+  content: "Precio x Caja";
+  font-size: 9px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.priceContainer--first::after{
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.priceContainer--second::before{
+  content: "Precio x Unidad";
+  font-size: 9px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.priceContainer--second::after{
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.priceContainer--first, .priceContainer--second{
+  border: 1px solid #ebe8e8;
+  border-radius: 11px;
+  min-height: 118px;
+}
+.priceContainer--first:hover, .priceContainer--second:hover{
+  border: 1px solid black;
+  border-radius: 11px;
+  min-height: 118px;
+}
+.priceContainer--first:hover::after, .priceContainer--second:hover::after{
+  background:  black;
+}
+.listPrice--first .currencyContainer--first, .listPrice--second .currencyContainer--second{
+  color: red ;
+}
+.listPrice--first, .listPrice--second{
+  color: red ;
+}
+.priceContainer--first, .priceContainer--second{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container {
+  background: transparent;
+}
+@media only screen and (min-width: 1500px) {
+  .containerNormal{
+    max-width: 88%!important;
+  } 
+}
+.vtex-store-components-3-x-skuSelectorOptionsList.w-100.inline-flex.flex-wrap.ml2.items-center {
+  display: flex;
+  align-items: center;
+}
+
+.vtex-product-summary-2-x-skuSelectorItem.vtex-store-components-3-x-skuSelectorItem {
+  width: 50% !important;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 7px;
+  color: #dddada;
+  min-height: 74px;
+}
+
+.valueWrapper {
+  border: none !important;
+}
+
+.valueWrapper::before {
+  display: none;
+}
+.valueWrapper::after {
+  display: none !important;
+}
+
+.skuSelectorItem{
+  border-radius: 5px;
+}
+
+.vtex-product-summary-2-x-skuSelectorItem .skuSelectorInternalBox::before {font-size: 10px;}
+
+.skuSelectorItem--caja .frameAround::before {
+  content: "Precio unidad x caja";font-size: 10px;font-weight: 500;color: black;padding: 11px 0;display: block;
+}
+
+.skuSelectorItem--unidad .frameAround::before {
+  content: "Precio x unidad";
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+  display: block;
+  padding: 11px 0;
+}
+.skuSelectorItem--unidad .frameAround::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 18px auto;
+}
+
+
+.skuSelectorItem--caja .frameAround::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 18px auto;
+}
+
+.skuSelectorItem--selected .frameAround::after {
+  background: black;
+}
+.skuSelectorSubcontainer{
+  margin: 0;
+}
+.element:hover .priceContainer{
+  transition: .5s;
+  opacity: 1;
+}
+.element:hover .nameContainer{
+ 
+  transition: .5s;
+  opacity: 1;
+}
+.element:hover :global(.vtex-button){
+  transition: .5s;
+  opacity: 1;
+}
+.flexColChild--buyc{
+  display: none;
+}
+.priceContainer {
+  padding: 0;
+  opacity: 1;
+  height: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0 1px;
+}
+.nameContainer{
+  padding: 10px 10px 0 10px;
+  margin: 0 1px;
+  justify-content: flex-start;
+  border-radius: 0;
+  margin-top: -8px;
+}
+.element:hover .imageNormal{
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.imageNormal {
+  border-radius: 5px;
+  width: 90%;
+  max-height: 100% !important;
+}
+.element{
+  padding-bottom: 0px;
+}
+.price_sellingPrice--newprice{
+  position: absolute;
+  left: 0;
+}
+.imageContainer {
+  overflow: hidden;
+  border-radius: 5px;
+}
+.element--vitrina2 :global(.vtex-button){
+  opacity: 1;
+}
+/*
+.element--vitrina2 .priceContainer{
+  display: block;
+  background-color: white;
+}*/
+.element--vitrina2:hover .priceContainer{
+  display: block;
+}
+.element--vitrina2 {
+  position: relative;
+} 
+.clearLink {
+  position: relative;
+}
+.SKUSelectorContainer {
+  visibility: hidden;
+}
+.element:hover .SKUSelectorContainer {
+  visibility: visible;
+}
+.element:hover :global(.vtex-button) {
+  visibility: visible;
+}
+.element :global(.vtex-button) {
+  visibility: hidden;
+}
+.clearLink:hover .productBrand {
+  font-weight: 600;
+  font-size: 13px;
+}
+.containerNormal--vitrinaSelectorColor {
+  padding: 0;
+}
+.element--vitrinaSelectorColor {
+  padding: 0;
+}
+.containerNormal--vitrinaSelectorColor {
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .priceContainer  {
+      opacity: 1 !important;
+      display: block !important;
+      top: 5px;
+  }
+  /*
+  .nameContainer, .priceContainer{
+    background-color: white;
+  }*/
+  .productNameContainer {
+    min-height: 15px;
+    text-align: left;
+  }
+  .container {
+    padding: 5px 5px;
+  }
+  .imageNormal {
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .nameContainer {
+    margin:-10px 0px 0 0;
+  }
+  .productNameContainer{
+    max-height: 45px;
+  }
+  .currencyContainer--newprice {
+    font-size: 16px;
+    font-weight: 700;
+}
+.SKUSelectorContainer {
+  visibility: visible !important;
+}
+.productBrand {
+  font-size: 13px;
+}
+.price_sellingPrice--newprice {
+  bottom: 4%;
+  left: 2px;
+}
+.clearLink:hover .productBrand {
+  font-weight: 100;
+}
+.containerNormal--vitrinaSelectorColor {
+  padding: 0;
+}
+
+}
+
+
+
+@media (max-width: 330px){
+  .price_sellingPrice--newprice {
+    bottom: 5%;
+    left: 2px;
+  }
+  }

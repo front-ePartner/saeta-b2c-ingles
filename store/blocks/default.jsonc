@@ -1,0 +1,213 @@
+{
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
+  "store.account": {
+    "blocks": ["info-card#bannerC1","my-account"]
+  },
+
+  "store.login": {
+    "blocks": ["info-card#bannerC1", "login-content#default"]
+  },
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true,
+      "blockClass":"inicio-login"
+    }
+  },
+  "info-card#bannerC1":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://saetasport.vteximg.com.br/arquivos/banner-login.png",
+     "textPosition": "right",
+     "isFullModeStyle": true,
+      "textAlignment": "left",
+      "blockClass":"inicio-login"
+    }
+  },
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-sku-selector",
+      "flex-layout.row#pricing",
+      "flex-layout.row#vitrina"
+    ],
+    "props":{
+      "showPaginationDots": "never"
+    }
+  },
+  "product-summary.shelf#mobile": {
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-summary-sku-selector",
+      "flex-layout.row#pricing",
+      "flex-layout.row#vitrina"
+    ],
+    "props":{
+      "showPaginationDots": "never",
+      "blockClass": "vitrinaMobile"
+    }
+  },
+  "product-summary.shelf#vitrinaselectorColor": {
+    "children": [
+      "product-summary-image"
+    ],
+    "props":{
+      "showPaginationDots": "never",
+      "blockClass": "vitrinaSelectorColor"
+    }
+  },
+  "product-summary.shelf#vitrina2": {
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      /*"product-summary-sku-selector",*/
+      "flex-layout.row#pricing",
+      "flex-layout.row#vitrina"
+    ],
+    "props":{
+      "showPaginationDots": "never",
+      "blockClass": "vitrina2"
+    }
+  },
+  "product-summary-sku-selector": {
+   "props":{
+     "showVariationsLabels": ["false"]
+      }
+  },
+  "flex-layout.row#vitrina":{
+    "children": [
+ //     "flex-layout.col#cantidad",
+      "flex-layout.col#buybutton"
+    ],
+    "props":{
+      "blockClass": "cantidadC"
+    }
+  },
+// "flex-layout.col#cantidad":{
+//  "children": [
+//    "product-quantity#vitrine"
+//   ],
+//   "props":{y
+//    "width": "30%",
+//     "verticalAlign": "middle",
+//     "blockClass": "cantidadV",
+//     "paddingLeft": "0px",
+//     "paddingRight": "5px"
+//   }
+// },
+  "flex-layout.col#buybutton":{
+    "children": [
+      "add-to-cart-button#vitrine"
+    ],
+    "props":{
+      "width": "100%",
+      "verticalAlign": "middle",
+      "blockClass": "buyc",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  "product-quantity#vitrine":{
+    "props":{
+      "size":"small"
+    }
+  },
+  "add-to-cart-button#vitrine":{
+      "props":{
+        "text": "AÑADIR AL CARRITO"
+      }
+  },
+  "flex-layout.row#pricing":{
+    "children": [
+      "product-summary-price#first"
+    ]
+  },
+  "product-summary-price#first":{
+    "props":{
+      "blockClass": "newprice"
+    }
+  },
+
+
+
+
+
+
+  "product-summary.shelf#quickview": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-attachment-list",
+      "list-context.product-list",
+     /* "product-specification-badges",*/
+      /*"product-summary-sku-selector",*/
+      "flex-layout.row#pricing",
+      "flex-layout.row#vitrina",
+      "flex-layout.row#vitrinaNotLog"
+    ],
+    "props":{
+      "showPaginationDots": "never"
+    }
+  },
+  "flex-layout.row#vitrinaNotLog":{
+    "children": [
+      "flex-layout.col#buybuttonNotLog"
+    ],
+    "props":{
+      "blockClass": "botonQuickView"
+    }
+  },
+  "flex-layout.col#buybuttonNotLog":{
+    "children": [
+      "rich-text#VERPRODUTO"
+    ],
+    "props":{
+      "width": "100%",
+      "verticalAlign": "middle",
+      "blockClass": "buycVER",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  "rich-text#VERPRODUTO": {
+    "props": {
+      "text": "V",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "textPosition": "CENTER",
+      "blockClass": "VERPRODUCTOBOTON"
+    }
+  },
+  "minicart-summary#example": {
+    "blocks": ["checkout-summary.compact"]
+  },
+  "checkout-summary": {
+    "props": {
+      "title": "Order Summary"
+    }
+  },
+  "checkout-summary.compact": {
+    "props": {
+      "totalizersToShow": ["Items"]
+    }
+  },
+  "summary-totalizers": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": true
+    }
+  }
+}

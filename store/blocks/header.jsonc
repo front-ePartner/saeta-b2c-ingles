@@ -1,0 +1,3566 @@
+{
+//Bloques del header
+
+  "header": {
+    "blocks": [
+    "header-layout.desktop",
+    "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+    "header-layout.desktop",
+    "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#pre-header",
+    "flex-layout.row#desktop"
+   /* "flex-layout.row#desktopPre"*/
+    ]
+  },
+
+//Preheader
+
+  "flex-layout.row#desktopPre": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass":"Pre-header"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "flex-layout.row#header1",
+      "flex-layout.col#spacer",
+      "flex-layout.col#skip-desktop"
+    ]
+  },
+  "flex-layout.col#skip-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#headerc"]
+  },
+  "rich-text#headerc": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "textColor": "black-90",
+      "font": "body",
+      "blockClass": "help-message"
+    }
+  },
+//header
+
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "headerC"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "vtex.menu@2.x:menu#SaetaDesk",
+      /*"rich-text#HEADER-UNIFORMES",*/
+      "flex-layout.col#search-bar",
+      "modal-trigger#catalogo",
+      "rich-text#HEADER-TIENDAS",
+      "minicart-summary",
+      "minicart.v2"
+      
+    ]
+  },
+  "flex-layout.col#search-bar":{
+    "props": {
+      "verticalAlign": "middle",
+      "width": "grow"
+    },
+    "children": ["search-bar"]
+  },
+  "search-bar":{
+    "props":{
+      "maxWidth": "100%",
+      "placeholder": "Search"
+    }
+  },
+
+    "rich-text#pre-header": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Mis Puntos](https://help.vtex.com/en/faq/what-is-vtex-io)\n*100*",
+      "blockClass": "Pedidos"
+    }
+    },
+
+  "login": {
+    "props": {
+      "iconLabel":"Sign in"
+    }
+  },
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#categorys"
+    ]
+  },
+  //Menu Categorys
+  "menu-item#categorys":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ingresa"
+      },
+      "blockClass":"burguerIcon"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category"]
+  },
+  "vtex.menu@2.x:submenu#category": {
+    "children": [
+      "vtex.menu@2.x:menu#Category1"
+    ],
+    "props":{
+      "id":"menusecunario"
+    }
+  },
+  //Columnas Categorys
+  "vtex.menu@2.x:menu#Category1": {
+    "children": [
+      "menu-item#Category1",
+      "menu-item#Category2",
+      "menu-item#Category3",
+      "menu-item#Category4",
+      /*"menu-item#Category5",*/
+      "rich-text#titles-botonMenu1",
+      "rich-text#titles-botonMenu2"
+    ],
+    "props": {
+      "blockClass": "menuCategory"
+    }
+  },
+  //botone del menu
+  "rich-text#titles-botonMenu1":{
+    "props": {
+      "text":"[Catálogo](#)",
+      "blockClass": "botonesMenu1"
+    }
+  },
+  "rich-text#titles-botonMenu2":{
+    "props": {
+      "text":"[Tienda](/stores)",
+      "blockClass": "botonesMenu2"
+    }
+  },
+  //Links productos
+  "menu-item#Category1":{
+    "props": {
+      "id": "title",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/movilidad",
+        "noFollow": false,
+        "tagTitle": "Title",
+        "text": "Hombre"
+      },
+      "blockClass": "MovilidadMenu"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop1"] 
+  },
+  "menu-item#Category2":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/independencia-y-cuidado-en-el-hogar",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Mujer"
+      },
+      "blockClass": "MovilidadMenu"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop2"] 
+  },
+  "menu-item#Category3":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terapia%20en%20el%20hogar?_q=terapia%20en%20el%20hogar&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Uniformes"
+      },
+      "blockClass": "MovilidadMenu"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop3"] 
+  },
+  "menu-item#Category4":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tapabocas%20y%20desinfeccion?_q=tapabocas%20y%20desinfeccion&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Accesorios"
+      },
+      "blockClass": "MovilidadMenu"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop4"]
+  },
+  "menu-item#Category5":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Profesionales-de-la-salud",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "PROFESIONALES DE LA SALUD"
+      },
+      "blockClass": "MovilidadMenu"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop"] 
+  },
+  //submenu Movilidad DEPTO 1
+  "vtex.menu@2.x:submenu#shop1": {
+    "children": [
+      "vtex.menu@2.x:menu#submenushop1"
+    ],
+    "props": {
+      "blockClass":  ["SubMenus","submenu1"]
+    }
+  },
+  "vtex.menu@2.x:menu#submenushop1": {
+    "children": [
+      "flex-layout.row#DEPTO1-CATS"
+    ],
+    "props":{
+      "blockclass": ["SubMenus","submenusMovilidad"]
+    }
+  },
+  "flex-layout.col#submenuMovilidad":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1Mayor"
+    },
+    "children": [
+      "flex-layout.row#submenu7"
+    ]
+  },
+  "flex-layout.row#submenu7":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenusMovilidad"]
+    },
+    "children": [
+      "flex-layout.col#submenu8",
+      "flex-layout.col#submenu9",
+      "flex-layout.col#submenu9-coml3",
+      "flex-layout.col#submenu9-coml4"
+    ]
+  },
+  //columna uno submenu DEPTO 1 - CAT 1
+  "flex-layout.col#submenu8":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenu37",
+      "rich-text#titles-submenu38",
+      "rich-text#titles-submenu39",
+      "rich-text#titles-submenu40",
+      "rich-text#titles-submenu40A"
+    ]
+  },
+    //columna dos submenu
+  "flex-layout.col#submenu9":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenu42",
+      "rich-text#titles-submenu43",
+      "rich-text#titles-submenu44",
+      "rich-text#titles-submenu45",
+      "rich-text#titles-submenu46",
+      "rich-text#titles-submenu46A",
+      "rich-text#titles-submenu46B"
+    ]
+  },
+  //columna tres submenu DEPTO 3
+   "flex-layout.col#submenu9-coml3":{
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": "submenu1"
+        },
+        "children": [
+          "rich-text#titles-submenu42-C3",
+          "rich-text#titles-submenu43-C3",
+          "rich-text#titles-submenu44-C3",
+          "rich-text#titles-submenu45-C3",
+          "rich-text#titles-submenu46-C3",
+          "rich-text#titles-submenu46A-C3"
+        ]
+      },
+  //columna cuatro submenu DEPTO 4
+  "flex-layout.col#submenu9-coml4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenu42-C4"
+    ]
+  },
+  //sub items CATEGORIAS Y SUBCATEGORIAS
+  //COLUMNA DOS DEPTO 1 - CAT 1
+  "rich-text#titles-submenu37":{
+    "props": {
+      "text":"[Prendas de arriba](/Hombre/Prendas-de-arriba)",
+      "blockClass": "tituloSubemnu"
+    }
+  },
+  "rich-text#titles-submenu38":{
+    "props": {
+      "text":"[Camisetas](/Hombre/Prendas-de-arriba/Camisetas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu39":{
+    "props": {
+      "text":"[Buzos](/Hombre/Prendas-de-arriba/Camisetas/Buzos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu40":{
+    "props": {
+      "text":"[Chaquetas](/Hombre/Prendas-de-arriba/Camisetas/Chaquetas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu40A":{
+    "props": {
+      "text":"[Licras de compresion](/Hombre/Prendas-de-arriba/Camisetas/Licras-de-compresion)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  
+  //COLUMNA DOS DEPTO 1 - CAT 2
+  "rich-text#titles-submenu42":{
+    "props": {
+      "text":"[Prendas de abajo](/Hombre/Prendas-de-abajo)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu43":{
+    "props": {
+      "text":"[Pantalonetas](/Hombre/Prendas-de-abajo/Pantalonetas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu44":{
+    "props": {
+      "text":"[Bermudas](/Hombre/Prendas-de-abajo/Bermudas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu45":{
+    "props": {
+      "text":"[Bicicleteros](/Hombre/Prendas-de-abajo/Bicicleteros)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu46":{
+    "props": {
+      "text":"[Ropa Interior](/Hombre/Prendas-de-abajo/Ropa-Interior)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu46A":{
+    "props": {
+      "text":"[Pantalones](/Hombre/Prendas-de-abajo/Pantalones)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu46B":{
+    "props": {
+      "text":"[Licras](/Hombre/Prendas-de-abajo/Licras)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //COLUMNA DOS DEPTO 1 - CAT 3
+  "rich-text#titles-submenu42-C3":{
+    "props": {
+      "text":"[Accesorios](/Hombre/Accesorios)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu43-C3":{
+    "props": {
+      "text":"[Gorras](/Hombre/Accesorios/Gorras)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu44-C3":{
+    "props": {
+      "text":"[Tapabocas](/Hombre/Accesorios/Tapabocas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu45-C3":{
+    "props": {
+      "text":"[Maletas](/Hombre/Accesorios/Maletas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu46-C3":{
+    "props": {
+      "text":"[Medias](/Hombre/Accesorios/Medias)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu46A-C3":{
+    "props": {
+      "text":"[Canilleras](/Hombre/Accesorios/Canilleras)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //COLUMNA DOS DEPTO 1 - CAT 4
+  "rich-text#titles-submenu42-C4":{
+    "props": {
+      "text":"[Zapatos](/Hombre/Zapatos)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+
+
+
+
+
+  //submenu profesionales de la salud--------------------------------------------- DETO 5
+  "vtex.menu@2.x:submenu#shop": {
+    "children": [
+      "vtex.menu@2.x:menu#submenushop"
+    ],
+    "props": {
+      "blockClass": ["SubMenus","submenu5"]
+    }
+  },
+  "vtex.menu@2.x:menu#submenushop": {
+    "children": [
+      "flex-layout.col#submenu11"
+    ],
+    "props":{
+      "blockclass": "Submenus"
+    }
+  },
+  "flex-layout.col#submenu11":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1Mayor"
+    },
+    "children": [
+      "flex-layout.row#submenu1",
+      "flex-layout.row#submenu22"
+    ]
+  },
+  "flex-layout.row#submenu1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "flex-layout.col#submenu1",
+      "flex-layout.col#submenu2",
+      "flex-layout.col#submenu3",
+      "flex-layout.col#submenu4"
+    ]
+  },
+  "flex-layout.row#submenu22":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "flex-layout.col#submenu3",
+      "flex-layout.col#submenu5"
+    ]
+  },
+  //columna uno submenu DEPTO 5 - CAT 1
+  "flex-layout.col#submenu1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1","submenu0"]
+    },
+    "children": [
+      "rich-text#titles-submenu1",
+      "rich-text#titles-submenu2",
+      "rich-text#titles-submenu3",
+      "rich-text#titles-submenu4",
+      "rich-text#titles-submenu5",
+      "rich-text#titles-submenuAdi1",
+      "rich-text#titles-submenuAdi2",
+      "rich-text#titles-submenuAdi3"
+    ]
+  },
+    //columna dos submenu DEPTO 5 - CAT 2
+  "flex-layout.col#submenu2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1","submenu0"]
+    },
+    "children": [
+      "rich-text#titles-submenu6",
+      "rich-text#titles-submenu7",
+      "rich-text#titles-submenu8",
+      "rich-text#titles-submenu9",
+      "rich-text#titles-submenu10"
+    ]
+  },
+    //columna dos submenu DEPTO 5 - CAT 3
+  "flex-layout.col#submenu3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass":["submenu1","submenu0"]
+    },
+    "children": [
+      "rich-text#titles-submenu11",
+      "rich-text#titles-submenu12",
+      "rich-text#titles-submenu13",
+      "rich-text#titles-submenu14",
+      "rich-text#titles-submenu15",
+      "rich-text#titles-submenu16"
+    ]
+  },
+    //columna dos submenu DEPTO 5 - CAT 4
+  "flex-layout.col#submenu4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1","submenu0"]
+    },
+    "children": [
+      "rich-text#titles-submenu17",
+      "rich-text#titles-submenu18",
+      "rich-text#titles-submenu19",
+      "rich-text#titles-submenu20",
+      "rich-text#titles-submenuAdi4",
+      "rich-text#titles-submenuAdi5",
+      "rich-text#titles-submenuAdi6",
+      "rich-text#titles-submenuAdi7"
+    ]
+  },
+  "flex-layout.col#submenu5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1","submenu0"]
+    },
+    "children": [
+      "rich-text#titles-submenu21",
+      "rich-text#titles-submenu22",
+      "rich-text#titles-submenu23",
+      "rich-text#titles-submenu24"
+    ]
+  },
+  //sub items DEPTO 5 
+  //columna 1 DEPTO 5 - CAT 1
+  "rich-text#titles-submenu1":{
+    "props": {
+      "text":"[Prendas de arriba](/mujer/Prendas-de-arriba)",
+      "blockClass": "tituloSubemnu"
+    }
+  },
+  "rich-text#titles-submenu2":{
+    "props": {
+      "text":"[Camisetas](/mujer/Prendas-de-arriba/Camisetas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu3":{
+    "props": {
+      "text":"[Buzos](/mujer/Prendas-de-arriba/Buzos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu4":{
+    "props": {
+      "text":"[Tops](/mujer/Prendas-de-arriba/Tops)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },"rich-text#titles-submenu5":{
+    "props": {
+      "text":"[Chaquetas](/mujer/Prendas-de-arriba/Chaquetas",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi1":{
+    "props": {
+      "text":"[Licras de compresion](/mujer/Prendas-de-arriba/Licras-de-compresion)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi2":{
+    "props": {
+      "text":"[Rodilleras](/mujer/Prendas-de-arriba/)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi3":{
+    "props": {
+      "text":"[Cabestrillos](/mujer/Prendas-de-arriba/)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+
+  //COLUMNA DOS DEPTO 5 - CAT 2
+  "rich-text#titles-submenu6":{
+    "props": {
+      "text":"[RESPIRATORIA](/aspirador%20compresor%20reguladores%20cilindros?_q=aspirador%20compresor%20reguladores%20cilindros&map=ft)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu7":{
+    "props": {
+      "text":"[aspirador de secreciones](/aspirador%20de%20secreciones?_q=aspirador%20de%20secreciones&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu8":{
+    "props": {
+      "text":"[Compresor nebulizador](/compresor%20nebulizador?_q=compresor%20nebulizador&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu9":{
+    "props": {
+      "text":"[Reguladores de oxigeno](/reguladores%20de%20oxigeno?_q=reguladores%20de%20oxigeno&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu10":{
+    "props": {
+      "text":"[cilindros de oxigeno](/cilindros%20de%20oxigeno?_q=cilindros%20de%20oxigeno&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //columna tres DEPTO 5 - CAT 3
+  "rich-text#titles-submenu11":{
+    "props": {
+      "text":"[CUADERNOS, LAPICEROS Y OTROS ACCESORIOS](/cuadernos%20lapiceros%20accesorios?_q=cuadernos%20lapiceros%20accesorios&map=ft)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu12":{
+    "props": {
+      "text":"[Lapiceros](/Lapiceros)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu13":{
+    "props": {
+      "text":"[Cuadernos](/Cuadernos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu14":{
+    "props": {
+      "text":"[Pines](/Pines)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu15":{
+    "props": {
+      "text":"[Cintas metricas](/cintas%20metricas?_q=Cintas%20metricas&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu16":{
+    "props": {
+      "text":"[RCP](/RCP)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //COLUMNA CUATRO DEPTO 5 - CAT 3
+  "rich-text#titles-submenu17":{
+    "props": {
+      "text":"[EVALUACIÓN DE ORGANOS Y SENTIDOS](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu18":{
+    "props": {
+      "text":"[Fonendoscopios](/Fonendoscopios)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu19":{
+    "props": {
+      "text":"[Kits](/Kits)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu20":{
+    "props": {
+      "text":"[Tensiometros](/Tensiometros)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi4":{
+    "props": {
+      "text":"[Otoscopios](/otoscopios)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi5":{
+    "props": {
+      "text":"[Martillos](/Martillos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi6":{
+    "props": {
+      "text":"[Kits de órganos](/kits%20de%20organos?_q=Kits%20de%20organos&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi7":{
+    "props": {
+      "text":"[Linternas](/Linternas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //columna cinco
+  "rich-text#titles-submenu21":{
+    "props": {
+      "text":"[INSTRUMENTOS PARA PEQUEÑAS CIRUGÍAS](/faqs)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu22":{
+    "props": {
+      "text":"[Tijeras](/Tijeras)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu23":{
+    "props": {
+      "text":"[Torniquetes](/Torniquetes)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu24":{
+    "props": {
+      "text":"[Sistemas de disección](//sistemas%20de%20direccion?_q=Sistemas%20de%20direccion&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+
+
+
+
+  //submenu independencia y cuidado en el hogar-------------------------------------------DEPTO 2
+  "vtex.menu@2.x:submenu#shop2": {
+    "children": [
+      "vtex.menu@2.x:menu#submenushop2"
+    ],
+    "props": {
+      "blockClass":  ["SubMenus","submenu2"]
+    }
+  },
+  "vtex.menu@2.x:menu#submenushop2": {
+    "children": [
+      "flex-layout.row#DEPTO2-CATS"
+    ],
+    "props":{
+      "blockclass": ["SubMenus","submenu2"]
+    }
+  },
+  "flex-layout.col#submenuindependencia":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1Mayor"
+    },
+    "children": [
+      "flex-layout.row#submenu4"
+    ]
+  },
+  "flex-layout.row#submenu4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenu2"]
+    },
+    "children": [
+      "flex-layout.col#submenu6",
+      "flex-layout.col#submenu7",
+      "flex-layout.col#submenuIndependencia8",
+      "rich-text#titles-submenu42-De2C4"
+    ]
+  },
+  //columna uno submenu-----------------------------DEPTO 2---- Cat1
+  "flex-layout.col#submenu6":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenu35",
+      "rich-text#titles-submenu26",
+      "rich-text#titles-submenu27",
+      "rich-text#titles-submenu28",
+      "rich-text#titles-submenu29",
+      "rich-text#titles-submenuIndeoendencia30"
+    ]
+  },
+    //columna dos submenu-----------------------------DEPTO 2---- Cat2
+  "flex-layout.col#submenu7":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenu30",
+      "rich-text#titles-submenu31",
+      "rich-text#titles-submenu32",
+      "rich-text#titles-submenu33"/*
+      "rich-text#titles-submenu34",
+      "rich-text#titles-submenuIndependdencia35"*/
+    ]
+  },
+   //columna tres submenu-----------------------------DEPTO 2---- Cat3
+  "flex-layout.col#submenuIndependencia8":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenuIndependencia1",
+      "rich-text#titles-submenuIndependencia2",
+      "rich-text#titles-submenuIndependencia3",
+      "rich-text#titles-submenuIndependencia4"/*
+      "rich-text#titles-submenuIndependencia5"*/
+    ]
+  },
+  //sub items 
+  //columna 1
+  "rich-text#titles-submenu35":{
+    "props": {
+      "text":"[Prendas de arriba](/mujer/Prendas-de-arriba)",
+      "blockClass": "tituloSubemnu"
+    }
+  },
+  "rich-text#titles-submenu26":{
+    "props": {
+      "text":"[Camisetas](/mujer/Prendas-de-arriba/Camisetas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu27":{
+    "props": {
+      "text":"[Buzos](/mujer/Prendas-de-arriba/Buzos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu28":{
+    "props": {
+      "text":"[Tops](/mujer/Prendas-de-arriba/Tops)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu29":{
+    "props": {
+      "text":"[Chaquetas](/mujer/Prendas-de-arriba/Chaquetas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuIndeoendencia30":{
+    "props": {
+      "text":"[Licras de compresion](/mujer/Prendas-de-arriba/Licras-de-compresion)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+
+  //COLUMNA DOS
+  "rich-text#titles-submenu30":{
+    "props": {
+      "text":"[Prendas de abajo](/mujer/Prendas-de-abajo/)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenu31":{
+    "props": {
+      "text":"[Leggings](/mujer/Prendas-de-abajo/Leggings)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu32":{
+    "props": {
+      "text":"[Pantalones](/mujer/Prendas-de-abajo/Pantalones)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu33":{
+    "props": {
+      "text":"[Shorts](/mujer/Prendas-de-abajo/Shorts)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenu34":{
+    "props": {
+      "text":"[#](/mujer/Prendas-de-abajo/)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuIndependdencia35":{
+    "props": {
+      "text":"[#](/gruas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //columna tres
+  "rich-text#titles-submenuIndependencia1":{
+    "props": {
+      "text":"[Accesorios](/mujer/Accesorios/)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenuIndependencia2":{
+    "props": {
+      "text":"[Tapabocas](/mujer/Accesorios/Tapabocas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuIndependencia3":{
+    "props": {
+      "text":"[Maletas](/mujer/Accesorios/Maletas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuIndependencia4":{
+    "props": {
+      "text":"[Tulas](/mujer/Accesorios/Tulas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuIndependencia5":{
+    "props": {
+      "text":"[#](#)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //COLUMNA DOS DEPTO 2 - CAT 4
+  "rich-text#titles-submenu42-De2C4":{
+    "props": {
+      "text":"[Zapatos](/Hombre/Zapatos)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // Sub menu terapia en el hogar--------------------------------------------DEPTO3
+  "vtex.menu@2.x:submenu#shop3": {
+    "children": [
+      "vtex.menu@2.x:menu#submenushop3"
+    ],
+    "props": {
+      "blockClass":  ["SubMenus","submenu3"]
+    }
+  },
+  "vtex.menu@2.x:menu#submenushop3": {
+    "children": [
+      "flex-layout.col#submenuTerapia"
+    ],
+    "props":{
+      "blockclass": ["SubMenus","submenusMovilidad"]
+    }
+  },
+  "flex-layout.col#submenuTerapia":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1Mayor"
+    },
+    "children": [
+      "flex-layout.row#submenuTerapia1"
+    ]
+  },
+  "flex-layout.row#submenuTerapia1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenusMovilidad"]
+    },
+    "children": [
+      "flex-layout.col#submenuTerapia4"
+    ]
+  },
+  //columna uno submenu
+  "flex-layout.col#submenuTerapia1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenuTerapia1",
+      "rich-text#titles-submenuTerapia2",
+      "rich-text#titles-submenuTerapia3",
+      "rich-text#titles-submenuTerapia4"/*,
+      "rich-text#titles-submenuTerapia5",
+      "rich-text#titles-submenuTerapia6",
+      "rich-text#titles-submenuTerapia7",
+      "rich-text#titles-submenuTerapia8"*/
+    ]
+  },
+    //columna dos submenu
+    "flex-layout.col#submenuTerapia2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenuTerapia9",
+      "rich-text#titles-submenuTerapia10",
+      "rich-text#titles-submenuTerapia11"/*,
+      "rich-text#titles-submenuTerapia12",
+      "rich-text#titles-submenuTerapia13"*/
+    ]
+  },
+  //columna TRES submenu
+   "flex-layout.col#submenuTerapia3":{
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": "submenu1"
+        },
+        "children": [
+          "rich-text#titles-submenuTerapia9A",
+          "rich-text#titles-submenuTerapia10A",
+          "rich-text#titles-submenuTerapia11A"/*,
+          "rich-text#titles-submenuTerapia12A",
+          "rich-text#titles-submenuTerapia13A"*/
+        ]
+      },
+  //columna CUATRO submenu
+  "flex-layout.col#submenuTerapia4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenuTerapia9B"/*,
+      "rich-text#titles-submenuTerapia10B",
+      "rich-text#titles-submenuTerapia11B",
+      "rich-text#titles-submenuTerapia12B",
+      "rich-text#titles-submenuTerapia13B"*/
+    ]
+  },
+
+  //sub items 
+  //columna 1
+  "rich-text#titles-submenuTerapia1":{
+    "props": {
+      "text":"[Prendas de arriba](/niño/Prendas-de-arriba/)",
+      "blockClass": "tituloSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia2":{
+    "props": {
+      "text":"[Camisetas](/niño/Prendas-de-arriba/Camisetas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia3":{
+    "props": {
+      "text":"[Chaquetas](/niño/Prendas-de-arriba/Chaquetas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia4":{
+    "props": {
+      "text":"[Buzos](/niño/Prendas-de-arriba/Buzos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia5":{
+    "props": {
+      "text":"[#](#)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia6":{
+    "props": {
+      "text":"[#](#)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia7":{
+    "props": {
+      "text":"[#](#)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia8":{
+    "props": {
+      "text":"[#](#)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  //COLUMNA DOS
+  "rich-text#titles-submenuTerapia9":{
+    "props": {
+      "text":"[Prendas de abajo](/niño/Prendas-de-abajo/)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  "rich-text#titles-submenuTerapia10":{
+    "props": {
+      "text":"[Pantalonetas](/niño/Prendas-de-abajo/Pantalonetas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia11":{
+    "props": {
+      "text":"[Pantalones](/niño/Prendas-de-abajo/Pantalones)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia12":{
+    "props": {
+      "text":"[#](#)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuTerapia13":{
+    "props": {
+      "text":"[#](#)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+
+    //COLUMNA TRES
+    "rich-text#titles-submenuTerapia9A":{
+      "props": {
+        "text":"[Prendas de abajo](/niño/Prendas-de-abajo/)",
+        "blockClass": "tituoSubmenu"
+      }
+    },
+    "rich-text#titles-submenuTerapia10A":{
+      "props": {
+        "text":"[Pantalonetas](/niño/Prendas-de-abajo/Pantalonetas)",
+        "blockClass": "contenidoSubemnu"
+      }
+    },
+    "rich-text#titles-submenuTerapia11A":{
+      "props": {
+        "text":"[Pantalones](/niño/Prendas-de-abajo/Pantalones)",
+        "blockClass": "contenidoSubemnu"
+      }
+    },
+    "rich-text#titles-submenuTerapia12A":{
+      "props": {
+        "text":"[#](#)",
+        "blockClass": "contenidoSubemnu"
+      }
+    },
+    "rich-text#titles-submenuTerapia13A":{
+      "props": {
+        "text":"[#](#)",
+        "blockClass": "contenidoSubemnu"
+      }
+    },
+  
+  
+    //COLUMNA CUATRO
+    "rich-text#titles-submenuTerapia9B":{
+      "props": {
+        "text":"[Zapatos](/niño/Zapatos)",
+        "blockClass": "tituoSubmenu"
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //submenu profesionales de la salud
+  "vtex.menu@2.x:submenu#shop4": {
+    "children": [
+      "vtex.menu@2.x:menu#submenushop4"
+    ],
+    "props": {
+      "blockClass": ["SubMenus","submenu4"]
+    }
+  },
+  "vtex.menu@2.x:menu#submenushop4": {
+    "children": [
+      "flex-layout.col#submenuTapabocas"
+    ],
+    "props":{
+      "blockclass": "Submenus"
+    }
+  },
+  "flex-layout.col#submenuTapabocas":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1Mayor"
+    },
+    "children": [
+      "flex-layout.row#submenuTapabocas1",
+      "flex-layout.row#submenuTapabocas2"
+    ]
+  },
+  "flex-layout.row#submenuTapabocas1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "flex-layout.col#submenuTapabocas1",
+      "flex-layout.col#submenuTapabocas2",
+      "flex-layout.col#submenuTapabocas3"
+    ]
+  },
+  "flex-layout.row#submenuTapabocas2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "flex-layout.col#submenuTapabocas4",
+      "flex-layout.col#submenuTapabocas5"
+    ]
+  },
+  //columna uno submenu
+  "flex-layout.col#submenuTapabocas1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenuTapabocas1"
+    ]
+  },
+    //columna dos submenu
+  "flex-layout.col#submenuTapabocas2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenuTapabocas2"
+    ]
+  },
+  "flex-layout.col#submenuTapabocas3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenuTapabocas3"
+    ]
+  },
+  "flex-layout.col#submenuTapabocas4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenuTapabocas4"
+    ]
+  },
+  "flex-layout.col#submenuTapabocas5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "submenu1"
+    },
+    "children": [
+      "rich-text#titles-submenuTapabocas5"
+    ]
+  },
+  //sub items 
+  //columna 1
+  "rich-text#titles-submenuTapabocas1":{
+    "props": {
+      "text":"[Tulas](/Tulas)",
+      "blockClass": "tituloSubemnu"
+    }
+  },
+
+  //COLUMNA DOS
+  "rich-text#titles-submenuTapabocas2":{
+    "props": {
+      "text":"[Medias](/Medias)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  //columna tres
+  "rich-text#titles-submenuTapabocas3":{
+    "props": {
+      "text":"[Balones](/Balones)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  //COLUMNA CUATRO
+  "rich-text#titles-submenuTapabocas4":{
+    "props": {
+      "text":"[Tapabocas](/Tapabocas)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+  //COLUMNA CINCO
+  "rich-text#titles-submenuTapabocas5":{
+    "props": {
+      "text":"[Maletas](/Maletas)",
+      "blockClass": "tituoSubmenu"
+    }
+  },
+
+
+
+  //----------------------------------------------------------------------PRE-HEADER
+
+  "flex-layout.row#pre-header": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "headerPreHeader"
+    },
+    "children": [
+      "rich-text#Info1",
+      "flex-layout.row#pre-header2"
+    ]
+  },
+  "flex-layout.row#pre-headerM": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "headerPreHeaderM"
+    },
+    "children": [
+      "flex-layout.row#pre-header2M"
+    ]
+  },
+  "rich-text#Info1":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "UNIFORM YOUR TEAM. [CUSTOMIZE UNIFORM.](/uniforme?map=ft)",
+      "blockClass": "PRE-HEADER-ITEM1",
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#pre-header2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "headerPreHeader2"
+    },
+    "children": [
+      "login",
+      "rich-text#HEADER-DISTRIBUIDOR"
+    ]
+  },
+  "flex-layout.row#pre-header2M": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "headerPreHeader2M"
+    },
+    "children": [
+      "login",
+      "rich-text#HEADER-DISTRIBUIDOR"
+    ]
+  },
+
+
+
+
+  //pre header
+  "flex-layout.row#header1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "headerCate"
+    },
+    "children": [
+      "rich-text#Category1",
+      "rich-text#Category2",
+      "rich-text#Category3",
+      "rich-text#Category4"
+    ]
+  },
+  "rich-text#Category1":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[PARA EL CUIDADO](/para%20el%20cuidado?_q=Para%20el%20cuidado&map=ft)",
+      "blockClass": "CategoriaPrin1"
+    }
+  },
+  "rich-text#Category2":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[SILLAS DE RUEDAS](/sillas%20de%20ruedas?_q=sillas%20de%20ruedas&map=ft)",
+      "blockClass": "CategoriaPrin2"
+    }
+  },
+  "rich-text#Category3":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[PARA TU PROFESIÓN](/para%20tu%20profesion?_q=para%20tu%20profesion&map=ft)",
+      "blockClass": "CategoriaPrin3"
+    }
+  },
+  "rich-text#Category4":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[PROMOCIONES](/promociones?_q=promociones&map=ft)",
+      "blockClass": "CategoriaPrin4"
+    }
+  },
+  
+  //demas del header
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow",
+      "blockClass": "espacio"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://saetasport.vteximg.com.br/arquivos/logo-header.png",
+      "blockClass":"logoImg"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#pre-headerM","flex-layout.row#mobile"/*, "flex-layout.row#PreMobile"*/]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "logo",
+      "minicart.v2",
+     /* "login",*/
+      "drawer"
+      
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false
+    }
+  },
+  //---------------------------------------------------------------------------menu mobile
+  "drawer": {
+    "children": ["flex-layout.row#menu-header"],
+    "props": {
+      "blockClass": "menuDrawer",
+      "width": "50%"
+    }
+  },
+  "flex-layout.row#menu-header": {
+    "props": {
+      "blockClass": "menuHeader"
+    },
+    "children": ["flex-layout.col#menu-header"]
+  },
+  "flex-layout.col#menu-header": {
+    "children": [
+      "flex-layout.row#BotonesMenuMobile",
+      "flex-layout.col#search-barMo",
+      "menu#drawer"
+    ],
+    "props": {
+      "blockClass": "drawerInnerCol"
+    }
+  },
+  "menu#drawer": {
+    "props": {
+      "blockClass": "menuDrawer"
+    },
+    "children": [
+      "menu-item#DEPTO1",
+      "menu-item#DEPTO2",
+      "menu-item#DEPTO3",
+      "menu-item#DEPTO4",
+      "menu-item#DEPTO5"
+    ]
+  },
+  "flex-layout.row#BotonesMenuMobile": {
+    "children": [
+      "modal-trigger#catalogoM",
+      /*"rich-text#titles-botonMenu1",*/
+      "rich-text#titles-botonMenu2"
+    ],
+    "props":{
+      "blockClass": "pre-botones-menu-mobile"
+    }
+  },
+  //menu Mobile
+  "menu-item#movilidad": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Men"
+      },
+      "blockClass": "department"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#independencia": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Women"
+      },
+      "blockClass": "department"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more2"
+    ]
+  },
+  "menu-item#terapia": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Uniformes"
+      },
+      "blockClass": "department"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more3"
+    ]
+  },
+  "menu-item#tapabocas": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Accesories"
+      },
+      "blockClass": "department"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more4"
+    ]
+  },
+  "menu-item#profesionales": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Profesionales de la salud"
+      },
+      "blockClass": "department"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more5"
+    ]
+  },
+  //<Sub menus Mobile Movilidad
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#DEPTO1-CATS"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1"
+    ],
+    "props": {
+      "blockclass": "categoryCont"
+    }
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ],
+    "props": {
+      "blockclass": "categoryCont"
+    }
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "disclosure-layout#subMenu1",
+      "disclosure-layout#subMenu2",
+      "menu-item#VerTodo1"
+    ]
+  },
+  // Menu movilidad
+  //sub items menu 
+  "disclosure-layout#subMenu1": {
+    "children": ["disclosure-trigger#SubMenu1", "disclosure-content#Submenu1"]
+  },
+  "disclosure-trigger#SubMenu1": {
+    "children": ["menu-item#ayudas-Marcha"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#Submenu1": {
+    "children": [ "menu-item#subItemVerTodosMovilidad"]
+  },
+  "menu-item#ayudas-Marcha": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Prendas de arriba"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subItemMuletas": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Muletas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Muletas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subCaminador": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/caminador",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Caminador"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemBastones": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Muletas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Muletas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemVerTodosMovilidad": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ayudas-para-la-marcha",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Ver todo"
+      },
+      "blockClass": ["SubCategory","verTodo"]
+    }
+  },
+  //sub menu 2
+  "disclosure-layout#subMenu2": {
+    "children": ["disclosure-trigger#SubMenu2", "disclosure-content#Submenu2"]
+  },
+  "disclosure-trigger#SubMenu2": {
+    "children": ["menu-item#Item1"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#Submenu2": {
+    "children": ["menu-item#subItem1item4"]
+  },
+  "menu-item#Item1": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Prendas de Abajo"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subItem1item1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sillas%20de%20ruedas?_q=sillas%20de%20ruedas&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Sillas de ruedas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItem1item2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cojines?_q=cojines&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cojines"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItem1item3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/respaldos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Respaldos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItem1item4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Ver Todo"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#VerTodo1": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/movilidad",
+        "noFollow": true,
+        "tagTitle": "verTodo",
+        "text": "Ver todo"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  // sub items independencia y cuidado en el hogar
+  "vtex.menu@2.x:submenu#more2": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#DEPTO2-CATS"
+    ]
+  },
+  "flex-layout.row#menu-more2": {
+    "children": [
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "vtex.menu@2.x:menu#more2"
+    ]
+  },
+  "vtex.menu@2.x:menu#more2": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "disclosure-layout#subMenuIndependencia",
+      "disclosure-layout#SubMenuIndependecia2",
+      "disclosure-layout#SubMenuIndependecia3",
+      "menu-item#VerTodo2"
+    ]
+  },
+  "disclosure-layout#subMenuIndependencia": {
+    "children": ["disclosure-trigger#SubMenuIndependencia1", "disclosure-content#SubmenuIndependencia1"]
+  },
+  "disclosure-trigger#SubMenuIndependencia1": {
+    "children": ["menu-item#SubMenuIndependecia1"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#SubmenuIndependencia1": {
+    "children": [ "menu-item#subItemIndependcia5"]
+  },
+  "menu-item#SubMenuIndependecia1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Parte de Arriba"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subItemIndependcia1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/jabon",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Jabón"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemIndependcia2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/silla%20para%20la%20ducha?_q=silla%20para%20la%20ducha&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Silla para la ducha"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemIndependcia3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/comodos%20sanitarios?_q=comodos%20sanitarios&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cómodos sanitarios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemIndependcia4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eleva%20sanitarios?_q=eleva%20sanitarios&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Eleva sanitarios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subItemIndependcia5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Ver Todo"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 2
+  "disclosure-layout#SubMenuIndependecia2": {
+    "children": ["disclosure-trigger#SubMenuIndependecia2", "disclosure-content#SubMenuIndependecia2"]
+  },
+  "disclosure-trigger#SubMenuIndependecia2": {
+    "children": ["menu-item#SubMenuIndependecia2"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#SubMenuIndependecia2": {
+    "children": ["menu-item#SubMenuIndependeciaItem6"]
+  },
+  "menu-item#SubMenuIndependecia2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Parte de Abajo"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/comodos%20sanitarios?_q=comodos%20sanitarios&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cómodos Sanitarios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/camas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Camas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/almohadas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Almohadas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/superficies%20especiales%20para%20el%20manejo%20de%20la%20presión?_q=Superficies%20especiales%20para%20el%20manejo%20de%20la%20presión&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Superficies especiales para el manejo de la presión"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem6": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Vet Todo"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 3
+  "disclosure-layout#SubMenuIndependecia3": {
+    "children": ["disclosure-trigger#SubMenuIndependecia3", "disclosure-content#SubMenuIndependecia3"]
+  },
+  "disclosure-trigger#SubMenuIndependecia3": {
+    "children": ["menu-item#SubMenuIndependecia3"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#SubMenuIndependecia3": {
+    "children": ["menu-item#SubMenuIndependeciaItem11"]
+  },
+  "menu-item#SubMenuIndependecia3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Accesorios"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem8": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/termometros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Termómetros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem9": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tensiometros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tensiómetros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem10": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/balanza%20digital?_q=balanza%20digital&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Balanza Digital"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#SubMenuIndependeciaItem11": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Ver Todo"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#VerTodo2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/independencia-y-cuidado-en-el-hogar",
+        "noFollow": true,
+        "tagTitle": "verTodo",
+        "text": "Ver todo"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  //menus terapie en el hogar
+  "vtex.menu@2.x:submenu#more3": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more3"
+    ]
+  },
+  "flex-layout.row#menu-more3": {
+    "children": [
+      "flex-layout.col#menu-more-3"
+    ]
+  },
+  "flex-layout.col#menu-more-3": {
+    "children": [
+      "vtex.menu@2.x:menu#more3"
+    ]
+  },
+  "vtex.menu@2.x:menu#more3": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+
+      "menu-item#VerTodo3"
+    ]
+  },
+  //sub items menu 
+  "disclosure-layout#subMenuTerapia": {
+    "children": ["disclosure-trigger#subMenuTerapia", "disclosure-content#subMenuTerapia"]
+  },
+  "disclosure-trigger#subMenuTerapia": {
+    "children": ["menu-item#subMenuTerapia"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuTerapia": {
+    "children": ["menu-item#subMenuTerapiaSubItem","menu-item#subMenuTerapiaSubItem6","menu-item#subMenuTerapiaSubItem7","menu-item#subMenuTerapiaSubItem8","menu-item#subMenuTerapiaSubItem9","menu-item#subMenuTerapiaSubItem10","menu-item#subMenuTerapiaSubItem11"]
+  },
+  "menu-item#subMenuTerapia": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Lesiones musculares y óseas"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compresas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Compresas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem6": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tens",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "TENS"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem7": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cintas%20kinesiologicas?_q=Cintas%20kinesiológicas&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cintas kinesiológicas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem8": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fajas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Fajas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem9": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuellos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "cuellos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem10": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rodilleras",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Rodilleras"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem11": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cabestrillos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cabestrillos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 2
+  "disclosure-layout#subMenuTerapia2": {
+    "children": ["disclosure-trigger#subMenuTerapia2", "disclosure-content#subMenuTerapia2"]
+  },
+  "disclosure-trigger#subMenuTerapia2": {
+    "children": ["menu-item#subMenuTerapia2"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuTerapia2": {
+    "children": [ "menu-item#subMenuTerapiaSubItem2","menu-item#subMenuTerapiaSubItem3","menu-item#subMenuTerapiaSubItem4","menu-item#subMenuTerapiaSubItem5"]
+  },
+  "menu-item#subMenuTerapia2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Respiratoria"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aspirador%20de%20secreciones?_q=aspirador%20de%20secreciones&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Aspirador de secreciones"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compresor%20nebulizador?_q=compresor%20nebulizador&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Compresor nebulizador"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/reguladores%20de%20oxigeno?_q=reguladores%20de%20oxigeno&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Reguladores de oxígeno"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuTerapiaSubItem5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cilindros%20de%20oxigeno?_q=cilindros%20de%20oxigeno&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cilindros de oxígeno"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#VerTodo3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "verTodo",
+        "text": "Ver todo"
+      },
+      "blockClass": "Ver Todo"
+    }
+  },
+  //menus terapie en el hogar
+  "vtex.menu@2.x:submenu#more4": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more4"
+    ]
+  },
+  "flex-layout.row#menu-more4": {
+    "children": [
+      "flex-layout.col#menu-more-4"
+    ]
+  },
+  "flex-layout.col#menu-more-4": {
+    "children": [
+      "vtex.menu@2.x:menu#more4"
+    ]
+  },
+  "vtex.menu@2.x:menu#more4": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#Tapabocas",
+      "menu-item#SubItemTapabocas2",
+      "menu-item#SubItemTapabocas3",
+      "menu-item#SubItemTapabocas4",
+      "menu-item#VerTodo4"
+    ]
+  },
+  //sub items menu 
+  "menu-item#Tapabocas": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "href": "/tapabocas-y-desinfeccion/tapabocas",
+        "tagTitle": "About us",
+        "text": "Tapabocas"
+      }
+    }
+  },
+  "menu-item#SubItemTapabocas2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tapabocas-y-desinfeccion/caretas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Caretas"
+      }
+    }
+  },
+  "menu-item#SubItemTapabocas3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gel%20antibacterial?_q=gel%20antibacterial&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Gel Antibacterial"
+      }
+    }
+  },
+  "menu-item#SubItemTapabocas4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tapabocas-y-desinfeccion/Alcohol",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Alcohol"
+      }
+    }
+  },
+  "menu-item#VerTodo4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tapabocas%20y%20desinfeccion?_q=tapabocas%20y%20desinfeccion&map=ft",
+        "noFollow": true,
+        "tagTitle": "verTodo",
+        "text": "Ver todo"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  //menus Profesionales de la salud
+  "vtex.menu@2.x:submenu#more5": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more5"
+    ]
+  },
+  "flex-layout.row#menu-more5": {
+    "children": [
+      "flex-layout.col#menu-more-5"
+    ]
+  },
+  "flex-layout.col#menu-more-5": {
+    "children": [
+      "vtex.menu@2.x:menu#more5"
+    ]
+  },
+  "vtex.menu@2.x:menu#more5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "disclosure-layout#subMenuProf",
+      "disclosure-layout#subMenuProf2",
+      "disclosure-layout#subMenuProf3",
+      "disclosure-layout#subMenuProf4",
+      "disclosure-layout#subMenuProf5",
+    "menu-item#VerTodo5"
+  ]
+},
+  //sub items menu 
+  
+  "menu-item#VerTodo5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tapabocas%20y%20desinfeccion?_q=tapabocas%20y%20desinfeccion&map=ft",
+        "noFollow": true,
+        "tagTitle": "verTodo",
+        "text": "Ver todo"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  //sub items menu 
+  "disclosure-layout#subMenuProf": {
+    "children": ["disclosure-trigger#subMenuLesionesMus", "disclosure-content#subMenuLesionesMus"]
+  },
+  "disclosure-trigger#subMenuLesionesMus": {
+    "children": ["menu-item#subMenuLesionesMus"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuLesionesMus": {
+    "children": ["menu-item#subMenuLesionesMus1","menu-item#subMenuLesionesMus2","menu-item#subMenuLesionesMus3","menu-item#subMenuLesionesMus4","menu-item#subMenuLesionesMus5","menu-item#subMenuLesionesMus6","menu-item#subMenuLesionesMus7"]
+  },
+  "menu-item#subMenuLesionesMus": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Lesiones musculares y óseas"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuLesionesMus1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compresas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Compresas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tens",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "TENS"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Cintas-kinesiologicas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cintas kinesiológicas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fajas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Fajas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuellos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "cuellos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus6": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rodilleras",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Rodilleras"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus7": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cabestrillos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cabestrillos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 2
+  "disclosure-layout#subMenuProf2": {
+    "children": ["disclosure-trigger#subMenuRespiratoria", "disclosure-content#subMenuRespiratoria"]
+  },
+  "disclosure-trigger#subMenuRespiratoria": {
+    "children": ["menu-item#subMenuRespiratoria"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuRespiratoria": {
+    "children": [ "menu-item#subMenuTerapiaSubItem2","menu-item#subMenuTerapiaSubItem3","menu-item#subMenuTerapiaSubItem4","menu-item#subMenuTerapiaSubItem5"]
+  },
+  "menu-item#subMenuRespiratoria": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Respiratoria"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuRespiratoria1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Aspirador-de-secreciones",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Aspirador de secreciones"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuRespiratoria2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Compresor-nebulizador",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Compresor nebulizador"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuRespiratoria3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Reguladores-de-oxigeno",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Reguladores de oxígeno"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuRespiratoria4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Cilindros-de-oxigeno",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cilindros de oxígeno"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 3
+  "disclosure-layout#subMenuProf3": {
+    "children": ["disclosure-trigger#subMenuCuadernos", "disclosure-content#subMenuCuadernos"]
+  },
+  "disclosure-trigger#subMenuCuadernos": {
+    "children": ["menu-item#subMenuCuadernos"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuCuadernos": {
+    "children": [ "menu-item#subMenuCuadernos1","menu-item#subMenuCuadernos2","menu-item#subMenuCuadernos3","menu-item#subMenuCuadernos4","menu-item#subMenuCuadernos5"]
+  },
+  "menu-item#subMenuCuadernos": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Cuadernos, lapiceros y otros accesorios"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuCuadernos1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Lapiceros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Lapiceros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Cuadernos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cuadernos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Pines",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Pines"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cintas%20metricas?_q=cintas%20metricas&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cintas métricas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/RCP",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "RCP"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 4
+  "disclosure-layout#subMenuProf4": {
+    "children": ["disclosure-trigger#subMenuEvaluacion", "disclosure-content#subMenuEvaluacion"]
+  },
+  "disclosure-trigger#subMenuEvaluacion": {
+    "children": ["menu-item#subMenuEvaluacion"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuEvaluacion": {
+    "children": [ "menu-item#subMenuCuadernos1","menu-item#subMenuCuadernos2","menu-item#subMenuCuadernos3","menu-item#subMenuCuadernos4","menu-item#subMenuCuadernos5"]
+  },
+  "menu-item#subMenuEvaluacion": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Evaluación de órganos y sentidos"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuEvaluacion1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Fonendoscopios",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Fonendoscopios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Kits",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Kits"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tensiometros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tensiómetros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Otoscopios",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Otoscopios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Martillos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Martillos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion6": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kits%20de%20organos?_q=kits%20de%20organos&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Kits de órganos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion7": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Linternas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Linternas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 5
+  "disclosure-layout#subMenuProf5": {
+    "children": ["disclosure-trigger#subMenuInstrumentos", "disclosure-content#subMenuInstrumentos"]
+  },
+  "disclosure-trigger#subMenuInstrumentos": {
+    "children": ["menu-item#subMenuInstrumentos"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuInstrumentos": {
+    "children": [ "menu-item#subMenuInstrumentos1","menu-item#subMenuInstrumentos2","menu-item#subMenuInstrumentos3"]
+  },
+  "menu-item#subMenuInstrumentos": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Instrumentos para pequeñas cirugías"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuInstrumentos1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tijeras",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tijeras"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuInstrumentos2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Torniquetes",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Torniquetes"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuInstrumentos3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sistemas%20de%20diseccion?_q=sistemas%20de%20diseccion&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Sistemas de disección"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //header 
+  "flex-layout.row#PreMobile": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "blockClass":"Pre-header"
+    },
+    "children": [
+      "drawer",
+      "flex-layout.col#search-barMo"
+    ]
+  },
+  "flex-layout.col#search-barMo":{
+    "props": {
+      "verticalAlign": "middle",
+      "width": "grow"
+    },
+    "children": ["search-bar#Mo"]
+  },
+  "search-bar#Mo":{
+    "props":{
+      "width": "100%",
+      "placeholder": "Search"
+    }
+  },
+
+
+//**************************************************************************************************MENU HEADER NUEVO
+//--------------------------------------------------------DEPARTAMENTO 1
+
+"rich-text#HEADER-HOMBRE": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "[Hombre](/hombre)",
+    "blockClass": "menuHeader"
+  }
+  },
+  "rich-text#HEADER-MUJER": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Mujer](/Mujer)",
+      "blockClass": "menuHeader"
+    }
+    },
+ "rich-text#HEADER-UNIFORMES": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Uniformes](/Uniformes)",
+        "blockClass": "menuHeader"
+      }
+    },
+    "rich-text#HEADER-TIENDAS": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Tiendas](/tiendas)",
+        "blockClass": "ICONOSLLAMADOSHeader1"
+      }
+    },
+    "rich-text#HEADER-CATALOGO": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Catalogo](/categories)",
+        "blockClass": "ICONOSLLAMADOSHeader2"
+      }
+    },
+    "rich-text#HEADER-subTotal": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "$0",
+        "blockClass": "ICONOSLLAMADOSTOTAL1"
+      }
+    },
+    "rich-text#HEADER-DISTRIBUIDOR": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "[Retailers](https://market--saetasportb2b.myvtex.com/account)",
+        "blockClass": "ICONOSLLAMADOSTOTAL"
+      }
+    },
+    "info-card#HEADER-CATALOGO":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://saetasport.vteximg.com.br/arquivos/banner-principal.png",
+        "callToActionText": "Catalogo",
+        "isFullModeStyle": true,
+        "callToActionUrl": "#",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "callToActionMode": "link",
+        "blockClass":"ICONOSLLAMADOSHeader2"
+      }
+    },
+    "info-card#HEADER-TIENDAS":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://saetasport.vteximg.com.br/arquivos/banner-principal.png",
+        "callToActionText": "Tiendas",
+        "isFullModeStyle": true,
+        "callToActionUrl": "#",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "callToActionMode": "link",
+        "blockClass":"ICONOSLLAMADOSHeader2"
+      }
+    },
+
+
+
+
+
+
+
+"minicart.v2": {
+  "props": {
+    "MinicartIcon": "icon-cart#minicart-icon"
+  },
+  "children": ["minicart-base-content"]
+},
+"icon-cart#minicart-icon": {
+  "props": {
+    "size": 24
+  }
+},
+"minicart-base-content": {
+  "blocks": ["minicart-empty-state"],
+  "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+},
+"flex-layout.row#minicart-footer": {
+  "props": {
+    "blockClass": "minicart-footer"
+  },
+  "children": ["flex-layout.col#minicart-footer"]
+},
+"flex-layout.col#minicart-footer": {
+  "children": ["minicart-summary", "minicart-checkout-button"]
+},
+"minicart-product-list": {
+  "blocks": ["product-list#minicart"]
+},
+"product-list#minicart": {
+  "blocks": ["product-list-content-mobile"]
+},
+"minicart-summary": {
+  "blocks": ["checkout-summary.compact#minicart"]
+},
+
+"checkout-summary.compact#minicart": {
+  "children": ["summary-totalizers#minicart"],
+  "props": {
+    "totalizersToShow": ["Items", "Discounts"]
+  }
+},
+"summary-totalizers#minicart": {
+  "props": {
+    "showTotal": true,
+    "showDeliveryTotal": false
+  }
+},
+
+"minicart-empty-state": {
+  "children": ["flex-layout.row#empty-state"]
+},
+"flex-layout.row#empty-state": {
+  "children": ["flex-layout.col#empty-state"]
+},
+"flex-layout.col#empty-state": {
+  "children": [
+    "icon-cart#minicart-empty-state",
+    "rich-text#minicart-default-empty-state"
+  ],
+  "props": {
+    "horizontalAlign": "center",
+    "verticalAlign": "middle",
+    "rowGap": 5
+  }
+},
+"icon-cart#minicart-empty-state": {
+  "props": {
+    "size": 64,
+    "blockClass": "minicart-empty-state"
+  }
+},
+"rich-text#minicart-default-empty-state": {
+  "props": {
+    "text": "Your cart is empty."
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+"modal-trigger#catalogoM": {
+  "children": [
+    "rich-text#titles-botonMenu1",
+    "modal-layout#catalogoModal"
+  ]
+},
+ 
+"modal-layout#catalogoModalM": {
+  "children": [
+    "modal-header",
+    "iframe#catalogo"
+  ],
+  "props": {
+    "blockClass": "ContentPopUpagenda"
+  }
+},
+
+
+
+ "modal-trigger#catalogo": {
+  "children": [
+    "rich-text#HEADER-CATALOGO",
+    "modal-layout#catalogoModal"
+  ]
+},
+ 
+"modal-layout#catalogoModal": {
+  "children": [
+    "modal-header",
+    "iframe#catalogo"
+  ],
+  "props": {
+    "blockClass": "ContentPopUpagenda"
+  }
+},
+
+
+
+
+
+
+
+"iframe#catalogo": {
+  "props": {
+    "src": "https://digitalepartner.com/Agendamiento-Saeta/2.%20CAT%C3%81LOGO%20OCT.pdf",
+    "blockClass" : "iFrame-Agenda",
+    "width": "100%",
+    "height": "660",
+    "allow": "geolocation"
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

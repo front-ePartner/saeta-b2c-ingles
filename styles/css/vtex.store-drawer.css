@@ -1,0 +1,31 @@
+.menuIcon{
+    color: #ffc100;
+}
+.openIconContainer{
+    margin-left: 5px;
+}
+.closeIconContainer--menuDrawer {
+    justify-content: end;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .menuIcon--menuDrawer {
+        display: none
+    }
+    .openIconContainer--menuDrawer {
+        align-items: center;
+        display: flex;
+    }
+    .openIconContainer--menuDrawer::after {content: "";width: 40px;background: url(https://saetasport.vteximg.com.br/arquivos/Buscar-Hamburguesa.png);height: 40px;display: block;top: 0;background-size: 145%;visibility: visible;background-position: center;}
+    .openIconContainer {
+        margin-left: -25px;
+    }
+}

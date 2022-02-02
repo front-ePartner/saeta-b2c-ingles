@@ -1,0 +1,13 @@
+.container--iFrame-facrturas {
+    margin: 0 100px;
+    width: 90%;
+}
+
+
+
+@media (max-width: 600px) {
+    .container--iFrame-facrturas {
+        margin: 0 10px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "store.custom#about-us": {
+        "path": "/quienes-somos"
+      },
+    "store.custom#aviso-privacidad": {
+        "path": "/aviso-privacidad"
+    },
+    "store.custom#terminos": {
+        "path": "/terminos-condiciones"
+    },
+    "store.custom#faqs": {
+      "path": "/faqs"
+    },
+    "store.custom#privacidad" : {
+      "path": "/privacidad"
+    },
+    "store.custom#devolucion" : {
+      "path": "/devolucion"
+    },
+    "store.custom#garantia" : {
+      "path": "/garantia"
+    },
+    "store.custom#envio" : {
+      "path": "/envio"
+    },
+    "store.custom#contacto" : {
+      "path": "/contacto"
+    },
+    "store.custom#stores": {
+      "path": "/tiendas"
+    },
+    "store.custom#DISTRI": {
+      "path": "/distribuidores"
+    },
+    "store.custom#registro": {
+      "path": "/registro"
+    }
+  }

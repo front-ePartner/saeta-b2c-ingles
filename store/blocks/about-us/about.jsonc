@@ -1,0 +1,62 @@
+{
+  "store.custom#about-us": {
+    "props": {
+      "blockClass": ["About"]
+    },
+    "blocks": ["info-card#banner-top", "flex-layout.row#main-content"]
+  },
+  // * Top Banner
+  "info-card#banner-top": {
+    "props": {
+      "id": "texting",
+      "imageUrl": "https://saetasport.vteximg.com.br/arquivos/Banner-about-us-Desktop.jpg",
+      "mobileImageUrl": "https://saetasport.vteximg.com.br/arquivos/Banner-about-us-mobile.jpg",
+      "isFullModeStyle": "false",
+      "textPosition": "center",
+      "headline": "LO QUE FUIMOS,\n SOMOS Y SEREMOS",
+      "subhead": "Durante nuestra trayectoria hemos comprobado que la perseverancia es la clave para llegar a lugares inimaginables y se convirtió en nuestro secreto para seguir cumpliendo objetivos a través de los años. \n Conscientes de que en los procesos es fácil desfallecer decidimos convertirnos en una flecha imparable, en esa SAETA que va tras un objetivo claro. \n Siempre hemos encontrado la potencia para superar los retos que han surgido en el camino y lo mejor es que no lo hemos hecho solos, esto nos ha enseñado que somos más fuertes cuando trabajamos en equipo. \n Saeta, decide ser imparable.",
+      "blockClass": ["About_banner--top"]
+    }
+  },
+  // * Main Content
+  "flex-layout.row#main-content": {
+    "props": {
+      "blockClass": ["About__information"]
+    },
+    "children": ["flex-layout.col#container-info"]
+  },
+  "flex-layout.col#container-info": {
+    "props": {
+      "blockClass": ["About__information-container"]
+    },
+    "children": [
+      "flex-layout.row#container-info__purpose",
+      "flex-layout.row#container-info__news",
+      "flex-layout.row#container-info__blog",
+      "flex-layout.row#slider-content",
+      "rich-text#title-history",
+      "flex-layout.row#history-content"
+    ]
+  },
+  // * Title Section History
+  "rich-text#title-history": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# nuestra historia",
+      "blockClass": ["History__title"]
+    }
+  }
+  /* "flex-layout.row#slider-content": {
+    "props": {
+      "blockClass": ["About__slider"]
+    },
+    "children": ["flex-layout.col#container-slider"]
+  },
+  "flex-layout.col#container-slider": {
+    "props": {
+      "blockClass": ["About__slider-container"]
+    },
+    "children": ["flex-layout.row#slider-content"]
+  } */
+}

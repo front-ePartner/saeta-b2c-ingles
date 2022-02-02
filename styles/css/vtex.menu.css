@@ -1,0 +1,478 @@
+.menuContainerNav {
+    display: flex;
+}
+.styledLinkContent {
+    font-weight: 700;
+}
+.submenuContainer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+.styledLink--verTodo{
+    text-decoration: underline;
+}
+.submenu {
+    justify-content: flex-start;
+}
+.submenu .menuContainer {
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+}
+.submenu  .styledLinkContent {
+    font-weight: 500;
+}
+.submenuWrapper {
+    right: 0px;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 9999999999;
+   /* box-shadow: 0px 341px 0px 480px rgb(0 0 0 / 50%);*/
+    padding: 20px 100px 50px 100px;
+    background: #ddd;
+}
+.menuContainer--menuCategory .styledLinkContainer{
+    margin-left: 0;
+}
+/*nuevos*/
+.menuContainer {
+    width: auto;
+    font-size: 10px;
+    margin: 0;
+    padding: 0 0px;
+}
+
+.submenu .menuItem {
+    padding: 3px 0;
+    display: flex;
+
+}
+
+.submenu .menuItem:last-child {
+    margin-bottom: 40px;
+}
+.styledLinkContent {
+    font-size: 14px;
+    text-transform: uppercase;
+    white-space: initial;
+    border-radius: 1px;
+    font-weight: 700;
+}
+.submenuContainer--submenuImpor{
+    position: relative;
+    box-shadow: 0;
+}
+.styledLinkContent--MovilidadMenu:hover .flexCol--submenu1Mayor{
+    display: block;
+}
+.submenuWrapper--submenu2{
+    top: -35px;
+}
+.submenuWrapper--submenu5{
+    top: -195px;
+}
+.submenuWrapper--submenu4{
+    top: -122px;
+}
+.submenuWrapper--submenu3{
+    top: -88px;
+}
+.submenuWrapper--SubMenus{
+    right: 0;
+    left: 27%;
+    width: 68%;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    box-shadow: 0px 0 0 0;
+    transition: all 400ms;
+    opacity: 0;
+}
+.submenu .menuItem--MovilidadMenu:hover .submenuWrapper--SubMenus{
+    opacity: 1;
+    transition: all 400ms;
+}
+.menuContainerNav--menuCategory{
+    width: 24%;
+}
+
+.styledLinkContent--burguerIcon{
+    text-align: left;
+    display: block;
+    background: url(https://impormedical.vteximg.com.br/arquivos/burguerDeskt.png) no-repeat;
+    background-size: 32%;
+    font-size: 10px;
+    display: block;
+    width: 79px;
+    font-size: 0;
+    height: 20px;
+    margin-top: -4px;
+}
+.submenu .menuItem .styledLinkContent{
+    transition: all 1s;
+    padding: 7px 15px;
+}
+.submenu .menuItem .styledLinkContent:hover {
+    background-color:white;
+    color:#0f0095;
+}
+.submenuContainer--SubMenus{
+    transition: all 400ms;
+}
+/*.styledLinkContent:hover{
+    text-decoration: underline;
+}*/
+.styledLinkContent--marca1,.styledLinkContent--marca2,.styledLinkContent--marca3,.styledLinkContent--marca4,.styledLinkContent--marca5,
+.styledLinkContent--marca6,.styledLinkContent--marca7,.styledLinkContent--marca8,.styledLinkContent--marca9,
+.styledLinkContent--marca10,.styledLinkContent--marca11,.styledLinkContent--marca12,.styledLinkContent--marca13,
+.styledLinkContent--marca14,.styledLinkContent--marca15,.styledLinkContent--marca16
+{
+    font-size: 0;
+}
+.styledLinkContent--marca1::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Viniball_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca2::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Bium-1_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca3::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Essenza_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca4::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Soye%20Kids_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca5::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20So%20Young.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca6::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Stilocafe_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca7::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Zoom-1_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca8::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Cybex_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca9::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20GB_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca10::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Joovy_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca11::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Joseph%20Joseph_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca12::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Maclaren_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca13::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Uppababy_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca14::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Zuru.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca15::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Avengers_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca16::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Baby%20Shark_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.menuItem--final{
+    border-top: 1px solid;
+    padding-top: 6px;
+}
+.styledLinkContainer--burguerIcon{
+    margin-left: 0;
+    margin-right: 50px;
+}
+.submenuWrapper--MENU-NIVEL-DEPTO-CAT--isOpen {
+    top: 0px;
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    background: white;
+    height: px;
+    /* align-items: center; */
+}
+.menuItem--MENU-NIVEL-DEPTO-CAT {
+    margin: 0 auto 0 !important;
+    text-align: center;
+    justify-content: center;
+}
+.submenu--MENU-NIVEL-DEPTO-CAT {
+    JUSTIFY-CONTENT: CENTER;
+    WIDTH: 100%;
+}
+.menuItem--MENU-NIVEL-DEPTO-CAT--isOpen {
+    MARGIN: 0px AUTO;
+}
+.submenuWrapper--MENU-NIVEL-DEPTO-CAT-SUBS--isOpen {
+    padding: 0;
+    display: flex;
+    justify-content: inherit;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    box-shadow: 0px 399px 0px 323px rgb(0 0 0 / 50%);
+}
+.submenu--MENU-NIVEL-DEPTO-CAT-SUBS {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.submenuContainer--MENU-NIVEL-DEPTO-CAT-SUBS {
+    top: 37px;
+}
+.menuItem--MENU-NIVEL-DEPTO {
+    display: flex;
+    align-items: center;
+}
+.styledLink--MENU-NIVEL-DEPTO {
+    color: white;
+    font-weight: 100 !important;
+}
+.styledLinkContent--MENU-NIVEL-DEPTO {
+    font-weight: 100;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.menuContainerNav--MENU-NIVEL-DEPTO {
+    margin: 0;
+}
+.styledLinkContainer--MENU-NIVEL-DEPTO.mh6 {
+    margin: 0 12px;
+}
+
+.menuContainerNav--MENU-NIVEL-DEPTO:hover .styledLinkContent--MENU-NIVEL-DEPTO {
+    border-color: white;
+}
+.submenuContainer--MENU-NIVEL-DEPTO-CAT {
+    top: 80px;
+}
+.styledLinkContent--MENU-NIVEL-DEPTO-CAT {
+    font-weight: 700 !important;
+}
+.styledLinkContainer--MENU-NIVEL-DEPTO {
+    margin: 0;
+}
+.menuItem--MENU-NIVEL-DEPTO-CAT--isOpen .styledLinkContent--MENU-NIVEL-DEPTO-CAT {
+    text-decoration: underline;
+    color: #0f0095;
+}
+.styledLinkContainer--MENU-NIVEL-DEPTO-CAT {
+    margin: 0 auto;
+}
+
+
+
+
+
+@media (max-width: 1300px) {
+.styledLinkContent--MENU-NIVEL-DEPTO-CAT {
+    padding: 7px 0 !important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .menuContainer--menuDrawer{
+        display: block;
+    }
+    .submenuContainer {
+        position: relative !important;
+    }
+    .submenuWrapper {
+        margin: 0 auto;
+        box-shadow: 0 0 0 0;
+        padding: 0;
+        background: transparent;
+        position: relative;
+    }
+    .menuItem:last-child {
+        margin-bottom: 0px !important;
+    }
+    .styledLinkContent:hover {
+        background-color: white !important;
+        color: black !important;
+        text-align: left;
+    }
+    .menuContainerNav {
+        margin-right: 0;
+    } 
+    .styledLinkContent--SubCategory {
+        margin-left: 10px;
+    }
+    .styledLinkContainer {
+        margin-left: 15px;
+        text-align: left;
+    }
+    .submenu .menuItem .styledLinkContent{
+        padding: 2px 15px;
+        font-size: 15px;
+    }
+    .submenu .menuItem .styledLinkContent--SubCategory {
+        font-size: 14px;
+    }
+    .styledLinkContainer--department::before{
+        content: "";
+        background: url(https://saetasport.vteximg.com.br/arquivos/footer-flecha-abajo.png)no-repeat;
+        background-size: 100%;
+        font-size: 5px;
+        width: 19px;
+        height: 23px;
+        margin-top: 0px;
+        top: 6px;
+        right: -9px;
+        transition: all 40ms;
+        position: absolute;
+        margin-right: 10px;
+        transform: rotate(
+    270deg);
+    }
+    .styledLinkContainer--department{
+        position: relative;
+    }
+    .menuContainer {
+        width: 100%;
+    }
+    .menuItem--category{
+        display: block;
+        width: 85%;
+        position: relative;
+    }   
+    .menuItem--category::before{
+        content: "";
+        background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png)no-repeat;
+        background-size: 100%;
+        font-size: 5px;
+        width: 16px;
+        height: 23px;
+        margin-top: 0px;
+        top: 10px;
+        right: -28px;
+        transition: all 40ms;
+        position: absolute;
+        margin-right: 10px;
+    } 
+    .styledLinkContent--department{
+        display: block;
+        width: 93%;
+    }
+    .styledLinkContainer--department {
+        border: 1px solid;
+        margin: 10px 7px;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    .styledLinkContent--department {
+        font-size: 13px;
+        margin: 0;
+    }
+}

@@ -1,0 +1,64 @@
+{
+  "store.custom#registro": {
+    "blocks": [
+      "info-card#bannerFaqsM",
+      "info-card#bannerFaqs",
+
+      "flex-layout.row#FORMULARIO-REGISTRO"
+    ]
+
+  },
+
+    "rich-text#TITULO-REGISTRO": {
+      "props": {
+        "text":" [SOLICITA TU AMBIENTE](#)\n DISTRIBUIDOR",
+        "blockClass": "textoquienM"
+      }
+    },
+
+    "rich-text#TITULO-REGISTRO-terminos": {
+      "props": {
+        "text":"Nos comunicaremos contigo en la mayor brevedad posible, para que puedas disfrutar de todos nuestrso beneficios",
+        "blockClass": "TITULO-REGISTRO-terminos"
+      }
+    },
+
+  "flex-layout.row#FORMULARIO-REGISTRO": {
+    "children": [
+      "flex-layout.col#FORMULARIO-REGISTRO-INFO",
+      "form#registro"
+    ],
+    "props": {
+      "blockClass": "FORMULARIO-REGISTRO"
+    }
+  },
+
+  "flex-layout.col#FORMULARIO-REGISTRO-INFO": {
+    "children": [
+      "rich-text#TITULO-REGISTRO",
+      "rich-text#TITULO-REGISTRO-terminos"
+    ],
+    "props": {
+      "blockClass": "FORMULARIO-REGISTRO"
+    }
+  },
+
+
+  "form#registro": {
+    "props": {
+      "entity": "CT",
+      "schema": "v6",
+      "blockClass": "REGISTO"
+    },
+    "children": [
+      "form-input.text#nombre",
+      "form-input.text#correo",
+      "form-input.text#ndocumento",
+      "form-input.text#telefono",
+      "form-field-group#genero",
+      "form-submit",
+      "flex-layout.col#terminosagremment"
+    ],
+    "blocks": ["form-success"]
+  }
+}

@@ -1,0 +1,60 @@
+{
+    "store.custom#contacto": {
+      "blocks": [
+        "info-card#bannerFaqsM",
+        "info-card#bannerFaqs",
+        "flex-layout.row#contacto",
+        "flex-layout.row#Contact"
+      ]
+    },
+  
+    "flex-layout.row#Contact": {
+      "children": [
+        "flex-layout.col#text-faqs1",
+        "flex-layout.col#text-contacto"
+      ],
+      "props":{
+        "blockClass": "FaqsColumn"
+      }
+    },
+
+    "flex-layout.col#text-contacto": {
+      "children": [
+        "rich-text#contacto"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true,
+        "width": "80%",
+        "rowGap": 0
+      }
+    },
+    "flex-layout.row#contacto":{
+        "children": [
+          "rich-text#TITULO-contacto"
+        ],
+        "props":{
+          "blockClass": "BannerDosMosaicox4-ESTATICA"
+        }
+      },
+
+    "rich-text#TITULO-contacto": {
+      "props": {
+        "text":
+        " [contacto](#)\n Saeta",
+        "blockClass": "textoquienM"
+      }
+    },
+    "rich-text#contacto": {
+      "props": {
+        "text": 
+          "\n **Contáctenos:**\n **INFORMACIÓN DEL SERVICIO DE ATENCIÓN AL CLIENTE**\n Nuestro Servicio de atención al cliente está disponible por teléfono lunes a viernes 8am - 5pm y sábados 9am - 12m\n Ten en cuenta que solo podemos proporcionar asistencia para cuestiones relacionadas con la tienda en línea y con tu experiencia de compra en línea. No podemos responder cuestiones relacionadas con tiendas físicas.\n  \n **POR TELÉFONO**\n Puedes contactar con nuestro servicio de atención al cliente llamando (1) 4200800 de lunes a viernes 8am - 6pm y sábados 9am - 12m, menos los días festivos nacionales.\n  \n **POR MENSAJE**\n ¿Tienes preguntas? Escríbenos a nuestro correo electrónico paginaweb@saetasport.com o via whats app al: +57 350 7401129.\n **FESTIVOS NACIONALES en Colombia**\n 1 de enero (Año Nuevo)\n 14 de april (Viernes Santo)\n Pascua\n 1 de mayo (Día del Trabajo)\n 15 de agosto (Asunción)\n 12 de octubre (Fiesta Nacional de España)\n 1 de noviembre (Todos los Santos)\n 6 de diciembre (Día de la Constitución)\n 8 de diciembre (Inmaculada Concepción)\n 24 de diciembre (Nochebuena)\n 25 de diciembre (Navidad)\n \n ",
+        "blockClass": "textostilo"
+      }
+    }
+
+    
+
+
+
+  }

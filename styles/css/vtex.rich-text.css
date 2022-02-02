@@ -1,0 +1,1399 @@
+.link--help-message {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+.paragraph{
+  padding: 0;
+  margin: 0;
+}
+.heading--textosPrinc{
+  font-size: 28px;
+  margin: 0px 0 -3px 0;
+  color: black;
+}
+.headingLevel1 {
+  font-family: 'Anybody';
+}
+.container--tituloNewsletter{
+  justify-content: center;
+}
+.paragraph--textoquien{
+  font-family: 'Anybody';
+}
+.headingLevel3--textosPrinc{
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.paragraph--reviews{
+  margin: 0 0px 20px 20px;
+}
+.wrapper--textosPrinc {
+  margin: -36px 0 0 0;
+}
+.paragraph--textoscentro{
+  font-size: 12px;
+}
+.paragraph--textoscentro{
+  margin: 0 16px 0 0;
+  min-width: 130px;
+}
+.paragraph--titleF{
+  color: #ffc100;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0 14px 0;
+}
+.paragraph--textFoo1{
+  color: white;
+  font-size: 12px;;
+}
+.link--textFoo, .paragraph--textFoo{
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.paragraph--textfool{
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+}
+.container--textfool{
+  position: absolute;
+  right: -49px;
+  top: -12px;
+}
+.wrapper--about {margin: 0 100px 100px 100px;}
+
+.wrapper--textoquien {
+    justify-content: center !important;
+    display: block;
+}
+
+.container--textoquien {
+    justify-content: flex-start;
+}
+
+.headingLevel2 {
+    font-size: 21px;
+}
+.container--textostilo {
+  margin: 0;
+}
+.headingLevel1--textoquien{
+  font-size: 25px;
+  margin: 10px 0;
+  display: none;
+}
+.list--textostilo{
+  margin: 0;
+  line-height: 22px;
+  color: black;
+  font-size: 15px;
+}
+.listItem--about, .paragraph--about{
+  line-height: 25px;
+  font-size: 14px;
+}
+.link--Pedidos{
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+.wrapper--categoriaPrinci::before{
+  content: "";
+  background-image: url("https://impormedical.vteximg.com.br/arquivos/icon_sillaruedas.png");
+}
+.wrapper--categoriaPrinci{
+  display: flex;  
+}
+.link--CategoriaPrin1, .link--CategoriaPrin2, .link--CategoriaPrin3, .link--CategoriaPrin4{
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+.container--CategoriaPrin2::before{
+  content: "";
+    text-align: left;
+    display: block;
+    background: url(https://impormedical.vteximg.com.br/arquivos/icon_sillaruedas.png) no-repeat;
+    background-size: 100%;
+    font-size: 10px;
+    display: block;
+    width: 21px;
+    height: 28px;
+    margin-top: 0px;
+}
+.container--CategoriaPrin3::before{
+  content: "";
+  text-align: left;
+  display: block;
+  background: url(https://impormedical.vteximg.com.br/arquivos/icon_profesion.png) no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 23px;
+  height: 27px;
+  margin-top: 0px;
+}
+.paragraph--titleF:last-child{
+  justify-content: center;
+}
+.container--CategoriaPrin4::before{
+  content: "";
+    text-align: left;
+    display: block;
+    background: url(https://impormedical.vteximg.com.br/arquivos/icon_promociones.png) no-repeat;
+    background-size: 101%;
+    font-size: 10px;
+    display: block;
+    width: 32px;
+    height: 30px;
+    margin-top: 0px;
+}
+.container--CategoriaPrin1::before{
+  content: "";
+  text-align: left;
+  display: block;
+  background: url(https://impormedical.vteximg.com.br/arquivos/icon_paracuidado.png) no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 24px;
+  height: 26px;
+  margin-top: 0px;
+}
+.container--CategoriaPrin1, .container--CategoriaPrin2, .container--CategoriaPrin3,.container--CategoriaPrin1{
+  margin-right: 30px;
+}
+.headingLevel1--tituloProduct{
+  margin: 12px 0;
+  font-size: 25px;
+  color: black;
+}
+.container--textosPrinc {
+  height: auto;
+  display: block;
+  margin-top: 50px; 
+}
+.link--tituloEstaticos{
+  text-decoration: none;
+  font-weight: 600;
+  color: #191531;
+  font-size: 15px;
+}
+.link--contenidoEstaticas{
+  text-decoration: none;
+  color: #191531;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.link--tituloSubemnu{
+  text-decoration: none;
+  color: #0f0095;
+  font-size: 16px;
+  font-weight: 700;
+}
+.link--tituoSubmenu{
+  text-decoration: none;
+  color: #0f0095;
+  font-size: 16px;
+  font-weight: 700;
+}
+.link--botones1Menu{
+  padding: 10px;
+  text-decoration: none;
+  margin: 10px;
+  color: #191531;
+  font-weight: 700;
+  border: 2px solid #191531;
+  background: transparent;
+  transition: all 400ms;
+}
+.link--botones1Menu:hover{
+  background: white;
+}
+.link--botones2Menu:hover{
+  background: transparent;
+}
+.container--botones1Menu{
+  height: 58px;
+  justify-content: flex-start;
+  padding-top: 25px;
+  margin-top: 8px;
+  padding-right: 0px;
+  border-top: 1px solid #0f0095;
+  margin-left: 5px;
+  width: 246px;
+}
+.link--textFoo:hover{
+  text-decoration-color: white;
+  text-decoration: underline;
+}
+.link--tituloSubemnu:hover{
+  text-decoration-color: #0f0095;
+  text-decoration: underline;
+}
+.link--Pedidos:hover{
+  text-decoration-color: black;
+  text-decoration: underline;
+}
+.link--tituoSubmenu:hover{
+  text-decoration-color: #0f0095;
+  text-decoration: underline;
+}
+.container--botones2Menu{
+  height: 58px;
+  justify-content: flex-start;
+  margin-top: 24px;
+  margin-left: 5px;
+}
+.link--botones2Menu{
+  padding: 10px 15px;
+  text-decoration: none;
+  margin: 10px;
+  color: #191531;
+  font-weight: 700;
+  border: 2px solid #191531;
+  background: white;
+  transition: all 400ms;
+}
+.link--CategoriaPrin1:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.link--CategoriaPrin2:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.link--CategoriaPrin3:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.link--CategoriaPrin4:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.link--contenidoSubemnu{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.container--contenidoSubemnu{
+  padding: 4px 0;
+}
+.link--contenidoSubemnu{
+  transition: all 400ms;
+}
+.link--contenidoSubemnu:hover{
+  border-left:10px solid #ffc100;
+  font-weight: 700;
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+.paragraph--textFooM{
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+}
+.headingLevel1--textoquienM {
+  margin: 20px 100px 0 100px;
+  font-size: 27px;
+}
+.link--PRE-HEADER-ITEM1 {
+  color: #FBCE2F;
+  text-decoration: underline;
+}
+.link--PRE-HEADER-ITEM2 {
+  color: black;
+  text-decoration: none;
+}
+.link--PRE-HEADER-ITEM3 {
+  color: black;
+  text-decoration: none;
+}
+.link--PRE-HEADER-ITEM4 {
+  color: black;
+  text-decoration: none;
+}
+.link--PRE-HEADER-ITEM5 {
+  color: black;
+  text-decoration: none;
+}
+.paragraph--Pedidos {
+  background: #e6e6e6;
+  padding: 1px 5px;
+  border-left: 1px solid white;
+}
+.paragraph--VERPRODUCTOBOTON {
+  font-size: 0;
+  background: black;
+  position: absolute;
+  width: 47px;
+  height: 37px;
+  top: -73px;
+  right: 73px;
+  border-radius: 4px;
+}
+.paragraph--botonDeAgregarProducto {
+  color: white;
+}
+.wrapper--botonDeAgregarProducto {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.container--botonDeAgregarProducto {
+  background: #bfbfbf;
+  margin: 25px 0 0;
+  cursor: pointer;
+}
+.heading--textosPrincPOPPRO {
+  font-size: 20px;
+  margin: 27px 0 -12px 0;
+}
+.container--cerradoPopProducto {
+  margin: 0 auto 16px 102px;
+}
+.headingLevel1--textosPrincDescSec {
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 33px;
+}
+.container--textosPrincDescSec {
+  width: 100%;
+  display: block;
+  padding: 0 100px 20px;
+}
+.paragraph--envio-agenda {
+  text-align: left;
+}
+.paragraph--envio-agenda {font-size: 20px;font-weight: 700;text-align: left;text-transform: uppercase;}
+
+.paragraph--Titulo-envio-agenda {text-align: left;}
+
+.container--texto-envio-agenda {
+  WIDTH: 100%;
+  display: block;
+  TEXT-ALIGN: left;
+}
+.wrapper--texto-envio-agenda {
+  TEXT-ALIGN: -webkit-match-parent;
+}
+.paragraph--sub-envio-agenda {
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.paragraph--texto-envio-agenda {
+  width: 100%;
+  text-align: left;
+  margin: 25px 0 12px;
+  font-weight: 700;
+}
+.container--PRE-HEADER-ITEM1 {
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  left: 0;
+}
+.container--PRE-HEADER-ITEM1 {
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  left: 0;
+}
+.link--ICONOSLLAMADOSTOTAL {
+  display: grid;
+  color: white!important;
+  text-transform: uppercase !important;
+  font-size: 12px;
+  top: 0;
+  padding: 0 10px;
+  margin-top: 3px;
+  text-decoration: none;
+}
+.wrapper--PRE-HEADER-ITEM1 {
+  margin-top: 5px;
+}
+.paragraph--PRE-HEADER-ITEM1 {
+  color: white;
+}
+.wrapper--ICONOSLLAMADOSTOTAL1 {
+  color: white;
+}
+.wrapper--ICONOSLLAMADOSTOTAL1::before {content: "Sub-Total";text-align: right;margin: 0 0 0 auto;display: block;font-size: 12px;}
+
+.link--ICONOSLLAMADOSHeader2 {
+  font-size: 0;
+}
+.link--ICONOSLLAMADOSHeader2::before {
+  content: "";
+  background: url(http://digitalepartner.com/codelin/saeta/header-desk-catalogo.svg);
+  width: 52px;
+      height: 55px;
+      background-size: 90%;
+      display: block;
+      margin: 16.5px 8px -10px;
+      align-items: center;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+.link--ICONOSLLAMADOSHeader2:hover::before {
+  content: "";
+  background: url(http://digitalepartner.com/codelin/saeta/header-desk-catalogoH.svg);
+  width: 52px;
+      height: 55px;
+      background-size: 90%;
+      display: block;
+      margin: 16.5fv                npx 8px -10px;
+      align-items: center;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+.link--ICONOSLLAMADOSHeader1 {
+  font-size: 0;
+}
+.link--ICONOSLLAMADOSHeader1::before {
+  content: "";
+  background: url(http://digitalepartner.com/codelin/saeta/header-desk-tiendas.svg);
+  width: 46px;
+      height: 55px;
+      background-size: 90%;
+      display: block;
+      margin: 18px 20px -10px 8px;
+      align-items: center;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+.link--ICONOSLLAMADOSHeader1:hover::before {
+  content: "";
+  background: url(http://digitalepartner.com/codelin/saeta/header-desk-tiendasH.svg);
+  width: 46px;
+      height: 55px;
+      background-size: 90%;
+      display: block;
+      margin: 18px 20px -10px 8px;
+      align-items: center;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+.link--menuHeader {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+}
+.link--menuHeader:hover {
+  border: 1px solid;
+}
+.paragraph--textosnews {
+  color: white;
+  font-size: 32px;
+  width: 100%;
+  font-weight: 700;
+}
+.link--textosnews {
+  color: #fbce2f;
+  text-transform: uppercase;
+}
+.paragraph--contacto-texto {
+  color: white;
+}
+.paragraph--sUBTITULO-FOOTER {
+  /* padding: 16px 0 4px; */
+  color: #fbce2f;
+  font-size: 16px;
+}
+.container--linea-final {
+  background: #fbce2f;
+  padding: 10px 0;
+}
+.paragraph--textoregalos {
+  padding: 0 113px;
+  font-weight: bold;
+}
+.heading-level-1::after {    content: "";
+  background: url(https://saetasport.vteximg.com.br/arquivos/truenotitulos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 10px;}
+.heading-level-1::before {content: "";background: url(https://saetasport.vteximg.com.br/arquivos/truenotitulos.png);background-position: center;background-repeat: no-repeat;width: 30px;height: 30px;display: block;margin: 0 10px;}
+.heading-level-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container--botonDePersonalizar {
+  background: #EDEDED;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.paragraph--botonDePersonalizar {
+  color: #0616C4;
+  font-weight: 600;
+  position: relative;
+  /* display: flex; */
+}
+.wrapper--botonDePersonalizar::after {
+  content: "";
+  background: url(https://saetasport.vteximg.com.br/arquivos/iconopersonlizar.png);
+  width: 50px;
+  height: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+.wrapper--botonDePersonalizar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.paragraph--botonDeAgendar::after {
+  content: "";
+  background: url(https://saetasport.vteximg.com.br/arquivos/iconoagendar.png);
+  width: 30px;
+  height: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.paragraph--botonDeuNIFORMES::after {
+      content: "";
+  background: url(https://saetasport.vteximg.com.br/arquivos/iconouniformes.png);
+  width: 30px;
+  height: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper--botonDeuNIFORMES {
+  display: flex;
+}
+.paragraph--botonDeuNIFORMES {
+  display: flex;
+  width: 100%;
+  font-weight: 700;
+  line-height: 17px;
+  align-items: center;
+}
+.paragraph--botonDeAgendar {
+  display: flex;
+  /* text-align: center; */
+  width: 100%;
+  font-weight: 700;
+  line-height: 17px;
+  align-items: center;
+}
+.wrapper--botonDeuNIFORMES {
+  background: transparent;
+  padding: 0 13px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  height: 58px;
+  border: 1px solid #e1e1e1;
+  margin: 0 0px 0 0;
+  cursor: pointer;
+}
+.wrapper--botonDeuNIFORMES:hover {
+  border-color: black;
+}
+.container--FalsoTab-Activo {
+  text-align: center;
+  color: #0616c4;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.container--FalsoTab-InActivo {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.paragraph--ICONOSLLAMADOSTOTAL1 {
+  font-size: 25px;
+}
+
+.wrapper--lateral-derecha-desk-titulo {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper--lateral-derecha-desk-titulo {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.wrapper--lateral-derecha-desk-titulo::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://saetasport.vteximg.com.br/arquivos/faqs-flechas.png);
+  display: block;
+  background-size: 100%;
+}
+.container--lateral-derecha-desk-titulo {
+  width: 100%!important;
+  padding: 9px;
+  border-radius: 10px 10px 0 0;
+  background: #fff!important;
+  font-weight: 700;
+}
+.container--lateral-derecha-desk-titulo {
+  width: 100%!important;
+  padding: 9px;
+  border-radius: 10px 10px 0 0;
+  background: #fff!important;
+  font-weight: 700;
+}
+.container--lateral-derecha-desk-titulo {
+  width: 100%!important;
+  padding: 9px;
+  border-radius: 10px 10px 0 0;
+  background: #fff!important;
+  font-weight: 700;
+}
+.container--lateral-derecha-desk-titulo {
+  width: 100%!important;
+  padding: 9px;
+  border-radius: 10px 10px 0 0;
+  background: #fff!important;
+  font-weight: 700;
+}
+.paragraph--textostilo {
+  background: #fff;
+  padding: 28px;
+  border-radius: 12px;
+  margin: 0 20px;
+}
+.paragraph--textoquienM {
+  font-size: 52px;
+  text-decoration: none;
+  color: #FBCE2F;
+  font-weight: 900;
+}
+.link--textoquienM {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.container--botonDePersonalizar:hover {
+  background: #000131;
+}
+.container--botonDePersonalizar:hover .paragraph--botonDePersonalizar {
+  color: #FBCE2F;
+}
+.link--tituoSubCategoria {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.container--textosnewsPOP {
+  position: absolute;
+  top: 28%;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+.paragraph--textosnewsPOP {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.link--textosnewsPOP {
+  color: #FBCE2F;
+  text-transform: uppercase;
+}
+.container--textosnewsPOP-titulo {
+  text-align: center;
+  justify-content: center;
+}
+.paragraph--textosnewsPOP-titulo {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 19px auto 0;
+}
+.paragraph--triggerModalNewsTExto {
+  visibility: hidden;
+}
+.link--icono-whatsapp {
+  background: url(https://saetasport.vteximg.com.br/arquivos/chat-boton-fixed.png);
+  padding: 67px;
+  position: fixed;
+  width: 90px;
+  height: 90px;
+  z-index: 3;
+  font-size: 0;
+  bottom: 1%;
+  right: 2%;
+  border-radius: 89%;
+  background-size: 74%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.paragraph--lateral-derecha-desk-item-subtitulo {
+  cursor: pointer !important;
+}
+.link--lateral-derecha-desk-item-subtitulo {
+  text-decoration: none;
+  color: black;
+}
+.link--tituoSubCategoria:hover {
+  text-decoration: underline;
+}
+.strong--textostilo {text-transform: uppercase;}
+.link--lateral-derecha-desk-item-subtitulo:hover {
+  color: #fbce2f;
+}
+.paragraph--nombreDistri {
+  color: black;
+  text-align: initial;
+  line-height: 1;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.paragraph--direccionDistri {
+  COLOR: #cbcbcb;
+  font-size: 15px;
+  text-align: left;
+}
+.link--direccionDistri {
+  color: #0616C4;
+  font-weight: 600;
+}
+.paragraph--ciudadDistri {
+  text-align: left;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+.container--direccionTienda {
+  justify-content: flex-start;
+}
+.paragraph--contentTienda {
+  line-height: 1;
+  color: black;
+  font-size: 17px;
+}
+.container--contentTienda {
+  text-align: inherit;
+}
+.container--ciudadDistri {
+  justify-content: flex-start;
+}
+.container--direccionDistri {
+  justify-content: left;
+}
+.paragraph--textoquienM {
+  line-height: inherit;
+}
+.container--nombreTienda {
+  justify-content: flex-start;
+}
+.paragraph--nombreTienda {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.link--direccionTienda {
+  color: #0616C4;
+  font-weight: 600;
+  margin: 0 0px 0 10px;
+}
+.paragraph--direccionTienda {
+  COLOR: #cbcbcb;
+  font-size: 15px;
+  width: 158%;
+  text-align: left;
+}
+.paragraph--ciudadTienda {
+  color: black;
+  }
+.container--ciudadTienda {
+  justify-content: flex-start;
+  font-size: 15px;
+  font-weight: 600;
+}
+.container--textoquienM {
+  margin: 10px 0 0;
+}
+.container--nombreDistri {
+  justify-content: flex-start;
+}
+.paragraph--TITULO-REGISTRO-terminos {
+  WIDTH: 80%;
+  font-size: 14px;
+  margin-top: -12%;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .container--textFooM{
+    justify-content: center;
+  }
+  .wrapper--Pedidos{
+    padding-left: 0px;
+  }
+  .paragraph {
+    line-height: 15px;
+  }
+  .container--textfool {
+    position: relative;
+    right: 0;
+    top: -4px;
+    justify-content: center;
+  }
+  .paragraph--contenidoEstaticas{
+    display: none;
+  }
+  .container--tituloEstaticos{
+    padding: 10px;
+    font-size: 20px;
+  }
+  .headingLevel1--textoquienM{
+    display: block !important;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .headingLevel1--textoquien{
+    display: none;
+  }
+  .headingLevel1--textoquienM{
+    display: block !important;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .paragraph--tituloEstaticos{
+    position: relative;
+  }
+  .container--titleF{
+    justify-content: center;
+  }
+  .container--textoquien{
+    justify-content: center;
+    margin: 40px 0 0 0;
+  }
+  .paragraph--textoquien{
+    font-size: 30px;
+    font-weight: 700;
+    color: #191531;
+    letter-spacing: 1px;
+  }
+  .paragraph--aboutM {
+    text-align: justify;
+    margin: 0 10px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    margin: 0 20px;
+  }
+  .container--titleLast{
+    justify-content: flex-start !important;
+  }
+  .paragraph--TituloMobile{
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .paragraph--reviews{
+    margin: 0 25px 20px 25px;
+  }
+  .wrapper--botones2Menu .link--botones1Menu{
+    padding: 10px 14px;
+  }
+  .link--textFoo, .paragraph--textFoo{
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .link--textFooM {
+    font-weight: 300;
+  }
+  .container--textFooM:first-child {
+    display: none;
+  }
+.link--PRE-HEADER-ITEM1 {
+    font-size: 11px;
+}
+.link--PRE-HEADER-ITEM2 {
+  font-size: 11px;
+}
+.link--PRE-HEADER-ITEM3 {
+  font-size: 11px;
+}
+.link--PRE-HEADER-ITEM4 {
+  font-size: 11px;
+}
+.link--PRE-HEADER-ITEM5 {
+  font-size: 11px;
+}
+.link--Pedidos {
+  font-size: 10px;
+}
+.italic--Pedidos {
+  line-height: 11px;
+}
+.container--textosPrincDescSec {
+  width: 100%;
+  display: block;
+  padding: 30px 10px 10px;
+}
+.headingLevel1--textosPrincDescSec {
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 33px;
+}
+.container--cerradoPopProducto {
+  margin: 0 17px;
+}
+.headingLevel1--textosPrincPOPPRO {
+  font-size: 13px;
+  margin: 7px auto 0;
+}
+.paragraph--VERPRODUCTOBOTON {
+  width: 15%;
+  right: 35px;
+}
+.container--footerMobilePart2 {
+  width: 100%;
+  padding: 0 22px;
+  text-transform: uppercase;
+  display: flex;
+}
+.container--footerMobilePart2 {
+  width: 100%;
+  padding: 0 22px;
+  font-family: 'Anybody';
+  text-transform: uppercase;
+  display: flex;
+}
+.wrapper--footerMobilePart2 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+}
+.link--textFoo, .paragraph--textFoo {
+  font-size: 13px;
+  font-weight: 300;
+}
+.link--textFoo, .paragraph--textFoo {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.container--textFoo {
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.wrapper--textFoo {
+  margin: 0 auto;
+}
+.paragraph--sUBTITULO-FOOTER {
+  padding: 30px 0 25px;
+}
+.paragraph--contacto-texto {
+  font-size: 11px;
+}
+.headingLevel1--textosPrinc {
+  font-size: 17px;
+}
+.container--textosnews {
+  margin: 0 auto;
+}
+.paragraph--textosnews {
+  font-size: 20px;
+  padding: 40px 40px 0;
+  line-height: 1;
+}
+.paragraph--textoregalos {
+  padding: 5px 11px;
+  font-size: 20px;
+}
+.container--productMOBILE1 {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.container--productMOBILE1 {
+text-align: center;
+justify-content: center;
+}
+.paragraph--productMOBILE1 {
+text-align: center;
+}
+.paragraph--botonDeAgendar {
+  font-size: 10px;
+}
+.paragraph--botonDeuNIFORMES {
+  font-size: 10px;
+}
+.headingLevel1--textosPrinc {
+  text-align: left;
+  margin: 0 auto -26px 19px;
+  justify-content: inherit;
+  width: 46%;
+  position: relative;
+}
+.paragraph--footerMobilePart2 {
+  color: #fbce2f;
+}
+.container--botonesMenu1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.container--botonesMenu2 {
+  display: flex;
+  justify-content: center;
+}
+.paragraph--botonesMenu2 {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.paragraph--botonesMenu2::before {content: "";width: 32px;height: 32px;display: flex;align-items: center;background: url(https://saetasport.vteximg.com.br/arquivos/icono%20tiendas_hover.png);padding: 0 3px;border-radius: 30px;background-size: 89%;background-position: center;}
+.link--botonesMenu2 {
+  text-decoration: none;
+  color: black;
+}
+.container--botonesMenu2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.paragraph--botonesMenu1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.paragraph--botonesMenu1::before {content: "";width: 32px;height: 32px;display: flex;align-items: center;background: url(https://saetasport.vteximg.com.br/arquivos/iconocatalogo_hover.png);padding: 0 3px;border-radius: 30px;background-size: 89%;background-position: center;}
+.link--botonesMenu1 {
+  text-decoration: none;
+  color: black;
+}
+.wrapper--botonesMenu2 {
+  width: 95%;
+}
+.wrapper--botonesMenu1 {
+  width: 98%;
+}
+.headingLevel1--textoquienM {
+  display: block!important;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.paragraph--textoquienM {
+  line-height: 43px;
+}
+.paragraph--textoquienM {
+  line-height: 43px;
+}
+.paragraph--textostilo {
+  margin: 22px 0px;
+  width: 94%;
+}
+.container--textosnewsPOP {
+  top: 110px;
+  left: 0;
+  right: 0;
+}
+.paragraph--textosnewsPOP-titulo {
+  font-size: 12px;
+}
+.paragraph--textosnewsPOP {
+  font-size: 17px;
+}
+.paragraph--botonDeAgendar::after {
+  content: "";
+  background: url(https://saetasport.vteximg.com.br/arquivos/iconoagendar.png);
+  width: 25px;
+  height: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 -10px 0 15px;
+  display: block;
+}
+
+.heading--News__title {
+  font-size: 20px !important;
+}
+.headingLevel1--Blog__title {
+  font-size: 20px !important;
+}
+.headingLevel1--vitrinaProducto {
+  font-size: 20px;
+}
+.link--MENU-NIVEL-DEPTO-CAT-SUB {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.container--MENU-NIVEL-DEPTO-CAT-SUB {
+  margin: 9px 0;
+}
+.container--MOBILE-DEPTO-CAT {
+  width: 100%;
+}
+.link--icono-whatsapp {
+  background: url(https://saetasport.vteximg.com.br/arquivos/chat-boton-fixed.png);
+  padding: 40px;
+  position: fixed;
+  width: 23px;
+  height: 75px;
+  z-index: 9;
+  font-size: 0;
+  bottom: 1%;
+  right: 2%;
+  border-radius: 89%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+ .headingLevel1--textosPrinc {
+  font-size: 13px;
+  width: 56%;
+  top: -14px;
+  left: -7px;
+}
+.buttonDataContainer.buttonDataContainer--productcheckoutProductoDos {
+  right: 0;
+}
+.paragraph--textoquienM {
+  font-size: 33px;
+}
+.link--textoquienM {
+  font-size: 24px;
+}
+.container--nombreDistri {
+  justify-content: flex-start;
+  margin: 0px;
+}
+.container--direccionDistri {
+  margin: 4px 0;
+}
+.paragraph--direccionTienda {
+  margin: 4px 0;
+}
+.paragraph--nombreDistri {
+  font-size: 15px;
+}
+.paragraph--TITULO-REGISTRO-terminos {
+  margin-top: 20px;
+  width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.link--textFooM{
+  color: white;
+  text-decoration: none;
+}
+.paragraph--tabChat1 {
+  font-size: 13px;
+  margin: 2px 0;
+}
+.paragraph--tabChat2 {
+  font-size: 13px;
+  margin: 2px 0;
+}
+.paragraph--tabChat3 {
+  font-size: 13px;
+  margin: 2px 0;
+  text-align: left;
+  text-decoration: none;
+}
+.link--tabChat3 {
+  text-decoration: none;
+}
+.link--tabChat2 {
+  text-decoration: none;
+}
+.link--tabChat1 {
+  text-decoration: none;
+}
+.link--tabChat3::before {content: "";width: 10px;height: 10px;position: relative;background: url();}
+
+.container--tabChat1 {
+  background: #f4f4f4;
+  padding: 8px 11px 4px;
+  margin: 5px 0;
+  color: white;
+  text-align: left;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  width: 100%;
+}
+.container--tabChat2 {
+  background: #f4f4f4;
+  padding: 8px 11px 4px;
+  margin: 5px 0;
+  color: white;
+  text-align: left;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  width: 100%;
+}
+.container--tabChat3 {
+  background: #f4f4f4;
+  padding: 8px 11px 4px;
+  margin: 5px 0;
+  color: white;
+  text-align: left;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  width: 100%;
+}
+.link--tabChat1 {
+  text-align: left;
+  color: black;
+}
+
+.wrapper--tabChat1 {
+  width: 100%;
+}
+.wrapper--tabChat2 {
+  width: 100%;
+}
+.link--tabChat2 {
+  text-align: left;
+  color: black;
+}
+.wrapper--tabChat3 {
+  width: 100%;
+}
+.link--tabChat3 {
+  text-align: left;
+  color: black;
+}
+.paragraph--tabChat2 {
+  text-align: left;
+}
+.wrapper--tabChat1::before {content: "";background: url(https://impormedical.vteximg.com.br/arquivos/icono_tel_nohover.png);width: 24px;height: 24px;background-size: 82%;position: relative;display: block;background-repeat: no-repeat;margin: 0 5px 0 0;}
+.wrapper--tabChat3::before {content: "";background: url(https://impormedical.vteximg.com.br/arquivos/icono_chat_nohover.png);width: 24px;height: 24px;background-size: 82%;position: relative;display: block;background-repeat: no-repeat;margin: 0 5px 0 0;}
+.wrapper--tabChat2::before {content: "";background: url(https://impormedical.vteximg.com.br/arquivos/icono_wp_nohover.png);width: 24px;height: 24px;background-size: 82%;position: relative;display: block;background-repeat: no-repeat;margin: 0 5px 0 0;}
+
+.wrapper--tabChat1 {
+    display: flex;
+}
+.wrapper--tabChat2 {
+    display: flex;
+}
+.wrapper--tabChat3 {
+    display: flex;
+}
+
+
+
+/* * New styles About us Page */
+/* !News slider */
+.heading--News__title {
+  margin-bottom: 15px;
+  color: #000131;
+  font-family: 'Anybody';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.heading--Blog__title {
+  margin-bottom: 0;
+  color: #000131;
+  font-family: 'Anybody';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* !History Section */
+.container--History__title {
+  display: none;
+}
+.heading--History__title {
+  color: #000131;
+  font-family: 'Anybody';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1030px) {
+  /* !Blog Section */
+  .heading--Blog__title {
+    margin-bottom: 13px;
+  }
+  /* !History Section */
+  .container--History__title {
+    display: block;
+  }
+}
+
+/* * //New styles About us Page */

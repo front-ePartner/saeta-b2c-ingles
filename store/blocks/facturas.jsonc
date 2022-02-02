@@ -1,0 +1,33 @@
+{
+    "store.custom#facturas": {
+      "blocks": [
+        "image#imgTopFacturas","image#imgTopFacturasM","iframe.dynamic-src#test-agenda","iframe#facturas"
+      ]
+    },
+    "iframe#facturas": {
+        "props": {
+          "src": "https://digitalepartner.com/Saeta/formulario.html",
+          "blockClass" : "iFrame-facrturas",
+          "width": "100%",
+          "height": "600",
+          "title": "exampleStaticPageName iframe wrapper for {account}",
+          "allow": "geolocation"
+    
+        }
+      },
+      "image#imgTopFacturas": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/header-top-facturas.png",
+          "maxWidth": "100%",
+          "blockClass":"Product-Image-Header"
+        }
+      },
+      "image#imgTopFacturasM": {
+        "props": {
+          "src": "https://saetasport.vteximg.com.br/arquivos/header-top-facturasM.png",
+          "maxWidth": "100%",
+          "blockClass":"Product-Image-HeaderM"
+        }
+      }
+   
+}

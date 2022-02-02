@@ -1,0 +1,12 @@
+/*.footerLayout{
+    background-color: #140d2e;
+  }*/
+.footerLayout{
+    padding-top: 40px;
+}
+
+@media (max-width: 600px) {
+  .footerLayout{
+    margin-top: 15px;
+  }
+}

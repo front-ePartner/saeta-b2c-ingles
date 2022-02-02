@@ -1,0 +1,170 @@
+.container{
+  margin: 0 100px 0 100px;
+  padding-bottom: 0;
+}
+.title{
+  display: none;
+}
+.shelfContentContainer{
+  padding: 15px 0 0 0;
+}
+.sliderContainer {
+  max-width: 100%;
+}
+.arrowLeft {
+  top: -4%;
+  left: 4%;
+
+}
+.arrowRight {
+  top: -4%;
+  right: 4%;
+  z-index: 2;
+}
+.relatedProducts .shelfContentContainer {
+  margin:0 100px 0 100px;
+}
+.relatedProducts{
+  margin-bottom: 40px;
+}
+.arrowLeft::before {
+  content: "";
+  background: url(https://saetasport.vteximg.com.br/arquivos/flecha-izq-negra-grande.png)no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 50px;
+  height: 62px;
+  top: -0.5px;
+  transition: all 40ms;
+  left: -19px;
+  position: absolute;
+}
+.arrowRight::before{
+    content: "";
+    background: url(https://saetasport.vteximg.com.br/arquivos/flecha-der-azul-grande.png)no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 50px;
+    height: 62px;
+    margin-top: 0px;
+    top: -1px;
+    transition: all 40ms;
+    margin-right: 5px;
+    position: absolute;
+    left: 10px;
+}
+.caretIcon{
+  opacity: 0;
+}
+.arrowLeft:hover::before {
+  content: "";
+  background: url(https://saetasport.vteximg.com.br/arquivos/flecha-izq-azul-grande.png)no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 50px;
+  height: 62px;
+  top: 0;
+  transition: all 40ms;
+  left: -19px;
+  position: absolute;
+}
+.arrowRight:hover::before{
+  content: "";
+  background: url(https://saetasport.vteximg.com.br/arquivos/flecha-der-azul-grande.png)no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 50px;
+  height: 62px;
+  margin-top: 0px;
+  top: 0;
+  transition: all 40ms;
+  margin-right: 5px;
+  position: absolute;
+  left: 10px;
+}
+.container--VitrinaMobile {
+  display: none;
+}
+.container--VitrinaDesk {
+  display: block;
+}
+.shelfContentContainer--VitrinaSelectoColor {
+  margin: 0 0 0 0 !important;
+}
+.arrowLeft--VitrinaSelectoColor {
+  display: none;
+}
+.arrowRight--VitrinaSelectoColor {
+  display: none;
+}
+.relatedProducts--VitrinaSelectoColor {
+  margin: 40px auto -15px;
+}
+.relatedProducts--VitrinaSelectoColor::before {content: "Available colors";text-transform: uppercase;font-weight: 600;font-size: 17px;}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0 !important;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+
+  .shelfContentContainer {
+    margin-bottom: 40px;
+  }
+
+  .relatedProducts .shelfContentContainer {
+    margin: 0 !important;
+  }
+
+  .container--vitrinaProduct .shelfContentContainer--vitrinaProduct{
+    padding: 0px 0 0 27px;
+  }
+  .sliderContainer--vitrinasProducts :global(.vtex-slider-0-x-sliderFrame) {
+    width: 538%!important;
+}  
+.shelfContentContainer--vitrinasProducts {
+  padding: 0;
+}
+.relatedProducts--vitrinasProducts {
+  margin: 0;
+}
+.arrowRight::before {
+  content: "";
+  background: url(https://saetasport.vteximg.com.br/arquivos/flecha-der-azul-grande.png)no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 50px;
+  height: 62px;
+  margin-top: 0px;
+  top: -1px;
+  transition: all 40ms;
+  margin-right: 5px;
+  position: absolute;
+  left: 10px;
+}
+.arrowRight {
+  top: -4%;
+  right: 16%;
+}
+.arrowLeft {
+  left: unset;
+  right: 026%;
+}
+.container--VitrinaMobile {
+  display: block;
+}
+.container--VitrinaDesk {
+  display: none;
+}
+
+
+}

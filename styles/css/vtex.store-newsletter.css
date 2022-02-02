@@ -1,0 +1,35 @@
+.emailInputContainer{
+    width: 300px;
+}
+.formSubmitContainer{
+    background: #ffc100 ;
+    border-radius: 5px;
+    height: auto;
+    margin: 2px 0 0 8px;
+}
+.formSubmitContainer :global(.vtex-button__label ){
+    color: #191531 ;
+    padding:10px !important;
+}
+.confirmationCheckboxContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.confirmationCheckboxContainer :global(.vtex-checkbox__label){
+    color: white;
+}
+@media (max-width: 600px) {
+    .emailInputContainer {
+        width: 100%;
+    }
+    .formSubmitContainer {
+        margin: 2px 0 0 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .confirmationCheckboxContainer {
+        margin-top: 15px;
+        width: 100%;
+    }
+}

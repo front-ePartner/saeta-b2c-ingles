@@ -1,0 +1,2280 @@
+{
+
+//----------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------
+//----------------------------------------------------MENU MOBILE---------------------
+//----------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------
+//-------------------------------------------------DEPTOS GENERAL
+//-------------------------------------------------DEPTO1
+"menu-item#DEPTO1": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Men"
+      },
+      "blockClass": "department"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Depto1"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Depto1": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#DEPTO1-CATS"
+    ]
+  },
+  "flex-layout.row#DEPTO1-CATS":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "disclosure-layout#MOBILE-DEPTO1CAT1-SUBS",
+      "disclosure-layout#MOBILE-DEPTO1CAT2-SUBS",
+      "disclosure-layout#MOBILE-DEPTO1CAT3-SUBS",
+      "disclosure-layout#MOBILE-DEPTO1CAT4-SUBS"
+    ]
+  },
+  //-------------------------------------------------DEPTO2
+  "menu-item#DEPTO2": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Women"
+      },
+      "blockClass": "department"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Depto2"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Depto2": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#DEPTO2-CATS"
+    ]
+  },
+  "flex-layout.row#DEPTO2-CATS":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "disclosure-layout#MOBILE-DEPTO2CAT1-SUBS",
+      "disclosure-layout#MOBILE-DEPTO2CAT2-SUBS",
+      "disclosure-layout#MOBILE-DEPTO2CAT3-SUBS",
+      "disclosure-layout#MOBILE-DEPTO2CAT4-SUBS"
+    ]
+  },
+  //-------------------------------------------------DEPTO3
+  "menu-item#DEPTO3": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Kids"
+      },
+      "blockClass": "department"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Depto3"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Depto3": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#DEPTO3-CATS"
+    ]
+  },
+  "flex-layout.row#DEPTO3-CATS":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "disclosure-layout#MOBILE-DEPTO3CAT1-SUBS",
+      "disclosure-layout#MOBILE-DEPTO3CAT2-SUBS",
+      "disclosure-layout#MOBILE-DEPTO3CAT3-SUBS",
+      "disclosure-layout#MOBILE-DEPTO3CAT4-SUBS"
+    ]
+  },
+  //-------------------------------------------------DEPTO4
+  "menu-item#DEPTO4": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Accesories"
+      },
+      "blockClass": "department"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Depto4"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Depto4": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#DEPTO4-CATS"
+    ]
+  },
+  "flex-layout.row#DEPTO4-CATS":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "disclosure-layout#MOBILE-DEPTO4CAT1-SUBS",
+      "disclosure-layout#MOBILE-DEPTO4CAT2-SUBS",
+      "disclosure-layout#MOBILE-DEPTO4CAT3-SUBS",
+      "disclosure-layout#MOBILE-DEPTO4CAT4-SUBS",
+      "disclosure-layout#MOBILE-DEPTO4CAT5-SUBS"
+    ]
+  },
+  //-------------------------------------------------DEPTO 5
+  "menu-item#DEPTO5": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Sports"
+      },
+      "blockClass": "department"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Depto5"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Depto5": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#DEPTO5-CATS"
+    ]
+  },
+  "flex-layout.row#DEPTO5-CATS":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "disclosure-layout#MOBILE-DEPTO5CAT1-SUBS",
+      "disclosure-layout#MOBILE-DEPTO5CAT2-SUBS",
+      "disclosure-layout#MOBILE-DEPTO5CAT3-SUBS",
+      "disclosure-layout#MOBILE-DEPTO5CAT4-SUBS",
+      "disclosure-layout#MOBILE-DEPTO5CAT5-SUBS"
+    ]
+  },
+  //-------------------------------------------------DEPTO6
+  "menu-item#DEPTO6": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Sale"
+      },
+      "blockClass": "department"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#Depto6"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Depto6": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#DEPTO6-CATS"
+    ]
+  },
+  "flex-layout.row#DEPTO6-CATS":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "disclosure-layout#MOBILE-DEPTO6CAT1-SUBS",
+      "disclosure-layout#MOBILE-DEPTO6CAT2-SUBS",
+      "disclosure-layout#MOBILE-DEPTO6CAT3-SUBS",
+      "disclosure-layout#MOBILE-DEPTO6CAT4-SUBS",
+      "disclosure-layout#MOBILE-DEPTO6CAT5-SUBS"
+    ]
+  },
+  
+  
+  
+  //----------------------------------------------------------------------------------------DEPTO 1
+  //--------------------------------------------------------------------------CAT1
+         //Tabbers-mobile
+      "disclosure-layout#MOBILE-DEPTO1CAT1-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO1-CAT1", "disclosure-content#MOBILE-DEPTO1-CAT1"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+     "disclosure-trigger#MOBILE-DEPTO1-CAT1": {
+          "children": ["rich-text#MOBILE-DEPTO1-CAT1"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO1-CAT1": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO1-CAT1"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO1-CAT1": {
+          "props": {
+            "text": "Upper",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO1-CAT1":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO1-CAT1-SUB1",
+            "rich-text#MOBILE-DEPTO1-CAT1-SUB2",
+            "rich-text#MOBILE-DEPTO1-CAT1-SUB3",
+            "rich-text#MOBILE-DEPTO1-CAT1-SUB4",
+            "rich-text#MOBILE-DEPTO1-CAT1-SUB6",
+            "rich-text#MOBILE-DEPTO1-CAT1-SUB5"
+          ]
+        },
+   //--------------------------------DEPTO 1 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO1-CAT1-SUB1":{
+       "props": {
+         "text":"[Shirts](/hombre/camisetas?__device=desktop&initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO1-CAT1-SUB2":{
+        "props": {
+          "text":"[Hoodies](/hombre/buzos?__device=desktop&initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT1-SUB3":{
+        "props": {
+          "text":"[Jackets](/hombre/chaquetas?__device=desktop&initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT1-SUB4":{
+        "props": {
+          "text":"[Compression shirts](/hombre/licras-de-compresion?__device=desktop&initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT1-SUB6":{
+        "props": {
+          "text":"[Chaquetones](/hombre/chaqueton?_c=hombre&map=c,ft)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT1-SUB5":{
+        "props": {
+          "text":"[See All](/hombre/arriba?initialMap=c&initialQuery=hombre&map=category-1,parte)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+  //--------------------------------------------------------------------------CAT2
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO1CAT2-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO1-CAT2", "disclosure-content#MOBILE-DEPTO1-CAT2"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO1-CAT2": {
+          "children": ["rich-text#MOBILE-DEPTO1-CAT2"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO1-CAT2": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO1-CAT2"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO1-CAT2": {
+          "props": {
+            "text": "Bottoms",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO1-CAT2":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO1-CAT2-SUB1",
+            "rich-text#MOBILE-DEPTO1-CAT2-SUB2",
+            "rich-text#MOBILE-DEPTO1-CAT2-SUB3",
+            "rich-text#MOBILE-DEPTO1-CAT2-SUB4",
+            "rich-text#MOBILE-DEPTO1-CAT2-SUB5",
+            "rich-text#MOBILE-DEPTO1-CAT2-SUB7",
+            "rich-text#MOBILE-DEPTO1-CAT2-SUB6"
+          ]
+        },
+   //--------------------------------DEPTO 1 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO1-CAT2-SUB1":{
+       "props": {
+         "text":"[Shorts](/hombre/pantalonetas?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO1-CAT2-SUB2":{
+        "props": {
+          "text":"[Below Knee Shorts](/hombre/bermuda?_c=hombre&map=c,ft)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT2-SUB3":{
+        "props": {
+          "text":"[Compression shirts](/hombre/bicicleteros?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT2-SUB4":{
+        "props": {
+          "text":"[Boxers](/hombre/boxers?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT2-SUB5":{
+        "props": {
+          "text":"[Compression shirts](/hombre/pantalon%20licrado?_c=hombre&map=c,ft)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },   
+       "rich-text#MOBILE-DEPTO1-CAT2-SUB7":{
+        "props": {
+          "text":"[Pants](/hombre/pantalones?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },       
+       "rich-text#MOBILE-DEPTO1-CAT2-SUB6":{
+        "props": {
+          "text":"[See All](/hombre/prendas-de-abajo?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       //--------------------------------------------------------------------------CAT3
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO1CAT3-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO1-CAT3", "disclosure-content#MOBILE-DEPTO1-CAT3"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO1-CAT3": {
+          "children": ["rich-text#MOBILE-DEPTO1-CAT3"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO1-CAT3": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO1-CAT3"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO1-CAT3": {
+          "props": {
+            "text": "Accesories",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO1-CAT3":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO1-CAT3-SUB1",
+            "rich-text#MOBILE-DEPTO1-CAT3-SUB2",
+            "rich-text#MOBILE-DEPTO1-CAT3-SUB3",
+            "rich-text#MOBILE-DEPTO1-CAT3-SUB4",
+            "rich-text#MOBILE-DEPTO1-CAT3-SUB5"
+          ]
+        },
+   //--------------------------------DEPTO 1 - CAT3 - SUBS
+     "rich-text#MOBILE-DEPTO1-CAT3-SUB1":{
+       "props": {
+         "text": "[Caps](/hombre/accesorios/gorras?initialMap=c&initialQuery=hombre&map=category-1,category-2,subcategoria)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO1-CAT3-SUB2":{
+        "props": {
+          "text":"[Bags](/maletas?initialMap=c&initialQuery=accesorios&map=category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT3-SUB3":{
+        "props": {
+          "text":"[Socks](/medias?initialMap=c&initialQuery=accesorios&map=category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT3-SUB4":{
+        "props": {
+          "text":"[Shin Guards](/accesorios/canilleras?_c=accesorios&map=c,ft)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT3-SUB6":{
+        "props": {
+          "text":"[Facemasks](/tapabocas?initialMap=c&initialQuery=accesorios&map=category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT3-SUB5":{
+        "props": {
+          "text":"[See All](/accesorios/hombre?initialMap=c&initialQuery=hombre&map=category-1,genero)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+    //--------------------------------------------------------------------------CAT4
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO1CAT4-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO1-CAT4", "disclosure-content#MOBILE-DEPTO1-CAT4"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO1-CAT4": {
+          "children": ["rich-text#MOBILE-DEPTO1-CAT4"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO1-CAT4": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO1-CAT4"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO1-CAT4": {
+          "props": {
+            "text": "Shoes",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO1-CAT4":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO1-CAT4-SUB1"
+          ]
+        },
+    
+      //--------------------------------DEPTO 1 - CAT3 - SUBS 
+     "rich-text#MOBILE-DEPTO1-CAT4-SUB1":{
+       "props": {
+         "text":"[See All](/hombre/zapatos)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+  
+  
+  
+   //--------------------------------------------------------------------------CAT5
+         //Tabbers-mobile
+      "disclosure-layout#MOBILE-DEPTO1CAT5-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO1-CAT5", "disclosure-content#MOBILE-DEPTO1-CAT5"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO1-CAT5": {
+          "children": ["rich-text#MOBILE-DEPTO1-CAT5"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO1-CAT5": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO1-CAT5"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO1-CAT5": {
+          "props": {
+            "text": "Sports",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO1-CAT5":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO1-CAT5-SUB1",
+            "rich-text#MOBILE-DEPTO1-CAT5-SUB2",
+            "rich-text#MOBILE-DEPTO1-CAT5-SUB3",
+            "rich-text#MOBILE-DEPTO1-CAT5-SUB4"
+  
+          ]
+        },
+    
+      //--------------------------------DEPTO 1 - CAT5 - SUBS 
+     "rich-text#MOBILE-DEPTO1-CAT5-SUB1":{
+       "props": {
+         "text":"[Football Soccer/Futsal](/hombre/futbol?initialMap=c&initialQuery=hombre&map=category-1,deporte)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO1-CAT5-SUB2":{
+        "props": {
+          "text":"[Bike](/hombre/ciclismo?initialMap=c&initialQuery=hombre&map=category-1,deporte)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT5-SUB3":{
+        "props": {
+          "text":"[Running](/hombre/atletismo?initialMap=c&initialQuery=hombre&map=category-1,deporte)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO1-CAT5-SUB4":{
+        "props": {
+          "text":"[Fitness](/hombre/fitness?initialMap=c&initialQuery=hombre&map=category-1,deporte)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },    
+       "rich-text#MOBILE-DEPTO1-CAT5-SUB5":{
+        "props": {
+          "text":"[See All](/hombre)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },      
+  
+       
+   //--------------------------------------------------------------------------CAT6
+         //Tabbers-mobile
+      "disclosure-layout#MOBILE-DEPTO1CAT6-SUBS": {
+        "children": ["disclosure-trigger#MOBILE-DEPTO1-CAT6", "disclosure-content#MOBILE-DEPTO1-CAT6"],
+        "props": {
+          "animated": true,
+          "blockClass":"MOBILE-DEPTO"
+        }
+      },
+      "disclosure-trigger#MOBILE-DEPTO1-CAT6": {
+        "children": ["rich-text#MOBILE-DEPTO1-CAT6"],
+        "props": {
+          "blockClass":"MOBILE-DEPTO-CAT"
+        }
+      },
+      "disclosure-content#MOBILE-DEPTO1-CAT6": {
+        "children": [
+          "flex-layout.row#MOBILE-DEPTO1-CAT6"
+        ],
+        "props": {
+          "blockClass": "MOBILE-DEPTO-CAT"
+        }
+      },
+      "rich-text#MOBILE-DEPTO1-CAT6": {
+        "props": {
+          "text": "New",
+          "blockClass": "MOBILE-DEPTO-CAT"
+        }
+      },
+      "flex-layout.row#MOBILE-DEPTO1-CAT6":{
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        },
+        "children": [
+          "rich-text#MOBILE-DEPTO1-CAT6-SUB1",
+          "rich-text#MOBILE-DEPTO1-CAT6-SUB2",
+          "rich-text#MOBILE-DEPTO1-CAT6-SUB3",
+          "rich-text#MOBILE-DEPTO1-CAT6-SUB4"
+        ]
+      },
+  
+    //--------------------------------DEPTO 1 - CAT5 - SUBS 
+   "rich-text#MOBILE-DEPTO1-CAT6-SUB1":{
+     "props": {
+       "text":"[Upper](/hombre/arriba/nuevo?initialMap=c&initialQuery=hombre&map=category-1,parte,coleccion)",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    }
+    },
+    "rich-text#MOBILE-DEPTO1-CAT6-SUB2":{
+      "props": {
+        "text":"[Bottoms](/hombre/abajo/nuevo?initialMap=c&initialQuery=hombre&map=category-1,parte,coleccion)",
+       "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+     }
+     },
+     "rich-text#MOBILE-DEPTO1-CAT6-SUB3":{
+      "props": {
+        "text":"[Shoes](/hombre/zapatos?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+       "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+     }
+     },
+     "rich-text#MOBILE-DEPTO1-CAT6-SUB4":{
+      "props": {
+        "text":"[Accesories](/accesorios/hombre?initialMap=c&initialQuery=accesorios&map=category-1,genero)",
+       "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+     }
+     },     
+  
+   
+  
+  //------------------------------------------------------------------------FIN DEPTO 1
+  
+  
+  
+  //----------------------------------------------------------------------------------------DEPTO 2
+  //--------------------------------------------------------------------------CAT1
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO2CAT1-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO1-CAT1", "disclosure-content#MOBILE-DEPTO1-CAT1"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO2-CAT1": {
+          "children": ["rich-text#MOBILE-DEPTO1-CAT1"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO2-CAT1": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO1-CAT1"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO2-CAT1": {
+          "props": {
+            "text": "Upper",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO2-CAT1":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO2-CAT1-SUB1",
+            "rich-text#MOBILE-DEPTO2-CAT1-SUB2",
+            "rich-text#MOBILE-DEPTO2-CAT1-SUB3",
+            "rich-text#MOBILE-DEPTO2-CAT1-SUB4",
+            "rich-text#MOBILE-DEPTO2-CAT1-SUB5"
+          ]
+        },
+   //--------------------------------DEPTO 2 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO2-CAT1-SUB1":{
+       "props": {
+         "text":"[Shirts](/mujer/camisetas?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO2-CAT1-SUB2":{
+        "props": {
+          "text":"[Hoodies](/mujer/buzos?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO2-CAT1-SUB3":{
+        "props": {
+          "text":"[Jackets](/mujer/chaquetas?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO2-CAT1-SUB4":{
+        "props": {
+          "text":"[Compression shirts](/mujer/top?_c=mujer&map=c,ft)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO2-CAT1-SUB5":{
+        "props": {
+          "text":"[See All](/mujer/arriba?initialMap=c&initialQuery=mujer&map=category-1,parte)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+  //--------------------------------------------------------------------------CAT2
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO2CAT2-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO2-CAT2", "disclosure-content#MOBILE-DEPTO2-CAT2"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO2-CAT2": {
+          "children": ["rich-text#MOBILE-DEPTO2-CAT2"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO2-CAT2": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO2-CAT2"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO2-CAT2": {
+          "props": {
+            "text": "Bottoms",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO2-CAT2":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO2-CAT2-SUB1",
+            "rich-text#MOBILE-DEPTO2-CAT2-SUB2",
+            "rich-text#MOBILE-DEPTO2-CAT2-SUB3",
+            "rich-text#MOBILE-DEPTO2-CAT2-SUB4",
+            "rich-text#MOBILE-DEPTO2-CAT2-SUB5",
+            "rich-text#MOBILE-DEPTO2-CAT2-SUB7",
+            "rich-text#MOBILE-DEPTO2-CAT2-SUB6"
+          ]
+        },
+   //--------------------------------DEPTO 1 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO2-CAT2-SUB1":{
+       "props": {
+         "text":"[Pants](/mujer/pantalones?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO2-CAT2-SUB2":{
+        "props": {
+          "text":"[Shorts](/mujer/shorts?initialMap=c&initialQuery=mujer&map=category-1,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO2-CAT2-SUB3":{
+        "props": {
+          "text":"[leggings](/mujer/leggings?initialMap=c&initialQuery=mujer&map=category-1,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO2-CAT2-SUB4":{
+        "props": {
+          "text":"[Boxers](/mujer/shorts?initialMap=c&initialQuery=mujer&map=category-1,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO2-CAT2-SUB5":{
+        "props": {
+          "text":"[Leggings](/mujer/leggings?initialMap=c&initialQuery=mujer&map=category-1,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },     
+       "rich-text#MOBILE-DEPTO2-CAT2-SUB7":{
+        "props": {
+          "text":"[Pants](/mujer/pantalones?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO2-CAT2-SUB6":{
+        "props": {
+          "text":"[See All](/mujer/abajo?initialMap=c&initialQuery=mujer&map=category-1,parte)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       //--------------------------------------------------------------------------CAT3
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO2CAT3-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO2-CAT3", "disclosure-content#MOBILE-DEPTO2-CAT3"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO2-CAT3": {
+          "children": ["rich-text#MOBILE-DEPTO2-CAT3"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO2-CAT3": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO2-CAT3"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO2-CAT3": {
+          "props": {
+            "text": "Accesories",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO2-CAT3":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO2-CAT3-SUB1",
+            "rich-text#MOBILE-DEPTO2-CAT3-SUB2",
+            "rich-text#MOBILE-DEPTO2-CAT3-SUB3",
+            "rich-text#MOBILE-DEPTO2-CAT3-SUB4",
+            "rich-text#MOBILE-DEPTO2-CAT3-SUB5"
+          ]
+        },
+   //--------------------------------DEPTO 1 - CAT3 - SUBS
+     "rich-text#MOBILE-DEPTO2-CAT3-SUB1":{
+       "props": {
+         "text":"[Drawstring](/unisex/tula?_c=unisex&map=c,ft)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO2-CAT3-SUB2":{
+        "props": {
+          "text":"[Bags](/accesorios/maleta?_c=accesorios&map=c,ft)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO2-CAT3-SUB3":{
+        "props": {
+          "text":"[Socks](/accesorios/medias/mujer?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO2-CAT3-SUB4":{
+        "props": {
+          "text":"[Shin Guards](/accesorios/canilleras/mujer?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria,genero)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO2-CAT3-SUB5":{
+        "props": {
+          "text":"[See All](/Accesorios)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+  //--------------------------------------------------------------------------CAT4
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO2CAT4-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO2-CAT4", "disclosure-content#MOBILE-DEPTO2-CAT4"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO2-CAT4": {
+          "children": ["rich-text#MOBILE-DEPTO2-CAT4"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO2-CAT4": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO2-CAT4"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO2-CAT4": {
+          "props": {
+            "text": "Shoes",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO2-CAT4":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO2-CAT4-SUB1"
+          ]
+        },
+   //--------------------------------DEPTO 1 - CAT3 - SUBS
+     "rich-text#MOBILE-DEPTO2-CAT4-SUB1":{
+       "props": {
+         "text":"[See All](/mujer/zapatillas?_q=zapatillas&fuzzy=0&initialMap=ft&initialQuery=zapatillas&map=genero,ft&operator=and)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+  
+  //------------------------------------------------------------------------FIN DEPTO 2
+  //----------------------------------------------------------------------------------------DEPTO 3
+  //--------------------------------------------------------------------------CAT1
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO3CAT1-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO1-CAT1", "disclosure-content#MOBILE-DEPTO1-CAT1"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+     "disclosure-trigger#MOBILE-DEPTO3-CAT1": {
+          "children": ["rich-text#MOBILE-DEPTO3-CAT1"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO3-CAT1": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO3-CAT1"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO3-CAT1": {
+          "props": {
+            "text": "Upper",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO3-CAT1":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO3-CAT1-SUB1",
+            "rich-text#MOBILE-DEPTO3-CAT1-SUB2",
+            "rich-text#MOBILE-DEPTO3-CAT1-SUB3",
+            "rich-text#MOBILE-DEPTO3-CAT1-SUB5"
+          ]
+        },
+   //--------------------------------DEPTO 3 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO3-CAT1-SUB1":{
+       "props": {
+         "text":"[Shirts](/nino/camisetas?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO3-CAT1-SUB2":{
+        "props": {
+          "text":"[Hoodies](/niño/Prendas-de-arriba/)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO3-CAT1-SUB3":{
+        "props": {
+          "text":"[Jackets](/nino/chaquetas?initialMap=c&initialQuery=niño&map=category-1,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+  
+       "rich-text#MOBILE-DEPTO3-CAT1-SUB5":{
+        "props": {
+          "text":"[See All](/nino/arriba?initialMap=c&initialQuery=niño&map=category-1,parte)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+  //--------------------------------------------------------------------------CAT2
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO3CAT2-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO3-CAT2", "disclosure-content#MOBILE-DEPTO3-CAT2"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO3-CAT2": {
+          "children": ["rich-text#MOBILE-DEPTO3-CAT2"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO3-CAT2": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO3-CAT2"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO3-CAT2": {
+          "props": {
+            "text": "Bottoms",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO3-CAT2":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO3-CAT2-SUB1",
+            "rich-text#MOBILE-DEPTO3-CAT2-SUB2"
+  
+          ]
+        },
+   //--------------------------------DEPTO 3 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO3-CAT2-SUB1":{
+       "props": {
+         "text":"[Shorts](/nino/pantalonetas?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO3-CAT2-SUB2":{
+        "props": {
+          "text":"[Pants](/nino/pantalones?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO3-CAT2-SUB3":{
+        "props": {
+          "text":"[See All](/nino/abajo?initialMap=c&initialQuery=niño&map=category-1,parte)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+  
+       //--------------------------------------------------------------------------CAT3
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO3CAT3-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO3-CAT3", "disclosure-content#MOBILE-DEPTO3-CAT3"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO3-CAT3": {
+          "children": ["rich-text#MOBILE-DEPTO3-CAT3"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO3-CAT3": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO1-CAT3"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO3-CAT3": {
+          "props": {
+            "text": "Accesories",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO3-CAT3":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO3-CAT3-SUB1",
+            "rich-text#MOBILE-DEPTO3-CAT3-SUB2"
+          ]
+        },
+   //--------------------------------DEPTO 1 - CAT3 - SUBS
+     "rich-text#MOBILE-DEPTO3-CAT3-SUB1":{
+       "props": {
+         "text":"[Bags](/accesorios/maletas?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO3-CAT3-SUB2":{
+        "props": {
+          "text":"[Socks](/nino/medias?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+  
+    //--------------------------------------------------------------------------CAT4
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO3CAT4-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO3-CAT4", "disclosure-content#MOBILE-DEPTO3-CAT4"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO3-CAT4": {
+          "children": ["rich-text#MOBILE-DEPTO1-CAT4"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO3-CAT4": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO3-CAT4"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO3-CAT4": {
+          "props": {
+            "text": "Futsal",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO3-CAT4":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO3-CAT4-SUB1"
+          ]
+        },
+    
+      //--------------------------------DEPTO 1 - CAT4 - SUBS 
+     "rich-text#MOBILE-DEPTO3-CAT4-SUB1":{
+       "props": {
+         "text":"[Turf](/nino/zapatos?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+  
+  
+  
+  //------------------------------------------------------------------------FIN DEPTO 3
+  
+  
+  
+  
+  
+  //----------------------------------------------------------------------------------------DEPTO 4
+  //--------------------------------------------------------------------------CAT1
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO4CAT1-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO4-CAT1", "disclosure-content#MOBILE-DEPTO4-CAT1"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+     "disclosure-trigger#MOBILE-DEPTO4-CAT1": {
+          "children": ["rich-text#MOBILE-DEPTO4-CAT1"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO4-CAT1": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO4-CAT1"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO4-CAT1": {
+          "props": {
+            "text": "Socks",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO4-CAT1":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO4-CAT1-SUB1",
+            "rich-text#MOBILE-DEPTO4-CAT1-SUB2",
+            "rich-text#MOBILE-DEPTO4-CAT1-SUB3"
+          ]
+        },
+   //--------------------------------DEPTO 4 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO4-CAT1-SUB1":{
+       "props": {
+         "text":"[Football Soccer Socks](/accesorios/medias?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO4-CAT1-SUB2":{
+        "props": {
+          "text":"[Crew Socks](/accesorios/medias/arriba-de-la-rodilla?initialMap=c&initialQuery=accesorios&map=category-1,category-2,caracteristicas)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO4-CAT1-SUB3":{
+        "props": {
+          "text":"[No Show](/accesorios/medias/cortas?initialMap=c&initialQuery=accesorios&map=category-1,category-2,caracteristicas)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+  
+  //--------------------------------------------------------------------------CAT2
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO4CAT2-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO4-CAT2", "disclosure-content#MOBILE-DEPTO4-CAT2"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO4-CAT2": {
+          "children": ["rich-text#MOBILE-DEPTO4-CAT2"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO4-CAT2": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO4-CAT2"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO4-CAT2": {
+          "props": {
+            "text": "Balls",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO4-CAT2":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO4-CAT2-SUB1",
+            "rich-text#MOBILE-DEPTO4-CAT2-SUB2"
+          ]
+        },
+   //--------------------------------DEPTO 1 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO4-CAT2-SUB1":{
+       "props": {
+         "text":"[Football Soccer](/accesorios/balones?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO4-CAT2-SUB2":{
+        "props": {
+          "text":"[Futsal- Futsalon](/accesorios/balones/no-rebota?initialMap=c&initialQuery=accesorios&map=category-1,category-2,caracteristicas)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+  
+       //--------------------------------------------------------------------------CAT3
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO4CAT3-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO4-CAT3", "disclosure-content#MOBILE-DEPTO4-CAT3"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO4-CAT3": {
+          "children": ["rich-text#MOBILE-DEPTO4-CAT3"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO4-CAT3": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO1-CAT3"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO4-CAT3": {
+          "props": {
+            "text": "Facemasks",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO4-CAT3":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO4-CAT3-SUB1",
+            "rich-text#MOBILE-DEPTO4-CAT3-SUB2"
+          ]
+        },
+   //--------------------------------DEPTO 1 - CAT3 - SUBS
+     "rich-text#MOBILE-DEPTO4-CAT3-SUB1":{
+       "props": {
+         "text":"[Disposable](/accesorios/tapabocas/desechable?initialMap=c&initialQuery=accesorios&map=category-1,category-2,caracteristicas)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO4-CAT3-SUB2":{
+        "props": {
+          "text":"[Fabric](/accesorios/tapabocas?initialMap=c&initialQuery=accesorios&map=category-1,category-2&page=2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+  
+    //--------------------------------------------------------------------------CAT4
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO4CAT4-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO4-CAT4", "disclosure-content#MOBILE-DEPTO4-CAT4"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO4-CAT4": {
+          "children": ["rich-text#MOBILE-DEPTO4-CAT4"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO4-CAT4": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO4-CAT4"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO4-CAT4": {
+          "props": {
+            "text": "Bags",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO4-CAT4":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO4-CAT4-SUB1"
+          ]
+        },
+    
+      //--------------------------------DEPTO 4 - CAT3 - SUBS 
+     "rich-text#MOBILE-DEPTO4-CAT4-SUB1":{
+       "props": {
+         "text":"[Duffle Bags](/accesorios/maletas?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO4-CAT4-SUB2":{
+        "props": {
+          "text":"[Drawstring](/accesorios/tulas?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO4-CAT4-SUB3":{
+        "props": {
+          "text":"[Back packs](/accesorios/morrales?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+  
+  
+  
+  
+   //--------------------------------------------------------------------------CAT5
+         //Tabbers-mobile
+      "disclosure-layout#MOBILE-DEPTO4CAT5-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO4-CAT5", "disclosure-content#MOBILE-DEPTO4-CAT5"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO4-CAT5": {
+          "children": ["rich-text#MOBILE-DEPTO4-CAT5"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO4-CAT5": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO4-CAT5"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO4-CAT5": {
+          "props": {
+            "text": "Protection",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO4-CAT5":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO4-CAT5-SUB1",
+            "rich-text#MOBILE-DEPTO4-CAT5-SUB2",
+            "rich-text#MOBILE-DEPTO4-CAT5-SUB3"
+          ]
+        },
+    
+      //--------------------------------DEPTO 1 - CAT5 - SUBS 
+     "rich-text#MOBILE-DEPTO4-CAT5-SUB1":{
+       "props": {
+         "text":"[Shin Guards](/accesorios/canilleras?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO4-CAT5-SUB2":{
+        "props": {
+          "text":"[Kneepads](/accesorios/rodilleras?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO4-CAT5-SUB3":{
+        "props": {
+          "text":"[Elbow pads](/accesorios/coderas?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },    
+  
+  
+   
+  
+  //------------------------------------------------------------------------FIN DEPTO 4
+  
+  
+  
+  
+  //----------------------------------------------------------------------------------------DEPTO 5
+  //--------------------------------------------------------------------------CAT1
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO5CAT1-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO4-CAT1", "disclosure-content#MOBILE-DEPTO5-CAT1"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+     "disclosure-trigger#MOBILE-DEPTO5-CAT1": {
+          "children": ["rich-text#MOBILE-DEPTO4-CAT1"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO5-CAT1": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO5-CAT1"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO5-CAT1": {
+          "props": {
+            "text": "Fanshop",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO5-CAT1":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO5-CAT1-SUB1",
+            "rich-text#MOBILE-DEPTO5-CAT1-SUB2",
+            "rich-text#MOBILE-DEPTO5-CAT1-SUB3",
+            "rich-text#MOBILE-DEPTO5-CAT1-SUB4"
+          ]
+        },
+   //--------------------------------DEPTO 4 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO5-CAT1-SUB1":{
+       "props": {
+         "text":"[Aragua](/aragua?_q=aragua&map=ft)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO5-CAT1-SUB2":{
+        "props": {
+          "text":"[Haiti](/hombre/haiti?_c=hombre&map=c,ft)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT1-SUB3":{
+        "props": {
+          "text":"[Saeta Futsal](/futsal?map=ft)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT1-SUB4":{
+        "props": {
+          "text":"[Valledupar](/Valledupar?map=ft)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+  
+  //--------------------------------------------------------------------------CAT2
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO5CAT2-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO5-CAT2", "disclosure-content#MOBILE-DEPTO5-CAT2"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO5-CAT2": {
+          "children": ["rich-text#MOBILE-DEPTO4-CAT2"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO5-CAT2": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO4-CAT2"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO5-CAT2": {
+          "props": {
+            "text": "Football Soccer/Futsal",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO5-CAT2":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO5-CAT2-SUB1",
+            "rich-text#MOBILE-DEPTO5-CAT2-SUB2",
+            "rich-text#MOBILE-DEPTO5-CAT2-SUB3",
+            "rich-text#MOBILE-DEPTO5-CAT2-SUB4",
+            "rich-text#MOBILE-DEPTO5-CAT2-SUB5",
+            "rich-text#MOBILE-DEPTO5-CAT2-SUB6"
+          ]
+        },
+   //--------------------------------DEPTO 5 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO5-CAT2-SUB1":{
+       "props": {
+         "text":"[Men Uniforms](/hombre/uniformes?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO5-CAT2-SUB2":{
+        "props": {
+          "text":"[Women Uniforms](/mujer/uniformes?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT2-SUB3":{
+        "props": {
+          "text":"[Men Shirts](/hombre/camisetas?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT2-SUB4":{
+        "props": {
+          "text":"[Men Shorts](/hombre/pantalones?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT2-SUB5":{
+        "props": {
+          "text":"[Socks](/accesorios/medias?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },     
+       "rich-text#MOBILE-DEPTO5-CAT2-SUB6":{
+        "props": {
+          "text":"[Men Shirts](/mujer/camisetas?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT2-SUB7":{
+        "props": {
+          "text":"[Men Shorts](/mujer/shorts?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT2-SUB8":{
+        "props": {
+          "text":"[Kids](/Niño)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT2-SUB9":{
+        "props": {
+          "text":"[Goalkeeper](/hombre/arquero?initialMap=c&initialQuery=hombre&map=category-1,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT2-SUB10":{
+        "props": {
+          "text":"[Protection](/Deportes/Fútbol/Protección)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       //--------------------------------------------------------------------------CAT3
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO5CAT3-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO5-CAT3", "disclosure-content#MOBILE-DEPTO5-CAT3"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO5-CAT3": {
+          "children": ["rich-text#MOBILE-DEPTO5-CAT3"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO5-CAT3": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO5-CAT3"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO5-CAT3": {
+          "props": {
+            "text": "Bike",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO5-CAT3":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO5-CAT3-SUB1",
+            "rich-text#MOBILE-DEPTO5-CAT3-SUB2",
+            "rich-text#MOBILE-DEPTO5-CAT3-SUB3"
+          ]
+        },
+   //--------------------------------DEPTO 6 - CAT3 - SUBS
+     "rich-text#MOBILE-DEPTO5-CAT3-SUB1":{
+       "props": {
+         "text":"[Shirts](/camisetas/ciclismo?initialMap=c&initialQuery=hombre&map=category-2,deporte)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO5-CAT3-SUB2":{
+        "props": {
+          "text":"[Badanas](/ciclismo/bandanas?initialMap=c&initialQuery=hombre&map=subcategoria,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT3-SUB3":{
+        "props": {
+          "text":"[Socks](/medias/cortas?initialMap=c&initialQuery=accesorios&map=category-2,caracteristicas)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+  
+    //--------------------------------------------------------------------------CAT4
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO5CAT4-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO5-CAT4", "disclosure-content#MOBILE-DEPTO5-CAT4"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO5-CAT4": {
+          "children": ["rich-text#MOBILE-DEPTO5-CAT4"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO5-CAT4": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO5-CAT4"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO5-CAT4": {
+          "props": {
+            "text": "Running",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO5-CAT4":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO5-CAT4-SUB1",
+            "rich-text#MOBILE-DEPTO5-CAT4-SUB2"
+          ]
+        },
+    
+      //--------------------------------DEPTO 6 - CAT3 - SUBS 
+     "rich-text#MOBILE-DEPTO5-CAT4-SUB1":{
+       "props": {
+         "text":"[Shirts](/camisetas/atletismo?initialMap=c&initialQuery=hombre&map=subcategoria,deporte)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO5-CAT4-SUB2":{
+        "props": {
+          "text":"[Shorts](/pantalon/atletismo?initialMap=c&initialQuery=hombre&map=subcategoria,deporte)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+  
+  
+   //--------------------------------------------------------------------------CAT5
+         //Tabbers-mobile
+      "disclosure-layout#MOBILE-DEPTO5CAT5-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO4-CAT5", "disclosure-content#MOBILE-DEPTO4-CAT5"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO5-CAT5": {
+          "children": ["rich-text#MOBILE-DEPTO4-CAT5"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO5-CAT5": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO4-CAT5"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO5-CAT5": {
+          "props": {
+            "text": "Fitness",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO5-CAT5":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO5-CAT5-SUB1",
+            "rich-text#MOBILE-DEPTO5-CAT5-SUB2",
+            "rich-text#MOBILE-DEPTO5-CAT5-SUB3",
+            "rich-text#MOBILE-DEPTO5-CAT5-SUB4"
+  
+          ]
+        },
+    
+      //--------------------------------DEPTO 1 - CAT5 - SUBS 
+     "rich-text#MOBILE-DEPTO5-CAT5-SUB1":{
+       "props": {
+         "text":"[Shirts](/Deportes/Fitness/Camisetas)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO5-CAT5-SUB2":{
+        "props": {
+          "text":"[Jackets](/chaqueta?map=ft)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT5-SUB3":{
+        "props": {
+          "text":"[Shorts](/pantalonetas?initialMap=c&initialQuery=accesorios&map=category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO5-CAT5-SUB4":{
+        "props": {
+          "text":"[Pants](/pantalones?initialMap=c&initialQuery=accesorios&map=category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },     
+       "rich-text#MOBILE-DEPTO5-CAT5-SUB5":{
+        "props": {
+          "text":"[Socks](/accesorios/medias?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },     
+  
+  
+  //------------------------------------------------------------------------FIN DEPTO 5
+  
+  
+  
+  
+  
+  
+  //----------------------------------------------------------------------------------------DEPTO 6
+  //--------------------------------------------------------------------------CAT1
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO6CAT1-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO6-CAT1", "disclosure-content#MOBILE-DEPTO6-CAT1"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+     "disclosure-trigger#MOBILE-DEPTO6-CAT1": {
+          "children": ["rich-text#MOBILE-DEPTO6-CAT1"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO6-CAT1": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO6-CAT1"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO6-CAT1": {
+          "props": {
+            "text": "Men",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO6-CAT1":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO6-CAT1-SUB1",
+            "rich-text#MOBILE-DEPTO6-CAT1-SUB2",
+            "rich-text#MOBILE-DEPTO6-CAT1-SUB3",
+            "rich-text#MOBILE-DEPTO6-CAT1-SUB4",
+            "rich-text#MOBILE-DEPTO6-CAT1-SUB5"
+          ]
+        },
+   //--------------------------------DEPTO 6 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO6-CAT1-SUB1":{
+       "props": {
+         "text":"[Shirts](/hombre/camisetas?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO6-CAT1-SUB2":{
+        "props": {
+          "text":"[Hoodies](/hombre/buzos?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO6-CAT1-SUB3":{
+        "props": {
+          "text":"[Jackets](/hombre/Prendas-de-arriba/)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO6-CAT1-SUB4":{
+        "props": {
+          "text":"[Compression shirts](/hombre/Prendas-de-arriba/)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO6-CAT1-SUB5":{
+        "props": {
+          "text":"[See All](/hombre/arriba?initialMap=c&initialQuery=hombre&map=category-1,parte)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+  //--------------------------------------------------------------------------CAT2
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO6CAT2-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO6-CAT2", "disclosure-content#MOBILE-DEPTO6-CAT2"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO6-CAT2": {
+          "children": ["rich-text#MOBILE-DEPTO4-CAT2"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO6-CAT2": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO4-CAT2"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO6-CAT2": {
+          "props": {
+            "text": "Bottoms",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO6-CAT2":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO6-CAT2-SUB1",
+            "rich-text#MOBILE-DEPTO6-CAT2-SUB2",
+            "rich-text#MOBILE-DEPTO6-CAT2-SUB3",
+            "rich-text#MOBILE-DEPTO6-CAT2-SUB4",
+            "rich-text#MOBILE-DEPTO6-CAT2-SUB5",
+            "rich-text#MOBILE-DEPTO6-CAT2-SUB6"
+          ]
+        },
+   //--------------------------------DEPTO 1 - CAT1 - SUBS
+     "rich-text#MOBILE-DEPTO6-CAT2-SUB1":{
+       "props": {
+         "text":"[Shorts](/hombre/Prendas-de-abajo/)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO6-CAT2-SUB2":{
+        "props": {
+          "text":"[Below Knee Shorts](/hombre/Prendas-de-abajo/)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO6-CAT2-SUB3":{
+        "props": {
+          "text":"[Compression shirts](/hombre/Prendas-de-abajo/)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO6-CAT2-SUB4":{
+        "props": {
+          "text":"[Boxers](/hombre/Prendas-de-abajo/)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO6-CAT2-SUB5":{
+        "props": {
+          "text":"[Compression shirts](/hombre/Prendas-de-abajo/)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },     
+       "rich-text#MOBILE-DEPTO6-CAT2-SUB6":{
+        "props": {
+          "text":"[See All](/hombre/abajo?initialMap=c&initialQuery=hombre&map=category-1,parte)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       //--------------------------------------------------------------------------CAT3
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO6CAT3-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO6-CAT3", "disclosure-content#MOBILE-DEPTO6-CAT3"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO6-CAT3": {
+          "children": ["rich-text#MOBILE-DEPTO6-CAT3"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO6-CAT3": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO6-CAT3"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO6-CAT3": {
+          "props": {
+            "text": "Accesories",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO6-CAT3":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO6-CAT3-SUB1",
+            "rich-text#MOBILE-DEPTO6-CAT3-SUB2",
+            "rich-text#MOBILE-DEPTO6-CAT3-SUB3",
+            "rich-text#MOBILE-DEPTO6-CAT3-SUB4",
+            "rich-text#MOBILE-DEPTO6-CAT3-SUB5"
+          ]
+        },
+   //--------------------------------DEPTO 6 - CAT3 - SUBS
+     "rich-text#MOBILE-DEPTO6-CAT3-SUB1":{
+       "props": {
+         "text":"[Facemasks](/accesorios/tapabocas?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO6-CAT3-SUB2":{
+        "props": {
+          "text":"[Bags](/accesorios/maletas?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO6-CAT3-SUB3":{
+        "props": {
+          "text":"[Socks](/accesorios/medias?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO6-CAT3-SUB4":{
+        "props": {
+          "text":"[Shin Guards](/accesorios/canilleras?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+       "rich-text#MOBILE-DEPTO6-CAT3-SUB5":{
+        "props": {
+          "text":"[See All](/Accesorios)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+        }
+       },
+    //--------------------------------------------------------------------------CAT4
+         //Tabbers-mobile
+         "disclosure-layout#MOBILE-DEPTO6CAT4-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO6-CAT4", "disclosure-content#MOBILE-DEPTO6-CAT4"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO6-CAT4": {
+          "children": ["rich-text#MOBILE-DEPTO6-CAT4"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO6-CAT4": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO6-CAT4"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO6-CAT4": {
+          "props": {
+            "text": "Sports",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO6-CAT4":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO6-CAT4-SUB1"
+          ]
+        },
+    
+      //--------------------------------DEPTO 6 - CAT3 - SUBS 
+     "rich-text#MOBILE-DEPTO6-CAT4-SUB1":{
+       "props": {
+         "text":"[See All](/accesorios/rompemallas/)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+  
+  
+  
+   //--------------------------------------------------------------------------CAT5
+         //Tabbers-mobile
+      "disclosure-layout#MOBILE-DEPTO6CAT5-SUBS": {
+          "children": ["disclosure-trigger#MOBILE-DEPTO6-CAT5", "disclosure-content#MOBILE-DEPTO6-CAT5"],
+          "props": {
+            "animated": true,
+            "blockClass":"MOBILE-DEPTO"
+          }
+        },
+        "disclosure-trigger#MOBILE-DEPTO6-CAT5": {
+          "children": ["rich-text#MOBILE-DEPTO4-CAT5"],
+          "props": {
+            "blockClass":"MOBILE-DEPTO-CAT"
+          }
+        },
+        "disclosure-content#MOBILE-DEPTO6-CAT5": {
+          "children": [
+            "flex-layout.row#MOBILE-DEPTO6-CAT5"
+          ],
+          "props": {
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "rich-text#MOBILE-DEPTO6-CAT5": {
+          "props": {
+            "text": "Shoes",
+            "blockClass": "MOBILE-DEPTO-CAT"
+          }
+        },
+        "flex-layout.row#MOBILE-DEPTO6-CAT5":{
+          "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+          },
+          "children": [
+            "rich-text#MOBILE-DEPTO6-CAT5-SUB1",
+            "rich-text#MOBILE-DEPTO6-CAT5-SUB2",
+            "rich-text#MOBILE-DEPTO6-CAT5-SUB3",
+            "rich-text#MOBILE-DEPTO6-CAT5-SUB4"
+  
+          ]
+        },
+    
+      //--------------------------------DEPTO 6 - CAT5 - SUBS 
+     "rich-text#MOBILE-DEPTO6-CAT5-SUB1":{
+       "props": {
+         "text":"[Football Soccer/Futsal](/hombre/Deportes/Futbol)",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      }
+      },
+      "rich-text#MOBILE-DEPTO6-CAT5-SUB2":{
+        "props": {
+          "text":"[Bike](/hombre/Deportes/Ciclismo)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO6-CAT5-SUB3":{
+        "props": {
+          "text":"[Running](/hombre/Atletismo)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       },
+       "rich-text#MOBILE-DEPTO6-CAT5-SUB4":{
+        "props": {
+          "text":"[Fitness](/hombre/Fitness)",
+         "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+       }
+       }
+  
+       
+  
+  
+   
+  
+  //------------------------------------------------------------------------FIN DEPTO 6
+
+    }
+  

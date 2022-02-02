@@ -1,0 +1,43 @@
+.productVariationsItem {
+    color: black !important;
+}
+.productVariationsContainer {
+    display: flex;
+}
+.productVariationsItem {
+    margin: 0 10px;
+}
+.productBrandName {
+    display: none;
+}
+.drawer.opened {
+    max-width: 450px !important;
+}
+.productImageContainer {
+    width: 140px !important;
+}
+.productName {
+    font-size: 13px;
+    font-weight: 600;
+}
+.productPriceContainer {
+    font-size: 22px;
+}
+.deleteIcon {
+    color: transparent;
+    position: relative;
+    background: url(https://saetasport.vteximg.com.br/arquivos/basura.png);
+    width: 20px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.quantityInputContainer {
+    /* background: #ececec; */
+    border: 1px solid;
+    border-radius: 7px;
+    color: black;
+}
+
+

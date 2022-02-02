@@ -1,0 +1,85 @@
+.boxContainerBody :global(.vtex-button){
+    background-color: #140d2e !important;
+    color: white;
+    padding: 10px !important;
+}
+.dataEntryChildren{
+    color: #A6A6A6;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.dataEntryLabel{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+:global(.vtex-checkbox__box-wrapper){
+    border: 1px solid;
+}
+.boxContainer{
+    background: white;
+}
+:global(.vtex-account) > div{
+    padding: 20px 85px 20px 55px;
+}
+.userGreeting {
+    margin-top: 10px;
+}
+:global(.vtex-account_menu-link) {
+    color: black;
+}
+:global(.vtex-account_menu-link):hover {
+    color: #0616C4;
+}
+.menuLink {
+    color: black;
+}
+.profileBoxContainer :global(.vtex-button__label) {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0616C4;
+    font-weight: 700;
+}
+.profileBoxContainer :global(.vtex-button__label)::before {content: "";background: url(https://saetasport.myvtex.com/arquivos/editar-icono.png);width: 20px;height: 20px;background-size: 100%;background-repeat: no-repeat;margin: 5px 3px 0;}
+
+
+.passwordBoxContainer :global(.vtex-button__label) {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0616C4;
+    font-weight: 700;
+}
+.passwordBoxContainer :global(.vtex-button__label)::before {content: "";background: url(https://saetasport.myvtex.com/arquivos/editar-icono.png);width: 20px;height: 20px;background-size: 100%;background-repeat: no-repeat;margin: 5px 3px 0;}
+.userGreeting {
+    font-size: 32px;
+    color: #FBCE2F;
+    font-weight: 700;
+}
+.userInfo {
+    background: white;
+    padding: 13px 11px;
+    border-radius: 10px;
+}
+:global(.vtex-pageHeader__container) {
+    background: white;
+    border-radius: 10px;
+    width: 97%;
+    margin: 0 auto 0 1%;
+}
+
+
+
+
+@media (max-width: 600px) {
+    :global(.vtex-account) > div{
+        padding: 20px 15px 20px 15px;
+    }
+    .menu {
+        padding: 0;
+    }
+    :global(.vtex-account_menu-link) {
+        text-align: center;
+        font-weight: 700;
+        padding: 12px 0;
+    }
+}

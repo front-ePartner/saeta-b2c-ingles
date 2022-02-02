@@ -1,0 +1,1195 @@
+.flexRow--Pre-header {
+    background: #d3d3d3;
+    height: auto;
+}
+.flexCol--espacio {
+    height: 50%;
+}
+.stretchChildrenWidth.flex{
+  margin: 20px 0 0 0;
+}
+.flexColChild--buyc{
+  max-height: 20px;
+
+}
+.flexRow--headerCate{
+  padding: 10px 0px;
+  position: absolute;
+  right: 6%;
+  width: fit-content;
+}
+.flexRow--quienessomosColumn{
+  margin-top: -5px;
+}
+.flexRow--categorys{
+  margin: 0;
+}
+.flexCol--textosIcno1, .flexCol--textosIcno2, .flexCol--textosIcno3{
+  display: flex;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  flex-direction: initial;
+  justify-content: start;
+}
+.flexCol--submenu1Mayor{
+  transition: all 400ms;
+}
+
+.flexRowContent--medios{
+  width: auto;
+}
+.flexColChild--textosIcno1, .flexColChild--textosIcno2, .flexColChild--textosIcno3{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.flexRowContent--medios{
+  margin: 100px 100px 100px 80px;
+}
+.flexCol--textosIcno3{
+  max-width: 500px;
+}
+.flexRow--footercon{
+  padding: 150px 100px 20px;
+
+}
+.flexRow--footerimg{
+  filter: invert(1);
+  margin: 30px 80px 30px 80px ;
+}
+.flexColChild--footerC{
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  display: block;
+  height: auto !important;
+  margin-bottom: 10px;
+
+}
+.flexRowContent--footercon .stretchChildrenWidth:last-child {
+  width: 38% !important;
+}
+
+.flexRow--lastF{
+  margin: 10px 35px 0px;
+  background: #140d2e;
+  justify-content: space-between;
+  padding: 30px 100px;
+  border-top: 1px solid #848484dd;
+
+}
+.flexRowContent--lastF {
+  align-items: center;
+  margin: 0 0 0 60px;
+}
+.flexRow--contenedorC{
+  margin: 0 100px 0 100px;
+}
+.flexRow--product{
+  margin: 0 100px 0 100px;
+}
+.flexRowContent--product{
+  padding-top: 0px;
+}
+.flexCol--buyc{
+  padding: 0px 5px 27px 0;
+}
+.flexColChild--productbuy:global(.vtex-button){
+  height: 30px;
+
+}
+.flexColChild--productbuy:global(.vtex-button__label){
+  height: 30px;
+  width: 300%;
+}
+.flexRowContent--productbuy{
+  border-radius: 25px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.flexRow--productbuy {
+  display: flex;
+}
+.flexCol--buyc :global(.vtex-button){
+  width: 100%  !important;
+}
+.flexCol--buyc :global(.vtex-button__label){
+  width: 100%  !important;
+  padding: 0  !important;
+  min-height: 25px;
+}
+/*Inicio estilos*/
+.flexRowContent--productbuy :global(.vtex-button__label){
+  max-height: 40px;
+  padding: 0 !important;
+  width: 100% !important;
+}
+.flexRowContent--productbuy :global(.vtex-button){
+  width: 100% !important;
+}
+.flexRowContent--productbuy  .stretchChildrenWidth{
+  padding: 0;
+  margin: 0 10px 0 0;
+}
+.flexRow--mosaico{
+  padding: 70px 80px;
+  background: #eaeaeadd;
+}
+.flexColChild--imagedob{
+  margin: 0px 0 10px 0;
+}
+.flexRowContent--mosaico .stretchChildrenWidth:first-child {
+  width: 75% !important;
+  margin: 0 10px;
+}
+
+.flexRowContent--mosaico .stretchChildrenWidth:last-child {
+  width: 24%!important;
+  padding: 0px 0;
+}
+.flexRowContent--imageC .stretchChildrenWidth:first-child {
+  width: 67% !important;
+}
+
+.flexRowContent--imageC .stretchChildrenWidth:last-child {
+  width: 32.9% !important;
+}
+.flexRowContent--imageCi .stretchChildrenWidth:first-child {
+  width: 32.9% !important;
+}
+
+.flexRowContent--imageCi .stretchChildrenWidth:last-child {
+  width: 67% !important;
+}
+.flexRow--BannerDosMosaico{
+  padding: 0 90px;
+  margin-bottom: 40px;
+}
+.flexRowContent--headerC{
+  padding: 0 90px 0 100px;
+  background-color: rgba(0, 1, 49, 0.6);
+}
+.flexRowContent--Pre-header{
+  padding: 0 100px;
+}
+.flexRow--cantidadC:hover .flexColChild--buyc{
+  display: block;
+  transition: all .5s;
+}
+.flexColChild--productC{
+  height: auto !important
+}
+.flexColChild--productbuy :global(.vtex-button__label){
+  padding: 20px 0;
+  width: 343px;
+  border-top: 0;
+}
+.flexCol--buyc :global(.vtex-button){
+  opacity: 1;
+}
+.flexRow--barra-Ordenar{
+  background-color: white;
+  margin: -5px 0 1.6% 2.6%;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+.flexColChild--itemsC{
+  opacity: 0;
+}
+.flexRow--mosaicoMobile{
+  display: none;
+}
+.flexRow--FaqsColumn{
+  margin: 40px 100px;
+}
+.flexRowContent--FaqsColumn .stretchChildrenWidth:last-child{
+  border-left: 3px solid #ddd;
+  padding-left: 10px;
+}
+.flexCol--submenu1Mayor{
+  align-items: flex-start;
+}
+.flexCol--submenu1{
+  align-items: flex-start;
+}
+.flexRow--submenu1 .stretchChildrenWidth   {
+  width: 43% !important;
+}
+.flexRowContent--submenu1{
+  justify-content: flex-start;
+}
+.flexRow--submenu1 .stretchChildrenWidth{
+  border-left:2px solid #c7c5c5;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  width: 250px!important;
+
+}
+.flexColChild--reviewsContent{
+  display: block !important;
+  column-count: unset !important;
+}
+.flexColChild--submenu1Mayor{
+  width: 100%;
+}
+.flexRowContent--headerPreHeader {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2PX 0px 33PX;
+  background: #000131;
+  margin: 0px auto;
+}
+.flexColChild--productbuyProduc {
+  width: 43%;
+}
+.flexColChild--productbuyProduc :global(.vtex-button__label) {
+  width: 100%;
+  padding: 7px 0 !important;
+}
+.flexColChild--productbuyProduc {
+  width: 100%;
+}
+.flexCol--productbuyProduc {
+  width: 525px;
+  display: table-column-group;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  column-count: 2;
+}
+.flexRowContent--contenedorC {
+  flex-wrap: wrap;
+}
+.flexCol--filters {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexCol--filters {
+  border-top: 2px solid;
+}
+.flexCol--productC {
+  margin: 80px 0 0 0;
+}
+.orderBy--layout {
+  width: 12%;
+  position: absolute;
+  right: -10px;
+}
+.flexRowContent--ParteTop {
+  margin: 0 27px;
+  width: 92%;
+}
+.flexRowContent--nuevoMosaico50-50 {
+  margin: 0 auto;
+}
+.flexRow--seccionNewletter {
+  padding: 41px 100px;
+  margin: 40px 0px;
+  background: url(https://saetasport.vteximg.com.br/arquivos/news-back.png);
+  height: 287px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.flexRowContent--seccionNewletter {
+  color: white;
+}
+.flexColChild--Agendaetapa1 :global(.vtex-input__label) {
+  text-transform: uppercase;
+  margin: 10px auto 3px;
+}
+.flexColChild--Agendaetapa2 :global(.vtex-input__label) {
+  text-transform: uppercase;
+}
+.flexColChild--Agendaetapa2 :global(.vtex-input-prefix__group) {
+  background: transparent;
+}
+.flexRowContent--Agendaetapa3 :global(.vtex-input__label) {
+  text-transform: uppercase;
+}
+.flexRowContent--headerC {
+  position: fixed;
+}
+.flexRow--headerPreHeader2 {
+  position: absolute;
+  right: 65px;
+  top: 1px;
+}
+.flexRow--nuevoMosaico50-50 {
+  width: 100%;
+}
+.flexColChild--nuevoMosaico50-50-dere.pb0 {
+  position: relative;
+}
+.flexRow--seccionRegalos {
+  /* width: 90%; */
+  margin: 0 50px;
+}
+.flexRowContent--iconos-valor {
+  margin: 0 auto;
+  width: 90%;
+  background: transparent;
+}
+.flexRow--PREfooter-CONTENT {
+  width: 90%;
+  background-size: 100%;
+  padding: 51px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background: url(https://saetasport.vteximg.com.br/arquivos/pre-footer-back.png);
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+.flexRow--PREfooter-CONTENT-redes {
+  align-items: baseline;
+  display: flex;
+}
+.flexRow--footercon {
+  background: url(https://saetasport.vteximg.com.br/arquivos/BACK-FOOTER.png);
+  background-size: 100%;
+  background-position: center;
+  margin-top: -103px;
+  z-index: 0;
+}
+.flexRowContent--PREfooter-CONTENT-2 .stretchChildrenWidth {
+  justify-content: end;
+  width: 56%;
+}
+.flexRow--PREfooter-CONTENT-2 {
+  width: 65%;
+}
+.flexRowContent--PREfooter-CONTENT-2 {
+  height: 51px;
+}
+.flexColChild--contacto-box {
+  padding: 10px 0;
+}
+.flexRowContent--desarroladoypoweredbyz {
+  justify-content: center;
+}
+.flexColChild--nuevoMosaico50-50-dere {
+  position: relative;
+}
+
+.flexRowContent--bannersconVitrina {
+  height: 440px !important;
+  position: relative !important;
+  margin: 93px auto 40px !important;
+}
+.flexRowContent--iconos-valor {
+  display: flex;
+}
+.flexRow--seccionRegalos {
+  display: block;
+}
+.flexRow--bannersconVitrina {
+  display: block;
+}
+.flexRow--bannersconVitrinaM {
+  display: none;
+}
+.flexRowContent--product .flexColChild :global(.vtex-button__label) {
+  width: 100%;
+  text-align: end;
+}
+.flexRowContent--product .flexColChild :global(.vtex-button) {
+  width: 100% !important;
+  position: relative;
+  margin: 25px 0 30px;
+}
+.flexRowContent--LineaTresBotones {
+  margin: 15px 0;
+}
+.flexRowContent--LineaTresBotones:first-child .stretchChildrenWidth {
+  padding: 0;
+}
+.flexRowContent--ContentSecciEspec {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexRowContent--ContentSecciEspec .stretchChildrenWidth {
+  width: 100% !important;
+}
+.flexRowContent--SecciEspec-Titulo {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  margin: 4px auto 40px;
+}
+.flexCol--filters {
+  background: white;
+  padding: 7px 0;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.flexColChild--filters {
+  display: flex;
+  align-items: center;
+}
+.filterSelectedFilters {
+  display: none;
+}
+.flexRow--PREfooter-CONTENT-redes {
+  width: 65% !important;
+}
+.flexRowContent--apps-descarga {
+  justify-content: center;
+}
+.flexRowContent--BannerDosMosaicox4-ESTATICA {
+  padding: 43px 100px 0;
+}
+
+.flexRow--TAB-MOBILE {
+  display: none;
+}
+
+.flexCol--Info-Producto-Sticky {
+  position: sticky;
+  top: 14%;
+  height: fit-content;
+}
+.flexRowContent--product .stretchChildrenWidth {
+  position: relative;
+}
+.flexRowContent--InformacionDos .stretchChildrenWidth {
+  width: 33% !important;
+  padding: 10px
+}
+.flexCol--imagenesESPECIFIC {
+  height: 500px;
+}
+
+.flexRow--MENU-NIVEL-DEPTO-CAT {
+  width: 80%;
+}
+.flexRow--MENU-NIVEL-DEPTO-CAT {
+  width: 100%;
+}
+.flexRow--MENU-NIVEL-DEPTO-CAT-SUB {
+  width: 100%;
+}
+.flexCol--MENU-NIVEL-DEPTO-CAT-SUB {
+  display: flex;
+  align-items: center;
+}
+.flexRowContent--MENU-NIVEL-DEPTO-CAT-SUB {
+  display: flex;
+ /* align-items: center;*/
+  padding: 25px;
+  background: white;
+  justify-content: space-between;  
+}
+.flexRowContent--footercon .stretchChildrenWidth:first-child {
+  margin: 0 -6% 0 0;
+}
+.flexRowContent--MENU-NIVEL-DEPTO-CAT {
+  width: 80%;
+  margin: 0 auto;
+}
+.flexRow--desarroladoypoweredbyz {margin-top: 15px;}
+.flexRowContent--seccionRegalos {
+  justify-content: space-between;
+}
+.flexColChild--InformacionDOCUMENTOSPart2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.flexColChild--iconos-valor {
+  width: 70%;
+}
+.flexColChild--iconos-valor {
+  width: 70%;
+  z-index: 1;
+}
+.flexRow--CONTENIDO-GENERAL-TIENDAS {
+  padding: 0 120px;
+}
+.flexRowContent--info-tienda-principal-parteaG .stretchChildrenWidth:first-child    {
+  width: 19% !important;
+  align-items: center;
+}
+.flexRowContent--info-tienda-principal .stretchChildrenWidth:last-child {
+  width: 41% !important;
+  align-items: center;
+}
+.flexCol--info-tienda-principal-partea {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+}
+.flexColChild--info-tienda-principal-partea {
+  height: auto !important;
+  }
+.flexRowContent--info-tienda-principal-parteaG {
+  width: 100%;
+}
+.flexRowContent--info-tienda-principal {
+  margin: 10px auto;
+}
+.flexColChild--info-tienda-principal-partea {
+  justify-content: flex-start;
+  display: flex;
+  width: 100%;
+}
+.flexRowContent--info-Distri-principal .stretchChildrenWidth {
+  background: white;
+  margin: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  max-width: 33%;
+}
+.flexRowContent--info-Distri-Principal .stretchChildrenWidth:first-child {
+  width: 23% !important;
+  display: flex;
+  align-items: center;
+}
+.flexRowContent--info-Distri-principal .stretchChildrenWidth .flexRow--info-Distri-Principal .stretchChildrenWidth:last-child {
+  max-width: none;
+  width: auto !important;
+}
+.flexRow--FORMULARIO-REGISTRO {
+  margin: 0 100px;
+}
+.flexRowContent--FORMULARIO-REGISTRO {
+  padding: 80px 0;
+}
+.flexRow--BOTONES-B2B {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.flexRowContent--BOTONES-B2B {
+  width: 80%;
+  margin: 0 auto;
+}
+.flexRowContent--product1-info-ESPECI {
+  display: flex;
+}
+.flexRowContent--product1-info-ESPECI .stretchChildrenWidth {
+  width: 50% !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .flexRow--contenedorC {
+    margin: 0 !important;
+    padding: 0 8px;
+  }
+  .flexRow--BannerDosMosaico {
+    padding: 0 0px;
+  }
+  .flexRow--barra-Ordenar {
+    background-color: transparent !important;
+  } 
+  .flexRowContent--Pre-header {
+    padding: 0 0px !important;
+    display: flex;
+    height: 47px;
+    justify-content: flex-start;
+  }
+  .searchBarContainer{
+    padding: 0;
+  }
+  .flexRowContent--main-header-mobile{
+    background-color: rgba(0, 1, 49, 0.45);;
+  }
+  .flexColChild--filters{
+    border-radius: 2px;
+    padding-left: 10px;
+  }
+  .flexRow--mosaico{
+    display: none;
+  }
+  .flexCol--buyc :global(.vtex-button) {
+    opacity: 1;
+  }
+  .flexRow--mosaicoMobile{
+    display: block!important;
+    padding: 75px 0;
+    background: #eaeaeadd;
+  }
+  .flexRowContent--mosaicoMobile{
+    display: flex;
+    padding: 0px 15px;
+    margin-left: 2px;
+  }
+  .flexRowContent--mosaicoMobile .stretchChildrenWidth   {
+    margin: 0 5px;
+  }
+  .flexRow--footercon {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .flexRowContent--footercon{
+    display: flex;
+  }
+  .flexRow--footercon .stretchChildrenWidth {
+    position: relative;
+    padding: 0px 0px 0 11px;
+  }
+  .flexRow--footercon .stretchChildrenWidth:last-child {
+    width: 100%!important;
+    padding: 11px;
+  }
+  .flexRowContent--BannerDosMosaico{
+    display: flex;
+  }
+  .flexRowContent--BannerDosMosaico .stretchChildrenWidth {
+    width: 50% !important;
+  }
+  .flexRowContent--lastF {
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .flexRow--lastF {
+    margin: 0;
+    background: #140d2e;
+    justify-content: center;
+    padding: 0;
+    border-top: 1px solid #848484dd;
+  }
+  .flexRow--product {
+    padding: 0 25px;
+    margin: 0;
+  }
+  .flexColChild--imagenesD{
+    display: none;
+  }
+  .flexCol--imagenesM{
+    display: block !important;
+  }
+  .flexColChild--productbuy :global(.vtex-button){
+    width: 100% !important;
+  }
+  .flexColChild--productbuy :global(.vtex-button__label){
+    width: 100% !important;
+  }
+  .flexRow--product .stretchChildrenWidth {
+    padding: 0;
+  }
+  .flexRow--FaqsColumn {
+    margin: 10px 10px;
+  }
+  .flexRowContent--FaqsColumn .flexColChild{
+    position: relative; 
+  }
+  /*
+  .flexRowContent--FaqsColumn .flexColChild::before{
+    content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png)no-repeat;
+    background-size: 100%;
+    font-size: 10px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-top: 0px;
+    top: 0px;
+    right: 0;
+    transition: all 40ms;
+    position: absolute;
+    margin-right: 5px;
+  }*/
+  .flexRow--TituloInstitucionalM{
+    display: block !important;
+  }
+  .flexRowContent--quienessomosColumn2{
+    display: none;
+  }
+  .flexRowContent--product {
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+  .flexCol--ratings-only{
+    margin-bottom: 20px;
+  }
+  .flexRowContent--lastF .stretchChildrenWidth:first-child{
+    margin: 3px 0 0 25px;
+  }
+  .flexRowContent--lastF .stretchChildrenWidth:last-child{
+    margin: 5px 0 0 -16px;
+  }
+
+  .flexRow--FaqsColumnM{
+    display: block !important;
+  }
+  .flexRowContent--FaqsColumnM .flexColChild{
+    position: relative;
+  }
+  /*
+  .flexRowContent--FaqsColumnM .flexColChild::before{
+    content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png)no-repeat;
+    background-size: 100%;
+    font-size: 5px;
+    width: 19px;
+    height: 23px;
+    margin-top: 0px;
+    top: 2px;
+    right: 0;
+    transition: all 40ms;
+    position: absolute;
+    margin-right: 10px;
+  }*/
+  .flexRow{
+    width: 100%;
+  }
+  .flexRow--BannerDosMosaico{
+    padding: 0 15px;
+  }
+  .flexColChild--reviews-only {
+    width: auto !important;
+  }
+  .flexColChild--InformacionDos {
+    display: block !important;
+    column-count: unset !important;
+  }
+  .flexRowContent--barra-Ordenar .flexCol--orderby{
+    margin-right: 8px;
+  }
+  .flexRowContent--inputsNewsletter{
+    display: block;
+  }
+  .flexRow--reviews-and-ratings{
+    margin-left: 0px;
+  }
+.flexRowContent--headerPreHeader {
+    padding: 7PX 7px 5PX;
+}
+.flexRow--reviews-and-ratings {
+  margin-left: 10px !important;
+}
+.flexRow--reviews-and-ratings {
+  margin-left: 100px;
+}
+.flexColChild--InformacionDOCUMENTOS {
+  column-count: 1 !important; 
+}
+.flexCol--productbuyProduc {
+  width: 216px;
+}
+.flexRowContent--filters {
+  display: flex !important;
+  background: white !important;
+  padding: 7px;
+    
+}
+.flexRowContent--headerPreHeader2M {
+  display: flex;
+  justify-content: flex-end;
+  background: #000131;
+}
+.flexRowContent--main-header-mobile {
+  justify-content: space-between;
+}
+.flexRow--footerContentTab {
+  padding: 17px 14px;
+}
+
+.flexRowContent--footerconCol {
+  border-left: 2px solid white;
+  padding: 0 0px 0 9px;
+}
+.flexRowContent--desarroladoypoweredbyz {
+  display: flex;
+}
+.flexRowContent--apps-descarga {
+  display: flex;
+}
+.flexRowContent--contenido-foooter-info .stretchChildrenWidth {
+  flex-wrap: wrap;
+}
+.flexRowContent--contenido-foooter-info {
+  background: url(https://saetasport.vteximg.com.br/arquivos/BACK-FOOTER-MOBILE.png);
+  padding: 150px 15px 0;
+  background-size: 138%;
+  background-repeat: no-repeat;
+  background-position: center;
+} 
+.flexRowContent--apps-descarga {
+  width: 95%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.flexRowContent--contenido-foooter-info .stretchChildrenWidth {
+  /* justify-content: center; */
+  margin: 0 auto;
+  display: block;
+}
+.flexRow--apps-descarga {
+  margin-bottom: 43px;
+}
+.flexRow--desarroladoypoweredbyz {
+  padding-bottom: 28px;
+}
+.flexRowContent--PREfooter-CONTENT {
+  display: flex;
+}
+.flexRow--PREfooter-CONTENT {
+  padding: 13px;
+  width: 90%;
+  margin: 0 auto -117px;
+}
+.flexRowContent--PREfooter-CONTENT-redes {
+  display: flex;
+}
+.flexRowContent--PREfooter-CONTENT-2 {
+  display: flex;
+}
+.flexColChild--contacto-box {
+  padding: 0;
+}
+.flexRow--PREfooter-CONTENT2 {
+  display: flex;
+  margin-top: 16px;
+}
+.flexRow--seccionNewletter {
+  padding: 0 0;
+  background: url(https://saetasport.vteximg.com.br/arquivos/news-backM.png);
+  background-size: 250%;
+  background-repeat: no-repeat;
+  margin: 0;
+  background-position: center;
+  height: 400px;
+}
+.flexColChild--nuevoMosaico50-50-dere {
+  position: inherit;
+}
+.flexRowContent--nuevoMosaico50-50:first-child {
+  margin: 0 0;
+}
+.flexRowContent--iconos-valor {
+  display: none;
+}
+.flexRow--seccionRegalos {
+  display: none;
+}
+.flexRow--bannersconVitrina {
+  display: none;
+}
+.flexRow--bannersconVitrinaM {
+  display: block;
+}
+.flexRow--bannersconVitrinaM {
+  position: relative;
+  height: 480px;
+}
+.flexRow--bannersconVitrinaM {
+  position: relative;
+  margin: 0px 0 -29px;
+  height: 480px;
+}
+.flexRow--bannersconVitrina {
+  display: none;
+}
+.flexRow--bannersconVitrinaM {
+  display: block;
+}
+.flexRow--bannersconVitrinaM {
+  position: relative;
+  margin: 0px 0 -29px;
+  height: 480px;
+}
+.flexRow--bannersconVitrina {
+  display: none;
+}
+.flexRow--bannersconVitrinaM {
+  display: block;
+}
+.flexRowContent--LineaTresBotones {
+  display: flex;
+}
+.flexRowContent--filters {
+  border-radius: 30px;
+}
+.flexRow--TAB-MOBILE .stretchChildrenWidth {
+  flex-wrap: wrap;
+}
+.flexCol--productC {
+  margin: 45px 0 0 0;
+}
+.flexRowContent--pre-botones-menu-mobile {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: 0 auto;
+}
+.flexRowContent--BannerDosMosaicox4-ESTATICA {
+  flex-wrap: revert;
+  padding: 15px;
+}
+.flexRow--FaqsColumn {
+  margin: 10px;
+}
+.flexRowContent--FaqsColumn .flexColChild {
+  position: relative;
+}
+.flexRowContent--FaqsColumn .stretchChildrenWidth:last-child {
+  padding: 0;
+  border: none;
+}
+.flexRow--TAB-MOBILE {
+  display: block;
+  margin: 0 auto 43px;
+}
+.flexCol--buyc :global(.vtex-button){
+  visibility:  visible !important;
+}
+.flexRowContent--MENU-NIVEL-DEPTO-CAT .stretchChildrenWidth {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexRowContent--MENU-NIVEL-DEPTO-CAT {
+  width: 90% !important;
+}
+.flexRowContent--MENU-NIVEL-DEPTO-CAT-SUB {
+  padding: 0 !important;
+  flex-wrap: wrap !important;
+}
+.flexRowContent--MENU-NIVEL-DEPTO-CAT-SUB .stretchChildrenWidth {
+  width: 100%;
+}
+.flexRow--CONTENIDO-GENERAL-TIENDAS {
+  padding: 0;
+}
+.flexRowContent--info-tienda-principal-parteaG {
+  display: flex;
+  margin: 5px auto 10px;
+}
+.flexCol--info-tienda-principal-partea {
+  margin: 20px auto 15px;
+  padding: 0 24px;
+}
+.flexRowContent--info-Distri-Principal {
+  display: flex;
+}
+.flexRowContent--info-Distri-principal .stretchChildrenWidth {
+  margin: 23px auto;
+  width: 90% !important;
+}
+.flexColChild--CONTENIDO-GENERAL-TIENDAS {
+  padding: 0 11px;
+}
+.flexRowContent--info-tienda-principal .stretchChildrenWidth:last-child {
+  width: 99% !important;
+}
+.flexRowContent--info-Distri-principal .stretchChildrenWidth {
+  max-width: 100%;
+}
+.flexRowContent--info-Distri-principal .stretchChildrenWidth .flexRow--info-Distri-Principal .stretchChildrenWidth:last-child {
+ width: 90% !important;
+}
+.flexRow--FORMULARIO-REGISTRO {
+  margin: 0 auto;
+  width: 90%;
+}
+.flexRowContent--FORMULARIO-REGISTRO {
+  padding: 0;
+}
+.flexCol--InformacionDOCUMENTOSIMG1 {
+  height: auto;
+}
+.flexCol--InformacionDOCUMENTOSPart2 {
+  height: auto;
+}
+.flexCol--product1-info-GEN {
+  height: auto;
+}
+.flexCol--product1-info-GEN {
+  height: auto;
+}
+.flexCol--InformacionDOCUMENTOS {
+  height: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flexRow--identifierProduct .stretchChildrenWidth   {
+  padding: 0;
+}
+.stretchChildrenWidth .flexColChild--ultimaIlera .stretchChildrenWidth{
+  width: 100% !important;
+}
+.flexRow--identifierProduct {
+  margin-top: 5px;
+}
+.flexRow--FaqsColumnM{
+  display: none;
+  margin: 10px 10px;
+}
+.flexRow--TituloInstitucionalM{
+  display: none;
+}
+.flexCol--imagenesM{
+  display: none;
+}
+.flexColChild--InformacionDos{
+  height: auto !important;
+}
+.flexRowContent--InformacionDos{
+  padding: 60px;
+  margin-bottom: 30px;
+}
+.flexCol--ratings-only
+  :global(.vtex-reviews-and-ratings-2-x-container) {
+  background-color: white;
+  border-radius: 4px;
+  padding: 32px 20px;
+  text-align: center;
+  border: 1px solid;
+}
+/* Reviews Only */
+
+.flexRow--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
+.flexRow--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsRating),
+.flexRow--reviews-only
+  :global(.vtex-reviews-and-ratings-2-x-writeReviewContainer),
+.flexCol--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
+.flexCol--reviews-only :global(.vtex-reviews-and-ratings-2-x-reviewsRating),
+.flexCol--reviews-only
+  :global(.vtex-reviews-and-ratings-2-x-writeReviewContainer) {
+  display: none;
+}
+
+/* Ratings Only */
+
+.flexRow--ratings-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
+.flexRow--ratings-only
+  :global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer),
+.flexCol--ratings-only :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
+.flexCol--ratings-only
+  :global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer) {
+  display: none;
+}
+.flexColChild--reviews-only{
+  width: 680px;
+}
+.flexColChild--InformacionDos {
+  display: table-cell;
+  column-count: 2;
+}
+.flexColChild--submenu0 :global(.vtex-rich-text-0-x-container--contenidoSubemnu){
+  padding: 3px 0;
+}
+.flexColChild--submenu0 :global(.vtex-rich-text-0-x-link--tituoSubmenu){
+  font-size: 15px;
+}
+.flexRow--mosaico :global(.vtex-store-components-3-x-imageElement):hover{
+  transform: scale(1.05);
+  border-radius: 5px;
+}
+.flexRow--InformacionDOCUMENTOS{
+  background-color: white;
+  border-radius: 5px;
+}
+.flexRowContent--InformacionDOCUMENTOS{
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.flexColChild--InformacionDOCUMENTOS{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto !important;
+}
+.flexRow--reviews-and-ratings{
+  margin-left: 100px;
+}
+.flexColChild--reviews-only :global(.vtex-reviews-and-ratings-2-x-graphContent){
+  display: none;
+}
+.flexColChild--InformacionDOCUMENTOSPart2 {
+  height: auto !important;
+}
+
+
+/* * New styles About us Page */
+/* !Main container */
+.flexRow--About__information {
+  position: relative;
+  top: -330px;
+  margin: 5px auto;
+  padding: 0;
+  width: 93%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 17px 0px #00000026;
+}
+/* !Information images */
+.flexColChild--About__information-container {
+  margin: 20px 0;
+}
+/* !tab Layout Section */
+.flexRow--History {
+  position: relative;
+  left: -2.5%;
+  width: 105%;
+}
+
+@media (min-width: 600px) {
+  /* !Main container */
+  .flexRow--About__information {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1030px) {
+  /* !Main container */
+  .flexRow--About__information {
+    width: 80%;
+  }
+  .flexColChild--About__information-container {
+    margin: 10px 0;
+  }
+  /* !Blog Section */
+  .flexCol--Blog__posts-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1700px) {
+  /* !Blog Section */
+  .flexRow--Blog__posts {
+    padding: 0 100px;
+  }
+}
+/* * //New styles About us Page */

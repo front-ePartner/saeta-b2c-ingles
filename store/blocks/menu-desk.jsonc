@@ -1,0 +1,4016 @@
+{
+
+
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------- NUEVO MENU PARA DESK
+
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------DEPARTAMENTO1 (NIVEL1)
+"vtex.menu@2.x:menu#SaetaDesk": {
+    "props": {
+      "blockClass": "MENU-NIVEL-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#SaetaDeskDeptos1",
+      "vtex.menu@2.x:menu#SaetaDeskDeptos2",
+      "vtex.menu@2.x:menu#SaetaDeskDeptos3",
+      "vtex.menu@2.x:menu#SaetaDeskDeptos4",
+      "vtex.menu@2.x:menu#SaetaDeskDeptos5",
+      "vtex.menu@2.x:menu#SaetaDeskDeptos6"
+    ]
+  },
+  
+  
+  
+  "vtex.menu@2.x:menu#SaetaDeskDeptos1": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO"
+    },
+    "children": [
+      "menu-item#Depro1"
+    ]
+  },
+  "menu-item#Depro1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Men"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos1Cat1"]
+  },
+  //---------------------------------------------------------------DEPARTAMENTO1 CATEGORIAS (NIVEL2)
+  "vtex.menu@2.x:submenu#Deptos1Cat1": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "flex-layout.row#Deptos1Cats"
+    ]
+  },
+  
+  "flex-layout.row#Deptos1Cats": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "menu-item#Depro1Cat1",
+      "menu-item#Depro1Cat2",
+      "menu-item#Depro1Cat3",
+      "menu-item#Depro1Cat4",
+      "menu-item#Depro1Cat5",
+      "menu-item#Depro1Cat6"
+    ]
+  },
+  "menu-item#Depro1Cat1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/arriba?initialMap=c&initialQuery=hombre&map=category-1,parte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Upper"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos1Cat1Subs"]
+  },
+  
+  "menu-item#Depro1Cat2": {
+    "props": {
+      "type": "custom",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/abajo?initialMap=c&initialQuery=hombre&map=category-1,parte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Bottoms"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos1Cat2Subs"]
+  },
+  "menu-item#Depro1Cat3": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/hombre?initialMap=c&initialQuery=accesorios&map=category-1,genero",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Accesories"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos1Cat3Subs"]
+  },
+  "menu-item#Depro1Cat4": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/zapatos?initialMap=c&initialQuery=hombre&map=category-1,category-2",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shoes"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos1Cat4Subs"]
+  },
+  "menu-item#Depro1Cat5": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Sports"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos1Cat5Subs"]
+  },
+  "menu-item#Depro1Cat6": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/nuevo?initialMap=c&initialQuery=hombre&map=category-1,coleccion",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "New"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos1Cat6Subs"]
+  },
+  "vtex.menu@2.x:submenu#Deptos1Cat1Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos1Cat1Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos1Cat2Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos1Cat2Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos1Cat3Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos1Cat3Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos1Cat4Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos1Cat4Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos1Cat5Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos1Cat5Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos1Cat6Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos1Cat6Subs"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA1 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos1Cat1Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos1Cat1Sub1",
+      "flex-layout.col#Deptos1Cat1Sub2",
+      "flex-layout.col#Deptos1Cat1Sub3",
+      "flex-layout.col#Deptos1Cat1Sub4",
+      "flex-layout.col#Deptos1Cat1Sub5",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA1 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat1Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat1sub1"
+    ]
+  },
+  "rich-text#depto1cat1sub1":{
+    "props": {
+      "text":"[Shirts](/hombre/camisetas?__device=desktop&initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA1 SUBCATEGORIA 2
+  "flex-layout.col#Deptos1Cat1Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat1sub2"
+    ]
+  },
+  "rich-text#depto1cat1sub2":{
+    "props": {
+      "text":"[Hoodies](/hombre/buzos?__device=desktop&initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA1 SUBCATEGORIA 3
+  "flex-layout.col#Deptos1Cat1Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat1sub3"
+    ]
+  },
+  "rich-text#depto1cat1sub3":{
+    "props": {
+      "text":"[Jackets](/hombre/chaquetas?__device=desktop&initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA1 SUBCATEGORIA 4
+  "flex-layout.col#Deptos1Cat1Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat1sub4"
+    ]
+  },
+  "rich-text#depto1cat1sub4":{
+    "props": {
+      "text":"[Compression shirts](/hombre/licras-de-compresion?__device=desktop&initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA1 SUBCATEGORIA 4
+  "flex-layout.col#Deptos1Cat1Sub5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat1sub5"
+    ]
+  },
+  "rich-text#depto1cat1sub5":{
+    "props": {
+      "text":"[Winter Jackets](/hombre/chaqueton?_c=hombre&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA1 SUBCATEGORIA IMG
+  "image#imagenparamenu1":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA2 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos1Cat2Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos1Cat2Sub1",
+      "flex-layout.col#Deptos1Cat2Sub2",
+      "flex-layout.col#Deptos1Cat2Sub3",
+      "flex-layout.col#Deptos1Cat2Sub4",
+      "flex-layout.col#Deptos1Cat2Sub6",
+      "image#imagenparamenu2"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA2 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat2Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat2sub1"
+    ]
+  },
+  "rich-text#depto1cat2sub1":{
+    "props": {
+      "text":"[Shorts](/hombre/pantalonetas?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA2 SUBCATEGORIA 2
+  "flex-layout.col#Deptos1Cat2Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat2sub2"
+    ]
+  },
+  "rich-text#depto1cat2sub2":{
+    "props": {
+      "text":"[Below Knee Shorts](/hombre/bermuda?_c=hombre&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA2 SUBCATEGORIA 3
+  "flex-layout.col#Deptos1Cat2Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat2sub3"
+    ]
+  },
+  "rich-text#depto1cat2sub3":{
+    "props": {
+      "text":"[Compression Shorts](/hombre/bicicleteros?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA2 SUBCATEGORIA 4
+  "flex-layout.col#Deptos1Cat2Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat2sub4"
+    ]
+  },
+  "rich-text#depto1cat2sub4":{
+    "props": {
+      "text":"[Boxers](/hombre/boxers?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA2 SUBCATEGORIA 5
+  "flex-layout.col#Deptos1Cat2Sub5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat2sub5"
+    ]
+  },
+  "rich-text#depto1cat2sub5":{
+    "props": {
+      "text":"[Pants](/hombre/pantalones?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA2 SUBCATEGORIA 6
+  "flex-layout.col#Deptos1Cat2Sub6":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat2sub6"
+    ]
+  },
+  "rich-text#depto1cat2sub6":{
+    "props": {
+      "text":"[Spandex Pants](/hombre/pantalon%20licrado?_c=hombre&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA2 SUBCATEGORIA IMG
+  "image#imagenparamenu2":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA3 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos1Cat3Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos1Cat3Sub1",
+      "flex-layout.col#Deptos1Cat3Sub2",
+      "flex-layout.col#Deptos1Cat3Sub3",
+      "flex-layout.col#Deptos1Cat3Sub4",
+      "flex-layout.col#Deptos1Cat3Sub5",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA3 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat3Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat1sub1"
+    ]
+  },
+  "rich-text#depto1cat3sub1":{
+    "props": {
+      "text":"[Caps](/gorras?initialMap=c&initialQuery=accesorios&map=category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA3 SUBCATEGORIA 2
+  "flex-layout.col#Deptos1Cat3Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat1sub2"
+    ]
+  },
+  "rich-text#depto1cat3sub2":{
+    "props": {
+      "text":"[Facemasks](/tapabocas?initialMap=c&initialQuery=accesorios&map=category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA3 SUBCATEGORIA 3
+  "flex-layout.col#Deptos1Cat3Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat3sub3"
+    ]
+  },
+  "rich-text#depto1cat3sub3":{
+    "props": {
+      "text":"[Bags](/maletas?initialMap=c&initialQuery=accesorios&map=category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA3 SUBCATEGORIA 4
+  "flex-layout.col#Deptos1Cat3Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat3sub4"
+    ]
+  },
+  "rich-text#depto1cat3sub4":{
+    "props": {
+      "text":"[Socks](/medias?initialMap=c&initialQuery=accesorios&map=category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA3 SUBCATEGORIA 5
+  "flex-layout.col#Deptos1Cat3Sub5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat3sub5"
+    ]
+  },
+  "rich-text#depto1cat3sub5":{
+    "props": {
+      "text":"[Shin Guards](/accesorios/canilleras?_c=accesorios&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA3 SUBCATEGORIA IMG
+  "image#imagenparamenu3":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA4 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos1Cat4Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos1Cat4Sub1",
+      "flex-layout.col#Deptos1Cat4Sub2",
+      "flex-layout.col#Deptos1Cat4Sub3",
+      "flex-layout.col#Deptos1Cat4Sub4",
+  
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA4 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat4Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat4sub1"
+    ]
+  },
+  "rich-text#depto1cat4sub1":{
+    "props": {
+      "text":"[Futsal](/hombre/zapatos)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA4 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat4Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat4sub2"
+    ]
+  },
+  "rich-text#depto1cat4sub2":{
+    "props": {
+      "text":"[Turf](/hombre/zapatos)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA4 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat4Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat4sub3"
+    ]
+  },
+  "rich-text#depto1cat4sub3":{
+    "props": {
+      "text":"[Rompemallas 20.21](/hombre/zapatos)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA4 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat4Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat4sub4"
+    ]
+  },
+  "rich-text#depto1cat4sub4":{
+    "props": {
+      "text":"[Rompemallas 20.22](/hombre/zapatos)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA4 SUBCATEGORIA IMG
+  "image#imagenparamenu4":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA5 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos1Cat5Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos1Cat5Sub1",
+      "flex-layout.col#Deptos1Cat5Sub2",
+      "flex-layout.col#Deptos1Cat5Sub3",
+      "flex-layout.col#Deptos1Cat5Sub4",
+  
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA5 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat5Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat5sub1"
+    ]
+  },
+  "rich-text#depto1cat5sub1":{
+    "props": {
+      "text":"[Football Soccer](/Hombre/Futbol)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA5 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat5Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat5sub2"
+    ]
+  },
+  "rich-text#depto1cat5sub2":{
+    "props": {
+      "text":"[Bike](/hombre/ciclismo?initialMap=c&initialQuery=hombre&map=category-1,deporte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA5 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat5Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat5sub3"
+    ]
+  },
+  "rich-text#depto1cat5sub3":{
+    "props": {
+      "text":"[Running](/hombre/atletismo?initialMap=c&initialQuery=hombre&map=category-1,deporte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA5 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat5Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat5sub4"
+    ]
+  },
+  "rich-text#depto1cat5sub4":{
+    "props": {
+      "text":"[Fitness](/hombre/fitness?initialMap=c&initialQuery=hombre&map=category-1,deporte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA5 SUBCATEGORIA IMG
+  "image#imagenparamenu5":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA6 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos1Cat6Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos1Cat6Sub1",
+      "flex-layout.col#Deptos1Cat6Sub2",
+      "flex-layout.col#Deptos1Cat6Sub3",
+      "flex-layout.col#Deptos1Cat6Sub4",
+  
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA6 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat6Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat6sub1"
+    ]
+  },
+  "rich-text#depto1cat6sub1":{
+    "props": {
+      "text":"[Uppers](/hombre/arriba/nuevo?initialMap=c&initialQuery=hombre&map=category-1,parte,coleccion)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA6 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat6Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat6sub2"
+    ]
+  },
+  "rich-text#depto1cat6sub2":{
+    "props": {
+      "text":"[Bottoms](/hombre/abajo/nuevo?initialMap=c&initialQuery=hombre&map=category-1,parte,coleccion)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA6 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat6Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat6sub3"
+    ]
+  },
+  "rich-text#depto1cat6sub3":{
+    "props": {
+      "text":"[Shoes](/hombre/zapatos?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA6 SUBCATEGORIA 1
+  "flex-layout.col#Deptos1Cat6Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat6sub4"
+    ]
+  },
+  "rich-text#depto1cat6sub4":{
+    "props": {
+      "text":"[Accesories](/accesorios/hombre?initialMap=c&initialQuery=accesorios&map=category-1,genero)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO1 CATEGORIA6 SUBCATEGORIA IMG
+  "image#imagenparamenu6":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  //----------------------------------------------------------------------------------------FIN DEPARTAMENTO-1
+  //------------------------------------------------------------------------------------------------------
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  //----------------------------------------------------------------DEPARTAMENTO2 (NIVEL1)
+  
+  
+  "vtex.menu@2.x:menu#SaetaDeskDeptos2": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO"
+    },
+    "children": [
+      "menu-item#Depro2"
+    ]
+  },
+  "menu-item#Depro2": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO",
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Women"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos2Cat1"]
+  },
+  //---------------------------------------------------------------DEPARTAMENTO1 CATEGORIAS (NIVEL2)
+  "vtex.menu@2.x:submenu#Deptos2Cat1": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "flex-layout.row#Deptos2Cats"
+    ]
+  },
+  
+  "flex-layout.row#Deptos2Cats": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "menu-item#Depro2Cat1",
+      "menu-item#Depro2Cat2",
+      "menu-item#Depro2Cat3",
+      "menu-item#Depro2Cat4",
+      "menu-item#Depro2Cat5",
+      "menu-item#Depro2Cat6"
+    ]
+  },
+  "menu-item#Depro2Cat1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer/arriba?initialMap=c&initialQuery=mujer&map=category-1,parte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Upper"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos2Cat1Subs"]
+  },
+  
+  "menu-item#Depro2Cat2": {
+    "props": {
+      "type": "custom",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer/abajo?initialMap=c&initialQuery=mujer&map=category-1,parte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Bottoms"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos2Cat2Subs"]
+  },
+  "menu-item#Depro2Cat3": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/mujer?initialMap=c&initialQuery=accesorios&map=category-1,genero",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Accesories"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos2Cat3Subs"]
+  },
+  "menu-item#Depro2Cat4": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer/zapatos?initialMap=c&initialQuery=hombre&map=category-1,category-2",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shoes"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos2Cat4Subs"]
+  },
+  "menu-item#Depro2Cat5": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Sports"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos2Cat5Subs"]
+  },
+  "menu-item#Depro2Cat6": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer/nuevo?initialMap=c&initialQuery=mujer&map=category-1,coleccion",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "New"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos2Cat6Subs"]
+  },
+  "vtex.menu@2.x:submenu#Deptos2Cat1Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos2Cat1Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos2Cat2Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos2Cat2Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos2Cat3Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos2Cat3Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos2Cat4Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos2Cat4Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos2Cat5Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos2Cat5Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos2Cat6Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos2Cat6Subs"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA1 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos2Cat1Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos2Cat1Sub1",
+      "flex-layout.col#Deptos2Cat1Sub2",
+      "flex-layout.col#Deptos2Cat1Sub3",
+      "flex-layout.col#Deptos2Cat1Sub4",
+      "flex-layout.col#Deptos2Cat1Sub5",
+      "image#imagenparamenu12"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA1 SUBCATEGORIA 1
+  "flex-layout.col#Deptos2Cat1Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat1sub1"
+    ]
+  },
+  "rich-text#depto2cat1sub1":{
+    "props": {
+      "text":"[Shirts](/mujer/camisetas?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA1 SUBCATEGORIA 2
+  "flex-layout.col#Deptos2Cat1Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat1sub2"
+    ]
+  },
+  "rich-text#depto2cat1sub2":{
+    "props": {
+      "text":"[Hoodies](/mujer/buzos?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA1 SUBCATEGORIA 3
+  "flex-layout.col#Deptos2Cat1Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat1sub3"
+    ]
+  },
+  "rich-text#depto2cat1sub3":{
+    "props": {
+      "text":"[Jackets](/mujer/chaquetas?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA1 SUBCATEGORIA 4
+  "flex-layout.col#Deptos2Cat1Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat1sub4"
+    ]
+  },
+  "rich-text#depto2cat1sub4":{
+    "props": {
+      "text":"[Compression shirts](/mujer/top%20guatape?_c=mujer&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA1 SUBCATEGORIA 5
+  "flex-layout.col#Deptos2Cat1Sub5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat1sub5"
+    ]
+  },
+  "rich-text#depto2cat1sub5":{
+    "props": {
+      "text":"[Sport Bras](/mujer/top?_c=mujer&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA1 SUBCATEGORIA IMG
+  "image#imagenparamenu12":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA2 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos2Cat2Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos2Cat2Sub1",
+      "flex-layout.col#Deptos2Cat2Sub2",
+      "flex-layout.col#Deptos2Cat2Sub3",
+  
+      "image#imagenparamenu2"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA2 SUBCATEGORIA 1
+  "flex-layout.col#Deptos2Cat2Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat2sub1"
+    ]
+  },
+  "rich-text#depto2cat2sub1":{
+    "props": {
+      "text":"[Shorts](/mujer/shorts?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA2 SUBCATEGORIA 2
+  "flex-layout.col#Deptos2Cat2Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat2sub2"
+    ]
+  },
+  "rich-text#depto2cat2sub2":{
+    "props": {
+      "text":"[Pants](/mujer/pantalones?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA2 SUBCATEGORIA 3
+  "flex-layout.col#Deptos2Cat2Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat2sub3"
+    ]
+  },
+  "rich-text#depto2cat2sub3":{
+    "props": {
+      "text":"[Leggings](/mujer/leggings?initialMap=c&initialQuery=mujer&map=category-1,subcategoria)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA2 SUBCATEGORIA 4
+  "flex-layout.col#Deptos2Cat2Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto1cat2sub4"
+    ]
+  },
+  "rich-text#depto2cat2sub4":{
+    "props": {
+      "text":"[Ropa Interior](/mujer/shorts?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA2 SUBCATEGORIA 5
+  "flex-layout.col#Deptos2Cat2Sub5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat2sub5"
+    ]
+  },
+  "rich-text#depto2cat2sub5":{
+    "props": {
+      "text":"[Pantalones](/mujer/pantalones?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA2 SUBCATEGORIA 6
+  "flex-layout.col#Deptos2Cat2Sub6":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat2sub6"
+    ]
+  },
+  "rich-text#depto2cat2sub6":{
+    "props": {
+      "text":"[Licras](/mujer/leggings?initialMap=c&initialQuery=mujer&map=category-1,subcategoria)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA2 SUBCATEGORIA IMG
+  "image#imagenparamenu22":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA3 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos2Cat3Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos2Cat3Sub1",
+      "flex-layout.col#Deptos2Cat3Sub2",
+      "flex-layout.col#Deptos2Cat3Sub3",
+      "flex-layout.col#Deptos2Cat3Sub4",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA3 SUBCATEGORIA 1
+  "flex-layout.col#Deptos2Cat3Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat3sub1"
+    ]
+  },
+  "rich-text#depto2cat3sub1":{
+    "props": {
+      "text":"[Drawstring](/accesorios/tula?_c=accesorios&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA3 SUBCATEGORIA 2
+  "flex-layout.col#Deptos2Cat3Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat3sub2"
+    ]
+  },
+  "rich-text#depto2cat3sub2":{
+    "props": {
+      "text":"[Facemasks](/accesorios/tapabocas?_c=accesorios&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA3 SUBCATEGORIA 3
+  "flex-layout.col#Deptos2Cat3Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat3sub3"
+    ]
+  },
+  "rich-text#depto2cat3sub3":{
+    "props": {
+      "text":"[Bags](/accesorios/maleta?_c=accesorios&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA3 SUBCATEGORIA 4
+  "flex-layout.col#Deptos2Cat3Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat3sub4"
+    ]
+  },
+  "rich-text#depto2cat3sub4":{
+    "props": {
+      "text":"[Socks](/accesorios/medias/mujer?initialMap=c&initialQuery=accesorios&map=category-1,category-2,genero)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA3 SUBCATEGORIA 5
+  "flex-layout.col#Deptos2Cat3Sub5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat3sub5"
+    ]
+  },
+  "rich-text#depto2cat3sub5":{
+    "props": {
+      "text":"[Shin Guards](/accesorios/canilleras/mujer?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria,genero)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA3 SUBCATEGORIA IMG
+  "image#imagenparamenu32":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  //------------------------------------------------------------------------------------------------
+  
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA4 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos2Cat4Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos2Cat4Sub1",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA4 SUBCATEGORIA 1
+  "flex-layout.col#Deptos2Cat4Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat4sub1"
+    ]
+  },
+  "rich-text#depto2cat4sub1":{
+    "props": {
+      "text":"[Futsal- Futsalon](/mujer/zapatillas?_q=zapatillas&fuzzy=0&initialMap=ft&initialQuery=zapatillas&map=genero,ft&operator=and)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA4 SUBCATEGORIA IMG
+  "image#imagenparamenu42":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  //------------------------------------------------------------------------------------------------
+  
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA5 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos2Cat5Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos2Cat5Sub1",
+      "flex-layout.col#Deptos2Cat5Sub2",
+      "flex-layout.col#Deptos2Cat5Sub3",
+      "flex-layout.col#Deptos2Cat5Sub4",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA5 SUBCATEGORIA 1
+  "flex-layout.col#Deptos2Cat5Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat5sub1"
+    ]
+  },
+  "rich-text#depto2cat5sub1":{
+    "props": {
+      "text":"[Futsal- Futsalon](/accesorios/rompemallas?_c=accesorios&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA5 SUBCATEGORIA 2
+  "flex-layout.col#Deptos2Cat5Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat5sub2"
+    ]
+  },
+  "rich-text#depto2cat5sub2":{
+    "props": {
+      "text":"[Bike](/mujer/ciclismo?initialMap=c&initialQuery=mujer&map=category-1,deporte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA5 SUBCATEGORIA 3
+  "flex-layout.col#Deptos2Cat5Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat5sub3"
+    ]
+  },
+  "rich-text#depto2cat5sub3":{
+    "props": {
+      "text":"[Running](/mujer/atletismo?initialMap=c&initialQuery=mujer&map=category-1,deporte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA5 SUBCATEGORIA 4
+  "flex-layout.col#Deptos2Cat5Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat5sub4"
+    ]
+  },
+  "rich-text#depto2cat5sub4":{
+    "props": {
+      "text":"[Fitness](/mujer/fitness?initialMap=c&initialQuery=mujer&map=category-1,deporte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA5 SUBCATEGORIA 5
+  "flex-layout.col#Deptos2Cat5Sub5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat5sub5"
+    ]
+  },
+  "rich-text#depto2cat5sub5":{
+    "props": {
+      "text":"[Shin Guards](/accesorios/canilleras?_c=accesorios&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA5 SUBCATEGORIA 5 IMG
+  "image#imagenparamenu52":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  //---------------------------------------------------------------------------------------------
+  
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA6 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos2Cat6Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos2Cat6Sub1",
+      "flex-layout.col#Deptos2Cat6Sub2",
+      "flex-layout.col#Deptos2Cat6Sub3",
+      "flex-layout.col#Deptos2Cat6Sub4",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA6 SUBCATEGORIA 1
+  "flex-layout.col#Deptos2Cat6Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat6sub1"
+    ]
+  },
+  "rich-text#depto2cat6sub1":{
+    "props": {
+      "text":"[Uppers](/mujer/arriba/nuevo?initialMap=c&initialQuery=mujer&map=category-1,parte,coleccion)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA6 SUBCATEGORIA 2
+  "flex-layout.col#Deptos2Cat6Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat6sub2"
+    ]
+  },
+  "rich-text#depto2cat6sub2":{
+    "props": {
+      "text":"[Bottoms](/mujer/abajo/nuevo?initialMap=c&initialQuery=mujer&map=category-1,parte,coleccion)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA6 SUBCATEGORIA 3
+  "flex-layout.col#Deptos2Cat6Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat6sub3"
+    ]
+  },
+  "rich-text#depto2cat6sub3":{
+    "props": {
+      "text":"[Shoes](/mujer/zapatillas?fuzzy=0&initialMap=ft&initialQuery=zapatillas&map=genero,ft&operator=and)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA6 SUBCATEGORIA 4
+  "flex-layout.col#Deptos2Cat6Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto2cat6sub4"
+    ]
+  },
+  "rich-text#depto2cat6sub4":{
+    "props": {
+      "text":"[Accesorios](/accesorios/mujer?initialMap=c&initialQuery=accesorios&map=category-1,genero)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+
+  //---------------------------------------------------DEPARTAMENTO2 CATEGORIA6 SUBCATEGORIA IMG
+  "image#imagenparamenu62":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  //----------------------------------------------------------------------------------------FIN DEPARTAMENTO-2
+  //---------------------------------------------------------------------------------------------------------
+  //---------------------------------------------------------------------------------------------------------
+  
+  
+  //----------------------------------------------------------------DEPARTAMENTO3 (NIVEL1)
+  
+  
+  "vtex.menu@2.x:menu#SaetaDeskDeptos3": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO"
+    },
+    "children": [
+      "menu-item#Depro3"
+    ]
+  },
+  "menu-item#Depro3": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Niño",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Kids"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos3Cat1"]
+  },
+  //---------------------------------------------------------------DEPARTAMENTO3 CATEGORIAS (NIVEL2)
+  "vtex.menu@2.x:submenu#Deptos3Cat1": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "flex-layout.row#Deptos3Cats"
+    ]
+  },
+  
+  "flex-layout.row#Deptos3Cats": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "menu-item#Depro3Cat1",
+      "menu-item#Depro3Cat2",
+      "menu-item#Depro3Cat3",
+      "menu-item#Depro3Cat4"
+    ]
+  },
+  "menu-item#Depro3Cat1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/arriba?initialMap=c&initialQuery=niño&map=category-1,parte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Uppers"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos3Cat1Subs"]
+  },
+  
+  "menu-item#Depro3Cat2": {
+    "props": {
+      "type": "custom",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/abajo?initialMap=c&initialQuery=niño&map=category-1,parte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Bottoms"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos3Cat2Subs"]
+  },
+  "menu-item#Depro3Cat3": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/abajo?initialMap=c&initialQuery=niño&map=category-1,parte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Accesories"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos3Cat3Subs"]
+  },
+  "menu-item#Depro3Cat4": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/nino/zapatillas?_c=nino&map=c,ft",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shoes"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos3Cat4Subs"]
+  },
+  
+  
+  "vtex.menu@2.x:submenu#Deptos3Cat1Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos3Cat1Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos3Cat2Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos3Cat2Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos3Cat3Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos3Cat3Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos3Cat4Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos3Cat4Subs"
+    ]
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA1 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos3Cat1Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos3Cat1Sub1",
+      "flex-layout.col#Deptos3Cat1Sub2",
+      "flex-layout.col#Deptos3Cat1Sub3",
+  
+      "image#imagenparamenu12"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA1 SUBCATEGORIA 1
+  "flex-layout.col#Deptos3Cat1Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto3cat1sub1"
+    ]
+  },
+  "rich-text#depto3cat1sub1":{
+    "props": {
+      "text":"[Shirts](/nino/camisetas?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA1 SUBCATEGORIA 2
+  "flex-layout.col#Deptos3Cat1Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto3cat1sub2"
+    ]
+  },
+  "rich-text#depto3cat1sub2":{
+    "props": {
+      "text":"[Hoodies](/nino/buzos?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA1 SUBCATEGORIA 3
+  "flex-layout.col#Deptos3Cat1Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto3cat1sub3"
+    ]
+  },
+  "rich-text#depto3cat1sub3":{
+    "props": {
+      "text":"[Jackets](/nino/chaquetas?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA1 SUBCATEGORIA IMG
+  "image#imagenparamenu13":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA2 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos3Cat2Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos3Cat2Sub1",
+      "flex-layout.col#Deptos3Cat2Sub2",
+  
+      "image#imagenparamenu2"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA2 SUBCATEGORIA 1
+  "flex-layout.col#Deptos3Cat2Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto3cat2sub1"
+    ]
+  },
+  "rich-text#depto3cat2sub1":{
+    "props": {
+      "text":"[Shorts](/nino/pantalonetas?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA2 SUBCATEGORIA 2
+  "flex-layout.col#Deptos3Cat2Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto3cat2sub2"
+    ]
+  },
+  "rich-text#depto3cat2sub2":{
+    "props": {
+      "text":"[Pants](/nino/pantalones?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA2 SUBCATEGORIA IMG
+  "image#imagenparamenu23":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA3 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos3Cat3Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos3Cat3Sub1",
+      "flex-layout.col#Deptos3Cat3Sub2",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA3 SUBCATEGORIA 1
+  "flex-layout.col#Deptos3Cat3Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto3cat3sub1"
+    ]
+  },
+  "rich-text#depto3cat3sub1":{
+    "props": {
+      "text":"[Bags](/accesorios/maletas?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA3 SUBCATEGORIA 2
+  "flex-layout.col#Deptos3Cat3Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto3cat3sub2"
+    ]
+  },
+  "rich-text#depto3cat3sub2":{
+    "props": {
+      "text":"[Socks](/nino/medias?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+    //---------------------------------------------------DEPARTAMENTO3 CATEGORIA3 SUBCATEGORIA 
+    "flex-layout.col#Deptos3Cat3Sub3":{
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      },
+      "children": [
+        "rich-text#depto3cat3sub3"
+      ]
+    },
+    "rich-text#depto3cat3sub3":{
+      "props": {
+        "text":"[Socks](/nino/medias?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+        "blockClass": "tituoSubCategoria"
+      }
+    },
+  
+  
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA3 SUBCATEGORIA IMG
+  "image#imagenparamenu33":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  //------------------------------------------------------------------------------------------------
+  
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA4 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos3Cat4Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos3Cat4Sub1",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA4 SUBCATEGORIA 1
+  "flex-layout.col#Deptos3Cat4Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto3cat4sub1"
+    ]
+  },
+  "rich-text#depto3cat4sub1":{
+    "props": {
+      "text":"[Futsal- Futsalon](/nino/zapatos?initialMap=c&initialQuery=niño&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO3 CATEGORIA4 SUBCATEGORIA IMG
+  "image#imagenparamenu43":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  
+  
+  
+  //----------------------------------------------------------------------------------------FIN DEPARTAMENTO-3
+  //---------------------------------------------------------------------------------------------------------
+  //---------------------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  //----------------------------------------------------------------DEPARTAMENTO4 (NIVEL1)
+  
+  
+  "vtex.menu@2.x:menu#SaetaDeskDeptos4": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO"
+    },
+    "children": [
+      "menu-item#Depro4"
+    ]
+  },
+  "menu-item#Depro4": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Accesorios",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Accesories"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos4Cat1"]
+  },
+  //---------------------------------------------------------------DEPARTAMENTO1 CATEGORIAS (NIVEL2)
+  "vtex.menu@2.x:submenu#Deptos4Cat1": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "flex-layout.row#Deptos4Cats"
+    ]
+  },
+  
+  "flex-layout.row#Deptos4Cats": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "menu-item#Depro4Cat1",
+      "menu-item#Depro4Cat2",
+      "menu-item#Depro4Cat3",
+      "menu-item#Depro4Cat4",
+      "menu-item#Depro4Cat5"
+    ]
+  },
+  "menu-item#Depro4Cat1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/medias?initialMap=c&initialQuery=accesorios&map=category-1,category-2",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Socks"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos4Cat1Subs"]
+  },
+  
+  "menu-item#Depro4Cat2": {
+    "props": {
+      "type": "custom",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/balones?initialMap=c&initialQuery=accesorios&map=category-1,category-2",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Balls"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos4Cat2Subs"]
+  },
+  "menu-item#Depro4Cat3": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/tapabocas?_c=accesorios&map=c,ft",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Facemasks"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos4Cat3Subs"]
+  },
+  "menu-item#Depro4Cat4": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/maleta?_c=accesorios&map=c,ft",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Bags"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos4Cat4Subs"]
+  },
+  "menu-item#Depro4Cat5": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/protección?_c=hombre&map=c,ft",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Protection"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos4Cat5Subs"]
+  },
+  
+  "vtex.menu@2.x:submenu#Deptos4Cat1Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos4Cat1Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos4Cat2Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos4Cat2Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos4Cat3Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos4Cat3Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos4Cat4Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos4Cat4Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos4Cat5Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos4Cat5Subs"
+    ]
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA1 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos4Cat1Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos4Cat1Sub1",
+      "flex-layout.col#Deptos4Cat1Sub2",
+      "flex-layout.col#Deptos4Cat1Sub3",
+      "image#imagenparamenu12"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA1 SUBCATEGORIA 1
+  "flex-layout.col#Deptos4Cat1Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat1sub1"
+    ]
+  },
+  "rich-text#depto4cat1sub1":{
+    "props": {
+      "text":"[Football Soccer Socks](/accesorios/medias?initialMap=c&initialQuery=accesorios&map=category-1,category-2 )",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA1 SUBCATEGORIA 2
+  "flex-layout.col#Deptos4Cat1Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat1sub2"
+    ]
+  },
+  "rich-text#depto4cat1sub2":{
+    "props": {
+      "text":"[Crew Socks](/accesorios/medias/cortas?initialMap=c&initialQuery=accesorios&map=category-1,category-2,caracteristicas)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA1 SUBCATEGORIA 3
+  "flex-layout.col#Deptos4Cat1Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat1sub3"
+    ]
+  },
+  "rich-text#depto4cat1sub3":{
+    "props": {
+      "text":"[No Show](/accesorios/medias/arriba-de-la-rodilla?initialMap=c&initialQuery=accesorios&map=category-1,category-2,caracteristicas)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA1 SUBCATEGORIA IMG
+  "image#imagenparamenu14":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA2 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos4Cat2Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos4Cat2Sub1",
+      "flex-layout.col#Deptos4Cat2Sub2",
+  
+      "image#imagenparamenu2"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA2 SUBCATEGORIA 1
+  "flex-layout.col#Deptos4Cat2Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat2sub1"
+    ]
+  },
+  "rich-text#depto4cat2sub1":{
+    "props": {
+      "text":"[Football Soccer](/accesorios/balones?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA2 SUBCATEGORIA 2
+  "flex-layout.col#Deptos4Cat2Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat2sub2"
+    ]
+  },
+  "rich-text#depto4cat2sub2":{
+    "props": {
+      "text":"[Futsal- Futsalon](/accesorios/balones/no-rebota?initialMap=c&initialQuery=accesorios&map=category-1,category-2,caracteristicas)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA2 SUBCATEGORIA IMG
+  "image#imagenparamenu24":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA3 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos4Cat3Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos4Cat3Sub1",
+      "flex-layout.col#Deptos4Cat3Sub2",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA3 SUBCATEGORIA 1
+  "flex-layout.col#Deptos4Cat3Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat3sub1"
+    ]
+  },
+  "rich-text#depto4cat3sub1":{
+    "props": {
+      "text":"[Disposable](/accesorios/tapabocas/desechable?initialMap=c&initialQuery=accesorios&map=category-1,category-2,caracteristicas)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA3 SUBCATEGORIA 2
+  "flex-layout.col#Deptos4Cat3Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat3sub2"
+    ]
+  },
+  "rich-text#depto4cat3sub2":{
+    "props": {
+      "text":"[Fabric](/accesorios/tapabocas?initialMap=c&initialQuery=accesorios&map=category-1,category-2&page=2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA3 SUBCATEGORIA IMG
+  "image#imagenparamenu34":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  //------------------------------------------------------------------------------------------------
+  
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA4 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos4Cat4Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos4Cat4Sub1",
+      "flex-layout.col#Deptos4Cat4Sub2",
+      "flex-layout.col#Deptos4Cat4Sub3",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA4 SUBCATEGORIA 1
+  "flex-layout.col#Deptos4Cat4Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat4sub1"
+    ]
+  },
+  "rich-text#depto4cat4sub1":{
+    "props": {
+      "text":"[Duffle Bags](/accesorios/maletas?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA4 SUBCATEGORIA 2
+  "flex-layout.col#Deptos4Cat4Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat4sub2"
+    ]
+  },
+  "rich-text#depto4cat4sub2":{
+    "props": {
+      "text":"[Drawstring](/accesorios/tulas?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA4 SUBCATEGORIA 3
+  "flex-layout.col#Deptos4Cat4Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat4sub3"
+    ]
+  },
+  "rich-text#depto4cat4sub3":{
+    "props": {
+      "text":"[Back packs](/accesorios/morrales?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA4 SUBCATEGORIA IMG
+  "image#imagenparamenu44":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  //------------------------------------------------------------------------------------------------
+  
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA5 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos4Cat5Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos4Cat5Sub1",
+      "flex-layout.col#Deptos4Cat5Sub2",
+      "flex-layout.col#Deptos4Cat5Sub3",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA5 SUBCATEGORIA 1
+  "flex-layout.col#Deptos4Cat5Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat5sub1"
+    ]
+  },
+  "rich-text#depto4cat5sub1":{
+    "props": {
+      "text":"[Shin Guards](/accesorios/canilleras?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA5 SUBCATEGORIA 2
+  "flex-layout.col#Deptos4Cat5Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat5sub2"
+    ]
+  },
+  "rich-text#depto4cat5sub2":{
+    "props": {
+      "text":"[Kneepads](/accesorios/rodilleras?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA5 SUBCATEGORIA 3
+  "flex-layout.col#Deptos4Cat5Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto4cat5sub3"
+    ]
+  },
+  "rich-text#depto4cat5sub3":{
+    "props": {
+      "text":"[Elbow pads](/accesorios/coderas?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  
+  //---------------------------------------------------DEPARTAMENTO4 CATEGORIA5 SUBCATEGORIA 5 IMG
+  "image#imagenparamenu54":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  //---------------------------------------------------------------------------------------------
+  
+  
+  
+  //----------------------------------------------------------------------------------------FIN DEPARTAMENTO-4
+  //---------------------------------------------------------------------------------------------------------
+  //---------------------------------------------------------------------------------------------------------
+  
+  
+  
+  //----------------------------------------------------------------DEPARTAMENTO5 (NIVEL1)
+  
+  
+  "vtex.menu@2.x:menu#SaetaDeskDeptos5": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO"
+    },
+    "children": [
+      "menu-item#Depro5"
+    ]
+  },
+  "menu-item#Depro5": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Deportes",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Sports"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos5Cat1"]
+  },
+  //---------------------------------------------------------------DEPARTAMENTO5 CATEGORIAS (NIVEL2)
+  "vtex.menu@2.x:submenu#Deptos5Cat1": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "flex-layout.row#Deptos5Cats"
+    ]
+  },
+  
+  "flex-layout.row#Deptos5Cats": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "menu-item#Depro5Cat1",
+      "menu-item#Depro5Cat2",
+      "menu-item#Depro5Cat3",
+      "menu-item#Depro5Cat4",
+      "menu-item#Depro5Cat5"
+    ]
+  },
+  "menu-item#Depro5Cat1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/fanshop?initialMap=c&initialQuery=hombre&map=deporte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Fanshop"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos5Cat1Subs"]
+  },
+  
+  "menu-item#Depro5Cat2": {
+    "props": {
+      "type": "custom",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/futsal?initialMap=c&initialQuery=hombre&map=deporte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Football Soccer/Futsal"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos5Cat2Subs"]
+  },
+  "menu-item#Depro5Cat3": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ciclismo?initialMap=c&initialQuery=hombre&map=deporte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Bike"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos5Cat3Subs"]
+  },
+  "menu-item#Depro5Cat4": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/atletismo?initialMap=c&initialQuery=hombre&map=deporte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Running"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos5Cat4Subs"]
+  },
+  "menu-item#Depro5Cat5": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/fitness?initialMap=c&initialQuery=hombre&map=deporte",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Fitness"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos5Cat5Subs"]
+  },
+  
+  "vtex.menu@2.x:submenu#Deptos5Cat1Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos5Cat1Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos5Cat2Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos5Cat2Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos5Cat3Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos5Cat3Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos5Cat4Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos5Cat4Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos5Cat5Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos5Cat5Subs"
+    ]
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA1 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos5Cat1Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos5Cat1Sub1",
+      "flex-layout.col#Deptos5Cat1Sub2",
+      "flex-layout.col#Deptos5Cat1Sub3",
+      "flex-layout.col#Deptos5Cat1Sub4",
+      "image#imagenparamenu12"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA1 SUBCATEGORIA 1
+  "flex-layout.col#Deptos5Cat1Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat1sub1"
+    ]
+  },
+  "rich-text#depto5cat1sub1":{
+    "props": {
+      "text":"[Aragua](/aragua?_q=aragua&map=ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA1 SUBCATEGORIA 2
+  "flex-layout.col#Deptos5Cat1Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat1sub2"
+    ]
+  },
+  "rich-text#depto5cat1sub2":{
+    "props": {
+      "text":"[Haiti](/hombre/haiti?_c=hombre&map=c,ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA1 SUBCATEGORIA 3
+  "flex-layout.col#Deptos5Cat1Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat1sub3"
+    ]
+  },
+  "rich-text#depto5cat1sub3":{
+    "props": {
+      "text":"[Saeta Futsal](/futsal?map=ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA1 SUBCATEGORIA 4
+  "flex-layout.col#Deptos5Cat1Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat1sub4"
+    ]
+  },
+  "rich-text#depto5cat1sub4":{
+    "props": {
+      "text":"[Valledupar](/Valledupar?map=ft)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA1 SUBCATEGORIA IMG
+  "image#imagenparamenu15":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos5Cat2Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos5Cat2Sub1",
+      "flex-layout.col#Deptos5Cat2Sub2",
+  
+  
+      "flex-layout.col#Deptos5Cat2Sub5",
+  
+  
+      "flex-layout.col#Deptos5Cat2Sub8",
+  
+  
+      "image#imagenparamenu2"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIA 1
+  "flex-layout.col#Deptos5Cat2Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat2sub1",
+      "rich-text#depto5cat2sub3",
+      "rich-text#depto5cat2sub4"
+    ]
+  },
+  "rich-text#depto5cat2sub1":{
+    "props": {
+      "text":"[Men Uniforms](/hombre/uniformes?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  "rich-text#depto5cat2sub3":{
+    "props": {
+      "text":"[Men Shirts](/hombre/camisetas?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  "rich-text#depto5cat2sub4":{
+    "props": {
+      "text":"[Men Shorts](/hombre/pantalones?initialMap=c&initialQuery=hombre&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIA 2
+  "flex-layout.col#Deptos5Cat2Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat2sub2",
+      "rich-text#depto5cat2sub6",
+      "rich-text#depto5cat2sub7"
+    ]
+  },
+  "rich-text#depto5cat2sub2":{
+    "props": {
+      "text":"[Women Uniforms](/mujer/uniformes?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  "rich-text#depto5cat2sub6":{
+    "props": {
+      "text":"[Women Uniforms](/mujer/camisetas?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  "rich-text#depto5cat2sub7":{
+    "props": {
+      "text":"[Women Shorts](/mujer/shorts?initialMap=c&initialQuery=mujer&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIA 3
+  "flex-layout.col#Deptos5Cat2Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+    ]
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIA 4
+  "flex-layout.col#Deptos5Cat2Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+    ]
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIA 5
+  "flex-layout.col#Deptos5Cat2Sub5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat2sub9",
+      "rich-text#depto5cat2sub10",
+      "rich-text#depto5cat2sub5"
+    ]
+  },
+  "rich-text#depto5cat2sub5":{
+    "props": {
+      "text":"[Socks](/accesorios/medias?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  "rich-text#depto5cat2sub10":{
+    "props": {
+      "text":"[Protection](/proteccion-en-cadera-y-piernas/proteccion-en-coderas?initialMap=c&initialQuery=hombre&map=caracteristicas,caracteristicas)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  "rich-text#depto5cat2sub9":{
+    "props": {
+      "text":"[Goalkeeper](/arquero?initialMap=c&initialQuery=hombre&map=subcategoria)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIA 6
+  "flex-layout.col#Deptos5Cat2Sub6":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+    ]
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIA 7
+  "flex-layout.col#Deptos5Cat2Sub7":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+    ]
+  },
+  
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIA 8
+  "flex-layout.col#Deptos5Cat2Sub8":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat2sub8"
+    ]
+  },
+  "rich-text#depto5cat2sub8":{
+    "props": {
+      "text":"[Kids](/Niño)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIA 9
+  "flex-layout.col#Deptos5Cat2Sub9":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat2sub9"
+    ]
+  },
+  
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIA 10
+  "flex-layout.col#Deptos5Cat2Sub10":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat2sub10"
+    ]
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA2 SUBCATEGORIA IMG
+  "image#imagenparamenu25":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA3 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos5Cat3Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos5Cat3Sub1",
+      "flex-layout.col#Deptos5Cat3Sub2",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA3 SUBCATEGORIA 1
+  "flex-layout.col#Deptos5Cat3Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat3sub1"
+    ]
+  },
+  "rich-text#depto5cat3sub1":{
+    "props": {
+      "text":"[Shirts](/camisetas/ciclismo?initialMap=c&initialQuery=hombre&map=category-2,deporte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA3 SUBCATEGORIA 2
+  "flex-layout.col#Deptos5Cat3Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat3sub2"
+    ]
+  },
+  "rich-text#depto5cat3sub2":{
+    "props": {
+      "text":"[Shorts](/ciclismo/bandanas?initialMap=c&initialQuery=hombre&map=subcategoria,subcategoria)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA3 SUBCATEGORIA 3
+  "flex-layout.col#Deptos5Cat3Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat3sub3"
+    ]
+  },
+  "rich-text#depto5cat3sub3":{
+    "props": {
+      "text":"[Socks](/medias/cortas?initialMap=c&initialQuery=accesorios&map=category-2,caracteristicas)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA3 SUBCATEGORIA IMG
+  "image#imagenparamenu35":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  //------------------------------------------------------------------------------------------------
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA4 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos5Cat4Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos5Cat4Sub1",
+      "flex-layout.col#Deptos5Cat4Sub2",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA4 SUBCATEGORIA 1
+  "flex-layout.col#Deptos5Cat4Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat4sub1"
+    ]
+  },
+  "rich-text#depto5cat4sub1":{
+    "props": {
+      "text":"[Shirts](/camisetas/atletismo?initialMap=c&initialQuery=hombre&map=subcategoria,deporte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA4 SUBCATEGORIA 2
+  "flex-layout.col#Deptos5Cat4Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat4sub2"
+    ]
+  },
+  "rich-text#depto5cat4sub2":{
+    "props": {
+      "text":"[Shorts](/pantalon/atletismo?initialMap=c&initialQuery=hombre&map=subcategoria,deporte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA4 SUBCATEGORIA IMG
+  "image#imagenparamenu45":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  //------------------------------------------------------------------------------------------------
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA5 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos5Cat5Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos5Cat5Sub1",
+      "flex-layout.col#Deptos5Cat5Sub2",
+      "flex-layout.col#Deptos5Cat5Sub3",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA5 SUBCATEGORIA 1
+  "flex-layout.col#Deptos5Cat5Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat5sub1"
+    ]
+  },
+  "rich-text#depto5cat5sub1":{
+    "props": {
+      "text":"[Shirts](/camisetas/fitness?initialMap=c&initialQuery=accesorios&map=category-2,deporte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA5 SUBCATEGORIA 2
+  "flex-layout.col#Deptos5Cat5Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat5sub2"
+    ]
+  },
+  "rich-text#depto5cat5sub2":{
+    "props": {
+      "text":"[Jackets](/chaquetas?initialMap=c&initialQuery=accesorios&map=category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA5 SUBCATEGORIA 3
+  "flex-layout.col#Deptos5Cat5Sub3":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat5sub3"
+    ]
+  },
+  "rich-text#depto5cat5sub3":{
+    "props": {
+      "text":"[Shorts](/pantalonetas?initialMap=c&initialQuery=accesorios&map=category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA5 SUBCATEGORIA 4
+  "flex-layout.col#Deptos5Cat5Sub4":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat5sub3"
+    ]
+  },
+  "rich-text#depto5cat5sub4":{
+    "props": {
+      "text":"[Pants](/pantalones?initialMap=c&initialQuery=accesorios&map=category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA5 SUBCATEGORIA 3
+  "flex-layout.col#Deptos5Cat5Sub5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto5cat5sub3"
+    ]
+  },
+  "rich-text#depto5cat5sub5":{
+    "props": {
+      "text":"[Socks](/accesorios/medias?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO5 CATEGORIA5 SUBCATEGORIA 5 IMG
+  "image#imagenparamenu55":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  //---------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  //----------------------------------------------------------------------------------------FIN DEPARTAMENTO-5
+  //---------------------------------------------------------------------------------------------------------
+  //---------------------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  //----------------------------------------------------------------DEPARTAMENTO6 (NIVEL1)
+  
+  
+  "vtex.menu@2.x:menu#SaetaDeskDeptos6": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO"
+    },
+    "children": [
+      "menu-item#Depro6"
+    ]
+  },
+  "menu-item#Depro6": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Promo",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Sale"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos6Cat1"]
+  },
+  //---------------------------------------------------------------DEPARTAMENTO6 CATEGORIAS (NIVEL2)
+  "vtex.menu@2.x:submenu#Deptos6Cat1": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "flex-layout.row#Deptos6Cats"
+    ]
+  },
+  
+  "flex-layout.row#Deptos6Cats": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT"
+    },
+    "children": [
+      "menu-item#Depro6Cat1",
+      "menu-item#Depro6Cat2",
+      "menu-item#Depro6Cat3",
+      "menu-item#Depro6Cat4",
+      "menu-item#Depro6Cat5"
+    ]
+  },
+  "menu-item#Depro6Cat1": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Promo/Hombre",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Men"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos6Cat1Subs"]
+  },
+  
+  "menu-item#Depro6Cat2": {
+    "props": {
+      "type": "custom",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Promo/Mujer",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Women"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos6Cat2Subs"]
+  },
+  "menu-item#Depro6Cat3": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Promo/accesorio",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Accesories"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos6Cat3Subs"]
+  },
+  "menu-item#Depro6Cat4": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Promo/niño",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Kids"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos6Cat4Subs"]
+  },
+  "menu-item#Depro6Cat5": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "MENU-NIVEL-DEPTO-CAT",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Promo/Zapatos",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shoes"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Deptos6Cat5Subs"]
+  },
+  
+  "vtex.menu@2.x:submenu#Deptos6Cat1Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos6Cat1Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos6Cat2Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos6Cat2Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos6Cat3Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos6Cat3Subs"
+    ]
+  },
+  "vtex.menu@2.x:submenu#Deptos6Cat4Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos6Cat4Subs"
+    ]
+  },
+  
+  "vtex.menu@2.x:submenu#Deptos6Cat5Subs": {
+    "props": {
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUBS"
+    },
+    "children": [
+      "flex-layout.row#Deptos6Cat5Subs"
+    ]
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA1 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos6Cat1Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos6Cat1Sub1",
+      "flex-layout.col#Deptos6Cat1Sub2",
+      "image#imagenparamenu12"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA1 SUBCATEGORIA 1
+  "flex-layout.col#Deptos6Cat1Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto6cat1sub1"
+    ]
+  },
+  "rich-text#depto6cat1sub1":{
+    "props": {
+      "text":"[Uppers](/hombre/arriba?initialMap=c&initialQuery=hombre&map=category-1,parte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA1 SUBCATEGORIA 2
+  "flex-layout.col#Deptos6Cat1Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto6cat1sub2"
+    ]
+  },
+  "rich-text#depto6cat1sub2":{
+    "props": {
+      "text":"[Bottoms](/hombre/abajo?initialMap=c&initialQuery=hombre&map=category-1,parte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA1 SUBCATEGORIA IMG
+  "image#imagenparamenu16":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA2 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos6Cat2Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos6Cat2Sub1",
+      "flex-layout.col#Deptos6Cat2Sub2",
+  
+      "image#imagenparamenu2"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA2 SUBCATEGORIA 1
+  "flex-layout.col#Deptos6Cat2Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto6cat2sub1"
+    ]
+  },
+  "rich-text#depto6cat2sub1":{
+    "props": {
+      "text":"[Uppers](/mujer/arriba?initialMap=c&initialQuery=hombre&map=category-1,parte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA2 SUBCATEGORIA 2
+  "flex-layout.col#Deptos6Cat2Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto6cat2sub2"
+    ]
+  },
+  "rich-text#depto6cat2sub2":{
+    "props": {
+      "text":"[Bottoms](/mujer/abajo?initialMap=c&initialQuery=hombre&map=category-1,parte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  
+  
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA2 SUBCATEGORIA IMG
+  "image#imagenparamenu26":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  
+  //------------------------------------------------------------------------------------------------------
+  
+  
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA3 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos6Cat3Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos6Cat3Sub1",
+      "flex-layout.col#Deptos6Cat3Sub2",
+      "flex-layout.col#Deptos6Cat3Sub3",
+      "flex-layout.col#Deptos6Cat3Sub4",
+      "flex-layout.col#Deptos6Cat3Sub5",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA3 SUBCATEGORIA 1
+  "flex-layout.col#Deptos6Cat3Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto6cat3sub1"
+    ]
+  },
+  "rich-text#depto6cat3sub1":{
+    "props": {
+      "text":"[Facemasks](/accesorios/tapabocas?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA3 SUBCATEGORIA 2
+  "flex-layout.col#Deptos6Cat3Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto6cat3sub2"
+    ]
+  },
+  "rich-text#depto6cat3sub2":{
+    "props": {
+      "text":"[Bags](/accesorios/maletas?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+    //---------------------------------------------------DEPARTAMENTO6 CATEGORIA3 SUBCATEGORIA 2
+    "flex-layout.col#Deptos6Cat3Sub3":{
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      },
+      "children": [
+        "rich-text#depto6cat3sub3"
+      ]
+    },
+    "rich-text#depto6cat3sub3":{
+      "props": {
+        "text":"[socks](/accesorios/medias?initialMap=c&initialQuery=accesorios&map=category-1,category-2)",
+        "blockClass": "tituoSubCategoria"
+      }
+    },
+    //---------------------------------------------------DEPARTAMENTO6 CATEGORIA3 SUBCATEGORIA 2
+    "flex-layout.col#Deptos6Cat3Sub4":{
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+      },
+      "children": [
+        "rich-text#depto6cat3sub4"
+      ]
+    },
+    "rich-text#depto6cat3sub4":{
+      "props": {
+        "text":"[Shin Guards](/accesorios/canilleras?initialMap=c&initialQuery=accesorios&map=category-1,subcategoria)",
+        "blockClass": "tituoSubCategoria"
+      }
+    },
+      //---------------------------------------------------DEPARTAMENTO6 CATEGORIA3 SUBCATEGORIA 2
+  "flex-layout.col#Deptos6Cat3Sub5":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto6cat3sub5"
+    ]
+  },
+  "rich-text#depto6cat3sub5":{
+    "props": {
+      "text":"[Drawstring](/Prendas-de-Abajo)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA3 SUBCATEGORIA IMG
+  "image#imagenparamenu36":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  
+  
+  //------------------------------------------------------------------------------------------------
+  
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA4 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos6Cat4Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos6Cat4Sub1",
+      "flex-layout.col#Deptos6Cat4Sub2",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA4 SUBCATEGORIA 1
+  "flex-layout.col#Deptos6Cat4Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto6cat4sub1"
+    ]
+  },
+  "rich-text#depto6cat4sub1":{
+    "props": {
+      "text":"[Uppers](/nino/arriba?initialMap=c&initialQuery=niño&map=category-1,parte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA4 SUBCATEGORIA 2
+  "flex-layout.col#Deptos6Cat4Sub2":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto6cat4sub2"
+    ]
+  },
+  "rich-text#depto6cat4sub2":{
+    "props": {
+      "text":"[Bottoms](/nino/abajo?initialMap=c&initialQuery=niño&map=category-1,parte)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA4 SUBCATEGORIA IMG
+  "image#imagenparamenu46":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  },
+  
+  //------------------------------------------------------------------------------------------------
+  
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA5 SUBCATEGORIAS (NIVEL3)
+  "flex-layout.row#Deptos6Cat5Subs":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "flex-layout.col#Deptos6Cat5Sub1",
+      "image#imagenparamenu1"
+    ]
+  },
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA5 SUBCATEGORIA 1
+  "flex-layout.col#Deptos6Cat5Sub1":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "MENU-NIVEL-DEPTO-CAT-SUB"
+    },
+    "children": [
+      "rich-text#depto6cat5sub1"
+    ]
+  },
+  "rich-text#depto6cat5sub1":{
+    "props": {
+      "text":"[Futsal](/Futsal)",
+      "blockClass": "tituoSubCategoria"
+    }
+  },
+  
+  
+  //---------------------------------------------------DEPARTAMENTO6 CATEGORIA5 SUBCATEGORIA 5 IMG
+  "image#imagenparamenu56":{
+    "props":{
+      "src":"https://saetasport.vteximg.com.br/arquivos/IMG-MENU.png",
+      "link":{
+        "url":"#"
+      },
+      "title": "PARA EL CUIDADO DEL CORAZÓN",
+      "blockClass": "ImagenMenu"
+    }
+  }
+  
+  
+  
+  //---------------------------------------------------------------------------------------------
+  
+  
+  
+  
+  //----------------------------------------------------------------------------------------FIN DEPARTAMENTO-6
+  //---------------------------------------------------------------------------------------------------------
+  //---------------------------------------------------------------------------------------------------------
+  //----------------------------------------------------------------------------------------------------
+  //----------------------------------------------------------------------------------------------------
+  //----------------------------------------------------------------------------------------------------
+  
+  
+
+
+
+
+}

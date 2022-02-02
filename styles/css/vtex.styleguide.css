@@ -1,0 +1,83 @@
+
+.input{
+      background: transparent !important;
+      border-radius: 21px;
+      border: 0px;
+      font-size: 12px;
+      text-indent: 15px;
+      text-align: inherit;
+      max-width: 100%;
+    }
+    .vtex-button__label{
+      padding: 0 !important;
+    }
+    .input{
+      border-radius: 0px  !important;
+      max-width: 100% !important;
+      width: 100% !important;
+      text-align: left;
+    }
+    .input::placeholder{
+      text-align: left;
+    }
+    .hideDecorators{
+      width: auto;
+      max-width: 25px;
+  }
+  .hideDecorators{
+    height: auto;
+  }
+  .input::placeholder{
+    font-weight: 400;
+    color: rgb(233, 233, 233);
+    font-size: 14px;
+  }
+  .input{
+    padding: 0;
+  }
+.hideDecorators {
+    background: transparent;
+}
+.hideDecorators {
+  color: white !important;
+  font-size: 15px;
+}
+:global(.vtex-dropdown__button) {
+  color: white;
+}
+.scrollBar :global(.vtex-button) {
+  color: black;
+}
+.hideDecorators::placeholder {
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 600px) {
+    .input{
+      padding: 0;
+    }
+    .input::placeholder{
+      font-weight: 400;
+      color: rgb(209, 209, 209);
+      font-size: 14px;
+    }
+    :global(.vtex-modal__confirmation) :global(.vtex-button__label) {
+      color: black;
+  }
+  :global(.vtex-modal__confirmation) {
+    justify-content: center;
+}
+  }

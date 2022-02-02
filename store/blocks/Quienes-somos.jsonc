@@ -1,0 +1,202 @@
+{
+  "store.custom#about-us1": {
+    "blocks": [
+      "info-card#bannerQuinesSomos",
+      "info-card#QuienesSomosM",
+      "flex-layout.row#about-us1",
+      "flex-layout.row#quinesSomos2",
+      "flex-layout.row#quinesSomos3",
+      "flex-layout.row#misionVisionM"
+    ]
+  },
+  "info-card#QuienesSomosM":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerestaticab2c_mobileQuienesSomos.png",
+      "callToActionUrl": "#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"bannerM"
+    }
+  },
+  "flex-layout.row#about-us": {
+    "children": [
+      "flex-layout.col#text-about-us"
+    ]
+  },
+  "info-card#bannerQuinesSomos":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerestaticab2cQuienesSomos.png",
+      "callToActionUrl": "#",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"bannerC"
+    }
+  },
+  "flex-layout.row#about-us1": {
+    "children": [
+      "image#QUINESSOMOS",
+      "info-card#bannerQuinesSomos2"
+    ],
+    "props":{
+      "blockClass": "quienessomosColumn"
+    }
+  },
+  "image#QUINESSOMOS": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/imagenb2cquienessomos.png",
+      "blockClass": "QuienesSomosImg"
+    }
+  },
+
+  "info-card#bannerQuinesSomos2":{
+    "props":{
+      "id":"texting",
+      "callToActionText": "IR A COMPRAR",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "RIGHT",
+      "textAlignment": "RIGHT",
+      "headline": "LO QUE FUIMOS, SOMOS Y SEREMOS",
+      "subhead": "Somos una empresa ética que funciona bien con grandes o pequeñas empresas, con un nivel muy alto de satisfacción del cliente. Buscamos en todo el mundo los mejores productos a un precio asequible, permitiéndonos competir en diferentes nichos de mercado. \n ## LEMA ## \n En Stilotex exploramos el mundo, para traerte lo mejor de la industria textil y productos de grandes marcas que te hagan brillar, renacer, ganar, gritar y sobre todo VIVIR. \n ## MISION ##  \n En Stilotex distribuimos, vivimos y respiramos nuestras marcas. Somos una empresa que explora y empodera a su gente con sueños; gente hermosa y bacana que es nuestra familia. Una familia innovadora y creativa que además de gozársela, cumple con las metas que se propone.     Desde 1992 más que una empresa somos un equipo que incursiona en el campo textil y líneas de negocio: Hogar, Hobbies, Bebes y Moda Infantil, a través de grandes marcas: propias, representadas y licenciadas.  \n ## VISION ## \n  Empresa:  Crear la mejor compañía para trabajar en Colombia. \n  Gente:  Empoderar a nuestra gente con sueños, formando un equipo exitoso que se la goce trabajando sabroso, incentivando un crecimiento tanto empresarial como persona.",
+      "callToActionMode": "link",
+      "blockClass":"QuienesSomos"
+    }
+  },
+  // segunda fila
+  "flex-layout.row#quinesSomos2": {
+    "children": [
+      "info-card#bannerQuinesSomos3",
+      "image#QUINESSOMOS2"
+    ],
+    "props":{
+      "blockClass": "quienessomosColumn2"
+    }
+  },
+  "image#QUINESSOMOS2": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/misionb2c.png",
+      "blockClass": "QuienesSomosImg2"
+    }
+  },
+  "info-card#bannerQuinesSomos3":{
+    "props":{
+      "id":"texting",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "RIGHT",
+      "textAlignment": "RIGHT",
+      "headline": "MISIÓN",
+      "subhead": "En Stilotex distribuimos, vivimos y respiramos nuestras marcas. Somos una empresa que explora y empodera a su gente con sueños; gente hermosa y bacana que es nuestra familia. Una familia innovadora y creativa que además de gozársela, cumple con las metas que se propone.",
+      "callToActionMode": "link",
+      "blockClass":"QuienesSomos2"
+    }
+  },
+  // segunda fila
+  "flex-layout.row#quinesSomos3": {
+    "children": [
+      "info-card#bannerQuinesSomos4",
+      "image#QUINESSOMOS3"
+    ],
+    "props":{
+      "blockClass": "quienessomosColumn2"
+    }
+  },
+  "image#QUINESSOMOS3": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/visionb2c.png",
+      "blockClass": "QuienesSomosImg2"
+    }
+  },
+  "info-card#bannerQuinesSomos4":{
+    "props":{
+      "id":"texting",
+      "isFullModeStyle": true,
+      "callToActionUrl": "#",
+      "textPosition": "RIGHT",
+      "textAlignment": "RIGHT",
+      "headline": "VISIÓN",
+      "subhead": "En Stilotex distribuimos, vivimos y respiramos nuestras marcas. Somos una empresa que explora y empodera a su gente con sueños; gente hermosa y bacana que es nuestra familia. Una familia innovadora y creativa que además de gozársela, cumple con las metas que se propone.",
+      "callToActionMode": "link",
+      "blockClass":"QuienesSomos2"
+    }
+  },
+  //INFO
+  "flex-layout.col#text-about-us": {
+    "children": [
+      "rich-text#title-about-us",
+      "rich-text#about-us"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-about-us": {
+    "props": {
+      "text":
+      "# Quienes Somos.",
+      "blockClass": "textoquien"
+    }
+  },
+
+  "rich-text#about-us": {
+    "props": {
+      "text": "Somos una empresa ética que funciona bien con grandes o pequeñas empresas, con un nivel muy alto de satisfacción del cliente. Buscamos en todo el mundo los mejores productos a un precio asequible, permitiéndonos competir en diferentes nichos de mercado. \n ## LEMA ## \n En Stilotex exploramos el mundo, para traerte lo mejor de la industria textil y productos de grandes marcas que te hagan brillar, renacer, ganar, gritar y sobre todo VIVIR. \n ## MISION ##  \n En Stilotex distribuimos, vivimos y respiramos nuestras marcas. Somos una empresa que explora y empodera a su gente con sueños; gente hermosa y bacana que es nuestra familia. Una familia innovadora y creativa que además de gozársela, cumple con las metas que se propone.     Desde 1992 más que una empresa somos un equipo que incursiona en el campo textil y líneas de negocio: Hogar, Hobbies, Bebes y Moda Infantil, a través de grandes marcas: propias, representadas y licenciadas.  \n ## VISION ## \n  Empresa:  Crear la mejor compañía para trabajar en Colombia. \n  Gente:  Empoderar a nuestra gente con sueños, formando un equipo exitoso que se la goce trabajando sabroso, incentivando un crecimiento tanto empresarial como personal \n  Líneas de Negocio y Marcas:  Ofrecer al mercado productos y telas innovadoras, logrando satisfacer los deseos y las necesidades de las personas. \n  Comunidad (Filantropía):  Sabemos que somos parte del progreso de nuestro país, por eso en Stilotex, apoyamos a fundaciones participando en actividades e integrándonos con la labor y  la esencia de cada una.  ",
+      "blockClass": "about"
+    }
+  },
+  //mision vision Mobile
+  "flex-layout.row#misionVisionM": {
+    "children": [
+      "rich-text#title-about-usM",
+      "image#QUINESSOMOS2M",
+      "rich-text#about-usM1",
+      "rich-text#title-about-usM2",
+      "image#QUINESSOMOSM3",
+      "rich-text#about-usM2"
+    ],
+    "props":{
+      "blockClass": "TituloInstitucionalM"
+    }
+  },
+  "rich-text#title-about-usM": {
+    "props": {
+      "text":
+      "MISIÓN",
+      "blockClass": "textoquien"
+    }
+  },
+  "image#QUINESSOMOS2M": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/misionb2c.png",
+      "blockClass": "QuienesSomosImg2"
+    }
+  },
+  "rich-text#about-usM1": {
+    "props": {
+      "text": "En Stilotex distribuimos, vivimos y respiramos nuestras marcas. Somos una empresa que explora y empodera a su gente con sueños; gente hermosa y bacana que es nuestra familia. Una familia innovadora y creativa que además de gozársela, cumple con las metas que se propone.",
+      "blockClass": "aboutM"
+    }
+  },
+  "rich-text#title-about-usM2": {
+    "props": {
+      "text":
+      "VISIÓN",
+      "blockClass": "textoquien"
+    }
+  },
+  "image#QUINESSOMOSM3": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/visionb2c.png",
+      "blockClass": "QuienesSomosImg2"
+    }
+  },
+  "rich-text#about-usM2": {
+    "props": {
+      "text": "En Stilotex distribuimos, vivimos y respiramos nuestras marcas. Somos una empresa que explora y empodera a su gente con sueños; gente hermosa y bacana que es nuestra familia. Una familia innovadora y creativa que además de gozársela, cumple con las metas que se propone.",
+      "blockClass": "aboutM"
+    }
+  }
+}
